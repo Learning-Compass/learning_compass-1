@@ -1,0 +1,134 @@
+2018-02-05 16:38:37,098 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-02-05 16:38:37,103 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-02-05 16:38:37,176 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-02-05 16:38:37,256 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-02-05 16:38:37,383 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-02-05 16:38:50,883 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-02-05 16:38:51,111 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-02-05 16:39:03,118 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-02-05 16:39:03,118 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-02-05 16:39:03,219 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-02-05 16:39:03,308 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-02-05 16:39:03,403 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-02-05 16:39:16,780 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-02-05 16:39:16,796 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-02-05 16:39:16,889 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-02-05 16:39:16,968 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-02-05 16:39:17,124 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-02-05 16:40:06,707 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-02-05 16:40:06,723 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-02-05 16:40:06,796 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-02-05 16:40:06,852 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-02-05 16:40:06,970 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-02-05 16:40:09,920 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2018-02-05 16:40:10,115 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2018-02-05 16:40:10,115 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2018-02-05 16:40:10,115 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2018-02-05 16:40:10,115 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2018-02-05 16:40:10,115 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2018-02-05 16:40:10,115 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2018-02-05 16:40:10,115 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2018-02-05 16:40:10,115 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2018-02-05 16:40:10,115 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2018-02-05 16:42:19,730 INFO  org.dspace.rest.CommunitiesResource @ Reading all communities.(offset=0 ,limit=100).
+2018-02-05 16:42:19,750 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2018-02-05 16:42:19,778 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2018-02-05 16:42:19,941 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_community:community_id=13
+2018-02-05 16:42:19,959 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2018-02-05 16:42:19,959 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2018-02-05 16:42:19,959 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2018-02-05 16:42:20,395 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2018-02-05 16:42:20,399 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\agents\example
+2018-02-05 16:42:20,411 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2018-02-05 16:42:20,412 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2018-02-05 16:42:20,414 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2018-02-05 16:42:20,415 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2018-02-05 16:42:20,419 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2018-02-05 16:42:20,421 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2018-02-05 16:42:20,433 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2018-02-05 16:42:20,798 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2018-02-05 16:42:21,233 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2018-02-05 16:42:22,256 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2018-02-05 16:42:22,471 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2018-02-05 16:42:22,682 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading wfp2.almaden.ibm.com:  Unresolvable host name (empty response)
+2018-02-05 16:42:22,896 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading morgue1.corp.yahoo.com:  Unresolvable host name (empty response)
+2018-02-05 16:42:23,961 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2018-02-05 16:42:24,174 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2018-02-05 16:42:25,193 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2018-02-05 16:42:25,193 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2018-02-05 16:42:25,195 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\domains\example
+2018-02-05 16:42:25,729 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_community:community_id=3
+2018-02-05 16:42:25,985 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_community:community_id=20
+2018-02-05 16:42:26,228 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_community:community_id=21
+2018-02-05 16:42:26,486 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_community:community_id=7
+2018-02-05 16:42:26,737 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_community:community_id=8
+2018-02-05 16:42:26,966 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_community:community_id=1
+2018-02-05 16:42:27,188 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_community:community_id=24
+2018-02-05 16:42:27,417 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_community:community_id=22
+2018-02-05 16:42:27,658 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_community:community_id=23
+2018-02-05 16:42:27,909 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_community:community_id=5
+2018-02-05 19:42:45,169 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-02-05 19:42:45,174 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-02-05 19:42:45,285 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-02-05 19:42:45,411 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-02-05 19:42:45,627 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-02-05 19:42:59,744 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-02-05 19:43:00,002 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-02-05 19:43:15,391 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-02-05 19:43:15,395 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-02-05 19:43:15,466 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-02-05 19:43:15,536 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-02-05 19:43:15,663 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-02-05 19:43:33,148 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-02-05 19:43:33,152 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-02-05 19:43:33,251 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-02-05 19:43:33,347 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-02-05 19:43:33,524 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-02-05 19:44:23,493 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-02-05 19:44:23,495 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-02-05 19:44:23,554 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-02-05 19:44:23,611 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-02-05 19:44:23,711 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-02-05 19:44:26,617 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2018-02-05 19:44:26,890 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2018-02-05 19:44:26,890 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2018-02-05 19:44:26,891 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2018-02-05 19:44:26,891 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2018-02-05 19:44:26,891 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2018-02-05 19:44:26,891 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2018-02-05 19:44:26,891 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2018-02-05 19:44:26,891 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2018-02-05 19:44:26,892 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2018-02-05 19:45:58,617 INFO  org.dspace.rest.CollectionsResource @ Reading all collections.(offset=0,limit=100)
+2018-02-05 19:45:58,642 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2018-02-05 19:45:58,686 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2018-02-05 19:45:58,808 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_collection:collection_id=37
+2018-02-05 19:45:58,825 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2018-02-05 19:45:58,825 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2018-02-05 19:45:58,826 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2018-02-05 19:45:59,137 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2018-02-05 19:45:59,141 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\agents\example
+2018-02-05 19:45:59,150 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2018-02-05 19:45:59,151 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2018-02-05 19:45:59,155 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2018-02-05 19:45:59,157 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2018-02-05 19:45:59,162 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2018-02-05 19:45:59,163 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2018-02-05 19:45:59,172 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2018-02-05 19:45:59,629 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2018-02-05 19:46:00,220 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2018-02-05 19:46:01,234 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2018-02-05 19:46:01,454 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2018-02-05 19:46:01,817 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading wfp2.almaden.ibm.com:  Unresolvable host name (empty response)
+2018-02-05 19:46:02,073 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading morgue1.corp.yahoo.com:  Unresolvable host name (empty response)
+2018-02-05 19:46:04,350 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2018-02-05 19:46:04,777 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2018-02-05 19:46:05,794 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2018-02-05 19:46:05,794 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2018-02-05 19:46:05,797 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\domains\example
+2018-02-05 19:46:06,251 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_collection:collection_id=26
+2018-02-05 19:46:06,539 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_collection:collection_id=35
+2018-02-05 19:46:06,781 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_collection:collection_id=36
+2018-02-05 19:46:07,035 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_collection:collection_id=27
+2018-02-05 19:46:07,276 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_collection:collection_id=33
+2018-02-05 19:46:07,535 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous::view_collection:collection_id=23

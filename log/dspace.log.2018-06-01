@@ -1,0 +1,64 @@
+2018-06-01 01:50:15,314 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-01 01:50:15,318 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-01 01:50:15,395 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-01 01:50:15,466 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-01 01:50:15,618 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-01 01:50:33,625 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-01 01:50:33,811 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-01 01:50:47,707 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-01 01:50:47,709 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-01 01:50:47,783 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-01 01:50:47,848 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-01 01:50:47,953 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-01 01:51:02,535 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-01 01:51:02,539 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-01 01:51:02,639 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-01 01:51:02,727 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-01 01:51:02,865 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-01 01:51:55,136 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-01 01:51:55,139 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-01 01:51:55,201 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-01 01:51:55,320 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-01 01:51:55,482 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-01 01:51:58,751 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2018-06-01 01:51:58,956 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2018-06-01 01:51:58,956 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2018-06-01 01:51:58,956 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2018-06-01 01:51:58,956 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2018-06-01 01:51:58,956 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2018-06-01 01:51:58,956 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2018-06-01 01:51:58,956 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2018-06-01 01:51:58,956 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2018-06-01 01:51:58,957 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2018-06-01 01:54:35,937 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-01 01:54:35,942 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-01 01:54:36,054 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-01 01:54:36,210 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-01 01:54:36,582 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-01 01:54:52,417 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-01 01:54:52,586 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-01 01:55:06,618 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-01 01:55:06,621 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-01 01:55:06,694 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-01 01:55:06,762 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-01 01:55:06,867 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-01 01:55:21,469 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-01 01:55:21,471 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-01 01:55:21,541 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-01 01:55:21,606 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-01 01:55:21,701 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-01 01:56:12,375 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-01 01:56:12,377 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-01 01:56:12,442 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-01 01:56:12,518 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-01 01:56:12,615 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-01 01:56:15,534 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2018-06-01 01:56:15,737 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2018-06-01 01:56:15,738 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2018-06-01 01:56:15,738 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2018-06-01 01:56:15,738 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2018-06-01 01:56:15,738 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2018-06-01 01:56:15,738 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2018-06-01 01:56:15,738 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2018-06-01 01:56:15,738 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2018-06-01 01:56:15,739 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.

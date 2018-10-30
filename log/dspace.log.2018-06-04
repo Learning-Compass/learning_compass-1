@@ -1,0 +1,217 @@
+2018-06-04 00:02:45,520 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-04 00:02:45,520 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-04 00:02:45,583 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-04 00:02:45,680 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-04 00:02:45,822 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-04 00:02:57,161 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-04 00:02:57,318 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-04 00:03:07,771 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-04 00:03:07,771 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-04 00:03:07,832 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-04 00:03:07,895 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-04 00:03:07,973 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-04 00:03:19,036 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-04 00:03:19,052 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-04 00:03:19,161 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-04 00:03:19,239 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-04 00:03:19,380 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-04 00:04:02,185 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-04 00:04:02,187 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-04 00:04:02,253 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-04 00:04:02,317 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-04 00:04:02,419 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-04 00:04:05,416 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2018-06-04 00:04:05,711 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2018-06-04 00:04:05,711 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2018-06-04 00:04:05,711 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2018-06-04 00:04:05,711 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2018-06-04 00:04:05,711 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2018-06-04 00:04:05,711 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2018-06-04 00:04:05,711 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2018-06-04 00:04:05,711 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2018-06-04 00:04:05,712 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2018-06-04 00:04:08,826 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=507
+2018-06-04 00:04:08,840 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=507
+2018-06-04 00:04:08,864 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=507
+2018-06-04 00:04:08,872 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=507collection_id=27
+2018-06-04 00:04:08,976 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_workspace_item:workspace_item_id=505
+2018-06-04 00:04:08,982 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:08,989 INFO  org.dspace.event.EventManager @ 
+2018-06-04 00:04:09,029 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_workspace_item:workspace_item_id=505
+2018-06-04 00:04:09,033 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:09,039 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_workspace_item:workspace_item_id=505
+2018-06-04 00:04:09,043 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:10,761 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2018-06-04 00:04:10,781 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2018-06-04 00:04:32,915 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_workspace_item:workspace_item_id=505
+2018-06-04 00:04:32,918 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:39,568 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_workspace_item:workspace_item_id=505
+2018-06-04 00:04:39,571 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:39,590 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_workspace_item:workspace_item_id=505
+2018-06-04 00:04:39,593 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:48,759 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_workspace_item:workspace_item_id=505
+2018-06-04 00:04:48,761 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:48,777 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_workspace_item:workspace_item_id=505
+2018-06-04 00:04:48,780 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:51,059 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_workspace_item:workspace_item_id=505
+2018-06-04 00:04:51,061 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:59,585 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_workspace_item:workspace_item_id=505
+2018-06-04 00:04:59,586 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:59,590 INFO  org.dspace.submit.step.CompleteStep @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:submission_complete:Completed submission with id=505
+2018-06-04 00:04:59,590 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:start_workflow:workspace_item_id=505item_id=507collection_id=27
+2018-06-04 00:04:59,596 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:59,621 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:delete_workspace_item:workspace_item_id=505item_id=507collection_id=27
+2018-06-04 00:04:59,839 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:archive_item:workflow_item_id=106item_id=507collection_id=27
+2018-06-04 00:04:59,859 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:59,872 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:add_item:collection_id=27,item_id=507
+2018-06-04 00:04:59,885 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:update_item:item_id=507
+2018-06-04 00:04:59,901 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:install_item:workflow_id=106, item_id=507handle=FIXME
+2018-06-04 00:05:00,144 WARN  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:notifyOfArchive:cannot email user; item_id=507\colon;  553 5.3.0 Your ip is from a dynamic pool address and is blocked by pbl.spamhaus.org.Use your ISP smtp server
+
+2018-06-04 00:05:00,149 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:workflow_item:handle=123456789/177
+2018-06-04 00:05:00,170 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2018-06-04 00:05:00,170 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2018-06-04 00:05:00,171 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2018-06-04 00:05:00,526 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2018-06-04 00:05:00,721 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:advance_workflow:workflow_item_id=106,item_id=507,collection_id=27,old_state=6,new_state=7
+2018-06-04 00:05:00,721 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:workflow_item:handle=123456789/177
+2018-06-04 00:05:00,733 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:advance_workflow:workflow_item_id=106,item_id=507,collection_id=27,old_state=4,new_state=7
+2018-06-04 00:05:00,733 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:workflow_item:handle=123456789/177
+2018-06-04 00:05:00,744 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:advance_workflow:workflow_item_id=106,item_id=507,collection_id=27,old_state=2,new_state=7
+2018-06-04 00:05:00,745 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:workflow_item:handle=123456789/177
+2018-06-04 00:05:00,756 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:advance_workflow:workflow_item_id=106,item_id=507,collection_id=27,old_state=0,new_state=7
+2018-06-04 00:05:01,052 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/177 to Index
+2018-06-04 00:05:17,344 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2018-06-04 00:05:21,857 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=2
+2018-06-04 00:05:21,861 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\agents\example
+2018-06-04 00:05:21,867 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2018-06-04 00:05:21,868 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2018-06-04 00:05:21,870 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2018-06-04 00:05:21,871 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2018-06-04 00:05:21,875 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2018-06-04 00:05:21,876 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2018-06-04 00:05:21,886 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2018-06-04 00:05:22,037 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,048 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading hanta.yahoo.com:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,060 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,072 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,083 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,094 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading wfp2.almaden.ibm.com:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,105 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading morgue1.corp.yahoo.com:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,117 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading dsl081-243-066.sfo1.dsl.speakeasy.net:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,131 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading tracerlock.com:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,150 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading panchma.tivra.com:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,373 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading brain.grub.org:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,595 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,816 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,832 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  Unresolvable host name (empty response)
+2018-06-04 00:05:22,832 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2018-06-04 00:05:22,834 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\domains\example
+2018-06-04 00:05:22,985 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 123456789/100
+2018-06-04 00:05:22,985 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 123456789/92
+2018-06-04 00:05:22,994 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Collection@ab4e8efd: 13
+2018-06-04 00:05:42,904 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2018-06-04 00:05:42,908 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 13
+2018-06-04 00:05:42,922 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/55
+2018-06-04 00:05:42,931 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/241
+2018-06-04 00:05:43,031 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 13
+2018-06-04 00:05:43,038 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/55
+2018-06-04 00:05:43,045 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/241
+2018-06-04 00:05:46,037 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/177
+2018-06-04 00:05:46,105 INFO  org.dspace.app.util.GoogleMetadata @ Using [/dspace/config/crosswalks/google-metadata.properties] for Google Metadata configuration
+2018-06-04 00:05:49,572 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=FB0D685A0A42837885388B6CB1CB3A11:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/177
+2018-06-04 00:59:25,585 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-04 00:59:25,585 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-04 00:59:25,660 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-04 00:59:25,754 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-04 00:59:25,879 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-04 00:59:37,786 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-04 00:59:37,965 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-04 00:59:48,176 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-04 00:59:48,176 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-04 00:59:48,248 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-04 00:59:48,310 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-04 00:59:48,419 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-04 00:59:59,696 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-04 00:59:59,696 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-04 00:59:59,777 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-04 00:59:59,832 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-04 00:59:59,952 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-04 01:00:42,051 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2018-06-04 01:00:42,051 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2018-06-04 01:00:42,113 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-06-04 01:00:42,191 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2018-06-04 01:00:42,285 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-06-04 01:00:44,495 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2018-06-04 01:00:44,656 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2018-06-04 01:00:44,656 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2018-06-04 01:00:44,656 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2018-06-04 01:00:44,656 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2018-06-04 01:00:44,656 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2018-06-04 01:00:44,656 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2018-06-04 01:00:44,656 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2018-06-04 01:00:44,656 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2018-06-04 01:00:44,656 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2018-06-04 01:01:19,521 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/177
+2018-06-04 01:01:19,544 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2018-06-04 01:01:19,544 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2018-06-04 01:01:19,544 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2018-06-04 01:01:19,961 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2018-06-04 01:01:19,965 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\agents\example
+2018-06-04 01:01:19,975 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2018-06-04 01:01:19,976 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2018-06-04 01:01:19,977 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2018-06-04 01:01:19,979 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2018-06-04 01:01:19,984 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2018-06-04 01:01:19,985 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2018-06-04 01:01:19,996 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2018-06-04 01:01:20,156 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,172 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading hanta.yahoo.com:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,184 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,196 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,207 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,218 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading wfp2.almaden.ibm.com:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,230 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading morgue1.corp.yahoo.com:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,241 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading dsl081-243-066.sfo1.dsl.speakeasy.net:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,252 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading tracerlock.com:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,263 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading panchma.tivra.com:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,485 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading brain.grub.org:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,707 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,723 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,739 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  Unresolvable host name (empty response)
+2018-06-04 01:01:20,739 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2018-06-04 01:01:20,741 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\domains\example
+2018-06-04 01:01:21,101 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2018-06-04 01:01:21,117 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2018-06-04 01:01:26,127 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=27
+2018-06-04 01:01:26,352 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Collection@ad51f762: 13
+2018-06-04 01:01:44,110 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:authenticate:attempting password auth of user=atsolakid@teiath.gr
+2018-06-04 01:01:44,163 INFO  org.dspace.authenticate.PasswordAuthentication @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:authenticate:type=PasswordAuthentication
+2018-06-04 01:01:44,166 INFO  org.dspace.eperson.EPerson @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:update_eperson:eperson_id=1
+2018-06-04 01:01:44,166 INFO  org.dspace.app.xmlui.utils.AuthenticationUtil @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:login:type=explicit
+2018-06-04 01:01:51,130 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2018-06-04 01:01:51,132 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 13
+2018-06-04 01:01:51,166 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/55
+2018-06-04 01:01:51,173 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/241
+2018-06-04 01:01:57,168 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=8
+2018-06-04 01:01:57,282 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Community@27d: 13
+2018-06-04 01:01:57,963 ERROR org.dspace.app.xmlui.cocoon.DSpaceCocoonServletFilter @ Client closed the connection before file download was complete
+2018-06-04 01:01:59,868 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=11
+2018-06-04 01:01:59,933 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Community@280: 13
+2018-06-04 01:02:01,892 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=13
+2018-06-04 01:02:01,961 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Collection@c0330782: 13
+2018-06-04 01:02:04,599 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=508
+2018-06-04 01:02:04,603 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=508
+2018-06-04 01:02:04,620 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=508
+2018-06-04 01:02:04,621 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=508collection_id=13
+2018-06-04 01:02:04,663 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:update_workspace_item:workspace_item_id=506
+2018-06-04 01:02:04,665 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:update_item:item_id=508
+2018-06-04 01:02:04,670 INFO  org.dspace.event.EventManager @ 
+2018-06-04 01:02:04,691 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:update_workspace_item:workspace_item_id=506
+2018-06-04 01:02:04,693 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:update_item:item_id=508
+2018-06-04 01:02:04,694 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:update_workspace_item:workspace_item_id=506
+2018-06-04 01:02:04,696 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:update_item:item_id=508
+2018-06-04 01:02:30,427 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:update_workspace_item:workspace_item_id=506
+2018-06-04 01:02:30,431 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:update_item:item_id=508
+2018-06-04 01:02:30,447 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:update_workspace_item:workspace_item_id=506
+2018-06-04 01:02:30,449 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=825768FEA55302F09DB675D1A8B9249F:update_item:item_id=508

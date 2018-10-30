@@ -1,0 +1,312 @@
+2017-07-07 14:56:55,911 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 14:56:55,913 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 14:56:55,914 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:internal_error:-- URL Was: http://localhost:8080/jspui/tools/edit-item
+-- Method: POST
+-- Parameters were:
+-- value_dc_date_accessioned_00: "2017-06-19T20:14:24Z"
+-- language_dc_date_accessioned_00: ""
+-- value_dc_date_available_00: "2017-06-19T20:14:24Z"
+-- language_dc_date_available_00: ""
+-- value_dc_identifier_00: "01PDVOV"
+-- language_dc_identifier_00: "en_US"
+-- value_dc_identifier_uri_00: "http://hdl.handle.net/123456789/88"
+-- language_dc_identifier_uri_00: ""
+-- value_dc_description_00: "Optional course for the Laurea Magistrale degree in Computer Engineering, which is taught in English during the 1st semester of the 2nd year. 
+This course completes the basic knowledge and abilities that are taught in the previous course on Distributed Programming I and that are required for developing distributed applications. It focuses on the techniques for interactions among distributed applications, and in particular web services and related portable data formats (XML and JSON)."
+-- language_dc_description_00: "en_US"
+-- value_dc_description_provenance_00: "Submitted by An Tsolak Tsolak (atsolakid@teiath.gr) on 2017-06-19T20:14:24Z
+No. of bitstreams: 1
+cini.png: 16739 bytes, checksum: f1f95ca51bc27dd530647b41d29cec61 (MD5)"
+-- language_dc_description_provenance_00: "en"
+-- value_dc_description_provenance_01: "Made available in DSpace on 2017-06-19T20:14:24Z (GMT). No. of bitstreams: 1
+cini.png: 16739 bytes, checksum: f1f95ca51bc27dd530647b41d29cec61 (MD5)"
+-- language_dc_description_provenance_01: "en"
+-- value_dc_publisher_00: "Politecnico di Torino"
+-- language_dc_publisher_00: "en_US"
+-- value_dc_relation_00: "TU Delft::kk"
+-- language_dc_relation_00: "en_US"
+-- value_dc_subject_00: "ACM Computing Classification System::Hardware::Communication hardware, interfaces and storage::Signal processing systems"
+-- language_dc_subject_00: "en_US"
+-- value_dc_title_00: "testing_Distributed programming II"
+-- language_dc_title_00: "en_US"
+-- value_dc_type_00: "Master Course"
+-- language_dc_type_00: "en_US"
+-- value_compass_learningOpportunity_cost_00: "no"
+-- language_compass_learningOpportunity_cost_00: "en_US"
+-- value_compass_learningOpportunity_engagement_00: "facetoface"
+-- language_compass_learningOpportunity_engagement_00: "en_US"
+-- value_compass_learningOpportunity_engagement_01: "elearning"
+-- language_compass_learningOpportunity_engagement_01: "en_US"
+-- value_compass_learningOpportunity_engagement_02: "fulltime"
+-- language_compass_learningOpportunity_engagement_02: "en_US"
+-- value_compass_learningOpportunity_hasPart_00: "123456789/86#204"
+-- language_compass_learningOpportunity_hasPart_00: "en_US"
+-- value_compass_learningOpportunity_location_00: "Location"
+-- language_compass_learningOpportunity_location_00: "en_US"
+-- value_compass_learningOpportunity_objective_00: "ACM IT CompetencyModel"
+-- language_compass_learningOpportunity_objective_00: "en_US"
+-- value_compass_learningOpportunity_places_00: "Places"
+-- language_compass_learningOpportunity_places_00: "en_US"
+-- value_compass_learningOpportunity_prerequisite_00: "Software engineering"
+-- language_compass_learningOpportunity_prerequisite_00: "en_US"
+-- value_compass_learningOpportunity_specifies_00: "123456789/60#113"
+-- language_compass_learningOpportunity_specifies_00: "en_US"
+-- value_compass_learningOpportunity_url_00: "https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=01PDVOV&p_a_acc=2017&p_lang=EN"
+-- language_compass_learningOpportunity_url_00: "en_US"
+-- value_compass_learningOpportunity_offered_00: "Offered_At"
+-- language_compass_learningOpportunity_offered_00: "en_US"
+-- value_compass_learningOpportunity_competence_00: "ACM IT CompetencyModel::Linux System Administration"
+-- language_compass_learningOpportunity_competence_00: "en_US"
+-- addfield_dctype: "157""
+-- addfield_value: "opopoop"
+-- addfield_language: ""
+-- submit_addfield: "Add"
+-- bitstream_name_15_32: "cini.png"
+-- bitstream_source_15_32: "/dspace/upload\cini.png"
+-- bitstream_description_15_32: ""
+-- bitstream_format_id_15_32: "18"
+-- bitstream_user_format_description_15_32: ""
+-- order_32: "1"
+-- 15_32_up_value: "null"
+-- 15_32_down_value: "null"
+-- item_id: "218"
+-- action: "3"
+
+java.lang.NullPointerException
+	at org.dspace.app.webui.servlet.admin.EditItemServlet.processUpdateItem(EditItemServlet.java:781)
+	at org.dspace.app.webui.servlet.admin.EditItemServlet.doDSPost(EditItemServlet.java:231)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:115)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.app.webui.filter.RegisteredOnlyFilter.doFilter(RegisteredOnlyFilter.java:66)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-07-07 14:57:07,516 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 14:57:07,519 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 14:57:07,521 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 14:57:07,645 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 14:58:35,808 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 14:58:35,812 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 14:58:35,814 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 14:58:36,314 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 14:58:43,818 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 14:58:43,821 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 14:58:43,823 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:internal_error:-- URL Was: http://localhost:8080/jspui/tools/edit-item
+-- Method: POST
+-- Parameters were:
+-- value_compass_learningOpportunity_competence_00: "ACM IT CompetencyModel::Linux System Administration"
+-- language_compass_learningOpportunity_competence_00: "en_US"
+-- addfield_dctype: "157""
+-- addfield_value: ""
+-- addfield_language: ""
+-- value_compass_learningOpportunity_cost_00: "no"
+-- language_compass_learningOpportunity_cost_00: "en_US"
+-- value_compass_learningOpportunity_engagement_00: "facetoface"
+-- language_compass_learningOpportunity_engagement_00: "en_US"
+-- value_compass_learningOpportunity_engagement_01: "elearning"
+-- language_compass_learningOpportunity_engagement_01: "en_US"
+-- value_compass_learningOpportunity_engagement_02: "fulltime"
+-- language_compass_learningOpportunity_engagement_02: "en_US"
+-- value_compass_learningOpportunity_hasPart_00: "123456789/86#204"
+-- language_compass_learningOpportunity_hasPart_00: "en_US"
+-- value_compass_learningOpportunity_location_00: "Location"
+-- language_compass_learningOpportunity_location_00: "en_US"
+-- value_compass_learningOpportunity_objective_00: "ACM IT CompetencyModel"
+-- language_compass_learningOpportunity_objective_00: "en_US"
+-- value_compass_learningOpportunity_offered_00: "Offered_At"
+-- language_compass_learningOpportunity_offered_00: "en_US"
+-- value_compass_learningOpportunity_places_00: "Places"
+-- language_compass_learningOpportunity_places_00: "en_US"
+-- value_compass_learningOpportunity_prerequisite_00: "Software engineering"
+-- language_compass_learningOpportunity_prerequisite_00: "en_US"
+-- value_compass_learningOpportunity_specifies_00: "123456789/60#113"
+-- language_compass_learningOpportunity_specifies_00: "en_US"
+-- value_compass_learningOpportunity_url_00: "https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=01PDVOV&p_a_acc=2017&p_lang=EN"
+-- language_compass_learningOpportunity_url_00: "en_US"
+-- value_dc_date_accessioned_00: "2017-06-19T20:14:24Z"
+-- language_dc_date_accessioned_00: ""
+-- value_dc_date_available_00: "2017-06-19T20:14:24Z"
+-- language_dc_date_available_00: ""
+-- value_dc_description_00: "Optional course for the Laurea Magistrale degree in Computer Engineering, which is taught in English during the 1st semester of the 2nd year. 
+This course completes the basic knowledge and abilities that are taught in the previous course on Distributed Programming I and that are required for developing distributed applications. It focuses on the techniques for interactions among distributed applications, and in particular web services and related portable data formats (XML and JSON)."
+-- language_dc_description_00: "en_US"
+-- value_dc_description_provenance_00: "Submitted by An Tsolak Tsolak (atsolakid@teiath.gr) on 2017-06-19T20:14:24Z
+No. of bitstreams: 1
+cini.png: 16739 bytes, checksum: f1f95ca51bc27dd530647b41d29cec61 (MD5)"
+-- language_dc_description_provenance_00: "en"
+-- value_dc_description_provenance_01: "Made available in DSpace on 2017-06-19T20:14:24Z (GMT). No. of bitstreams: 1
+cini.png: 16739 bytes, checksum: f1f95ca51bc27dd530647b41d29cec61 (MD5)"
+-- language_dc_description_provenance_01: "en"
+-- value_dc_identifier_00: "01PDVOV"
+-- language_dc_identifier_00: "en_US"
+-- value_dc_identifier_uri_00: "http://hdl.handle.net/123456789/88"
+-- language_dc_identifier_uri_00: ""
+-- value_dc_publisher_00: "Politecnico di Torino"
+-- language_dc_publisher_00: "en_US"
+-- value_dc_relation_00: "TU Delft::kk"
+-- language_dc_relation_00: "en_US"
+-- value_dc_subject_00: "ACM Computing Classification System::Hardware::Communication hardware, interfaces and storage::Signal processing systems"
+-- language_dc_subject_00: "en_US"
+-- value_dc_title_00: "testing_Distributed programming II"
+-- language_dc_title_00: "en_US"
+-- value_dc_type_00: "Master Course"
+-- language_dc_type_00: "en_US"
+-- value_compass_learningOpportunity_competence_01: "kkk"
+-- language_compass_learningOpportunity_competence_01: ""
+-- submit_addfield: "Add"
+-- bitstream_name_15_32: "cini.png"
+-- bitstream_source_15_32: "/dspace/upload\cini.png"
+-- bitstream_description_15_32: ""
+-- bitstream_format_id_15_32: "18"
+-- bitstream_user_format_description_15_32: ""
+-- order_32: "1"
+-- 15_32_up_value: "null"
+-- 15_32_down_value: "null"
+-- item_id: "218"
+-- action: "3"
+
+java.lang.NullPointerException
+	at org.dspace.app.webui.servlet.admin.EditItemServlet.processUpdateItem(EditItemServlet.java:781)
+	at org.dspace.app.webui.servlet.admin.EditItemServlet.doDSPost(EditItemServlet.java:231)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:115)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.app.webui.filter.RegisteredOnlyFilter.doFilter(RegisteredOnlyFilter.java:66)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-07-07 15:00:48,472 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:00:48,474 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:00:48,475 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:00:48,884 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:01:10,294 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:01:10,298 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:01:10,299 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:01:10,409 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:02:59,336 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:02:59,338 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:02:59,340 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:02:59,746 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:03:18,791 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:03:18,794 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:03:18,796 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:03:18,869 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:06:20,724 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:06:20,726 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:06:20,727 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:06:21,137 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:06:56,537 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:06:56,540 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:06:56,542 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:06:56,625 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:07:08,131 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:07:08,134 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:07:08,135 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:07:08,195 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:07:24,705 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:07:24,707 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:07:24,709 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:07:25,120 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:07:47,505 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:07:47,508 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:07:47,509 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:07:47,573 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:08:15,611 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:08:15,614 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:08:15,615 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:08:15,720 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:08:43,608 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:08:43,611 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:08:43,612 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:08:43,684 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:09:08,152 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:09:08,155 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:09:08,156 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:09:08,214 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:09:30,392 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:09:30,395 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:09:30,396 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:09:30,471 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:10:00,161 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:10:00,165 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:10:00,166 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:10:00,230 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:10:10,797 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:10:10,800 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:10:10,801 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:10:10,873 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:12:26,507 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:12:26,509 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:12:26,511 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:12:26,901 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:13:14,515 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:13:14,517 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:13:14,518 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:13:14,906 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:13:38,311 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:13:38,313 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:13:38,315 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:13:38,717 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:17:22,587 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:17:22,591 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:17:22,592 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:17:22,997 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:17:33,084 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:17:33,087 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:17:33,089 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:17:33,172 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index
+2017-07-07 15:17:44,431 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=32
+2017-07-07 15:17:44,434 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=15
+2017-07-07 15:17:44,435 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=F9DA17D1E29AD0CDD99FC5E72B7BA52A:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=218
+2017-07-07 15:17:44,495 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/88 to Index

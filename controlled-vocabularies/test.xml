@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+"Learning Opportunity Instance Subject
+-->
+
+<node id="000" label="ACM Computing Classification System">
+	<isComposedBy>
+		<node id="000" label="General and reference">
+			<isComposedBy>
+				<node id="010" label="Document types">
+					<isComposedBy>
+						<node id="011" label="Surveys and overviews" />
+						<node id="012" label="Reference works" />
+						<node id="013" label="General conference proceedings" />
+						<node id="018" label="Biographies" />
+					</isComposedBy>
+				</node>
+				<node id="040" label="Cross-computing tools and techniques">
+					<isComposedBy>
+						<node id="041" label="Reliability" />
+						<node id="042" label="Empirical studies" />
+						<node id="043" label="Measurement" />
+					</isComposedBy>
+				</node>
+			</isComposedBy>
+		</node>
+		<node id="200" label="Hardware">
+			<isComposedBy>
+				<node id="210" label="Printed circuit boards">
+					<isComposedBy>
+						<node id="212" label="Electromagnetic interference and compatibility" />
+						<node id="213" label="PCB design and layout" />
+					</isComposedBy>
+				</node>
+				<node id="230" label="Communication hardware, interfaces and storage">
+					<isComposedBy>
+						<node id="231" label="Signal processing systems" />
+						<node id="234" label="Sensors and actuators" />
+						<node id="236" label="Buses and high-speed links" />
+						<node id="237" label="Displays and imagers" />
+						<node id="238" label="External storage" />
+					</isComposedBy>
+				</node>
+			</isComposedBy>
+		</node>	
+	</isComposedBy>
+</node>

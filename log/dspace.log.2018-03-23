@@ -1,0 +1,227 @@
+2018-03-23 09:40:05,481 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=23CD515D78849DC5A003B9DD6EE0F44C:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error
+-- Method: GET
+-- Parameters were:
+
+org.apache.jasper.JasperException: /concept.jsp (line: 3, column: 6) The jsp:param action must not be used outside the jsp:include, jsp:forward, or jsp:params elements
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:291)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:97)
+	at org.apache.jasper.compiler.Parser.parseStandardAction(Parser.java:1167)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1472)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:145)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:105)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:201)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-23 09:40:26,270 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=23CD515D78849DC5A003B9DD6EE0F44C:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 09:40:26,289 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=23CD515D78849DC5A003B9DD6EE0F44C:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:10,393 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:10,410 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:14,757 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:14,774 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:15,751 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:15,761 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:27,536 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:27,551 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:31,075 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:31,087 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:52,770 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:26:52,782 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:27:24,753 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/19
+2018-03-23 10:27:24,867 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/19
+2018-03-23 10:27:25,047 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87
+2018-03-23 10:27:25,047 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87
+2018-03-23 10:29:59,385 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:29:59,396 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:30:47,903 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:30:47,914 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:33:47,179 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:33:47,193 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:34:00,324 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:34:00,336 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:35:50,543 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:35:50,553 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:38:49,474 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:38:49,486 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:44:08,115 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:44:08,127 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:45:14,719 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:45:14,731 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:46:46,294 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87
+2018-03-23 10:46:46,294 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=87
+2018-03-23 10:47:18,792 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:47:18,802 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:48:00,755 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:48:00,770 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:48:52,938 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:48:52,950 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:50:43,168 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:50:43,181 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:51:07,132 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:51:07,141 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:52:09,260 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:52:09,270 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:52:32,888 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:52:32,898 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:52:46,148 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:52:46,160 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:53:02,621 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:53:02,635 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:54:11,092 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:54:11,105 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:54:33,796 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:54:33,806 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:54:56,351 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:54:56,363 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:55:14,806 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:55:14,816 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B7BD7418FA0B805FF8E205CC08EE15C5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:55:30,392 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:55:30,403 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:55:50,896 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:55:50,905 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=9F0A08A237A97133F3CCD2203636B98D:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:59:05,516 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:59:05,524 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:59:39,090 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 10:59:39,102 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:00:12,427 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:00:12,440 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:00:38,376 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:00:38,390 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:01:42,941 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:01:42,951 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:02:36,243 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:02:36,253 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:05:35,991 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=B8F397B2611565344561ECCD040160C8:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:05:36,002 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=B8F397B2611565344561ECCD040160C8:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:06:01,739 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:06:01,753 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:07:14,013 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:07:14,031 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:07:26,625 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:07:26,635 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:07:38,295 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:07:38,305 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:07:54,590 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:07:54,601 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:08:14,127 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:08:14,140 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:08:24,525 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:08:24,535 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:08:56,110 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:08:56,121 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:09:13,702 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:09:13,713 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:09:22,942 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:09:22,952 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:09:33,773 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:09:33,783 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:10:12,519 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:10:12,532 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:10:55,203 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:10:55,216 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:11:24,789 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:11:24,799 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:13:16,815 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:13:16,823 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:14:01,910 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:14:01,918 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:14:58,501 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:14:58,510 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:20:09,044 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:20:09,053 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:20:45,968 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:20:45,979 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:21:18,192 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:21:18,201 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:22:08,548 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:22:08,559 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:23:42,413 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:23:42,422 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:24:14,245 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:24:14,295 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:24:56,842 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:24:56,862 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:25:56,538 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:25:56,546 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:27:31,016 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:27:31,026 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:28:37,173 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:28:37,183 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:28:56,070 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:28:56,078 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:29:44,101 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:29:44,112 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:37:20,009 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:37:20,018 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:39:57,845 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:39:57,865 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:41:23,032 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:41:23,038 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:42:43,789 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:42:43,796 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:42:58,418 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:42:58,424 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:43:15,433 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:43:15,438 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:43:42,958 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:43:42,969 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:44:00,181 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:44:00,187 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:44:46,470 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:44:46,481 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:45:10,675 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:45:10,688 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:45:53,401 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:45:53,408 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:46:08,392 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:46:08,398 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:46:19,286 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:46:19,294 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:46:29,544 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:46:29,554 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:47:03,918 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:47:03,926 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:47:57,926 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:47:57,933 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:48:14,927 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:48:14,937 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:48:55,523 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 11:48:55,532 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=84D7CA5972C929FA2D92181A110CEDF3:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 22:46:38,723 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=2C46F940D713551939F62FEAA7EE591A:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 22:46:38,744 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2C46F940D713551939F62FEAA7EE591A:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/176
+2018-03-23 22:46:51,624 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=2C46F940D713551939F62FEAA7EE591A:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/174
+2018-03-23 22:46:51,636 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2C46F940D713551939F62FEAA7EE591A:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/174
+2018-03-23 23:01:05,144 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=2C46F940D713551939F62FEAA7EE591A:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/174
+2018-03-23 23:01:05,156 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=2C46F940D713551939F62FEAA7EE591A:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/174

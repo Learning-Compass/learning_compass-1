@@ -1,0 +1,10 @@
+2017-09-28 00:02:54,938 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-09-28 00:02:55,112 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_ar,generation=387}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_as,generation=388}
+2017-09-28 00:02:55,113 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 388
+2017-09-28 00:02:55,121 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@2068eed0[statistics] main
+2017-09-28 00:02:55,168 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-09-28 00:02:55,169 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@2068eed0[statistics] main{StandardDirectoryReader(segments_ar:1425:nrt _jq(4.10.2):C7341 _jr(4.10.2):C6)}
+2017-09-28 00:02:55,169 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-09-28 00:02:55,173 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@2068eed0[statistics] main{StandardDirectoryReader(segments_ar:1425:nrt _jq(4.10.2):C7341 _jr(4.10.2):C6)}

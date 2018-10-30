@@ -1,0 +1,600 @@
+<?xml version="1.0"?>
+<!DOCTYPE input-forms SYSTEM "input-forms.dtd">
+
+
+<input-forms>
+
+ <!-- The form-map maps collection handles to forms. DSpace does not       -->
+ <!-- require a collection name to be unique, not even within a community. -->
+ <!-- DSpace does however ensure that each collection's handle is unique.  -->
+ <!-- Form-map provides the means to associate a unique collection name    -->
+ <!-- with a form. The form-map also provides the special handle "default" -->
+ <!-- (which is never a collection), here mapped to "traditional". Any     -->
+ <!-- collection which does not appear in this map will be associated with -->
+ <!-- the mapping for handle "default".                                    -->
+
+ <form-map>
+   <name-map collection-handle="default" form-name="traditional" />
+ </form-map>
+
+
+ <!-- The form-definitions map lays out the detailed definition of all the -->
+ <!-- submission forms. Each separate form set has a unique name as an     -->
+ <!-- attribute. This name matches one of the names in the form-map. One   -->
+ <!-- named form set has the name "traditional"; as this name suggests,    -->
+ <!-- it is the old style and is also the default, which gets used when    -->
+ <!-- the specified collection has no correspondingly-named form set.      -->
+ <!--                                                                      -->
+ <!-- Each form set contains an ordered set of pages; each page defines    -->
+ <!-- one submission metadata entry screen. Each page has an ordered list  -->
+ <!-- of field definitions, Each field definition corresponds to one       -->
+ <!-- metadata entry (a so-called row), which has a DC element name, a    -->
+ <!-- displayed label, a text string prompt which is called a hint, and    -->
+ <!-- an input-type. Each field also may hold optional elements: DC        -->
+ <!-- qualifier name, a repeatable flag, and a text string whose presence  -->
+ <!-- serves as a 'this field is required' flag.                           -->
+
+ <form-definitions>
+
+   <form name="traditional">
+     <page number="1">
+      <field>
+				<dc-schema>dc</dc-schema>
+				<dc-element>title</dc-element>
+				<repeatable>false</repeatable>
+				<label>Title</label>
+				<input-type>onebox</input-type><!-- needs refactor-->
+				<hint>A name given to the learning opportunity.</hint>
+				<required>You must enter a main title for this item.</required>
+			</field>
+			<field>
+				<dc-schema>dc</dc-schema>
+				<dc-element>identifier</dc-element>
+				<repeatable>true</repeatable>
+				<label>identifier</label>
+				<input-type>onebox</input-type><!-- needs refactor-->
+				<hint>An alternative unambiguous reference to the learning opportunity within a given context. Note: the primary identifier is automatically assigned by the system.</hint>
+				<required>you must enter an identifier for this item.</required>
+			</field>
+			<field>
+				<dc-schema>dc</dc-schema>
+				<dc-element>type</dc-element>
+				<repeatable>false</repeatable>
+				<label>Type</label>				
+				<input-type value-pairs-name="common_types">dropdown</input-type>
+				<hint>The nature or genre of the learning opportunity.</hint>
+				<required></required>
+			</field>
+			<field>
+				<dc-schema>dc</dc-schema>
+				<dc-element>description</dc-element>
+				<repeatable>true</repeatable>
+				<label>Description</label>
+				<input-type>textarea</input-type><!-- needs refactor-->
+				<hint>An account of the learning opportunity.</hint>
+				<required></required>
+			</field>
+			<field>
+				<dc-schema>dc</dc-schema>
+				<dc-element>rights</dc-element>
+				<repeatable>false</repeatable>
+				<label>Rights</label>
+				<input-type>onebox</input-type><!-- needs refactor-->
+				<hint>Information about rights held in and over the description of the learning opportunity.</hint>
+				<required></required>
+			</field>
+			<field>
+				<dc-schema>dc</dc-schema>
+				<dc-element>subject</dc-element>
+				<repeatable>true</repeatable>
+				<label>Subject</label>
+				<input-type value-pairs-name="subjects">dropdown</input-type>
+				<hint>The topic of the learning opportunity.</hint>
+				<required></required>
+				
+			</field>
+			<field>
+				<dc-schema>dc</dc-schema>
+				<dc-element>date</dc-element>
+				<repeatable>false</repeatable>
+				<label>Date</label>
+				<input-type>date</input-type>
+				<hint>A point or period of time associated with an event in the lifecycle of the learning opportunity or its description.</hint>
+				<required></required>
+			</field>
+			<field>
+				<dc-schema>dc</dc-schema>
+				<dc-element>language</dc-element>
+				<dc-qualifier>iso</dc-qualifier>
+				<repeatable>false</repeatable>
+				<label>Language</label>
+				<input-type value-pairs-name="common_iso_languages">dropdown</input-type>
+				<hint>A language of the learning opportunity..</hint>
+				<required></required>
+			</field>
+			<field>
+				<dc-schema>dc</dc-schema>
+				<dc-element>publisher</dc-element>
+				<dc-qualifier></dc-qualifier>
+				<repeatable>false</repeatable>
+				<label>Publisher</label>
+				<input-type>onebox</input-type>
+				<hint>An entity responsible for making the description of the learning opportunity available.</hint>
+				<required></required>
+			</field>
+     </page>
+
+     <page number="2">
+      <field>
+				<dc-schema>compass</dc-schema>
+				<dc-element>learningOpportunitySpecification</dc-element>
+				<dc-qualifier>url</dc-qualifier>
+				<repeatable>true</repeatable>
+				<label>URL</label>
+				<input-type>onebox</input-type> <!-- needs refactor-->
+				<hint>A link to a web resource that provides an alternate representation of the resource.</hint>
+				<required></required>
+			</field>	   
+			<field>
+				<dc-schema>compass</dc-schema>
+				<dc-element>learningOpportunitySpecification</dc-element>
+				<dc-qualifier>qualification</dc-qualifier>
+				<repeatable>true</repeatable>
+				<label>Qualification</label>
+				<input-type>onebox</input-type> <!-- needs refactor -->
+				<hint>A qualification that can be obtained from completion of a learning opportunity.</hint>
+				<required></required>
+			</field>
+			<field>
+				<dc-schema>compass</dc-schema>
+				<dc-element>learningOpportunitySpecification</dc-element>
+				<dc-qualifier>competence</dc-qualifier>
+				<repeatable>true</repeatable>
+				<label>Prerequisite Competences</label>
+				<input-type>onebox</input-type><!-- needs refactor -->
+				<hint>A prerequisite competence for accessing learning opportunities.</hint>
+				<required></required>
+			</field>
+			<field>
+				<dc-schema>compass</dc-schema>
+				<dc-element>learningOpportunitySpecification</dc-element>
+				<dc-qualifier>objective</dc-qualifier>
+				<repeatable>true</repeatable>
+				<label>Learning Outcomes</label>
+				<input-type value-pairs-name="outcomes">dropdown</input-type>
+				<hint>The nature or genre of the learning opportunity.</hint>
+				
+			</field>
+			<field>
+				<dc-schema>compass</dc-schema>
+				<dc-element>learningOpportunitySpecification</dc-element>
+				<dc-qualifier>level</dc-qualifier>
+				<repeatable>false</repeatable>
+				<label>Level</label>
+				
+				<hint>An account of the education level of the learning opportunity.</hint>
+				<required></required>
+<input-type value-pairs-name="levels">dropdown</input-type>
+				<hint>The nature or genre of the learning opportunity.</hint>
+			</field>
+			<field>
+				<dc-schema>compass</dc-schema>
+				<dc-element>learningOpportunitySpecification</dc-element>
+				<dc-qualifier>assessment</dc-qualifier>
+				<repeatable>true</repeatable>
+				<label>Assessmentment</label>
+				<input-type>onebox</input-type><!-- needs refactor-->
+				<hint>A description of the broad approach to assessment stategy used in the learning opportunity.</hint>
+				<required></required>
+			</field>
+     </page>
+   </form>
+ </form-definitions>
+
+
+ <!-- form-value-pairs populate dropdown and qualdrop-value lists.          -->
+ <!-- The form-value-pairs element holds child elements named 'value-pairs' -->
+ <!-- A 'value-pairs' element has a value-pairs-name and a dc-term          -->
+ <!-- attribute. The dc-term attribute specifies which to which Dublin Core -->
+ <!-- Term this set of value-pairs applies.                                 -->
+ <!--     Current dc-terms are: identifier-pairs, type-pairs, and           -->
+ <!--     language_iso-pairs. The name attribute matches a name             -->
+ <!--     in the form-map, above.                                           -->
+ <!-- A value-pair contains one 'pair' for each value displayed in the list -->
+ <!-- Each pair contains a 'displayed-value' element and a 'stored-value'   -->
+ <!-- element. A UI list displays the displayed-values, but the program     -->
+ <!-- stores the associated stored-values in the database.                  -->
+
+ <form-value-pairs>
+  <value-pairs value-pairs-name="levels" dc-term="level">
+     <pair>
+       <displayed-value>Primary School</displayed-value>
+       <stored-value>EQF Level 1::Primary School</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Secondary School with no Dimploma</displayed-value>
+       <stored-value>EQF Level 2::Secondary School with no Dimploma</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Secondary Dimploma or Vocational Dimploma</displayed-value>
+       <stored-value>EQF Level 3::Secondary Dimploma or Vocational Dimploma</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Hicher National Certificate , Upper Secondary Dimploma</displayed-value>
+       <stored-value>EQF Level 4::Hicher National Certificate , Upper Secondary Dimploma</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Hicher National Dimploma</displayed-value>
+       <stored-value>EQF Level 5::Hicher National Dimploma</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Bachelor</displayed-value>
+       <stored-value>EQF Level 6::Bachelor</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Master</displayed-value>
+       <stored-value>EQF Level 7::Master</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Doctorate</displayed-value>
+       <stored-value>EQF Level 8::Doctorate</stored-value>
+     </pair>
+   </value-pairs>
+   
+ 
+ 
+  <value-pairs value-pairs-name="subjects" dc-term="subject">
+     <pair>
+       <displayed-value>General and reference</displayed-value>
+       <stored-value>General and reference</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Hardware</displayed-value>
+       <stored-value>Hardware</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Computer systems organization</displayed-value>
+       <stored-value>Computer systems organization</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Networks</displayed-value>
+       <stored-value>Networks</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Software and its engineering</displayed-value>
+       <stored-value>Software and its engineering</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Theory of computation</displayed-value>
+       <stored-value>Theory of computation</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Mathematics of computing</displayed-value>
+       <stored-value>Mathematics of computing</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Information systems</displayed-value>
+       <stored-value>Information systems</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Security and privacy</displayed-value>
+       <stored-value>Security and privacy</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Human-centered computing</displayed-value>
+       <stored-value>Human-centered computing</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Computing methodologies</displayed-value>
+       <stored-value>Computing methodologies</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Applied computing</displayed-value>
+       <stored-value>Applied computing</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Social and professional topics</displayed-value>
+       <stored-value>Social and professional topics</stored-value>
+     </pair>
+   </value-pairs>
+   
+ 
+ 
+   <value-pairs value-pairs-name="common_identifiers" dc-term="identifier">
+     <pair>
+       <displayed-value>ISSN</displayed-value>
+       <stored-value>issn</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Other</displayed-value>
+       <stored-value>other</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>ISMN</displayed-value>
+       <stored-value>ismn</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Gov't Doc #</displayed-value>
+       <stored-value>govdoc</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>URI</displayed-value>
+       <stored-value>uri</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>ISBN</displayed-value>
+       <stored-value>isbn</stored-value>
+     </pair>
+   </value-pairs>
+   
+   <value-pairs value-pairs-name="common_types" dc-term="type">
+   
+    <pair>
+       <displayed-value>Talk/Lecture</displayed-value>
+       <stored-value>Talk/Lecture</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Group Project</displayed-value>
+       <stored-value>Group Project</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Individual Project</displayed-value>
+       <stored-value>Individual Project</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Project Based</displayed-value>
+       <stored-value>Project Based</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Lab</displayed-value>
+       <stored-value>Lab</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Work based</displayed-value>
+       <stored-value>Work based</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Volunteer opportunity</displayed-value>
+       <stored-value>Volunteer opportunity</stored-value>
+     </pair>
+	 
+	 <pair>
+       <displayed-value>Social event</displayed-value>
+       <stored-value>Social event</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Symposium</displayed-value>
+       <stored-value>Symposium</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Volunteer opportunity</displayed-value>
+       <stored-value>Volunteer opportunity</stored-value>
+     </pair><pair>
+       <displayed-value>Seminar/Workshop</displayed-value>
+       <stored-value>Seminar/Workshop</stored-value>
+     </pair><pair>
+       <displayed-value>Research</displayed-value>
+       <stored-value>Research</stored-value>
+     </pair><pair>
+       <displayed-value>Performance</displayed-value>
+       <stored-value>Performance</stored-value>
+     </pair><pair>
+       <displayed-value>Open day</displayed-value>
+       <stored-value>Open day</stored-value>
+     </pair><pair>
+       <displayed-value>Online/CBT</displayed-value>
+       <stored-value>Online/CBT</stored-value>
+     </pair><pair>
+       <displayed-value>Meeting</displayed-value>
+       <stored-value>Meeting</stored-value>
+     </pair><pair>
+       <displayed-value>Exhibition</displayed-value>
+       <stored-value>Exhibition</stored-value>
+     </pair><pair>
+       <displayed-value>Conference</displayed-value>
+       <stored-value>Conference</stored-value>
+     </pair><pair>
+       <displayed-value>Class/Group based</displayed-value>
+       <stored-value>Class/Group based</stored-value>
+     </pair>
+   </value-pairs>
+   
+   
+ <value-pairs value-pairs-name="outcomes" dc-term="compass.learningOpportunitySpecification.objective">
+   
+    <pair>
+       <displayed-value>CE - CAE - Circuits and Electronics</displayed-value>
+       <stored-value>CE - CAE - Circuits and Electronics</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>CE-CAL Computing Algorithms</displayed-value>
+       <stored-value>Group Project</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>CE-CAO Computer Architecture and Organization</displayed-value>
+       <stored-value>CE-CAO Computer Architecture and Organization</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>CE-DIG Digital Design</displayed-value>
+       <stored-value>CE-DIG Digital Design</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>CE-ESY Embedded Systems</displayed-value>
+       <stored-value>CE-ESY Embedded Systems</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>CE-NWK Computer Networks</displayed-value>
+       <stored-value>CE-NWK Computer Networks</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>CE-PPP Preparation for Professional Practice</displayed-value>
+       <stored-value>CE-PPP Preparation for Professional Practice</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>CE-SEC Information Security</displayed-value>
+       <stored-value>CE-SEC Information Security</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>CE-SGP Signal Processing</displayed-value>
+       <stored-value>CE-SGP Signal Processing</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>CE-SPE Systems and Project Engineering</displayed-value>
+       <stored-value>CE-SPE Systems and Project Engineering</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>CE-SRM System Resource Management</displayed-value>
+       <stored-value>CE-SRM System Resource Management</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>CE-SWD Software Design</displayed-value>
+       <stored-value>CE-SWD Software Design</stored-value>
+     </pair>
+   </value-pairs>
+  
+   
+   
+   <value-pairs value-pairs-name="common_type" dc-term="type">
+     <pair>
+       <displayed-value>Animation</displayed-value>
+       <stored-value>Animation</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Article</displayed-value>
+       <stored-value>Article</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Book</displayed-value>
+       <stored-value>Book</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Book chapter</displayed-value>
+       <stored-value>Book chapter</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Dataset</displayed-value>
+       <stored-value>Dataset</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Learning Object</displayed-value>
+       <stored-value>Learning Object</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Image</displayed-value>
+       <stored-value>Image</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Image, 3-D</displayed-value>
+       <stored-value>Image, 3-D</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Map</displayed-value>
+       <stored-value>Map</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Musical Score</displayed-value>
+       <stored-value>Musical Score</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Plan or blueprint</displayed-value>
+       <stored-value>Plan or blueprint</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Preprint</displayed-value>
+       <stored-value>Preprint</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Presentation</displayed-value>
+       <stored-value>Presentation</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Recording, acoustical</displayed-value>
+       <stored-value>Recording, acoustical</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Recording, musical</displayed-value>
+       <stored-value>Recording, musical</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Recording, oral</displayed-value>
+       <stored-value>Recording, oral</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Software</displayed-value>
+       <stored-value>Software</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Technical Report</displayed-value>
+       <stored-value>Technical Report</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Thesis</displayed-value>
+       <stored-value>Thesis</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Video</displayed-value>
+       <stored-value>Video</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Working Paper</displayed-value>
+       <stored-value>Working Paper</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Other</displayed-value>
+       <stored-value>Other</stored-value>
+     </pair>
+   </value-pairs>
+
+   <!-- default language order: (from dspace 1.2.1)
+        "en_US", "en", "es", "de", "fr", "it", "ja", "zh", "other", ""
+     -->
+   <value-pairs value-pairs-name="common_iso_languages" dc-term="language_iso">
+     <pair>
+       <displayed-value>N/A</displayed-value>
+       <stored-value></stored-value>
+     </pair>
+     <pair>
+       <displayed-value>English (United States)</displayed-value>
+       <stored-value>en_US</stored-value>
+      </pair>
+     <pair>
+       <displayed-value>English</displayed-value>
+       <stored-value>en</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Spanish</displayed-value>
+       <stored-value>es</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>German</displayed-value>
+       <stored-value>de</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>French</displayed-value>
+       <stored-value>fr</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Italian</displayed-value>
+       <stored-value>it</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Japanese</displayed-value>
+       <stored-value>ja</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Chinese</displayed-value>
+       <stored-value>zh</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Turkish</displayed-value>
+       <stored-value>tr</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>(Other)</displayed-value>
+       <stored-value>other</stored-value>
+     </pair>
+   </value-pairs>
+
+ </form-value-pairs>
+
+</input-forms>

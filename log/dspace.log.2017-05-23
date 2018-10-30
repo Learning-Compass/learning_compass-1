@@ -1,0 +1,374 @@
+2017-05-23 23:14:36,976 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-05-23 23:14:36,979 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-05-23 23:14:37,048 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-05-23 23:14:37,237 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-05-23 23:14:37,409 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-05-23 23:14:54,449 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-05-23 23:14:54,575 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-05-23 23:15:07,326 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-05-23 23:15:07,328 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-05-23 23:15:07,371 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-05-23 23:15:07,409 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-05-23 23:15:07,715 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-05-23 23:15:22,187 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-05-23 23:15:22,189 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-05-23 23:15:22,237 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-05-23 23:15:22,279 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-05-23 23:15:22,369 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-05-23 23:16:15,207 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-05-23 23:16:15,263 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-05-23 23:16:15,524 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-05-23 23:16:15,909 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-05-23 23:16:19,700 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9
+2017-05-23 23:16:19,704 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=9
+2017-05-23 23:16:19,760 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=10
+2017-05-23 23:16:19,761 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=10
+2017-05-23 23:16:19,793 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=15
+2017-05-23 23:16:19,793 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=15
+2017-05-23 23:16:19,822 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=8
+2017-05-23 23:16:19,822 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=8
+2017-05-23 23:16:19,860 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=2
+2017-05-23 23:16:19,860 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=2
+2017-05-23 23:16:20,284 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-05-23 23:16:20,285 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-05-23 23:16:20,415 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2017-05-23 23:16:20,415 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2017-05-23 23:16:20,417 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2017-05-23 23:16:20,470 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2017-05-23 23:16:20,482 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\agents\example
+2017-05-23 23:16:20,502 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2017-05-23 23:16:20,504 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\domains\example
+2017-05-23 23:16:20,556 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2017-05-23 23:16:20,573 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2017-05-23 23:16:20,609 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2017-05-23 23:16:20,632 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2017-05-23 23:16:20,653 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2017-05-23 23:16:20,679 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2017-05-23 23:16:21,045 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2017-05-23 23:16:21,270 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2017-05-23 23:16:21,316 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=14A8BF52D70F4E03CEA3241E26379CD5:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/2
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\11\15\71\111571809448037035710472381423601671209 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 23:16:21,316 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=14A8BF52D70F4E03CEA3241E26379CD5:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/8
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\36\60\56\36605689689243615621745721829289743399 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 23:16:21,316 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=14A8BF52D70F4E03CEA3241E26379CD5:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/9
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\73\24\39\73243994089377707398149170269104364954 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 23:16:21,316 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=14A8BF52D70F4E03CEA3241E26379CD5:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/4
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\38\99\31\38993135871707590018545880831382539806 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 23:16:21,334 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=6
+2017-05-23 23:16:21,334 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=6
+2017-05-23 23:16:21,622 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=14A8BF52D70F4E03CEA3241E26379CD5:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/6
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\50\17\06\50170681975830777336544652716467116590 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 23:16:21,876 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2017-05-23 23:16:22,260 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2017-05-23 23:16:23,396 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading tracerlock.com:  null
+2017-05-23 23:16:24,067 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2017-05-23 23:16:24,390 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2017-05-23 23:16:24,994 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2017-05-23 23:16:24,994 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2017-05-23 23:16:25,035 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=14A8BF52D70F4E03CEA3241E26379CD5:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/10
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\30\59\39\30593905588660188363640509700526548612 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 23:16:26,764 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=3
+2017-05-23 23:16:26,790 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-05-23 23:16:26,802 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@278: 3
+2017-05-23 23:16:26,829 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=3
+2017-05-23 23:16:27,728 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=2
+2017-05-23 23:16:27,728 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=2
+2017-05-23 23:16:27,994 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=14A8BF52D70F4E03CEA3241E26379CD5:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/2
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\11\15\71\111571809448037035710472381423601671209 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 23:16:29,959 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/77
+2017-05-23 23:16:30,007 INFO  org.dspace.app.util.GoogleMetadata @ Using [/dspace/config/crosswalks/google-metadata.properties] for Google Metadata configuration
+2017-05-23 23:16:30,071 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=14A8BF52D70F4E03CEA3241E26379CD5:ip_addr=0:0:0:0:0:0:0:1:view_item:handle=123456789/77

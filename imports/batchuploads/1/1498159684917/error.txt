@@ -1,0 +1,7 @@
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.dspace.app.itemimport.ItemImport.unzip(ItemImport.java:2021)
+	at org.dspace.app.itemimport.ItemImport$3.run(ItemImport.java:2230)

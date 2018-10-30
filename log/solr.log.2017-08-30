@@ -1,0 +1,10 @@
+2017-08-30 13:49:32,703 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-08-30 13:49:33,327 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9e,generation=338}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9f,generation=339}
+2017-08-30 13:49:33,329 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 339
+2017-08-30 13:49:33,371 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@74450e98[statistics] main
+2017-08-30 13:49:33,449 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@74450e98[statistics] main{StandardDirectoryReader(segments_9d:1242:nrt _gy(4.10.2):C6088 _gz(4.10.2):C4 _h1(4.10.2):C2 _h0(4.10.2):C4 _h2(4.10.2):C8 _h3(4.10.2):C3 _h6(4.10.2):C1 _h5(4.10.2):C37 _h4(4.10.2):C4 _h7(4.10.2):C1)}
+2017-08-30 13:49:33,458 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-08-30 13:49:33,477 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-08-30 13:49:33,497 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@74450e98[statistics] main{StandardDirectoryReader(segments_9d:1242:nrt _gy(4.10.2):C6088 _gz(4.10.2):C4 _h1(4.10.2):C2 _h0(4.10.2):C4 _h2(4.10.2):C8 _h3(4.10.2):C3 _h6(4.10.2):C1 _h5(4.10.2):C37 _h4(4.10.2):C4 _h7(4.10.2):C1)}

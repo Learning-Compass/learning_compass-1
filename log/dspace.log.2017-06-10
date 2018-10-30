@@ -1,0 +1,174 @@
+2017-06-10 18:34:46,455 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-06-10 18:34:46,503 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B6026CA464F792F5C5749800138E84C0:ip_addr=0:0:0:0:0:0:0:1:search:scope=null,query="null",results=(0,0,10)
+2017-06-10 18:34:46,512 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=B6026CA464F792F5C5749800138E84C0:internal_error:-- URL Was: http://localhost:8080/jspui/simple-search?query=
+-- Method: GET
+-- Parameters were:
+-- query: ""
+
+org.apache.jasper.JasperException: java.lang.NullPointerException
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:481)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:710)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor.doSimpleSearch(DiscoverySearchRequestProcessor.java:439)
+	at org.dspace.app.webui.servlet.SimpleSearchServlet.doDSGet(SimpleSearchServlet.java:63)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.dspace.app.webui.jsptag.ItemListTag.doStartTag(ItemListTag.java:407)
+	at org.apache.jsp.search.discovery_jsp._jspService(discovery_jsp.java:1469)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 44 more
+2017-06-10 18:46:15,229 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 18:46:15,229 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 18:46:15,285 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 18:46:15,353 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 18:46:15,584 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 18:46:32,416 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 18:46:32,548 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 18:46:48,504 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 18:46:48,508 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 18:46:48,824 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 18:46:48,887 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 18:46:49,068 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 18:47:09,787 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 18:47:09,791 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 18:47:09,850 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 18:47:09,929 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 18:47:10,067 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 18:48:55,598 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-06-10 18:48:58,128 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-06-10 18:48:58,164 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-06-10 18:48:58,596 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B6026CA464F792F5C5749800138E84C0:ip_addr=0:0:0:0:0:0:0:1:search:scope=null,query="null",results=(0,0,10)
+2017-06-10 18:49:40,441 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-06-10 18:49:40,525 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B6026CA464F792F5C5749800138E84C0:ip_addr=0:0:0:0:0:0:0:1:search:scope=null,query="null",results=(0,0,10)
+2017-06-10 18:49:42,223 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-06-10 18:49:42,267 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B6026CA464F792F5C5749800138E84C0:ip_addr=0:0:0:0:0:0:0:1:search:scope=null,query="null",results=(0,0,4)
+2017-06-10 18:51:35,192 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-06-10 18:51:35,244 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B6026CA464F792F5C5749800138E84C0:ip_addr=0:0:0:0:0:0:0:1:search:scope=null,query="null",results=(0,0,10)
+2017-06-10 18:51:42,237 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-06-10 18:51:42,281 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B6026CA464F792F5C5749800138E84C0:ip_addr=0:0:0:0:0:0:0:1:search:scope=null,query="null",results=(0,0,10)
+2017-06-10 18:52:52,456 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 18:52:52,460 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 18:52:52,528 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 18:52:52,644 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 18:52:52,840 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 18:53:19,352 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 18:53:19,536 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 18:53:30,894 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 18:53:30,894 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 18:53:31,202 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 18:53:31,246 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 18:53:31,326 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 18:53:43,240 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 18:53:43,244 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 18:53:43,296 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 18:53:43,352 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 18:53:43,448 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 18:55:31,434 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-06-10 18:55:31,831 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-06-10 18:55:31,863 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-06-10 18:55:32,231 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B6026CA464F792F5C5749800138E84C0:ip_addr=0:0:0:0:0:0:0:1:search:scope=null,query="null",results=(0,0,10)
+2017-06-10 19:00:32,027 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 19:00:32,031 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 19:00:32,075 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:00:32,127 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 19:00:32,227 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:03:40,970 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:03:41,143 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:03:51,088 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 19:03:51,088 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 19:03:51,128 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:03:51,168 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 19:03:51,236 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:04:02,383 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 19:04:02,387 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 19:04:02,427 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:04:02,467 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 19:04:02,559 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:04:36,346 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-06-10 19:04:36,706 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-06-10 19:04:36,734 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-06-10 19:04:36,990 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B6026CA464F792F5C5749800138E84C0:ip_addr=0:0:0:0:0:0:0:1:search:scope=null,query="null",results=(0,0,10)
+2017-06-10 19:07:18,979 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 19:07:18,983 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 19:07:19,055 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:07:19,147 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 19:07:19,311 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:07:34,228 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:07:34,402 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:07:44,802 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 19:07:44,806 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 19:07:44,846 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:07:44,890 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 19:07:44,978 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:07:55,424 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 19:07:55,424 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 19:07:55,472 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:07:55,524 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 19:07:55,640 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:08:50,538 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-06-10 19:08:50,970 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-06-10 19:08:51,002 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-06-10 19:08:51,322 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B6026CA464F792F5C5749800138E84C0:ip_addr=0:0:0:0:0:0:0:1:search:scope=null,query="null",results=(0,0,10)
+2017-06-10 19:10:58,240 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 19:10:58,244 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 19:10:58,288 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:10:58,336 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 19:10:58,440 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:11:11,762 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:11:11,871 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:11:19,794 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 19:11:19,798 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 19:11:20,069 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:11:20,109 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 19:11:20,173 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:11:28,487 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-06-10 19:11:28,491 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-06-10 19:11:28,542 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-06-10 19:11:28,586 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-06-10 19:11:28,678 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-06-10 19:12:12,856 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-06-10 19:12:13,177 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-06-10 19:12:13,189 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-06-10 19:12:13,361 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=B6026CA464F792F5C5749800138E84C0:ip_addr=0:0:0:0:0:0:0:1:search:scope=null,query="null",results=(0,0,10)

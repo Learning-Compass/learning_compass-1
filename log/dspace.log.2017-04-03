@@ -1,0 +1,1969 @@
+2017-04-03 14:54:48,972 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 14:54:48,976 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 14:54:49,053 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 14:54:49,128 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 14:54:49,194 INFO  org.flywaydb.core.internal.metadatatable.MetaDataTableImpl @ Creating Metadata table: "public"."schema_version"
+2017-04-03 14:54:49,407 INFO  org.flywaydb.core.internal.command.DbInit @ Schema initialized with version: 1
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Pending DSpace database schema migrations:
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.1 Initial DSpace 1.1 database schema SQL PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.2 Upgrade to DSpace 1.2 schema SQL PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.3 Upgrade to DSpace 1.3 schema SQL PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.3.9 Drop constraint for DSpace 1 4 schema JDBC PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.4 Upgrade to DSpace 1.4 schema SQL PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.5 Upgrade to DSpace 1.5 schema SQL PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.5.9 Drop constraint for DSpace 1 6 schema JDBC PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.6 Upgrade to DSpace 1.6 schema SQL PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.7 Upgrade to DSpace 1.7 schema SQL PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.8 Upgrade to DSpace 1.8 schema SQL PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	3.0 Upgrade to DSpace 3.x schema SQL PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	4.0 Upgrade to DSpace 4.x schema SQL PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	5.0.2014.08.08 DS-1945 Helpdesk Request a Copy SQL PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	5.0.2014.09.25 DS 1582 Metadata For All Objects drop constraint JDBC PENDING
+2017-04-03 14:54:49,491 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	5.0.2014.09.26 DS-1582 Metadata For All Objects SQL PENDING
+2017-04-03 14:54:49,515 INFO  org.flywaydb.core.internal.command.DbValidate @ Validated 16 migrations (execution time 00:00.015s)
+2017-04-03 14:54:49,547 INFO  org.flywaydb.core.internal.command.DbMigrate @ Current version of schema "public": 1
+2017-04-03 14:54:49,547 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.1
+2017-04-03 14:54:50,015 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.2
+2017-04-03 14:54:50,067 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.3
+2017-04-03 14:54:50,152 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.3.9
+2017-04-03 14:54:50,172 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.4
+2017-04-03 14:54:50,352 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.5
+2017-04-03 14:54:50,410 WARN  org.flywaydb.core.internal.dbsupport.JdbcTemplate @ drop cascades to 2 other objects (SQL State: 00000 - Error Code: 0)
+2017-04-03 14:54:50,412 WARN  org.flywaydb.core.internal.dbsupport.JdbcTemplate @ drop cascades to 2 other objects (SQL State: 00000 - Error Code: 0)
+2017-04-03 14:54:50,416 WARN  org.flywaydb.core.internal.dbsupport.JdbcTemplate @ drop cascades to 2 other objects (SQL State: 00000 - Error Code: 0)
+2017-04-03 14:54:50,420 WARN  org.flywaydb.core.internal.dbsupport.JdbcTemplate @ drop cascades to 2 other objects (SQL State: 00000 - Error Code: 0)
+2017-04-03 14:54:50,424 WARN  org.flywaydb.core.internal.dbsupport.JdbcTemplate @ drop cascades to 2 other objects (SQL State: 00000 - Error Code: 0)
+2017-04-03 14:54:50,612 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.5.9
+2017-04-03 14:54:50,644 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.6
+2017-04-03 14:54:50,744 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.7
+2017-04-03 14:54:50,756 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.8
+2017-04-03 14:54:50,772 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 3.0
+2017-04-03 14:54:50,812 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 4.0
+2017-04-03 14:54:50,864 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 5.0.2014.08.08
+2017-04-03 14:54:50,880 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 5.0.2014.09.25
+2017-04-03 14:54:50,892 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 5.0.2014.09.26
+2017-04-03 14:54:50,944 INFO  org.flywaydb.core.internal.command.DbMigrate @ Successfully applied 15 migrations to schema "public" (execution time 00:01.405s).
+2017-04-03 14:54:50,968 INFO  org.dspace.storage.rdbms.DatabaseRegistryUpdater @ Updating Bitstream Format Registry based on /dspace\config\registries\bitstream-formats.xml
+2017-04-03 14:54:51,436 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=1
+2017-04-03 14:54:51,436 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=1
+2017-04-03 14:54:51,444 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=2
+2017-04-03 14:54:51,444 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=2
+2017-04-03 14:54:51,452 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=3
+2017-04-03 14:54:51,452 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=3
+2017-04-03 14:54:51,460 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=4
+2017-04-03 14:54:51,464 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=4
+2017-04-03 14:54:51,480 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=5
+2017-04-03 14:54:51,480 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=5
+2017-04-03 14:54:51,488 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=6
+2017-04-03 14:54:51,488 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=6
+2017-04-03 14:54:51,499 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=7
+2017-04-03 14:54:51,500 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=7
+2017-04-03 14:54:51,508 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=8
+2017-04-03 14:54:51,509 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=8
+2017-04-03 14:54:51,516 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=9
+2017-04-03 14:54:51,516 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=9
+2017-04-03 14:54:51,524 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=10
+2017-04-03 14:54:51,524 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=10
+2017-04-03 14:54:51,532 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=11
+2017-04-03 14:54:51,532 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=11
+2017-04-03 14:54:51,540 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=12
+2017-04-03 14:54:51,540 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=12
+2017-04-03 14:54:51,548 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=13
+2017-04-03 14:54:51,548 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=13
+2017-04-03 14:54:51,560 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=14
+2017-04-03 14:54:51,560 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=14
+2017-04-03 14:54:51,568 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=15
+2017-04-03 14:54:51,568 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=15
+2017-04-03 14:54:51,576 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=16
+2017-04-03 14:54:51,576 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=16
+2017-04-03 14:54:51,584 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=17
+2017-04-03 14:54:51,584 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=17
+2017-04-03 14:54:51,592 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=18
+2017-04-03 14:54:51,592 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=18
+2017-04-03 14:54:51,602 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=19
+2017-04-03 14:54:51,602 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=19
+2017-04-03 14:54:51,608 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=20
+2017-04-03 14:54:51,608 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=20
+2017-04-03 14:54:51,615 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=21
+2017-04-03 14:54:51,616 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=21
+2017-04-03 14:54:51,623 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=22
+2017-04-03 14:54:51,624 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=22
+2017-04-03 14:54:51,631 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=23
+2017-04-03 14:54:51,632 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=23
+2017-04-03 14:54:51,640 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=24
+2017-04-03 14:54:51,641 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=24
+2017-04-03 14:54:51,648 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=25
+2017-04-03 14:54:51,649 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=25
+2017-04-03 14:54:51,655 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=26
+2017-04-03 14:54:51,656 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=26
+2017-04-03 14:54:51,663 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=27
+2017-04-03 14:54:51,664 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=27
+2017-04-03 14:54:51,670 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=28
+2017-04-03 14:54:51,670 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=28
+2017-04-03 14:54:51,678 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=29
+2017-04-03 14:54:51,679 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=29
+2017-04-03 14:54:51,693 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=30
+2017-04-03 14:54:51,693 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=30
+2017-04-03 14:54:51,700 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=31
+2017-04-03 14:54:51,701 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=31
+2017-04-03 14:54:51,710 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=32
+2017-04-03 14:54:51,711 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=32
+2017-04-03 14:54:51,719 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=33
+2017-04-03 14:54:51,720 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=33
+2017-04-03 14:54:51,727 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=34
+2017-04-03 14:54:51,728 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=34
+2017-04-03 14:54:51,735 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=35
+2017-04-03 14:54:51,736 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=35
+2017-04-03 14:54:51,744 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=36
+2017-04-03 14:54:51,745 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=36
+2017-04-03 14:54:51,752 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=37
+2017-04-03 14:54:51,753 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=37
+2017-04-03 14:54:51,760 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=38
+2017-04-03 14:54:51,762 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=38
+2017-04-03 14:54:51,770 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=39
+2017-04-03 14:54:51,771 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=39
+2017-04-03 14:54:51,780 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=40
+2017-04-03 14:54:51,780 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=40
+2017-04-03 14:54:51,788 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=41
+2017-04-03 14:54:51,789 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=41
+2017-04-03 14:54:51,797 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=42
+2017-04-03 14:54:51,798 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=42
+2017-04-03 14:54:51,806 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=43
+2017-04-03 14:54:51,807 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=43
+2017-04-03 14:54:51,815 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=44
+2017-04-03 14:54:51,816 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=44
+2017-04-03 14:54:51,824 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=45
+2017-04-03 14:54:51,825 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=45
+2017-04-03 14:54:51,834 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=46
+2017-04-03 14:54:51,836 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=46
+2017-04-03 14:54:51,844 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=47
+2017-04-03 14:54:51,845 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=47
+2017-04-03 14:54:51,853 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=48
+2017-04-03 14:54:51,854 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=48
+2017-04-03 14:54:51,863 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=49
+2017-04-03 14:54:51,864 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=49
+2017-04-03 14:54:51,871 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=50
+2017-04-03 14:54:51,872 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=50
+2017-04-03 14:54:51,879 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=51
+2017-04-03 14:54:51,880 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=51
+2017-04-03 14:54:51,889 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=52
+2017-04-03 14:54:51,890 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=52
+2017-04-03 14:54:51,896 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=53
+2017-04-03 14:54:51,896 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=53
+2017-04-03 14:54:51,903 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=54
+2017-04-03 14:54:51,904 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=54
+2017-04-03 14:54:51,910 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=55
+2017-04-03 14:54:51,911 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=55
+2017-04-03 14:54:51,918 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=56
+2017-04-03 14:54:51,918 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=56
+2017-04-03 14:54:51,927 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=57
+2017-04-03 14:54:51,927 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=57
+2017-04-03 14:54:51,934 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=58
+2017-04-03 14:54:51,935 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=58
+2017-04-03 14:54:51,942 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=59
+2017-04-03 14:54:51,943 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=59
+2017-04-03 14:54:51,949 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=60
+2017-04-03 14:54:51,950 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=60
+2017-04-03 14:54:51,952 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=61
+2017-04-03 14:54:51,956 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=61
+2017-04-03 14:54:51,960 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=62
+2017-04-03 14:54:51,960 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=62
+2017-04-03 14:54:51,968 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=63
+2017-04-03 14:54:51,968 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=63
+2017-04-03 14:54:51,976 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=64
+2017-04-03 14:54:51,976 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=64
+2017-04-03 14:54:51,984 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=65
+2017-04-03 14:54:51,984 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=65
+2017-04-03 14:54:51,992 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=66
+2017-04-03 14:54:51,992 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=66
+2017-04-03 14:54:52,004 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=67
+2017-04-03 14:54:52,004 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=67
+2017-04-03 14:54:52,012 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=68
+2017-04-03 14:54:52,012 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=68
+2017-04-03 14:54:52,020 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=69
+2017-04-03 14:54:52,020 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=69
+2017-04-03 14:54:52,024 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=70
+2017-04-03 14:54:52,028 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=70
+2017-04-03 14:54:52,032 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=71
+2017-04-03 14:54:52,032 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=71
+2017-04-03 14:54:52,043 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=72
+2017-04-03 14:54:52,043 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=72
+2017-04-03 14:54:52,049 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=73
+2017-04-03 14:54:52,050 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=73
+2017-04-03 14:54:52,052 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=74
+2017-04-03 14:54:52,052 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=74
+2017-04-03 14:54:52,060 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=75
+2017-04-03 14:54:52,060 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=75
+2017-04-03 14:54:52,060 INFO  org.dspace.administer.RegistryLoader @ anonymous::load_bitstream_formats:number_loaded=75
+2017-04-03 14:54:52,060 INFO  org.dspace.storage.rdbms.DatabaseRegistryUpdater @ Updating Metadata Registries based on metadata type configs in /dspace\config\registries\
+2017-04-03 14:54:52,084 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-04-03 14:54:52,128 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,138 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor
+2017-04-03 14:54:52,143 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=1
+2017-04-03 14:54:52,144 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,145 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor.advisor
+2017-04-03 14:54:52,146 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=2
+2017-04-03 14:54:52,147 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,148 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor.author
+2017-04-03 14:54:52,148 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=3
+2017-04-03 14:54:52,150 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,150 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor.editor
+2017-04-03 14:54:52,152 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=4
+2017-04-03 14:54:52,152 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,152 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor.illustrator
+2017-04-03 14:54:52,152 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=5
+2017-04-03 14:54:52,152 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,156 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor.other
+2017-04-03 14:54:52,156 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=6
+2017-04-03 14:54:52,156 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,156 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.coverage.spatial
+2017-04-03 14:54:52,160 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=7
+2017-04-03 14:54:52,160 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,160 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.coverage.temporal
+2017-04-03 14:54:52,160 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=8
+2017-04-03 14:54:52,160 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,164 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.creator
+2017-04-03 14:54:52,164 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=9
+2017-04-03 14:54:52,164 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,164 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date
+2017-04-03 14:54:52,164 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=10
+2017-04-03 14:54:52,168 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,168 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.accessioned
+2017-04-03 14:54:52,168 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=11
+2017-04-03 14:54:52,168 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,168 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.available
+2017-04-03 14:54:52,172 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=12
+2017-04-03 14:54:52,172 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,172 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.copyright
+2017-04-03 14:54:52,172 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=13
+2017-04-03 14:54:52,176 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,176 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.created
+2017-04-03 14:54:52,176 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=14
+2017-04-03 14:54:52,180 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,180 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.issued
+2017-04-03 14:54:52,180 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=15
+2017-04-03 14:54:52,180 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,180 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.submitted
+2017-04-03 14:54:52,180 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=16
+2017-04-03 14:54:52,184 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,184 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier
+2017-04-03 14:54:52,184 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=17
+2017-04-03 14:54:52,184 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,188 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.citation
+2017-04-03 14:54:52,188 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=18
+2017-04-03 14:54:52,188 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,192 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.govdoc
+2017-04-03 14:54:52,192 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=19
+2017-04-03 14:54:52,192 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,196 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.isbn
+2017-04-03 14:54:52,196 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=20
+2017-04-03 14:54:52,196 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,196 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.issn
+2017-04-03 14:54:52,200 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=21
+2017-04-03 14:54:52,200 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,200 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.sici
+2017-04-03 14:54:52,200 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=22
+2017-04-03 14:54:52,200 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,204 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.ismn
+2017-04-03 14:54:52,204 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=23
+2017-04-03 14:54:52,204 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,204 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.other
+2017-04-03 14:54:52,208 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=24
+2017-04-03 14:54:52,208 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,208 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.uri
+2017-04-03 14:54:52,208 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=25
+2017-04-03 14:54:52,212 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,212 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description
+2017-04-03 14:54:52,212 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=26
+2017-04-03 14:54:52,212 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,216 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.abstract
+2017-04-03 14:54:52,216 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=27
+2017-04-03 14:54:52,216 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,220 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.provenance
+2017-04-03 14:54:52,220 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=28
+2017-04-03 14:54:52,220 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,224 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.sponsorship
+2017-04-03 14:54:52,224 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=29
+2017-04-03 14:54:52,224 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,224 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.statementofresponsibility
+2017-04-03 14:54:52,224 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=30
+2017-04-03 14:54:52,228 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,228 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.tableofcontents
+2017-04-03 14:54:52,228 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=31
+2017-04-03 14:54:52,228 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,232 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.uri
+2017-04-03 14:54:52,232 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=32
+2017-04-03 14:54:52,232 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,232 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.format
+2017-04-03 14:54:52,237 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=33
+2017-04-03 14:54:52,239 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,240 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.format.extent
+2017-04-03 14:54:52,241 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=34
+2017-04-03 14:54:52,242 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,243 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.format.medium
+2017-04-03 14:54:52,244 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=35
+2017-04-03 14:54:52,245 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,246 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.format.mimetype
+2017-04-03 14:54:52,246 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=36
+2017-04-03 14:54:52,248 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,249 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.language
+2017-04-03 14:54:52,249 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=37
+2017-04-03 14:54:52,251 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,252 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.language.iso
+2017-04-03 14:54:52,252 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=38
+2017-04-03 14:54:52,252 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,256 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.publisher
+2017-04-03 14:54:52,256 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=39
+2017-04-03 14:54:52,260 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,260 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation
+2017-04-03 14:54:52,260 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=40
+2017-04-03 14:54:52,260 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,264 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.isformatof
+2017-04-03 14:54:52,264 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=41
+2017-04-03 14:54:52,268 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,268 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.ispartof
+2017-04-03 14:54:52,268 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=42
+2017-04-03 14:54:52,272 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,272 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.ispartofseries
+2017-04-03 14:54:52,276 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=43
+2017-04-03 14:54:52,276 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,276 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.haspart
+2017-04-03 14:54:52,280 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=44
+2017-04-03 14:54:52,280 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,280 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.isversionof
+2017-04-03 14:54:52,284 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=45
+2017-04-03 14:54:52,284 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,288 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.hasversion
+2017-04-03 14:54:52,288 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=46
+2017-04-03 14:54:52,292 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,292 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.isbasedon
+2017-04-03 14:54:52,292 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=47
+2017-04-03 14:54:52,296 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,296 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.isreferencedby
+2017-04-03 14:54:52,296 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=48
+2017-04-03 14:54:52,300 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,304 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.requires
+2017-04-03 14:54:52,304 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=49
+2017-04-03 14:54:52,304 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,308 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.replaces
+2017-04-03 14:54:52,308 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=50
+2017-04-03 14:54:52,308 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,308 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.isreplacedby
+2017-04-03 14:54:52,308 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=51
+2017-04-03 14:54:52,312 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,312 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.uri
+2017-04-03 14:54:52,312 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=52
+2017-04-03 14:54:52,316 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,316 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.rights
+2017-04-03 14:54:52,316 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=53
+2017-04-03 14:54:52,316 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,316 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.rights.uri
+2017-04-03 14:54:52,320 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=54
+2017-04-03 14:54:52,320 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,324 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.source
+2017-04-03 14:54:52,324 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=55
+2017-04-03 14:54:52,324 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,328 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.source.uri
+2017-04-03 14:54:52,328 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=56
+2017-04-03 14:54:52,332 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,332 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject
+2017-04-03 14:54:52,332 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=57
+2017-04-03 14:54:52,336 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,337 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.classification
+2017-04-03 14:54:52,338 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=58
+2017-04-03 14:54:52,341 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,342 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.ddc
+2017-04-03 14:54:52,343 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=59
+2017-04-03 14:54:52,346 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,347 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.lcc
+2017-04-03 14:54:52,348 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=60
+2017-04-03 14:54:52,350 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,351 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.lcsh
+2017-04-03 14:54:52,352 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=61
+2017-04-03 14:54:52,352 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,356 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.mesh
+2017-04-03 14:54:52,356 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=62
+2017-04-03 14:54:52,360 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,360 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.other
+2017-04-03 14:54:52,360 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=63
+2017-04-03 14:54:52,364 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,364 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.title
+2017-04-03 14:54:52,364 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=64
+2017-04-03 14:54:52,368 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,368 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.title.alternative
+2017-04-03 14:54:52,368 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=65
+2017-04-03 14:54:52,372 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,372 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.type
+2017-04-03 14:54:52,372 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=66
+2017-04-03 14:54:52,376 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,376 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.provenance
+2017-04-03 14:54:52,376 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=67
+2017-04-03 14:54:52,376 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,380 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.rights.license
+2017-04-03 14:54:52,380 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=68
+2017-04-03 14:54:52,404 INFO  org.dspace.administer.MetadataImporter @ Registering Schema dcterms (http://purl.org/dc/terms/)
+2017-04-03 14:54:52,404 INFO  org.dspace.content.MetadataSchema @ anonymous::create_metadata_schema:metadata_schema_id=2
+2017-04-03 14:54:52,408 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-04-03 14:54:52,408 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,408 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.abstract
+2017-04-03 14:54:52,412 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=69
+2017-04-03 14:54:52,412 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,412 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.accessRights
+2017-04-03 14:54:52,416 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=70
+2017-04-03 14:54:52,416 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,416 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.accrualMethod
+2017-04-03 14:54:52,416 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=71
+2017-04-03 14:54:52,420 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,420 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.accrualPeriodicity
+2017-04-03 14:54:52,420 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=72
+2017-04-03 14:54:52,424 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,424 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.accrualPolicy
+2017-04-03 14:54:52,424 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=73
+2017-04-03 14:54:52,428 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,428 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.alternative
+2017-04-03 14:54:52,428 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=74
+2017-04-03 14:54:52,432 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,432 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.audience
+2017-04-03 14:54:52,432 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=75
+2017-04-03 14:54:52,432 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,437 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.available
+2017-04-03 14:54:52,438 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=76
+2017-04-03 14:54:52,439 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,441 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.bibliographicCitation
+2017-04-03 14:54:52,441 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=77
+2017-04-03 14:54:52,443 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,444 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.conformsTo
+2017-04-03 14:54:52,447 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=78
+2017-04-03 14:54:52,448 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,449 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.contributor
+2017-04-03 14:54:52,450 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=79
+2017-04-03 14:54:52,452 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,452 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.coverage
+2017-04-03 14:54:52,452 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=80
+2017-04-03 14:54:52,452 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,452 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.created
+2017-04-03 14:54:52,456 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=81
+2017-04-03 14:54:52,456 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,456 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.creator
+2017-04-03 14:54:52,460 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=82
+2017-04-03 14:54:52,460 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,460 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.date
+2017-04-03 14:54:52,464 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=83
+2017-04-03 14:54:52,464 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,464 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.dateAccepted
+2017-04-03 14:54:52,468 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=84
+2017-04-03 14:54:52,468 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,468 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.dateCopyrighted
+2017-04-03 14:54:52,468 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=85
+2017-04-03 14:54:52,472 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,472 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.dateSubmitted
+2017-04-03 14:54:52,472 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=86
+2017-04-03 14:54:52,476 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,476 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.description
+2017-04-03 14:54:52,476 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=87
+2017-04-03 14:54:52,480 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,480 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.educationLevel
+2017-04-03 14:54:52,480 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=88
+2017-04-03 14:54:52,480 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,484 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.extent
+2017-04-03 14:54:52,484 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=89
+2017-04-03 14:54:52,484 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,488 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.format
+2017-04-03 14:54:52,488 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=90
+2017-04-03 14:54:52,488 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,488 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.hasFormat
+2017-04-03 14:54:52,492 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=91
+2017-04-03 14:54:52,492 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,492 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.hasPart
+2017-04-03 14:54:52,492 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=92
+2017-04-03 14:54:52,496 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,496 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.hasVersion
+2017-04-03 14:54:52,496 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=93
+2017-04-03 14:54:52,500 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,500 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.identifier
+2017-04-03 14:54:52,500 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=94
+2017-04-03 14:54:52,500 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,504 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.instructionalMethod
+2017-04-03 14:54:52,504 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=95
+2017-04-03 14:54:52,504 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,504 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isFormatOf
+2017-04-03 14:54:52,508 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=96
+2017-04-03 14:54:52,508 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,512 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isPartOf
+2017-04-03 14:54:52,512 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=97
+2017-04-03 14:54:52,512 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,516 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isReferencedBy
+2017-04-03 14:54:52,516 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=98
+2017-04-03 14:54:52,516 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,520 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isReplacedBy
+2017-04-03 14:54:52,520 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=99
+2017-04-03 14:54:52,520 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,524 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isRequiredBy
+2017-04-03 14:54:52,524 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=100
+2017-04-03 14:54:52,524 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,528 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.issued
+2017-04-03 14:54:52,528 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=101
+2017-04-03 14:54:52,528 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,528 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isVersionOf
+2017-04-03 14:54:52,532 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=102
+2017-04-03 14:54:52,532 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,536 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.language
+2017-04-03 14:54:52,537 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=103
+2017-04-03 14:54:52,540 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,541 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.license
+2017-04-03 14:54:52,542 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=104
+2017-04-03 14:54:52,544 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,545 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.mediator
+2017-04-03 14:54:52,546 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=105
+2017-04-03 14:54:52,548 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,550 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.medium
+2017-04-03 14:54:52,551 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=106
+2017-04-03 14:54:52,552 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,552 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.modified
+2017-04-03 14:54:52,552 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=107
+2017-04-03 14:54:52,556 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,556 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.provenance
+2017-04-03 14:54:52,556 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=108
+2017-04-03 14:54:52,560 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,560 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.publisher
+2017-04-03 14:54:52,560 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=109
+2017-04-03 14:54:52,564 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,564 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.references
+2017-04-03 14:54:52,568 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=110
+2017-04-03 14:54:52,568 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,568 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.relation
+2017-04-03 14:54:52,572 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=111
+2017-04-03 14:54:52,572 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,576 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.replaces
+2017-04-03 14:54:52,576 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=112
+2017-04-03 14:54:52,576 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,580 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.requires
+2017-04-03 14:54:52,580 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=113
+2017-04-03 14:54:52,580 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,584 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.rights
+2017-04-03 14:54:52,584 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=114
+2017-04-03 14:54:52,584 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,588 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.rightsHolder
+2017-04-03 14:54:52,588 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=115
+2017-04-03 14:54:52,588 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,592 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.source
+2017-04-03 14:54:52,592 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=116
+2017-04-03 14:54:52,592 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,596 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.spatial
+2017-04-03 14:54:52,596 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=117
+2017-04-03 14:54:52,596 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,600 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.subject
+2017-04-03 14:54:52,600 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=118
+2017-04-03 14:54:52,600 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,604 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.tableOfContents
+2017-04-03 14:54:52,604 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=119
+2017-04-03 14:54:52,604 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,608 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.temporal
+2017-04-03 14:54:52,608 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=120
+2017-04-03 14:54:52,608 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,612 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.title
+2017-04-03 14:54:52,612 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=121
+2017-04-03 14:54:52,612 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,616 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.type
+2017-04-03 14:54:52,616 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=122
+2017-04-03 14:54:52,616 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,620 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.valid
+2017-04-03 14:54:52,620 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=123
+2017-04-03 14:54:52,628 INFO  org.dspace.administer.MetadataImporter @ Registering Schema eperson (http://dspace.org/eperson)
+2017-04-03 14:54:52,632 INFO  org.dspace.content.MetadataSchema @ anonymous::create_metadata_schema:metadata_schema_id=3
+2017-04-03 14:54:52,632 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-04-03 14:54:52,636 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,638 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field eperson.firstname
+2017-04-03 14:54:52,638 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=124
+2017-04-03 14:54:52,640 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,641 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field eperson.lastname
+2017-04-03 14:54:52,642 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=125
+2017-04-03 14:54:52,643 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,645 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field eperson.phone
+2017-04-03 14:54:52,645 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=126
+2017-04-03 14:54:52,647 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,648 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field eperson.language
+2017-04-03 14:54:52,649 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=127
+2017-04-03 14:54:52,668 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,672 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.updated
+2017-04-03 14:54:52,673 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=128
+2017-04-03 14:54:52,675 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,678 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.version
+2017-04-03 14:54:52,679 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=129
+2017-04-03 14:54:52,681 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,685 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.slug
+2017-04-03 14:54:52,686 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=130
+2017-04-03 14:54:52,688 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,689 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.language.rfc3066
+2017-04-03 14:54:52,690 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=131
+2017-04-03 14:54:52,693 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,694 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.rights.holder
+2017-04-03 14:54:52,695 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=132
+2017-04-03 14:54:52,697 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 14:54:52,709 INFO  org.dspace.storage.rdbms.DatabaseRegistryUpdater @ All Bitstream Format Regitry and Metadata Registry updates were completed.
+2017-04-03 14:54:52,725 INFO  org.dspace.eperson.Group @ anonymous::create_group:group_id=0
+2017-04-03 14:54:52,773 INFO  org.dspace.eperson.Group @ anonymous::update_group:group_id=0
+2017-04-03 14:54:52,774 INFO  org.dspace.eperson.Group @ anonymous::create_group:group_id=1
+2017-04-03 14:54:52,778 INFO  org.dspace.eperson.Group @ anonymous::update_group:group_id=1
+2017-04-03 14:54:52,781 INFO  org.dspace.event.EventManager @ 
+2017-04-03 14:55:08,414 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 14:55:08,538 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 14:55:22,998 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 14:55:23,002 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 14:55:23,058 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 14:55:23,102 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 14:55:23,186 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 14:55:39,572 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 14:55:39,574 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 14:55:39,634 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 14:55:39,691 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 14:55:39,790 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 14:56:40,111 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 14:56:40,111 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 14:56:40,155 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 14:56:40,239 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 14:56:40,359 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 14:56:42,896 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2017-04-03 14:56:43,069 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2017-04-03 14:56:43,069 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2017-04-03 14:56:43,069 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2017-04-03 14:56:43,069 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2017-04-03 14:56:43,069 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2017-04-03 14:56:43,069 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2017-04-03 14:56:43,069 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2017-04-03 14:56:43,069 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2017-04-03 14:56:43,069 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2017-04-03 14:56:52,618 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1C51338A9F1274D54A5FAE55C7E2A594:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-04-03 14:56:53,027 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Post database migration, reindexing all content in Discovery search and browse engine
+2017-04-03 14:56:53,135 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-04-03 14:56:53,420 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Reindexing is complete
+2017-04-03 14:57:06,239 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=1C51338A9F1274D54A5FAE55C7E2A594:ip_addr=0:0:0:0:0:0:0:1:authenticate:attempting password auth of user=atsolakid@gmail.com
+2017-04-03 14:57:06,267 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=1C51338A9F1274D54A5FAE55C7E2A594:ip_addr=0:0:0:0:0:0:0:1:failed_login:email=atsolakid@gmail.com, result=4
+2017-04-03 14:57:12,428 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=1C51338A9F1274D54A5FAE55C7E2A594:ip_addr=0:0:0:0:0:0:0:1:authenticate:attempting password auth of user=atsolakid@teiath.gr
+2017-04-03 14:57:12,432 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=1C51338A9F1274D54A5FAE55C7E2A594:ip_addr=0:0:0:0:0:0:0:1:failed_login:email=atsolakid@teiath.gr, result=4
+2017-04-03 14:57:19,096 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=1C51338A9F1274D54A5FAE55C7E2A594:ip_addr=0:0:0:0:0:0:0:1:authenticate:attempting password auth of user=atsolakid@teiath.gr
+2017-04-03 14:57:19,100 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=1C51338A9F1274D54A5FAE55C7E2A594:ip_addr=0:0:0:0:0:0:0:1:failed_login:email=atsolakid@teiath.gr, result=4
+2017-04-03 14:57:24,873 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=1C51338A9F1274D54A5FAE55C7E2A594:ip_addr=0:0:0:0:0:0:0:1:authenticate:attempting password auth of user=atsolakid@gmail.com
+2017-04-03 14:57:24,873 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=1C51338A9F1274D54A5FAE55C7E2A594:ip_addr=0:0:0:0:0:0:0:1:failed_login:email=atsolakid@gmail.com, result=4
+2017-04-03 14:58:07,226 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/C:/dspace/config/dspace.cfg
+2017-04-03 14:58:07,239 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2017-04-03 14:58:07,239 INFO  org.dspace.core.ConfigurationManager @ Loading: /dspace/config/log4j.properties
+2017-04-03 14:58:10,957 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 14:58:10,957 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 14:58:10,991 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 14:58:11,028 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 14:58:11,085 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 14:58:36,419 INFO  org.dspace.eperson.EPerson @ anonymous::create_eperson:eperson_id=1
+2017-04-03 14:58:36,447 INFO  org.dspace.eperson.PasswordHash @ Initialized a random number stream using SHA1PRNG provided by SUN version 1.8
+2017-04-03 14:58:36,467 INFO  org.dspace.eperson.EPerson @ anonymous::update_eperson:eperson_id=1
+2017-04-03 14:58:36,487 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-04-03 14:58:36,520 INFO  org.dspace.eperson.Group @ anonymous::update_group:group_id=1
+2017-04-03 14:58:36,524 INFO  org.dspace.event.EventManager @ 
+2017-04-03 16:03:00,318 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-04-03 16:03:00,354 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-04-03 16:03:00,458 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 16:03:00,466 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 16:03:01,014 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2017-04-03 16:03:01,014 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2017-04-03 16:03:01,014 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2017-04-03 16:03:01,038 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2017-04-03 16:03:01,049 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\agents\example
+2017-04-03 16:03:01,061 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2017-04-03 16:03:01,068 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2017-04-03 16:03:01,075 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2017-04-03 16:03:01,085 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2017-04-03 16:03:01,099 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2017-04-03 16:03:01,108 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2017-04-03 16:03:01,131 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2017-04-03 16:03:01,473 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2017-04-03 16:03:02,141 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2017-04-03 16:03:02,755 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2017-04-03 16:03:02,810 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2017-04-03 16:03:03,967 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2017-04-03 16:03:04,262 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2017-04-03 16:03:04,884 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2017-04-03 16:03:04,884 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2017-04-03 16:03:04,900 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\domains\example
+2017-04-03 16:03:05,289 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=764E7E0F49FF700602DBF8874A77A600:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/4
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\38\99\31\38993135871707590018545880831382539806 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-03 16:03:07,496 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-04-03 16:03:07,508 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-04-03 16:03:07,576 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 16:03:07,577 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 16:03:07,781 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=764E7E0F49FF700602DBF8874A77A600:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/4
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\38\99\31\38993135871707590018545880831382539806 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-03 16:03:10,069 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=1
+2017-04-03 16:03:10,077 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-04-03 16:03:10,092 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@276: 3
+2017-04-03 16:03:10,136 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=1
+2017-04-03 16:03:10,779 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 16:03:10,779 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 16:03:10,980 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=764E7E0F49FF700602DBF8874A77A600:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/4
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\38\99\31\38993135871707590018545880831382539806 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-03 16:03:13,532 INFO  org.dspace.app.webui.servlet.HandleServlet @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=2
+2017-04-03 16:03:13,536 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-04-03 16:03:13,544 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@277: 3
+2017-04-03 16:03:13,575 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=2
+2017-04-03 16:03:16,892 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-04-03 16:03:16,900 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-04-03 16:03:16,965 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 16:03:16,965 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 16:03:17,156 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=764E7E0F49FF700602DBF8874A77A600:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/4
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\38\99\31\38993135871707590018545880831382539806 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-03 16:03:32,143 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:authenticate:attempting password auth of user=atsolakid@teiath.gr
+2017-04-03 16:03:32,179 INFO  org.dspace.authenticate.PasswordAuthentication @ atsolakid@teiath.gr:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:authenticate:type=PasswordAuthentication
+2017-04-03 16:03:32,179 INFO  org.dspace.eperson.EPerson @ atsolakid@teiath.gr:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:update_eperson:eperson_id=1
+2017-04-03 16:03:32,195 INFO  org.dspace.app.webui.servlet.PasswordServlet @ atsolakid@teiath.gr:session_id=764E7E0F49FF700602DBF8874A77A600:ip_addr=0:0:0:0:0:0:0:1:login:type=explicit
+2017-04-03 16:03:32,207 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ atsolakid@teiath.gr:session_id=997A31A22577A0F9B6B3F26932D6EC0F:ip_addr=0:0:0:0:0:0:0:1:view_mydspace:
+2017-04-03 16:03:32,259 INFO  org.dspace.app.itemimport.ItemImport @ Created org.dspace.app.batchitemimport.work.dir of: /dspace/imports
+2017-04-03 16:03:36,202 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ atsolakid@teiath.gr:session_id=997A31A22577A0F9B6B3F26932D6EC0F:ip_addr=0:0:0:0:0:0:0:1:view_mydspace:
+2017-04-03 16:03:41,623 INFO  org.dspace.app.webui.servlet.admin.MetadataSchemaRegistryServlet @ Showing Schemas
+2017-04-03 16:03:47,241 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=997A31A22577A0F9B6B3F26932D6EC0F:internal_error:-- URL Was: http://localhost:8080/jspui/dspace-admin/metadata-field-registry?dc_schema_id=4
+-- Method: GET
+-- Parameters were:
+-- dc_schema_id: "4"
+
+org.apache.jasper.JasperException: An exception occurred processing JSP page /dspace-admin/list-metadata-fields.jsp at line 127
+
+124:  </table>
+125: 
+126:       <form method="post" action="">
+127:         <input type="hidden" name="dc_schema_id" value="<%= schema.getSchemaID() %>"/>
+128:         	 <h2><fmt:message key="jsp.dspace-admin.list-metadata-fields.addfield"/></h2>
+129:               <p class="alert alert-info"><fmt:message key="jsp.dspace-admin.list-metadata-fields.addfieldnote"/></p>
+130:                       
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:588)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:481)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:710)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.dspace.app.webui.servlet.admin.MetadataFieldRegistryServlet.showTypes(MetadataFieldRegistryServlet.java:286)
+	at org.dspace.app.webui.servlet.admin.MetadataFieldRegistryServlet.doDSGet(MetadataFieldRegistryServlet.java:53)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.app.webui.filter.AdminOnlyFilter.doFilter(AdminOnlyFilter.java:71)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at org.apache.jsp.dspace_002dadmin.list_002dmetadata_002dfields_jsp._jspService(list_002dmetadata_002dfields_jsp.java:359)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 47 more
+2017-04-03 16:03:54,010 INFO  org.dspace.app.webui.servlet.admin.MetadataSchemaRegistryServlet @ Showing Schemas
+2017-04-03 16:04:01,734 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=997A31A22577A0F9B6B3F26932D6EC0F:internal_error:-- URL Was: http://localhost:8080/jspui/dspace-admin/metadata-field-registry?dc_schema_id=4
+-- Method: GET
+-- Parameters were:
+-- dc_schema_id: "4"
+
+org.apache.jasper.JasperException: An exception occurred processing JSP page /dspace-admin/list-metadata-fields.jsp at line 127
+
+124:  </table>
+125: 
+126:       <form method="post" action="">
+127:         <input type="hidden" name="dc_schema_id" value="<%= schema.getSchemaID() %>"/>
+128:         	 <h2><fmt:message key="jsp.dspace-admin.list-metadata-fields.addfield"/></h2>
+129:               <p class="alert alert-info"><fmt:message key="jsp.dspace-admin.list-metadata-fields.addfieldnote"/></p>
+130:                       
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:588)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:481)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:710)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.dspace.app.webui.servlet.admin.MetadataFieldRegistryServlet.showTypes(MetadataFieldRegistryServlet.java:286)
+	at org.dspace.app.webui.servlet.admin.MetadataFieldRegistryServlet.doDSGet(MetadataFieldRegistryServlet.java:53)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.app.webui.filter.AdminOnlyFilter.doFilter(AdminOnlyFilter.java:71)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at org.apache.jsp.dspace_002dadmin.list_002dmetadata_002dfields_jsp._jspService(list_002dmetadata_002dfields_jsp.java:359)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 47 more
+2017-04-03 23:10:32,929 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:10:32,933 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:10:33,034 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:10:33,072 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:10:33,172 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:10:50,883 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:10:51,046 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:11:06,162 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:11:06,162 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:11:06,209 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:11:06,246 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:11:06,309 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:11:22,143 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:11:22,145 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:11:22,191 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:11:22,227 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:11:22,320 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:12:18,386 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:12:18,388 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:12:18,427 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:12:18,463 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:12:18,547 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:31:07,984 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:31:07,988 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:31:08,054 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:31:08,251 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:31:08,399 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:31:23,396 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:31:23,514 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:31:34,699 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:31:34,699 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:31:34,730 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:31:34,780 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:31:34,846 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:31:48,462 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:31:48,466 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:31:48,508 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:31:48,542 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:31:48,626 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:32:41,576 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:32:41,578 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:32:41,619 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:32:41,657 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:32:41,737 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:32:43,989 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2017-04-03 23:32:44,150 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2017-04-03 23:32:44,150 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2017-04-03 23:32:44,150 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2017-04-03 23:32:44,150 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2017-04-03 23:32:44,150 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2017-04-03 23:32:44,150 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2017-04-03 23:32:44,150 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2017-04-03 23:32:44,150 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2017-04-03 23:32:44,151 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2017-04-03 23:32:45,254 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-04-03 23:32:45,325 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-04-03 23:32:45,557 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A1FAE82EAB61B6B8735312B09BC4EE32:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-04-03 23:32:45,890 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-04-03 23:32:46,701 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=A1FAE82EAB61B6B8735312B09BC4EE32:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 23:32:46,706 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=A1FAE82EAB61B6B8735312B09BC4EE32:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 23:32:47,203 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2017-04-03 23:32:47,203 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2017-04-03 23:32:47,203 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2017-04-03 23:32:47,249 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2017-04-03 23:32:47,259 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\agents\example
+2017-04-03 23:32:47,271 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2017-04-03 23:32:47,279 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2017-04-03 23:32:47,287 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2017-04-03 23:32:47,294 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2017-04-03 23:32:47,303 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2017-04-03 23:32:47,309 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2017-04-03 23:32:47,325 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2017-04-03 23:32:47,595 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2017-04-03 23:32:47,863 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2017-04-03 23:32:48,465 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2017-04-03 23:32:48,476 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2017-04-03 23:32:49,413 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2017-04-03 23:32:49,870 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2017-04-03 23:32:50,477 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2017-04-03 23:32:50,477 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2017-04-03 23:32:50,484 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\domains\example
+2017-04-03 23:32:50,885 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=A1FAE82EAB61B6B8735312B09BC4EE32:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/4
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\38\99\31\38993135871707590018545880831382539806 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-03 23:34:56,030 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A1FAE82EAB61B6B8735312B09BC4EE32:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-04-03 23:34:56,040 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-04-03 23:34:56,109 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=A1FAE82EAB61B6B8735312B09BC4EE32:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 23:34:56,109 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=A1FAE82EAB61B6B8735312B09BC4EE32:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 23:34:56,417 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=A1FAE82EAB61B6B8735312B09BC4EE32:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/4
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\38\99\31\38993135871707590018545880831382539806 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-03 23:35:07,633 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=A1FAE82EAB61B6B8735312B09BC4EE32:ip_addr=0:0:0:0:0:0:0:1:authenticate:attempting password auth of user=atsolakid@teiath.gr
+2017-04-03 23:35:07,699 INFO  org.dspace.authenticate.PasswordAuthentication @ atsolakid@teiath.gr:session_id=A1FAE82EAB61B6B8735312B09BC4EE32:ip_addr=0:0:0:0:0:0:0:1:authenticate:type=PasswordAuthentication
+2017-04-03 23:35:07,706 INFO  org.dspace.eperson.EPerson @ atsolakid@teiath.gr:session_id=A1FAE82EAB61B6B8735312B09BC4EE32:ip_addr=0:0:0:0:0:0:0:1:update_eperson:eperson_id=1
+2017-04-03 23:35:07,737 INFO  org.dspace.app.webui.servlet.PasswordServlet @ atsolakid@teiath.gr:session_id=A1FAE82EAB61B6B8735312B09BC4EE32:ip_addr=0:0:0:0:0:0:0:1:login:type=explicit
+2017-04-03 23:35:07,745 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:view_mydspace:
+2017-04-03 23:35:10,097 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-04-03 23:35:11,342 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 23:35:11,342 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 23:35:11,542 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=50C6B948162A0EC8B4DC8C7928DE00CA:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/4
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\38\99\31\38993135871707590018545880831382539806 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-03 23:36:15,291 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/C:/dspace/config/dspace.cfg
+2017-04-03 23:36:15,307 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2017-04-03 23:36:15,307 INFO  org.dspace.core.ConfigurationManager @ Loading: /dspace/config/log4j.properties
+2017-04-03 23:36:18,629 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2017-04-03 23:36:18,782 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:36:18,782 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:36:18,813 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:36:18,866 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:36:18,929 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:36:18,960 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_1" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:828)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,963 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_1_dis" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:855)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,965 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_2" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:828)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,966 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_2_dis" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:855)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,966 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_3" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:828)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,966 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_3_dis" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:855)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,966 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_4" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:828)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,966 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_4_dis" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:855)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,966 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_5" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:828)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,966 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_5_dis" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:855)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,966 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_6" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:828)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,966 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_6_dis" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:855)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,982 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_7" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:828)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,982 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_7_dis" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:855)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,982 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_8" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:828)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,982 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_8_dis" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:855)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,982 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_9" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:828)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,982 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_9_dis" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:855)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,982 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_10" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:828)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,982 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_10_dis" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:855)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,982 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_item" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.dropItemTables(IndexBrowse.java:917)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:894)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,998 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_withdrawn" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.dropItemTables(IndexBrowse.java:917)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:895)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:18,998 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL query exec Error - 
+org.postgresql.util.PSQLException: ERROR: relation "bi_private" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.query(DatabaseManager.java:295)
+	at org.dspace.browse.BrowseCreateDAOPostgres.testTableExistence(BrowseCreateDAOPostgres.java:959)
+	at org.dspace.browse.SolrBrowseCreateDAO.testTableExistence(SolrBrowseCreateDAO.java:502)
+	at org.dspace.browse.IndexBrowse.dropItemTables(IndexBrowse.java:917)
+	at org.dspace.browse.IndexBrowse.clearDatabase(IndexBrowse.java:896)
+	at org.dspace.browse.IndexBrowse.initBrowse(IndexBrowse.java:1067)
+	at org.dspace.browse.IndexBrowse.main(IndexBrowse.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.dspace.app.launcher.ScriptLauncher.runOneCommand(ScriptLauncher.java:226)
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:78)
+2017-04-03 23:36:19,067 WARN  org.dspace.storage.rdbms.DatabaseManager @ Already closed.
+java.sql.SQLException: Already closed.
+	at org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:114)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.close(PoolingDataSource.java:191)
+	at org.dspace.storage.rdbms.DatabaseManager.freeConnection(DatabaseManager.java:673)
+	at org.dspace.core.Context.abort(Context.java:510)
+	at org.dspace.core.Context.finalize(Context.java:676)
+	at java.lang.System$2.invokeFinalize(Unknown Source)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+2017-04-03 23:36:29,140 INFO  org.dspace.browse.BrowseEngine @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-04-03 23:36:29,147 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-04-03 23:36:29,262 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 23:36:29,262 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 23:36:29,463 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=50C6B948162A0EC8B4DC8C7928DE00CA:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/4
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\38\99\31\38993135871707590018545880831382539806 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-03 23:36:34,930 INFO  org.dspace.app.webui.servlet.HandleServlet @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=4
+2017-04-03 23:36:34,936 INFO  org.dspace.browse.BrowseEngine @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-04-03 23:36:34,949 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@279: 3
+2017-04-03 23:36:34,975 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=4
+2017-04-03 23:36:38,451 INFO  org.dspace.browse.BrowseEngine @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:browse_mini:
+2017-04-03 23:36:38,456 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-04-03 23:36:38,500 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 23:36:38,500 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=4
+2017-04-03 23:36:38,723 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=50C6B948162A0EC8B4DC8C7928DE00CA:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/4
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\38\99\31\38993135871707590018545880831382539806 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-03 23:36:41,522 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2017-04-03 23:36:41,563 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ atsolakid@teiath.gr:session_id=50C6B948162A0EC8B4DC8C7928DE00CA:ip_addr=0:0:0:0:0:0:0:1:search:scope=null,query="null",results=(0,0,0)
+2017-04-03 23:36:52,725 INFO  org.dspace.app.webui.servlet.admin.MetadataSchemaRegistryServlet @ Showing Schemas
+2017-04-03 23:55:39,661 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:55:39,665 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:55:39,712 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:55:39,761 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:55:39,860 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:55:51,067 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:55:51,200 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:56:00,674 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:56:00,676 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:56:00,724 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:56:00,771 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:56:00,851 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:56:12,038 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:56:12,041 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:56:12,105 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:56:12,164 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:56:12,270 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:56:55,780 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-04-03 23:56:55,783 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-04-03 23:56:55,841 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-04-03 23:56:55,887 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-04-03 23:56:55,990 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-04-03 23:56:58,832 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2017-04-03 23:56:59,011 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2017-04-03 23:56:59,012 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2017-04-03 23:56:59,012 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2017-04-03 23:56:59,012 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2017-04-03 23:56:59,012 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2017-04-03 23:56:59,012 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2017-04-03 23:56:59,012 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2017-04-03 23:56:59,012 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2017-04-03 23:56:59,013 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2017-04-03 23:57:00,489 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds

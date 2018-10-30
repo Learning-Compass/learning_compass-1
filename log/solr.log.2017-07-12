@@ -1,0 +1,1051 @@
+2017-07-12 07:25:54,792 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/18&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=4 
+2017-07-12 07:25:54,809 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@33750995[search] realtime
+2017-07-12 07:25:54,810 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/18" (-1572689469563207680)} 0 5
+2017-07-12 07:25:54,845 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-62 (1572689469581033472)]} 0 25
+2017-07-12 07:26:04,815 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 07:26:04,955 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b2,generation=398}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b3,generation=399}
+2017-07-12 07:26:04,955 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 399
+2017-07-12 07:26:04,955 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@60f142[search] main
+2017-07-12 07:26:04,955 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@60f142[search] main{StandardDirectoryReader(segments_az:3937:nrt _ti(4.10.2):C159/5:delGen=5 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1)}
+2017-07-12 07:26:04,955 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 07:26:04,955 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 07:26:04,971 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 07:26:04,971 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@60f142[search] main{StandardDirectoryReader(segments_az:3937:nrt _ti(4.10.2):C159/5:delGen=5 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1)}
+2017-07-12 07:31:46,696 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=8 
+2017-07-12 07:31:46,832 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=23 
+2017-07-12 07:31:46,838 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=12 
+2017-07-12 07:31:46,846 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=15 
+2017-07-12 07:31:46,860 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=15 
+2017-07-12 07:31:46,864 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=20 
+2017-07-12 07:31:46,892 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:31:46,922 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:31:48,526 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:31:48,753 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 07:31:48,862 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:32:04,199 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 07:32:27,760 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:32:54,768 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 07:33:39,495 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:33:55,795 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:34:15,140 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:36:47,201 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=3 
+2017-07-12 07:37:25,700 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:10,928 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:15,701 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&sort=bi_sort_3_sort+desc&rows=0&wt=javabin&version=2} hits=132 status=0 QTime=5 
+2017-07-12 07:38:15,711 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=3 
+2017-07-12 07:38:15,725 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=2 
+2017-07-12 07:38:15,739 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=rights_filter,memSize=5075,tindexSize=131,time=2,phase1=2,nTerms=12,bigTerms=0,termInstances=26,uses=0}
+2017-07-12 07:38:15,741 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=publisher_filter,memSize=5472,tindexSize=61,time=1,phase1=1,nTerms=8,bigTerms=3,termInstances=10,uses=0}
+2017-07-12 07:38:15,743 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=level_filter,memSize=5105,tindexSize=161,time=1,phase1=0,nTerms=6,bigTerms=0,termInstances=12,uses=0}
+2017-07-12 07:38:15,744 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=cost_filter,memSize=4995,tindexSize=51,time=0,phase1=0,nTerms=4,bigTerms=0,termInstances=6,uses=0}
+2017-07-12 07:38:15,745 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=languageOfInstruction_filter,memSize=4993,tindexSize=49,time=0,phase1=0,nTerms=4,bigTerms=0,termInstances=9,uses=0}
+2017-07-12 07:38:15,747 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=location_filter,memSize=5001,tindexSize=57,time=0,phase1=0,nTerms=5,bigTerms=0,termInstances=8,uses=0}
+2017-07-12 07:38:15,748 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=start_filter,memSize=5009,tindexSize=65,time=0,phase1=0,nTerms=6,bigTerms=0,termInstances=7,uses=0}
+2017-07-12 07:38:15,750 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=subject_filter,memSize=5253,tindexSize=57,time=1,phase1=1,nTerms=16,bigTerms=2,termInstances=34,uses=0}
+2017-07-12 07:38:15,753 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=credit_filter,memSize=4993,tindexSize=49,time=1,phase1=1,nTerms=6,bigTerms=0,termInstances=13,uses=0}
+2017-07-12 07:38:15,754 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=duration_filter,memSize=5009,tindexSize=65,time=0,phase1=0,nTerms=4,bigTerms=0,termInstances=4,uses=0}
+2017-07-12 07:38:15,755 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=engagement_filter,memSize=5007,tindexSize=63,time=0,phase1=0,nTerms=4,bigTerms=0,termInstances=15,uses=0}
+2017-07-12 07:38:15,756 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=places_filter,memSize=4993,tindexSize=49,time=0,phase1=0,nTerms=5,bigTerms=0,termInstances=6,uses=0}
+2017-07-12 07:38:15,757 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.start_filter.facet.sort=count&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&f.places_filter.facet.offset=0&f.publisher_filter.facet.sort=count&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&f.location_filter.facet.offset=0&sort=score+desc&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.places_filter.facet.limit=11&f.duration_filter.facet.offset=0&f.languageOfInstruction_filter.facet.offset=0&f.start_filter.facet.offset=0&f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&facet.query=dateIssued.year:[2000+TO+2017]&facet.query=dateIssued.year:[1900+TO+1999]&facet.query=dateIssued.year:[1800+TO+1899]&facet.query=dateIssued.year:[1700+TO+1799]&facet.query=dateIssued.year:[1650+TO+1699]&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&start=0&rows=0&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&q=*:*&f.publisher_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=159 status=0 QTime=24 
+2017-07-12 07:38:16,031 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 07:38:16,059 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:16,121 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 07:38:16,151 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:16,174 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:16,196 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:16,240 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:16,240 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:16,266 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:18,734 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=1 
+2017-07-12 07:38:18,743 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=0 
+2017-07-12 07:38:18,796 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.start_filter.facet.sort=count&spellcheck.q=*:*&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&f.places_filter.facet.offset=0&f.publisher_filter.facet.sort=count&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&f.location_filter.facet.offset=0&sort=score+desc&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.places_filter.facet.limit=11&f.duration_filter.facet.offset=0&spellcheck=true&f.languageOfInstruction_filter.facet.offset=0&f.start_filter.facet.offset=0&spellcheck.collate=true&f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&facet.query=dateIssued.year:[2000+TO+2017]&facet.query=dateIssued.year:[1900+TO+1999]&facet.query=dateIssued.year:[1800+TO+1899]&facet.query=dateIssued.year:[1700+TO+1799]&facet.query=dateIssued.year:[1650+TO+1699]&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&start=0&rows=10&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&q=*:*&f.publisher_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=159 status=0 QTime=33 
+2017-07-12 07:38:19,579 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 07:38:19,672 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 07:38:19,700 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:19,740 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=13 
+2017-07-12 07:38:19,743 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=3 
+2017-07-12 07:38:19,756 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=3 
+2017-07-12 07:38:19,767 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 07:38:19,769 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:19,816 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 07:38:22,195 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 07:38:22,362 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:38:22,519 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 07:46:46,705 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 07:46:46,862 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8h,generation=305}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8i,generation=306}
+2017-07-12 07:46:46,862 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 306
+2017-07-12 07:46:46,862 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@1131c863[statistics] main
+2017-07-12 07:46:46,877 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@1131c863[statistics] main{StandardDirectoryReader(segments_8e:1131:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23)}
+2017-07-12 07:46:46,877 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 07:46:46,877 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 07:46:46,877 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@1131c863[statistics] main{StandardDirectoryReader(segments_8e:1131:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23)}
+2017-07-12 10:38:20,475 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/49&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=8 
+2017-07-12 10:38:20,494 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@57ad70c3[search] realtime
+2017-07-12 10:38:20,496 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/49" (-1572701576086159360)} 0 13
+2017-07-12 10:38:21,361 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/49&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=0 
+2017-07-12 10:38:22,152 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-93 (1572701576123908096)]} 0 1635
+2017-07-12 10:38:22,188 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@6aec74e3[search] realtime
+2017-07-12 10:38:22,189 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/49" (-1572701577833086976)} 0 825
+2017-07-12 10:38:22,238 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-93 (1572701577887612928)]} 0 39
+2017-07-12 10:38:30,498 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 10:38:30,607 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b3,generation=399}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b4,generation=400}
+2017-07-12 10:38:30,607 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 400
+2017-07-12 10:38:30,623 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@bd75d14[search] main
+2017-07-12 10:38:30,623 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@bd75d14[search] main{StandardDirectoryReader(segments_az:3944:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11u(4.10.2):C1)}
+2017-07-12 10:38:30,623 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 10:38:30,623 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 10:38:30,623 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 10:38:30,623 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@bd75d14[search] main{StandardDirectoryReader(segments_az:3944:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11u(4.10.2):C1)}
+2017-07-12 10:39:45,210 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/49&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=1 
+2017-07-12 10:39:45,217 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@589c180e[search] realtime
+2017-07-12 10:39:45,217 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/49" (-1572701664929906688)} 0 4
+2017-07-12 10:39:45,250 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-93 (1572701664944586752)]} 0 26
+2017-07-12 10:39:55,219 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 10:39:55,389 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b4,generation=400}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b5,generation=401}
+2017-07-12 10:39:55,389 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 401
+2017-07-12 10:39:55,405 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@7c92c32f[search] main
+2017-07-12 10:39:55,405 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@7c92c32f[search] main{StandardDirectoryReader(segments_az:3948:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11v(4.10.2):C1)}
+2017-07-12 10:39:55,405 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 10:39:55,405 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 10:39:55,405 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 10:39:55,405 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@7c92c32f[search] main{StandardDirectoryReader(segments_az:3948:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11v(4.10.2):C1)}
+2017-07-12 10:41:15,146 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/49&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=1 
+2017-07-12 10:41:15,153 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@4688d50c[search] realtime
+2017-07-12 10:41:15,154 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/49" (-1572701759234637824)} 0 5
+2017-07-12 10:41:15,202 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-93 (1572701759250366464)]} 0 40
+2017-07-12 10:41:25,160 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 10:41:25,285 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b5,generation=401}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b6,generation=402}
+2017-07-12 10:41:25,285 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 402
+2017-07-12 10:41:25,285 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@3f7ad723[search] main
+2017-07-12 10:41:25,285 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@3f7ad723[search] main{StandardDirectoryReader(segments_az:3952:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11w(4.10.2):C1)}
+2017-07-12 10:41:25,285 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 10:41:25,285 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 10:41:25,300 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@3f7ad723[search] main{StandardDirectoryReader(segments_az:3952:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11w(4.10.2):C1)}
+2017-07-12 10:41:25,300 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 10:42:00,749 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/49&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=1 
+2017-07-12 10:42:00,755 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@7c1e15f5[search] realtime
+2017-07-12 10:42:00,756 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/49" (-1572701807052849152)} 0 4
+2017-07-12 10:42:00,785 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-93 (1572701807067529216)]} 0 22
+2017-07-12 10:42:10,758 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 10:42:10,836 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b6,generation=402}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b7,generation=403}
+2017-07-12 10:42:10,836 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 403
+2017-07-12 10:42:10,852 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@43f168e6[search] main
+2017-07-12 10:42:10,852 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@43f168e6[search] main{StandardDirectoryReader(segments_az:3956:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11x(4.10.2):C1)}
+2017-07-12 10:42:10,852 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 10:42:10,852 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 10:42:10,852 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 10:42:10,852 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@43f168e6[search] main{StandardDirectoryReader(segments_az:3956:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11x(4.10.2):C1)}
+2017-07-12 10:42:37,230 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/49&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=1 
+2017-07-12 10:42:37,236 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@179da7f0[search] realtime
+2017-07-12 10:42:37,237 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/49" (-1572701845305950208)} 0 4
+2017-07-12 10:42:37,268 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-93 (1572701845318533120)]} 0 24
+2017-07-12 10:42:47,238 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 10:42:47,332 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b7,generation=403}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b8,generation=404}
+2017-07-12 10:42:47,332 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 404
+2017-07-12 10:42:47,332 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@55f8fb50[search] main
+2017-07-12 10:42:47,332 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@55f8fb50[search] main{StandardDirectoryReader(segments_az:3960:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11y(4.10.2):C1)}
+2017-07-12 10:42:47,332 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 10:42:47,332 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 10:42:47,347 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 10:42:47,347 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@55f8fb50[search] main{StandardDirectoryReader(segments_az:3960:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11y(4.10.2):C1)}
+2017-07-12 10:43:07,199 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/49&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=1 
+2017-07-12 10:43:07,206 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@f4e4ef4[search] realtime
+2017-07-12 10:43:07,207 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/49" (-1572701876731772928)} 0 4
+2017-07-12 10:43:07,228 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-93 (1572701876743307264)]} 0 16
+2017-07-12 10:43:17,221 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 10:43:17,299 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b8,generation=404}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b9,generation=405}
+2017-07-12 10:43:17,299 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 405
+2017-07-12 10:43:17,299 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@1a942890[search] main
+2017-07-12 10:43:17,299 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@1a942890[search] main{StandardDirectoryReader(segments_az:3964:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11z(4.10.2):C1)}
+2017-07-12 10:43:17,299 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 10:43:17,299 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 10:43:17,314 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 10:43:17,314 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@1a942890[search] main{StandardDirectoryReader(segments_az:3964:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _11z(4.10.2):C1)}
+2017-07-12 10:43:46,866 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=5 
+2017-07-12 10:43:47,901 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 10:43:50,646 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:43:56,265 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=4 
+2017-07-12 10:43:56,272 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=2 
+2017-07-12 10:43:56,292 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=rights_filter,memSize=5079,tindexSize=131,time=0,phase1=0,nTerms=12,bigTerms=0,termInstances=26,uses=0}
+2017-07-12 10:43:56,294 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=publisher_filter,memSize=5476,tindexSize=61,time=1,phase1=1,nTerms=8,bigTerms=3,termInstances=10,uses=0}
+2017-07-12 10:43:56,295 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=level_filter,memSize=5109,tindexSize=161,time=0,phase1=0,nTerms=6,bigTerms=0,termInstances=12,uses=0}
+2017-07-12 10:43:56,295 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=cost_filter,memSize=4999,tindexSize=51,time=0,phase1=0,nTerms=4,bigTerms=0,termInstances=6,uses=0}
+2017-07-12 10:43:56,296 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=languageOfInstruction_filter,memSize=4997,tindexSize=49,time=0,phase1=0,nTerms=4,bigTerms=0,termInstances=9,uses=0}
+2017-07-12 10:43:56,297 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=location_filter,memSize=5005,tindexSize=57,time=0,phase1=0,nTerms=5,bigTerms=0,termInstances=8,uses=0}
+2017-07-12 10:43:56,298 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=start_filter,memSize=5013,tindexSize=65,time=1,phase1=1,nTerms=6,bigTerms=0,termInstances=7,uses=0}
+2017-07-12 10:43:56,299 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=subject_filter,memSize=5257,tindexSize=57,time=0,phase1=0,nTerms=16,bigTerms=2,termInstances=34,uses=0}
+2017-07-12 10:43:56,300 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=credit_filter,memSize=4997,tindexSize=49,time=0,phase1=0,nTerms=6,bigTerms=0,termInstances=13,uses=0}
+2017-07-12 10:43:56,301 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=duration_filter,memSize=5013,tindexSize=65,time=1,phase1=1,nTerms=4,bigTerms=0,termInstances=4,uses=0}
+2017-07-12 10:43:56,301 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=engagement_filter,memSize=5011,tindexSize=63,time=0,phase1=0,nTerms=4,bigTerms=0,termInstances=15,uses=0}
+2017-07-12 10:43:56,302 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=places_filter,memSize=4997,tindexSize=49,time=0,phase1=0,nTerms=5,bigTerms=0,termInstances=6,uses=0}
+2017-07-12 10:43:56,303 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.start_filter.facet.sort=count&spellcheck.q=*:*&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&f.places_filter.facet.offset=0&f.publisher_filter.facet.sort=count&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&f.location_filter.facet.offset=0&sort=score+desc&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.places_filter.facet.limit=11&f.duration_filter.facet.offset=0&spellcheck=true&f.languageOfInstruction_filter.facet.offset=0&f.start_filter.facet.offset=0&spellcheck.collate=true&f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&facet.query=dateIssued.year:[2000+TO+2017]&facet.query=dateIssued.year:[1900+TO+1999]&facet.query=dateIssued.year:[1800+TO+1899]&facet.query=dateIssued.year:[1700+TO+1799]&facet.query=dateIssued.year:[1650+TO+1699]&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&start=0&rows=10&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&q=*:*&f.publisher_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=159 status=0 QTime=18 
+2017-07-12 10:43:57,329 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:43:57,382 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:43:57,404 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:43:57,413 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:43:57,415 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:43:57,433 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:43:58,033 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:44:01,157 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 10:44:01,880 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:44:19,945 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&sort=bi_sort_3_sort+desc&rows=0&wt=javabin&version=2} hits=132 status=0 QTime=3 
+2017-07-12 10:44:19,950 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=1 
+2017-07-12 10:44:19,954 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=0 
+2017-07-12 10:44:19,963 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.start_filter.facet.sort=count&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&f.places_filter.facet.offset=0&f.publisher_filter.facet.sort=count&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&f.location_filter.facet.offset=0&sort=score+desc&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.places_filter.facet.limit=11&f.duration_filter.facet.offset=0&f.languageOfInstruction_filter.facet.offset=0&f.start_filter.facet.offset=0&f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&facet.query=dateIssued.year:[2000+TO+2017]&facet.query=dateIssued.year:[1900+TO+1999]&facet.query=dateIssued.year:[1800+TO+1899]&facet.query=dateIssued.year:[1700+TO+1799]&facet.query=dateIssued.year:[1650+TO+1699]&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&start=0&rows=0&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&q=*:*&f.publisher_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=159 status=0 QTime=3 
+2017-07-12 10:44:20,936 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:44:21,049 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 10:44:21,062 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=3 
+2017-07-12 10:44:21,064 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:44:21,065 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:44:21,076 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=22 
+2017-07-12 10:44:24,437 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=location.comm:1&fq=search.resourcetype:2&sort=bi_sort_3_sort+desc&rows=0&wt=javabin&version=2} hits=8 status=0 QTime=2 
+2017-07-12 10:44:24,451 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&fq=location:m1&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=0 status=0 QTime=2 
+2017-07-12 10:44:24,455 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&fq=location:m1&fq=location:m1&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=0 status=0 QTime=1 
+2017-07-12 10:44:24,463 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&f.start_filter.facet.sort=count&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&fq=location:m1&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&facet.offset=0&f.places_filter.facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.publisher_filter.facet.sort=count&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&start=0&f.location_filter.facet.offset=0&sort=score+desc&rows=0&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&f.places_filter.facet.limit=11&q=*:*&f.duration_filter.facet.offset=0&f.publisher_filter.facet.offset=0&f.languageOfInstruction_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.start_filter.facet.offset=0&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=8 status=0 QTime=3 
+2017-07-12 10:44:25,077 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:44:25,991 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:44:30,238 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 10:44:30,992 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 10:58:46,875 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 10:58:46,969 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8i,generation=306}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8j,generation=307}
+2017-07-12 10:58:46,969 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 307
+2017-07-12 10:58:46,969 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@3cf614c2[statistics] main
+2017-07-12 10:58:46,969 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@3cf614c2[statistics] main{StandardDirectoryReader(segments_8e:1133:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23 _fp(4.10.2):C22)}
+2017-07-12 10:58:46,969 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 10:58:46,969 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@3cf614c2[statistics] main{StandardDirectoryReader(segments_8e:1133:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23 _fp(4.10.2):C22)}
+2017-07-12 10:58:46,969 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 11:58:43,754 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/49&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=12 
+2017-07-12 11:58:43,778 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@20813bbb[search] realtime
+2017-07-12 11:58:43,781 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/49" (-1572706633659711488)} 0 20
+2017-07-12 11:58:43,854 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-93 (1572706633703751680)]} 0 52
+2017-07-12 11:58:53,781 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 11:58:53,962 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b9,generation=405}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_ba,generation=406}
+2017-07-12 11:58:53,962 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 406
+2017-07-12 11:58:53,975 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@43a508a9[search] main
+2017-07-12 11:58:53,977 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@43a508a9[search] main{StandardDirectoryReader(segments_az:3968:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1)}
+2017-07-12 11:58:53,977 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 11:58:53,978 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 11:58:53,980 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@43a508a9[search] main{StandardDirectoryReader(segments_az:3968:nrt _ti(4.10.2):C159/6:delGen=6 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1)}
+2017-07-12 11:58:53,983 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 12:07:20,854 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&sort=bi_sort_3_sort+desc&rows=0&wt=javabin&version=2} hits=132 status=0 QTime=6 
+2017-07-12 12:07:20,864 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=3 
+2017-07-12 12:07:20,872 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=2 
+2017-07-12 12:07:20,883 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=rights_filter,memSize=5079,tindexSize=131,time=0,phase1=0,nTerms=12,bigTerms=0,termInstances=26,uses=0}
+2017-07-12 12:07:20,887 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=publisher_filter,memSize=5476,tindexSize=61,time=1,phase1=1,nTerms=8,bigTerms=3,termInstances=10,uses=0}
+2017-07-12 12:07:20,888 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=level_filter,memSize=5109,tindexSize=161,time=0,phase1=0,nTerms=6,bigTerms=0,termInstances=12,uses=0}
+2017-07-12 12:07:20,890 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=cost_filter,memSize=4999,tindexSize=51,time=1,phase1=1,nTerms=4,bigTerms=0,termInstances=6,uses=0}
+2017-07-12 12:07:20,891 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=languageOfInstruction_filter,memSize=4997,tindexSize=49,time=1,phase1=1,nTerms=4,bigTerms=0,termInstances=9,uses=0}
+2017-07-12 12:07:20,891 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=location_filter,memSize=5005,tindexSize=57,time=0,phase1=0,nTerms=5,bigTerms=0,termInstances=8,uses=0}
+2017-07-12 12:07:20,892 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=start_filter,memSize=5013,tindexSize=65,time=0,phase1=0,nTerms=6,bigTerms=0,termInstances=7,uses=0}
+2017-07-12 12:07:20,893 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=subject_filter,memSize=5257,tindexSize=57,time=0,phase1=0,nTerms=16,bigTerms=2,termInstances=34,uses=0}
+2017-07-12 12:07:20,894 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=credit_filter,memSize=4997,tindexSize=49,time=0,phase1=0,nTerms=6,bigTerms=0,termInstances=13,uses=0}
+2017-07-12 12:07:20,895 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=duration_filter,memSize=5013,tindexSize=65,time=1,phase1=1,nTerms=4,bigTerms=0,termInstances=4,uses=0}
+2017-07-12 12:07:20,895 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=engagement_filter,memSize=5011,tindexSize=63,time=0,phase1=0,nTerms=4,bigTerms=0,termInstances=15,uses=0}
+2017-07-12 12:07:20,896 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=places_filter,memSize=4997,tindexSize=49,time=0,phase1=0,nTerms=5,bigTerms=0,termInstances=6,uses=0}
+2017-07-12 12:07:20,896 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.start_filter.facet.sort=count&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&f.places_filter.facet.offset=0&f.publisher_filter.facet.sort=count&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&f.location_filter.facet.offset=0&sort=score+desc&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.places_filter.facet.limit=11&f.duration_filter.facet.offset=0&f.languageOfInstruction_filter.facet.offset=0&f.start_filter.facet.offset=0&f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&facet.query=dateIssued.year:[2000+TO+2017]&facet.query=dateIssued.year:[1900+TO+1999]&facet.query=dateIssued.year:[1800+TO+1899]&facet.query=dateIssued.year:[1700+TO+1799]&facet.query=dateIssued.year:[1650+TO+1699]&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&start=0&rows=0&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&q=*:*&f.publisher_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=159 status=0 QTime=18 
+2017-07-12 12:07:20,936 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&sort=bi_sort_3_sort+desc&rows=0&wt=javabin&version=2} hits=132 status=0 QTime=1 
+2017-07-12 12:07:20,942 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=0 
+2017-07-12 12:07:20,947 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=1 
+2017-07-12 12:07:20,958 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.start_filter.facet.sort=count&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&f.places_filter.facet.offset=0&f.publisher_filter.facet.sort=count&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&f.location_filter.facet.offset=0&sort=score+desc&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.places_filter.facet.limit=11&f.duration_filter.facet.offset=0&f.languageOfInstruction_filter.facet.offset=0&f.start_filter.facet.offset=0&f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&facet.query=dateIssued.year:[2000+TO+2017]&facet.query=dateIssued.year:[1900+TO+1999]&facet.query=dateIssued.year:[1800+TO+1899]&facet.query=dateIssued.year:[1700+TO+1799]&facet.query=dateIssued.year:[1650+TO+1699]&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&start=0&rows=0&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&q=*:*&f.publisher_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=159 status=0 QTime=6 
+2017-07-12 12:07:22,339 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=5 
+2017-07-12 12:07:22,350 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=3 
+2017-07-12 12:07:22,399 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=0 
+2017-07-12 12:07:22,409 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=1 
+2017-07-12 12:07:22,425 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.start_filter.facet.sort=count&spellcheck.q=*:*&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&f.places_filter.facet.offset=0&f.publisher_filter.facet.sort=count&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&f.location_filter.facet.offset=0&sort=score+desc&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.places_filter.facet.limit=11&f.duration_filter.facet.offset=0&spellcheck=true&f.languageOfInstruction_filter.facet.offset=0&f.start_filter.facet.offset=0&spellcheck.collate=true&f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&facet.query=dateIssued.year:[2000+TO+2017]&facet.query=dateIssued.year:[1900+TO+1999]&facet.query=dateIssued.year:[1800+TO+1899]&facet.query=dateIssued.year:[1700+TO+1799]&facet.query=dateIssued.year:[1650+TO+1699]&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&start=0&rows=10&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&q=*:*&f.publisher_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=159 status=0 QTime=4 
+2017-07-12 12:07:22,553 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 12:07:22,569 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 12:07:22,789 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=3 
+2017-07-12 12:07:22,870 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 12:07:23,616 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=5 
+2017-07-12 12:07:23,727 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=3 
+2017-07-12 12:07:23,816 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 12:07:23,945 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 12:07:24,043 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 12:07:24,192 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=4 
+2017-07-12 12:07:24,474 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=5 
+2017-07-12 12:07:26,072 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&sort=bi_sort_3_sort+desc&rows=0&wt=javabin&version=2} hits=132 status=0 QTime=1 
+2017-07-12 12:07:26,078 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=0 
+2017-07-12 12:07:26,081 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=1 
+2017-07-12 12:07:26,090 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.start_filter.facet.sort=count&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&f.places_filter.facet.offset=0&f.publisher_filter.facet.sort=count&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&f.location_filter.facet.offset=0&sort=score+desc&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.places_filter.facet.limit=11&f.duration_filter.facet.offset=0&f.languageOfInstruction_filter.facet.offset=0&f.start_filter.facet.offset=0&f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&facet.query=dateIssued.year:[2000+TO+2017]&facet.query=dateIssued.year:[1900+TO+1999]&facet.query=dateIssued.year:[1800+TO+1899]&facet.query=dateIssued.year:[1700+TO+1799]&facet.query=dateIssued.year:[1650+TO+1699]&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&start=0&rows=0&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&q=*:*&f.publisher_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=159 status=0 QTime=4 
+2017-07-12 12:07:26,981 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 12:07:27,057 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 12:07:27,230 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=3 
+2017-07-12 12:07:27,294 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 12:07:27,530 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 12:07:27,627 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 12:07:28,274 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=location.comm:1&fq=search.resourcetype:2&sort=bi_sort_3_sort+desc&rows=0&wt=javabin&version=2} hits=8 status=0 QTime=1 
+2017-07-12 12:07:28,279 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&fq=location:m1&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=0 status=0 QTime=2 
+2017-07-12 12:07:28,285 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&fq=location:m1&fq=location:m1&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=0 status=0 QTime=2 
+2017-07-12 12:07:28,292 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&f.start_filter.facet.sort=count&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&fq=location:m1&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&facet.offset=0&f.places_filter.facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.publisher_filter.facet.sort=count&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&start=0&f.location_filter.facet.offset=0&sort=score+desc&rows=0&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&f.places_filter.facet.limit=11&q=*:*&f.duration_filter.facet.offset=0&f.publisher_filter.facet.offset=0&f.languageOfInstruction_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.start_filter.facet.offset=0&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=8 status=0 QTime=3 
+2017-07-12 12:07:28,907 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 12:07:29,945 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 12:07:36,416 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=3 
+2017-07-12 12:07:37,487 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=4 
+2017-07-12 12:22:22,348 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 12:22:22,426 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8j,generation=307}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8k,generation=308}
+2017-07-12 12:22:22,426 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 308
+2017-07-12 12:22:22,426 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@439dd751[statistics] main
+2017-07-12 12:22:22,426 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@439dd751[statistics] main{StandardDirectoryReader(segments_8e:1135:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23 _fp(4.10.2):C22 _fq(4.10.2):C23)}
+2017-07-12 12:22:22,426 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 12:22:22,426 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@439dd751[statistics] main{StandardDirectoryReader(segments_8e:1135:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23 _fp(4.10.2):C22 _fq(4.10.2):C23)}
+2017-07-12 12:22:22,442 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 12:24:33,040 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=9 
+2017-07-12 12:39:33,042 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 12:39:33,130 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8k,generation=308}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8l,generation=309}
+2017-07-12 12:39:33,130 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 309
+2017-07-12 12:39:33,136 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@32ed6e6d[statistics] main
+2017-07-12 12:39:33,137 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@32ed6e6d[statistics] main{StandardDirectoryReader(segments_8e:1137:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23 _fp(4.10.2):C22 _fq(4.10.2):C23 _fr(4.10.2):C1)}
+2017-07-12 12:39:33,137 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 12:39:33,137 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 12:39:33,138 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@32ed6e6d[statistics] main{StandardDirectoryReader(segments_8e:1137:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23 _fp(4.10.2):C22 _fq(4.10.2):C23 _fr(4.10.2):C1)}
+2017-07-12 12:52:13,182 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=10 
+2017-07-12 12:53:54,527 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=6 
+2017-07-12 12:53:58,475 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=4 
+2017-07-12 12:53:59,408 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 13:07:13,183 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 13:07:13,274 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8l,generation=309}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8m,generation=310}
+2017-07-12 13:07:13,274 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 310
+2017-07-12 13:07:13,280 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@47c4865a[statistics] main
+2017-07-12 13:07:13,281 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@47c4865a[statistics] main{StandardDirectoryReader(segments_8e:1139:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23 _fp(4.10.2):C22 _fq(4.10.2):C23 _fr(4.10.2):C1 _fs(4.10.2):C4)}
+2017-07-12 13:07:13,281 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 13:07:13,282 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@47c4865a[statistics] main{StandardDirectoryReader(segments_8e:1139:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23 _fp(4.10.2):C22 _fq(4.10.2):C23 _fr(4.10.2):C1 _fs(4.10.2):C4)}
+2017-07-12 13:07:13,287 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 13:13:47,460 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=4 
+2017-07-12 13:24:50,697 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 13:24:51,890 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 13:28:47,468 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 13:28:47,639 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8m,generation=310}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8n,generation=311}
+2017-07-12 13:28:47,639 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 311
+2017-07-12 13:28:47,655 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@1fa66540[statistics] main
+2017-07-12 13:28:47,655 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 13:28:47,655 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@1fa66540[statistics] main{StandardDirectoryReader(segments_8e:1142:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23 _fp(4.10.2):C22 _fq(4.10.2):C23 _fr(4.10.2):C1 _fs(4.10.2):C4 _ft(4.10.2):C3)}
+2017-07-12 13:28:47,655 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 13:28:47,655 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@1fa66540[statistics] main{StandardDirectoryReader(segments_8e:1142:nrt _fk(4.10.2):C5613 _fl(4.10.2):C4 _fm(4.10.2):C6 _fn(4.10.2):C18 _fo(4.10.2):C23 _fp(4.10.2):C22 _fq(4.10.2):C23 _fr(4.10.2):C1 _fs(4.10.2):C4 _ft(4.10.2):C3)}
+2017-07-12 13:57:54,973 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=6 
+2017-07-12 13:57:54,988 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@3acaa5e8[search] realtime
+2017-07-12 13:57:54,989 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572714132256325632)} 0 10
+2017-07-12 13:57:55,014 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572714132277297152)]} 0 13
+2017-07-12 13:58:05,002 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 13:58:05,143 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_ba,generation=406}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bb,generation=407}
+2017-07-12 13:58:05,143 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 407
+2017-07-12 13:58:05,143 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@4613c7d1[search] main
+2017-07-12 13:58:05,143 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@4613c7d1[search] main{StandardDirectoryReader(segments_az:3971:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _121(4.10.2):C1)}
+2017-07-12 13:58:05,143 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 13:58:05,143 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 13:58:05,158 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@4613c7d1[search] main{StandardDirectoryReader(segments_az:3971:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _121(4.10.2):C1)}
+2017-07-12 13:58:05,158 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:00:53,309 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=8 
+2017-07-12 14:00:53,318 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@381b00e3[search] realtime
+2017-07-12 14:00:53,319 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572714319249932288)} 0 7
+2017-07-12 14:00:53,346 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572714319264612352)]} 0 20
+2017-07-12 14:01:03,328 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:01:03,469 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bb,generation=407}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bc,generation=408}
+2017-07-12 14:01:03,469 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 408
+2017-07-12 14:01:03,469 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@76612c90[search] main
+2017-07-12 14:01:03,469 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@76612c90[search] main{StandardDirectoryReader(segments_az:3975:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _122(4.10.2):C1)}
+2017-07-12 14:01:03,469 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:01:03,469 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:01:03,469 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@76612c90[search] main{StandardDirectoryReader(segments_az:3975:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _122(4.10.2):C1)}
+2017-07-12 14:01:03,485 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:05:50,137 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=3 
+2017-07-12 14:05:50,152 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@60ca629[search] realtime
+2017-07-12 14:05:50,153 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572714630500843520)} 0 8
+2017-07-12 14:05:50,170 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572714630517620736)]} 0 10
+2017-07-12 14:06:00,162 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:06:00,287 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bc,generation=408}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bd,generation=409}
+2017-07-12 14:06:00,287 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 409
+2017-07-12 14:06:00,287 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@6fcc60a2[search] main
+2017-07-12 14:06:00,287 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@6fcc60a2[search] main{StandardDirectoryReader(segments_az:3979:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _123(4.10.2):C1)}
+2017-07-12 14:06:00,302 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:06:00,302 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:06:00,302 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@6fcc60a2[search] main{StandardDirectoryReader(segments_az:3979:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _123(4.10.2):C1)}
+2017-07-12 14:06:00,302 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:08:44,037 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=2 
+2017-07-12 14:08:44,054 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@77ec8a2c[search] realtime
+2017-07-12 14:08:44,055 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572714812845064192)} 0 14
+2017-07-12 14:08:44,081 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572714812873375744)]} 0 13
+2017-07-12 14:08:54,055 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:08:54,165 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bd,generation=409}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_be,generation=410}
+2017-07-12 14:08:54,165 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 410
+2017-07-12 14:08:54,165 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@2038a603[search] main
+2017-07-12 14:08:54,165 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@2038a603[search] main{StandardDirectoryReader(segments_az:3983:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _124(4.10.2):C1)}
+2017-07-12 14:08:54,165 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:08:54,165 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:08:54,165 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@2038a603[search] main{StandardDirectoryReader(segments_az:3983:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _124(4.10.2):C1)}
+2017-07-12 14:08:54,165 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:10:22,036 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=4 
+2017-07-12 14:10:22,052 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@1fc091fb[search] realtime
+2017-07-12 14:10:22,053 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572714915612852224)} 0 5
+2017-07-12 14:10:22,070 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572714915625435136)]} 0 10
+2017-07-12 14:10:32,059 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:10:32,199 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_be,generation=410}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bf,generation=411}
+2017-07-12 14:10:32,199 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 411
+2017-07-12 14:10:32,199 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@12c192d5[search] main
+2017-07-12 14:10:32,199 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@12c192d5[search] main{StandardDirectoryReader(segments_az:3987:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _125(4.10.2):C1)}
+2017-07-12 14:10:32,199 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:10:32,199 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:10:32,215 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@12c192d5[search] main{StandardDirectoryReader(segments_az:3987:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _125(4.10.2):C1)}
+2017-07-12 14:10:32,215 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:10:45,791 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=1 
+2017-07-12 14:10:45,808 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@58408225[search] realtime
+2017-07-12 14:10:45,809 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572714940513386496)} 0 14
+2017-07-12 14:10:45,826 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572714940534358016)]} 0 10
+2017-07-12 14:10:55,811 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:10:55,963 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bf,generation=411}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bg,generation=412}
+2017-07-12 14:10:55,963 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 412
+2017-07-12 14:10:55,963 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@7c00a53e[search] main
+2017-07-12 14:10:55,963 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@7c00a53e[search] main{StandardDirectoryReader(segments_az:3991:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _126(4.10.2):C1)}
+2017-07-12 14:10:55,963 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:10:55,963 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:10:55,963 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@7c00a53e[search] main{StandardDirectoryReader(segments_az:3991:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _126(4.10.2):C1)}
+2017-07-12 14:10:55,994 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:11:47,542 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=1 
+2017-07-12 14:11:47,557 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@63fef950[search] realtime
+2017-07-12 14:11:47,558 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572715005262954496)} 0 12
+2017-07-12 14:11:47,573 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572715005282877440)]} 0 9
+2017-07-12 14:11:57,571 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:11:57,680 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bg,generation=412}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bh,generation=413}
+2017-07-12 14:11:57,680 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 413
+2017-07-12 14:11:57,680 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@2abe97bc[search] main
+2017-07-12 14:11:57,680 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@2abe97bc[search] main{StandardDirectoryReader(segments_az:3995:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _127(4.10.2):C1)}
+2017-07-12 14:11:57,680 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:11:57,680 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:11:57,680 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@2abe97bc[search] main{StandardDirectoryReader(segments_az:3995:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _127(4.10.2):C1)}
+2017-07-12 14:11:57,696 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:12:16,627 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=2 
+2017-07-12 14:12:16,642 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@2fc50870[search] realtime
+2017-07-12 14:12:16,643 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572715035760787456)} 0 12
+2017-07-12 14:12:16,660 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572715035780710400)]} 0 11
+2017-07-12 14:12:26,649 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:12:26,767 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bh,generation=413}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bi,generation=414}
+2017-07-12 14:12:26,767 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 414
+2017-07-12 14:12:26,767 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@24239427[search] main
+2017-07-12 14:12:26,767 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@24239427[search] main{StandardDirectoryReader(segments_az:3999:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _128(4.10.2):C1)}
+2017-07-12 14:12:26,767 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:12:26,767 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:12:26,767 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@24239427[search] main{StandardDirectoryReader(segments_az:3999:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _128(4.10.2):C1)}
+2017-07-12 14:12:26,782 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:12:34,573 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=2 
+2017-07-12 14:12:34,582 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@5d2dc9eb[search] realtime
+2017-07-12 14:12:34,583 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572715054578532352)} 0 7
+2017-07-12 14:12:34,606 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572715054595309568)]} 0 13
+2017-07-12 14:12:44,593 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:12:44,671 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bi,generation=414}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bj,generation=415}
+2017-07-12 14:12:44,671 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 415
+2017-07-12 14:12:44,671 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@c4228f7[search] main
+2017-07-12 14:12:44,671 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@c4228f7[search] main{StandardDirectoryReader(segments_az:4003:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _129(4.10.2):C1)}
+2017-07-12 14:12:44,671 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:12:44,671 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:12:44,671 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@c4228f7[search] main{StandardDirectoryReader(segments_az:4003:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _129(4.10.2):C1)}
+2017-07-12 14:12:44,687 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:14:45,366 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=4 
+2017-07-12 14:14:45,379 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@845fd[search] realtime
+2017-07-12 14:14:45,380 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572715191724933120)} 0 10
+2017-07-12 14:14:45,407 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572715191754293248)]} 0 11
+2017-07-12 14:14:55,391 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:14:55,516 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bj,generation=415}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bk,generation=416}
+2017-07-12 14:14:55,516 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 416
+2017-07-12 14:14:55,516 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@46f72ee9[search] main
+2017-07-12 14:14:55,516 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@46f72ee9[search] main{StandardDirectoryReader(segments_az:4007:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _12a(4.10.2):C1)}
+2017-07-12 14:14:55,516 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:14:55,516 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:14:55,532 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@46f72ee9[search] main{StandardDirectoryReader(segments_az:4007:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _12a(4.10.2):C1)}
+2017-07-12 14:14:55,532 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:15:43,343 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=12 
+2017-07-12 14:15:43,370 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@793c9c4[search] realtime
+2017-07-12 14:15:43,370 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572715252530806784)} 0 11
+2017-07-12 14:15:43,388 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572715252553875456)]} 0 8
+2017-07-12 14:15:53,377 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:15:53,455 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bk,generation=416}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bl,generation=417}
+2017-07-12 14:15:53,455 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 417
+2017-07-12 14:15:53,471 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@15381af6[search] main
+2017-07-12 14:15:53,471 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@15381af6[search] main{StandardDirectoryReader(segments_az:4011:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _12b(4.10.2):C1)}
+2017-07-12 14:15:53,471 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:15:53,471 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:15:53,471 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@15381af6[search] main{StandardDirectoryReader(segments_az:4011:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _12b(4.10.2):C1)}
+2017-07-12 14:15:53,471 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:17:44,962 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=1 
+2017-07-12 14:17:44,981 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@6dce7d7a[search] realtime
+2017-07-12 14:17:44,981 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572715380049182720)} 0 11
+2017-07-12 14:17:45,000 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572715380073299968)]} 0 8
+2017-07-12 14:17:54,991 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:17:55,101 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bl,generation=417}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bm,generation=418}
+2017-07-12 14:17:55,101 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 418
+2017-07-12 14:17:55,116 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@44b005d8[search] main
+2017-07-12 14:17:55,116 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@44b005d8[search] main{StandardDirectoryReader(segments_az:4015:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _12c(4.10.2):C1)}
+2017-07-12 14:17:55,116 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:17:55,116 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:17:55,116 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@44b005d8[search] main{StandardDirectoryReader(segments_az:4015:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _12c(4.10.2):C1)}
+2017-07-12 14:17:55,132 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:18:36,593 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=2 
+2017-07-12 14:18:36,604 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@9ac4bad[search] realtime
+2017-07-12 14:18:36,605 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572715434184015872)} 0 9
+2017-07-12 14:18:36,628 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572715434208133120)]} 0 9
+2017-07-12 14:18:44,805 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=handle:123456789/19&fl=SolrIndexer.lastIndexed&wt=javabin&version=2} hits=1 status=0 QTime=0 
+2017-07-12 14:18:44,849 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@7a855945[search] realtime
+2017-07-12 14:18:44,852 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=handle:"123456789/19" (-1572715442799116288)} 0 39
+2017-07-12 14:18:44,873 INFO  org.apache.solr.update.processor.LogUpdateProcessor @ [search] webapp=/solr path=/update params={wt=javabin&version=2} {add=[2-56 (1572715442854690816)]} 0 7
+2017-07-12 14:18:46,605 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:18:46,687 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bm,generation=418}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bn,generation=419}
+2017-07-12 14:18:46,687 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 419
+2017-07-12 14:18:46,693 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@64fa2357[search] main
+2017-07-12 14:18:46,694 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@64fa2357[search] main{StandardDirectoryReader(segments_az:4023:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _12e(4.10.2):C1)}
+2017-07-12 14:18:46,694 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:18:46,694 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Index is not optimized therefore skipping building spell check index for: default
+2017-07-12 14:18:46,695 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@64fa2357[search] main{StandardDirectoryReader(segments_az:4023:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _12e(4.10.2):C1)}
+2017-07-12 14:18:46,700 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:19:12,890 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=3 
+2017-07-12 14:19:12,926 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 14:19:13,070 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 14:19:13,116 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 14:19:13,253 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 14:19:13,298 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 14:19:13,701 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 14:19:13,745 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 14:19:17,891 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 14:24:17,292 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 14:24:20,050 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-07-12 14:24:20,978 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-07-12 14:34:12,900 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-12 14:34:13,166 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8n,generation=311}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8o,generation=312}
+2017-07-12 14:34:13,166 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 312
+2017-07-12 14:34:13,166 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@13507ef2[statistics] main
+2017-07-12 14:34:13,166 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-07-12 14:34:13,166 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@13507ef2[statistics] main{StandardDirectoryReader(segments_8e:1145:nrt _fu(4.10.2):C5717 _fv(4.10.2):C12)}
+2017-07-12 14:34:13,166 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 14:34:13,166 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@13507ef2[statistics] main{StandardDirectoryReader(segments_8e:1145:nrt _fu(4.10.2):C5717 _fv(4.10.2):C12)}
+2017-07-12 22:27:52,280 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=search.resourcetype:2&sort=bi_sort_3_sort+desc&rows=0&wt=javabin&version=2} hits=132 status=0 QTime=4 
+2017-07-12 22:27:52,284 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=0 
+2017-07-12 22:27:52,292 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=0 
+2017-07-12 22:27:52,304 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=rights_filter,memSize=5083,tindexSize=131,time=0,phase1=0,nTerms=12,bigTerms=0,termInstances=26,uses=0}
+2017-07-12 22:27:52,304 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=publisher_filter,memSize=5480,tindexSize=61,time=0,phase1=0,nTerms=8,bigTerms=3,termInstances=10,uses=0}
+2017-07-12 22:27:52,304 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=level_filter,memSize=5113,tindexSize=161,time=0,phase1=0,nTerms=6,bigTerms=0,termInstances=12,uses=0}
+2017-07-12 22:27:52,308 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=cost_filter,memSize=5003,tindexSize=51,time=0,phase1=0,nTerms=4,bigTerms=0,termInstances=6,uses=0}
+2017-07-12 22:27:52,308 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=languageOfInstruction_filter,memSize=5001,tindexSize=49,time=0,phase1=0,nTerms=4,bigTerms=0,termInstances=9,uses=0}
+2017-07-12 22:27:52,308 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=location_filter,memSize=5009,tindexSize=57,time=0,phase1=0,nTerms=5,bigTerms=0,termInstances=8,uses=0}
+2017-07-12 22:27:52,308 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=start_filter,memSize=5017,tindexSize=65,time=0,phase1=0,nTerms=6,bigTerms=0,termInstances=7,uses=0}
+2017-07-12 22:27:52,312 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=subject_filter,memSize=5261,tindexSize=57,time=0,phase1=0,nTerms=16,bigTerms=2,termInstances=34,uses=0}
+2017-07-12 22:27:52,312 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=credit_filter,memSize=5001,tindexSize=49,time=0,phase1=0,nTerms=6,bigTerms=0,termInstances=13,uses=0}
+2017-07-12 22:27:52,312 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=duration_filter,memSize=5017,tindexSize=65,time=0,phase1=0,nTerms=4,bigTerms=0,termInstances=4,uses=0}
+2017-07-12 22:27:52,312 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=engagement_filter,memSize=5132,tindexSize=63,time=0,phase1=0,nTerms=4,bigTerms=1,termInstances=8,uses=0}
+2017-07-12 22:27:52,312 INFO  org.apache.solr.core.SolrCore @ UnInverted multi-valued field {field=places_filter,memSize=5001,tindexSize=49,time=0,phase1=0,nTerms=5,bigTerms=0,termInstances=6,uses=0}
+2017-07-12 22:27:52,316 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.start_filter.facet.sort=count&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&f.places_filter.facet.offset=0&f.publisher_filter.facet.sort=count&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&f.location_filter.facet.offset=0&sort=score+desc&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.places_filter.facet.limit=11&f.duration_filter.facet.offset=0&f.languageOfInstruction_filter.facet.offset=0&f.start_filter.facet.offset=0&f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&facet.query=dateIssued.year:[2000+TO+2017]&facet.query=dateIssued.year:[1900+TO+1999]&facet.query=dateIssued.year:[1800+TO+1899]&facet.query=dateIssued.year:[1700+TO+1799]&facet.query=dateIssued.year:[1650+TO+1699]&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&start=0&rows=0&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&q=*:*&f.publisher_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=159 status=0 QTime=16 
+2017-07-12 22:27:52,814 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=8 
+2017-07-12 22:27:52,894 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=8 
+2017-07-12 22:27:52,954 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 22:27:53,058 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 22:27:53,138 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 22:27:53,246 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=4 
+2017-07-12 22:27:55,337 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+asc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=0 
+2017-07-12 22:27:55,345 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={q=*:*&fl=dateIssued.year,handle,search.resourcetype,search.resourceid&start=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&fq=dateIssued.year:[*+TO+*]&sort=dateIssued.year_sort+desc&rows=1&wt=javabin&version=2} hits=51 status=0 QTime=0 
+2017-07-12 22:27:55,537 INFO  org.apache.solr.core.SolrCore @ [search] webapp=/solr path=/select params={f.start_filter.facet.sort=count&spellcheck.q=*:*&f.cost_filter.facet.sort=count&f.credit_filter.facet.sort=count&f.places_filter.facet.offset=0&f.publisher_filter.facet.sort=count&f.publisher_filter.facet.limit=11&f.duration_filter.facet.sort=count&f.languageOfInstruction_filter.facet.sort=count&f.location_filter.facet.offset=0&sort=score+desc&f.subject_filter.facet.limit=11&f.languageOfInstruction_filter.facet.limit=11&version=2&f.location_filter.facet.limit=11&f.places_filter.facet.limit=11&f.duration_filter.facet.offset=0&spellcheck=true&f.languageOfInstruction_filter.facet.offset=0&f.start_filter.facet.offset=0&spellcheck.collate=true&f.engagement_filter.facet.limit=11&f.level_filter.facet.offset=0&fl=handle,search.resourcetype,search.resourceid&f.level_filter.facet.limit=11&f.credit_filter.facet.offset=0&fq=NOT(withdrawn:true)&fq=NOT(discoverable:false)&f.cost_filter.facet.limit=11&f.rights_filter.facet.sort=count&facet.query=dateIssued.year:[2000+TO+2017]&facet.query=dateIssued.year:[1900+TO+1999]&facet.query=dateIssued.year:[1800+TO+1899]&facet.query=dateIssued.year:[1700+TO+1799]&facet.query=dateIssued.year:[1650+TO+1699]&f.location_filter.facet.sort=count&f.start_filter.facet.limit=11&f.cost_filter.facet.offset=0&f.engagement_filter.facet.offset=0&f.credit_filter.facet.limit=11&wt=javabin&facet.offset=0&facet.field=rights_filter&facet.field=publisher_filter&facet.field=level_filter&facet.field=cost_filter&facet.field=languageOfInstruction_filter&facet.field=location_filter&facet.field=start_filter&facet.field=subject_filter&facet.field=credit_filter&facet.field=duration_filter&facet.field=engagement_filter&facet.field=places_filter&f.engagement_filter.facet.sort=count&f.rights_filter.facet.offset=0&start=0&rows=10&f.rights_filter.facet.limit=11&f.duration_filter.facet.limit=11&q=*:*&f.publisher_filter.facet.offset=0&f.subject_filter.facet.sort=count&facet.mincount=1&f.places_filter.facet.sort=count&facet=true&f.level_filter.facet.sort=count&f.subject_filter.facet.offset=0} hits=159 status=0 QTime=180 
+2017-07-12 22:27:56,181 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 22:27:56,297 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 22:27:56,365 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 22:27:56,481 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 22:27:56,549 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 22:27:56,653 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 22:27:56,733 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 22:27:59,117 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=0 
+2017-07-12 22:29:54,493 INFO  org.apache.solr.core.CoreContainer @ Shutting down CoreContainer instance=694690968
+2017-07-12 22:29:54,493 INFO  org.apache.solr.core.SolrCore @ [statistics]  CLOSING SolrCore org.apache.solr.core.SolrCore@42cc04f1
+2017-07-12 22:29:54,540 INFO  org.apache.solr.update.UpdateHandler @ closing DirectUpdateHandler2{commits=10,autocommit maxDocs=10000,autocommit maxTime=900000ms,autocommits=10,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=14,adds=14,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=147,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=34696,transaction_logs_total_number=7}
+2017-07-12 22:29:54,540 INFO  org.apache.solr.update.SolrCoreState @ Closing SolrCoreState
+2017-07-12 22:29:54,540 INFO  org.apache.solr.update.DefaultSolrCoreState @ SolrCoreState ref count has reached 0 - closing IndexWriter
+2017-07-12 22:29:54,540 INFO  org.apache.solr.update.DefaultSolrCoreState @ closing IndexWriter with IndexWriterCloser
+2017-07-12 22:29:54,540 INFO  org.apache.solr.update.UpdateHandler @ Committing on IndexWriter close.
+2017-07-12 22:29:54,619 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8o,generation=312}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8p,generation=313}
+2017-07-12 22:29:54,619 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 313
+2017-07-12 22:29:55,244 INFO  org.apache.solr.core.SolrCore @ [statistics] Closing main searcher on request.
+2017-07-12 22:29:55,244 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2017-07-12 22:29:55,244 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\statistics\data\index [CachedDir<<refCount=0;path=C:\dspace\solr\statistics\data\index;done=false>>]
+2017-07-12 22:29:55,244 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\statistics\data\index
+2017-07-12 22:29:55,259 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\statistics\data [CachedDir<<refCount=0;path=C:\dspace\solr\statistics\data;done=false>>]
+2017-07-12 22:29:55,259 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\statistics\data
+2017-07-12 22:29:55,259 INFO  org.apache.solr.core.SolrCore @ [oai]  CLOSING SolrCore org.apache.solr.core.SolrCore@119bcd29
+2017-07-12 22:29:55,259 INFO  org.apache.solr.update.UpdateHandler @ closing DirectUpdateHandler2{commits=0,autocommit maxDocs=10000,autocommit maxTime=10000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=200704,transaction_logs_total_number=1}
+2017-07-12 22:29:55,259 INFO  org.apache.solr.update.SolrCoreState @ Closing SolrCoreState
+2017-07-12 22:29:55,259 INFO  org.apache.solr.update.DefaultSolrCoreState @ SolrCoreState ref count has reached 0 - closing IndexWriter
+2017-07-12 22:29:55,259 INFO  org.apache.solr.update.DefaultSolrCoreState @ closing IndexWriter with IndexWriterCloser
+2017-07-12 22:29:55,259 INFO  org.apache.solr.core.SolrCore @ [oai] Closing main searcher on request.
+2017-07-12 22:29:55,259 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2017-07-12 22:29:55,259 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\oai\data\index [CachedDir<<refCount=0;path=C:\dspace\solr\oai\data\index;done=false>>]
+2017-07-12 22:29:55,259 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\oai\data\index
+2017-07-12 22:29:55,259 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\oai\data [CachedDir<<refCount=0;path=C:\dspace\solr\oai\data;done=false>>]
+2017-07-12 22:29:55,259 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\oai\data
+2017-07-12 22:29:55,259 INFO  org.apache.solr.core.SolrCore @ [authority]  CLOSING SolrCore org.apache.solr.core.SolrCore@72a93d7c
+2017-07-12 22:29:55,275 INFO  org.apache.solr.update.UpdateHandler @ closing DirectUpdateHandler2{commits=0,autocommit maxDocs=10000,autocommit maxTime=10000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+2017-07-12 22:29:55,275 INFO  org.apache.solr.update.SolrCoreState @ Closing SolrCoreState
+2017-07-12 22:29:55,275 INFO  org.apache.solr.update.DefaultSolrCoreState @ SolrCoreState ref count has reached 0 - closing IndexWriter
+2017-07-12 22:29:55,275 INFO  org.apache.solr.update.DefaultSolrCoreState @ closing IndexWriter with IndexWriterCloser
+2017-07-12 22:29:55,275 INFO  org.apache.solr.core.SolrCore @ [authority] Closing main searcher on request.
+2017-07-12 22:29:55,275 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing StandardDirectoryFactory - 2 directories currently being tracked
+2017-07-12 22:29:55,275 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\authority\data [CachedDir<<refCount=0;path=C:\dspace\solr\authority\data;done=false>>]
+2017-07-12 22:29:55,275 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\authority\data
+2017-07-12 22:29:55,275 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\authority\data\index [CachedDir<<refCount=0;path=C:\dspace\solr\authority\data\index;done=false>>]
+2017-07-12 22:29:55,275 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\authority\data\index
+2017-07-12 22:29:55,275 INFO  org.apache.solr.core.SolrCore @ [search]  CLOSING SolrCore org.apache.solr.core.SolrCore@15c10f58
+2017-07-12 22:29:55,322 INFO  org.apache.solr.update.UpdateHandler @ closing DirectUpdateHandler2{commits=24,autocommit maxDocs=10000,autocommit maxTime=10000ms,autocommits=24,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=27,cumulative_deletesById=0,cumulative_deletesByQuery=26,cumulative_errors=0,transaction_logs_total_size=52015,transaction_logs_total_number=10}
+2017-07-12 22:29:55,322 INFO  org.apache.solr.update.SolrCoreState @ Closing SolrCoreState
+2017-07-12 22:29:55,322 INFO  org.apache.solr.update.DefaultSolrCoreState @ SolrCoreState ref count has reached 0 - closing IndexWriter
+2017-07-12 22:29:55,322 INFO  org.apache.solr.update.DefaultSolrCoreState @ closing IndexWriter with IndexWriterCloser
+2017-07-12 22:29:55,322 INFO  org.apache.solr.core.SolrCore @ [search] Closing main searcher on request.
+2017-07-12 22:29:55,337 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2017-07-12 22:29:55,337 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\search\data\index [CachedDir<<refCount=0;path=C:\dspace\solr\search\data\index;done=false>>]
+2017-07-12 22:29:55,337 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\search\data\index
+2017-07-12 22:29:55,337 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\search\data [CachedDir<<refCount=0;path=C:\dspace\solr\search\data;done=false>>]
+2017-07-12 22:29:55,337 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\search\data
+2017-07-12 22:31:00,094 INFO  org.apache.solr.servlet.SolrDispatchFilter @ SolrDispatchFilter.init()
+2017-07-12 22:31:00,110 INFO  org.apache.solr.core.SolrResourceLoader @ Using JNDI solr.home: /dspace/solr
+2017-07-12 22:31:00,126 INFO  org.apache.solr.core.SolrResourceLoader @ new SolrResourceLoader for directory: '/dspace/solr\'
+2017-07-12 22:31:00,407 INFO  org.apache.solr.core.ConfigSolr @ Loading container configuration from C:\dspace\solr\solr.xml
+2017-07-12 22:31:00,829 INFO  org.apache.solr.core.CoreContainer @ New CoreContainer 2044163599
+2017-07-12 22:31:00,829 INFO  org.apache.solr.core.CoreContainer @ Loading cores into CoreContainer [instanceDir=/dspace/solr\]
+2017-07-12 22:31:00,844 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting socketTimeout to: 0
+2017-07-12 22:31:00,844 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting urlScheme to: null
+2017-07-12 22:31:00,844 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting connTimeout to: 0
+2017-07-12 22:31:00,844 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting maxConnectionsPerHost to: 20
+2017-07-12 22:31:00,844 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting corePoolSize to: 0
+2017-07-12 22:31:00,844 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting maximumPoolSize to: 2147483647
+2017-07-12 22:31:00,844 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting maxThreadIdleTime to: 5
+2017-07-12 22:31:00,844 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting sizeOfQueue to: -1
+2017-07-12 22:31:00,844 INFO  org.apache.solr.handler.component.HttpShardHandlerFactory @ Setting fairnessPolicy to: false
+2017-07-12 22:31:00,907 INFO  org.apache.solr.update.UpdateShardHandler @ Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=false
+2017-07-12 22:31:00,907 INFO  org.apache.solr.logging.LogWatcher @ SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2017-07-12 22:31:00,907 INFO  org.apache.solr.logging.LogWatcher @ Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2017-07-12 22:31:00,907 INFO  org.apache.solr.core.CoreContainer @ Host Name: null
+2017-07-12 22:31:00,985 INFO  org.apache.solr.core.SolrResourceLoader @ new SolrResourceLoader for directory: '/dspace/solr\statistics\'
+2017-07-12 22:31:00,985 INFO  org.apache.solr.core.SolrResourceLoader @ new SolrResourceLoader for directory: '/dspace/solr\oai\'
+2017-07-12 22:31:00,985 INFO  org.apache.solr.core.SolrResourceLoader @ new SolrResourceLoader for directory: '/dspace/solr\search\'
+2017-07-12 22:31:01,263 INFO  org.apache.solr.update.SolrIndexConfig @ IndexWriter infoStream solr logging is enabled
+2017-07-12 22:31:01,263 INFO  org.apache.solr.update.SolrIndexConfig @ IndexWriter infoStream solr logging is enabled
+2017-07-12 22:31:01,278 INFO  org.apache.solr.core.SolrConfig @ Using Lucene MatchVersion: 4.10.0
+2017-07-12 22:31:01,278 INFO  org.apache.solr.update.SolrIndexConfig @ IndexWriter infoStream solr logging is enabled
+2017-07-12 22:31:01,294 INFO  org.apache.solr.core.SolrConfig @ Using Lucene MatchVersion: 4.10.0
+2017-07-12 22:31:01,310 INFO  org.apache.solr.core.SolrConfig @ Using Lucene MatchVersion: 4.10.0
+2017-07-12 22:31:01,528 INFO  org.apache.solr.core.Config @ Loaded SolrConfig: solrconfig.xml
+2017-07-12 22:31:01,528 INFO  org.apache.solr.core.Config @ Loaded SolrConfig: solrconfig.xml
+2017-07-12 22:31:01,528 INFO  org.apache.solr.core.Config @ Loaded SolrConfig: solrconfig.xml
+2017-07-12 22:31:01,560 INFO  org.apache.solr.schema.IndexSchema @ Reading Solr Schema from /dspace/solr\statistics\conf\schema.xml
+2017-07-12 22:31:01,560 INFO  org.apache.solr.schema.IndexSchema @ Reading Solr Schema from /dspace/solr\oai\conf\schema.xml
+2017-07-12 22:31:01,560 INFO  org.apache.solr.schema.IndexSchema @ Reading Solr Schema from /dspace/solr\search\conf\schema.xml
+2017-07-12 22:31:01,607 INFO  org.apache.solr.schema.IndexSchema @ [search] Schema name=example
+2017-07-12 22:31:01,607 INFO  org.apache.solr.schema.IndexSchema @ [statistics] Schema name=example
+2017-07-12 22:31:01,607 INFO  org.apache.solr.schema.IndexSchema @ [oai] Schema name=xoai
+2017-07-12 22:31:01,685 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.IntField]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:01,685 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.LongField]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:01,700 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.FloatField]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:01,700 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.DoubleField]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:01,716 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.SortableIntField]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:01,716 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.SortableLongField]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:01,732 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.SortableFloatField]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:01,747 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.SortableDoubleField]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:01,747 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.DateField]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:01,903 INFO  org.apache.solr.schema.IndexSchema @ default search field in schema is item.handle
+2017-07-12 22:31:01,903 INFO  org.apache.solr.schema.IndexSchema @ query parser default operator is OR
+2017-07-12 22:31:01,903 INFO  org.apache.solr.schema.IndexSchema @ unique key field: item.handle
+2017-07-12 22:31:01,903 INFO  org.apache.solr.schema.IndexSchema @ default search field in schema is id
+2017-07-12 22:31:01,903 INFO  org.apache.solr.schema.IndexSchema @ query parser default operator is AND
+2017-07-12 22:31:01,903 INFO  org.apache.solr.schema.IndexSchema @ unique key field: uid
+2017-07-12 22:31:01,919 INFO  org.apache.solr.schema.IndexSchema @ default search field in schema is search_text
+2017-07-12 22:31:01,919 INFO  org.apache.solr.schema.IndexSchema @ query parser default operator is OR
+2017-07-12 22:31:01,919 INFO  org.apache.solr.schema.IndexSchema @ unique key field: search.uniqueid
+2017-07-12 22:31:02,060 INFO  org.apache.solr.core.CoreContainer @ Creating SolrCore 'statistics' using configuration from instancedir /dspace/solr\statistics\
+2017-07-12 22:31:02,075 INFO  org.apache.solr.core.CoreContainer @ Creating SolrCore 'oai' using configuration from instancedir /dspace/solr\oai\
+2017-07-12 22:31:02,075 INFO  org.apache.solr.core.CoreContainer @ Creating SolrCore 'search' using configuration from instancedir /dspace/solr\search\
+2017-07-12 22:31:02,107 INFO  org.apache.solr.core.SolrCore @ solr.NRTCachingDirectoryFactory
+2017-07-12 22:31:02,107 INFO  org.apache.solr.core.SolrCore @ solr.NRTCachingDirectoryFactory
+2017-07-12 22:31:02,107 INFO  org.apache.solr.core.SolrCore @ solr.NRTCachingDirectoryFactory
+2017-07-12 22:31:02,107 INFO  org.apache.solr.core.SolrCore @ [oai] Opening new SolrCore at /dspace/solr\oai\, dataDir=C:\dspace\solr\oai\data\
+2017-07-12 22:31:02,107 INFO  org.apache.solr.core.SolrCore @ [statistics] Opening new SolrCore at /dspace/solr\statistics\, dataDir=C:\dspace\solr\statistics\data\
+2017-07-12 22:31:02,107 INFO  org.apache.solr.core.SolrCore @ [search] Opening new SolrCore at /dspace/solr\search\, dataDir=C:\dspace\solr\search\data\
+2017-07-12 22:31:02,122 INFO  org.apache.solr.core.JmxMonitoredMap @ JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@3f102e87
+2017-07-12 22:31:02,122 INFO  org.apache.solr.core.JmxMonitoredMap @ JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@3f102e87
+2017-07-12 22:31:02,122 INFO  org.apache.solr.core.JmxMonitoredMap @ JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@3f102e87
+2017-07-12 22:31:02,169 INFO  org.apache.solr.core.SolrCore @ [search] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+2017-07-12 22:31:02,169 INFO  org.apache.solr.core.SolrCore @ [statistics] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+2017-07-12 22:31:02,169 INFO  org.apache.solr.core.SolrCore @ [oai] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+2017-07-12 22:31:02,169 INFO  org.apache.solr.core.SolrCore @ [statistics] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+2017-07-12 22:31:02,169 INFO  org.apache.solr.core.SolrCore @ [oai] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+2017-07-12 22:31:02,169 INFO  org.apache.solr.core.SolrCore @ [search] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+2017-07-12 22:31:02,200 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for C:\dspace\solr\search\data
+2017-07-12 22:31:02,200 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for C:\dspace\solr\oai\data
+2017-07-12 22:31:02,200 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for C:\dspace\solr\statistics\data
+2017-07-12 22:31:02,200 INFO  org.apache.solr.core.SolrCore @ New index directory detected: old=null new=C:\dspace\solr\statistics\data\index/
+2017-07-12 22:31:02,200 INFO  org.apache.solr.core.SolrCore @ New index directory detected: old=null new=C:\dspace\solr\oai\data\index/
+2017-07-12 22:31:02,200 INFO  org.apache.solr.core.SolrCore @ New index directory detected: old=null new=C:\dspace\solr\search\data\index/
+2017-07-12 22:31:02,200 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for C:\dspace\solr\oai\data\index
+2017-07-12 22:31:02,200 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for C:\dspace\solr\statistics\data\index
+2017-07-12 22:31:02,200 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for C:\dspace\solr\search\data\index
+2017-07-12 22:31:02,216 INFO  org.apache.solr.core.SolrCore @ created json: solr.JSONResponseWriter
+2017-07-12 22:31:02,216 INFO  org.apache.solr.core.SolrCore @ adding lazy queryResponseWriter: solr.VelocityResponseWriter
+2017-07-12 22:31:02,216 INFO  org.apache.solr.core.SolrCore @ created json: solr.JSONResponseWriter
+2017-07-12 22:31:02,216 INFO  org.apache.solr.core.SolrCore @ adding lazy queryResponseWriter: solr.VelocityResponseWriter
+2017-07-12 22:31:02,216 INFO  org.apache.solr.core.SolrCore @ created json: solr.JSONResponseWriter
+2017-07-12 22:31:02,216 INFO  org.apache.solr.core.SolrCore @ adding lazy queryResponseWriter: solr.VelocityResponseWriter
+2017-07-12 22:31:02,232 INFO  org.apache.solr.core.SolrCore @ created velocity: solr.VelocityResponseWriter
+2017-07-12 22:31:02,232 INFO  org.apache.solr.core.SolrCore @ created velocity: solr.VelocityResponseWriter
+2017-07-12 22:31:02,232 INFO  org.apache.solr.core.SolrCore @ created velocity: solr.VelocityResponseWriter
+2017-07-12 22:31:02,232 INFO  org.apache.solr.core.SolrCore @ created xslt: solr.XSLTResponseWriter
+2017-07-12 22:31:02,232 INFO  org.apache.solr.core.SolrCore @ created xslt: solr.XSLTResponseWriter
+2017-07-12 22:31:02,232 INFO  org.apache.solr.core.SolrCore @ created xslt: solr.XSLTResponseWriter
+2017-07-12 22:31:02,232 INFO  org.apache.solr.response.XSLTResponseWriter @ xsltCacheLifetimeSeconds=5
+2017-07-12 22:31:02,232 INFO  org.apache.solr.response.XSLTResponseWriter @ xsltCacheLifetimeSeconds=5
+2017-07-12 22:31:02,232 INFO  org.apache.solr.response.XSLTResponseWriter @ xsltCacheLifetimeSeconds=5
+2017-07-12 22:31:02,466 INFO  org.apache.solr.core.SolrCore @ no updateRequestProcessorChain defined as default, creating implicit default
+2017-07-12 22:31:02,466 INFO  org.apache.solr.core.SolrCore @ no updateRequestProcessorChain defined as default, creating implicit default
+2017-07-12 22:31:02,466 INFO  org.apache.solr.update.processor.UpdateRequestProcessorChain @ creating updateRequestProcessorChain "uuid"
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,482 INFO  org.apache.solr.update.processor.UpdateRequestProcessorChain @ inserting DistributedUpdateProcessorFactory into updateRequestProcessorChain "uuid"
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.SolrCore @ no updateRequestProcessorChain defined as default, creating implicit default
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,482 INFO  org.apache.solr.core.RequestHandlers @ created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,497 INFO  org.apache.solr.core.RequestHandlers @ created /select: solr.SearchHandler
+2017-07-12 22:31:02,497 INFO  org.apache.solr.core.RequestHandlers @ created /select: solr.SearchHandler
+2017-07-12 22:31:02,497 INFO  org.apache.solr.core.RequestHandlers @ created /select: solr.SearchHandler
+2017-07-12 22:31:02,497 INFO  org.apache.solr.core.RequestHandlers @ created /query: solr.SearchHandler
+2017-07-12 22:31:02,497 INFO  org.apache.solr.core.RequestHandlers @ created /query: solr.SearchHandler
+2017-07-12 22:31:02,497 INFO  org.apache.solr.core.RequestHandlers @ created /query: solr.SearchHandler
+2017-07-12 22:31:02,497 INFO  org.apache.solr.core.RequestHandlers @ created /get: solr.RealTimeGetHandler
+2017-07-12 22:31:02,497 INFO  org.apache.solr.core.RequestHandlers @ created /get: solr.RealTimeGetHandler
+2017-07-12 22:31:02,497 INFO  org.apache.solr.core.RequestHandlers @ created /browse: solr.SearchHandler
+2017-07-12 22:31:02,497 INFO  org.apache.solr.core.RequestHandlers @ created /browse: solr.SearchHandler
+2017-07-12 22:31:02,497 INFO  org.apache.solr.core.RequestHandlers @ created /get: solr.RealTimeGetHandler
+2017-07-12 22:31:02,513 INFO  org.apache.solr.core.RequestHandlers @ created /browse: solr.SearchHandler
+2017-07-12 22:31:02,513 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,513 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,513 INFO  org.apache.solr.core.RequestHandlers @ created /update: solr.UpdateRequestHandler
+2017-07-12 22:31:02,513 INFO  org.apache.solr.core.RequestHandlers @ created /update: solr.UpdateRequestHandler
+2017-07-12 22:31:02,513 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,513 INFO  org.apache.solr.core.RequestHandlers @ created /update: solr.UpdateRequestHandler
+2017-07-12 22:31:02,513 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.JsonUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:02,513 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.JsonUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:02,513 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.JsonUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:02,513 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/json ignoring: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,513 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: solr.JsonUpdateRequestHandler
+2017-07-12 22:31:02,513 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/json ignoring: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,513 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: solr.JsonUpdateRequestHandler
+2017-07-12 22:31:02,513 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/json ignoring: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,513 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: solr.JsonUpdateRequestHandler
+2017-07-12 22:31:02,513 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:02,513 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:02,529 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:02,529 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/csv ignoring: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: solr.CSVRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /update/extract: solr.extraction.ExtractingRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/field: solr.FieldAnalysisRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/document: solr.DocumentAnalysisRequestHandler
+2017-07-12 22:31:02,529 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/csv ignoring: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: solr.CSVRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /update/extract: solr.extraction.ExtractingRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/field: solr.FieldAnalysisRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/document: solr.DocumentAnalysisRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /admin/: solr.admin.AdminHandlers
+2017-07-12 22:31:02,529 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/csv ignoring: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: solr.CSVRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /update/extract: solr.extraction.ExtractingRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/field: solr.FieldAnalysisRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/document: solr.DocumentAnalysisRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /admin/: solr.admin.AdminHandlers
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /admin/: solr.admin.AdminHandlers
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /admin/ping: solr.PingRequestHandler
+2017-07-12 22:31:02,529 INFO  org.apache.solr.core.RequestHandlers @ created /admin/ping: solr.PingRequestHandler
+2017-07-12 22:31:02,544 INFO  org.apache.solr.core.RequestHandlers @ created /admin/ping: solr.PingRequestHandler
+2017-07-12 22:31:02,544 INFO  org.apache.solr.core.RequestHandlers @ created /debug/dump: solr.DumpRequestHandler
+2017-07-12 22:31:02,544 INFO  org.apache.solr.core.RequestHandlers @ created /debug/dump: solr.DumpRequestHandler
+2017-07-12 22:31:02,544 INFO  org.apache.solr.core.RequestHandlers @ created /debug/dump: solr.DumpRequestHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /replication: solr.ReplicationHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /replication: solr.ReplicationHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /replication: solr.ReplicationHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created tvrh: org.apache.solr.handler.component.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created tvrh: org.apache.solr.handler.component.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created tvrh: org.apache.solr.handler.component.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /spell ignoring: org.apache.solr.handler.component.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /spell ignoring: org.apache.solr.handler.component.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /spell ignoring: org.apache.solr.handler.component.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /tvrh: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /tvrh: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /terms: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /elevate: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /tvrh: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /terms: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /elevate: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /terms: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:02,560 INFO  org.apache.solr.core.RequestHandlers @ created /elevate: solr.SearchHandler
+2017-07-12 22:31:02,575 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,575 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,575 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,591 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:02,638 INFO  org.apache.solr.core.SolrCore @ Hard AutoCommit: if uncommited for 900000ms; if 10000 uncommited docs 
+2017-07-12 22:31:02,638 INFO  org.apache.solr.core.SolrCore @ Hard AutoCommit: if uncommited for 10000ms; if 10000 uncommited docs 
+2017-07-12 22:31:02,638 INFO  org.apache.solr.core.SolrCore @ Soft AutoCommit: disabled
+2017-07-12 22:31:02,638 INFO  org.apache.solr.core.SolrCore @ Hard AutoCommit: if uncommited for 10000ms; if 10000 uncommited docs 
+2017-07-12 22:31:02,638 INFO  org.apache.solr.core.SolrCore @ Soft AutoCommit: disabled
+2017-07-12 22:31:02,638 INFO  org.apache.solr.core.SolrCore @ Soft AutoCommit: disabled
+2017-07-12 22:31:02,732 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\oai\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\oai\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+2017-07-12 22:31:02,732 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8p,generation=313}
+2017-07-12 22:31:02,732 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 2
+2017-07-12 22:31:02,732 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 313
+2017-07-12 22:31:02,779 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\search\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\search\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bn,generation=419}
+2017-07-12 22:31:02,779 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 419
+2017-07-12 22:31:02,810 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@2ff4ed57[oai] main
+2017-07-12 22:31:02,810 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@70d6013d[statistics] main
+2017-07-12 22:31:02,810 INFO  org.apache.solr.rest.ManagedResourceStorage @ File-based storage initialized to use dir: C:\dspace\solr\statistics\conf
+2017-07-12 22:31:02,810 INFO  org.apache.solr.rest.ManagedResourceStorage @ File-based storage initialized to use dir: C:\dspace\solr\oai\conf
+2017-07-12 22:31:02,810 INFO  org.apache.solr.rest.RestManager @ Initializing RestManager with initArgs: {storageDir=C:\dspace\solr\statistics\conf}
+2017-07-12 22:31:02,810 INFO  org.apache.solr.rest.RestManager @ Initializing RestManager with initArgs: {storageDir=C:\dspace\solr\oai\conf}
+2017-07-12 22:31:02,841 INFO  org.apache.solr.rest.ManagedResourceStorage @ Reading _rest_managed.json using file:dir=C:\dspace\solr\oai\conf
+2017-07-12 22:31:02,841 INFO  org.apache.solr.rest.ManagedResourceStorage @ Reading _rest_managed.json using file:dir=C:\dspace\solr\statistics\conf
+2017-07-12 22:31:02,841 INFO  org.apache.solr.rest.ManagedResourceStorage @ Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\dspace\solr\statistics\conf
+2017-07-12 22:31:02,841 INFO  org.apache.solr.rest.ManagedResourceStorage @ Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\dspace\solr\oai\conf
+2017-07-12 22:31:02,841 INFO  org.apache.solr.rest.ManagedResource @ Loaded initArgs {} for /rest/managed
+2017-07-12 22:31:02,841 INFO  org.apache.solr.rest.ManagedResource @ Loaded initArgs {} for /rest/managed
+2017-07-12 22:31:02,841 INFO  org.apache.solr.rest.RestManager @ Initializing 0 registered ManagedResources
+2017-07-12 22:31:02,841 INFO  org.apache.solr.rest.RestManager @ Initializing 0 registered ManagedResources
+2017-07-12 22:31:02,841 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2017-07-12 22:31:02,841 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2017-07-12 22:31:02,872 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2017-07-12 22:31:02,872 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2017-07-12 22:31:02,888 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2017-07-12 22:31:02,888 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2017-07-12 22:31:02,888 INFO  org.apache.solr.spelling.DirectSolrSpellChecker @ init: {name=default,field=id,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-12 22:31:02,888 INFO  org.apache.solr.spelling.DirectSolrSpellChecker @ init: {name=default,field=item.handle,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-12 22:31:02,904 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2017-07-12 22:31:02,904 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2017-07-12 22:31:02,904 INFO  org.apache.solr.handler.component.QueryElevationComponent @ Loading QueryElevation from: C:\dspace\solr\oai\conf\elevate.xml
+2017-07-12 22:31:02,904 INFO  org.apache.solr.handler.component.QueryElevationComponent @ Loading QueryElevation from: C:\dspace\solr\statistics\conf\elevate.xml
+2017-07-12 22:31:02,982 INFO  org.apache.solr.handler.ReplicationHandler @ Commits will be reserved for  10000
+2017-07-12 22:31:02,982 INFO  org.apache.solr.handler.ReplicationHandler @ Commits will be reserved for  10000
+2017-07-12 22:31:02,982 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@70d6013d[statistics] main{StandardDirectoryReader(segments_8p:1147:nrt _fu(4.10.2):C5717 _fv(4.10.2):C12 _fw(4.10.2):C14)}
+2017-07-12 22:31:02,982 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@2ff4ed57[oai] main{StandardDirectoryReader(segments_2:3:nrt _0(4.10.2):C32)}
+2017-07-12 22:31:03,013 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@687367[search] main
+2017-07-12 22:31:03,013 INFO  org.apache.solr.rest.ManagedResourceStorage @ File-based storage initialized to use dir: C:\dspace\solr\search\conf
+2017-07-12 22:31:03,013 INFO  org.apache.solr.rest.RestManager @ Initializing RestManager with initArgs: {storageDir=C:\dspace\solr\search\conf}
+2017-07-12 22:31:03,013 INFO  org.apache.solr.rest.ManagedResourceStorage @ Reading _rest_managed.json using file:dir=C:\dspace\solr\search\conf
+2017-07-12 22:31:03,013 INFO  org.apache.solr.rest.ManagedResourceStorage @ Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\dspace\solr\search\conf
+2017-07-12 22:31:03,029 INFO  org.apache.solr.rest.ManagedResource @ Loaded initArgs {} for /rest/managed
+2017-07-12 22:31:03,029 INFO  org.apache.solr.rest.RestManager @ Initializing 0 registered ManagedResources
+2017-07-12 22:31:03,029 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2017-07-12 22:31:03,060 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Registering newSearcher listener for spellchecker: default
+2017-07-12 22:31:03,060 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2017-07-12 22:31:03,060 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2017-07-12 22:31:03,060 INFO  org.apache.solr.spelling.DirectSolrSpellChecker @ init: {name=default,field=search_text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-12 22:31:03,060 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2017-07-12 22:31:03,060 INFO  org.apache.solr.handler.component.QueryElevationComponent @ Loading QueryElevation from: C:\dspace\solr\search\conf\elevate.xml
+2017-07-12 22:31:03,060 INFO  org.apache.solr.handler.ReplicationHandler @ Commits will be reserved for  10000
+2017-07-12 22:31:03,075 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@687367[search] main{StandardDirectoryReader(segments_bn:4023:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _12e(4.10.2):C1)}
+2017-07-12 22:31:03,091 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=109 
+2017-07-12 22:31:03,091 INFO  org.apache.solr.core.SolrCore @ [oai] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=109 
+2017-07-12 22:31:03,091 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 22:31:03,091 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2017-07-12 22:31:03,091 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 22:31:03,091 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2017-07-12 22:31:03,091 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2017-07-12 22:31:03,091 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: wordbreak
+2017-07-12 22:31:03,091 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2017-07-12 22:31:03,091 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: wordbreak
+2017-07-12 22:31:03,091 INFO  org.apache.solr.core.SolrCore @ [oai] Registered new searcher Searcher@2ff4ed57[oai] main{StandardDirectoryReader(segments_2:3:nrt _0(4.10.2):C32)}
+2017-07-12 22:31:03,091 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@70d6013d[statistics] main{StandardDirectoryReader(segments_8p:1147:nrt _fu(4.10.2):C5717 _fv(4.10.2):C12 _fw(4.10.2):C14)}
+2017-07-12 22:31:03,091 INFO  org.apache.solr.core.CoreContainer @ registering core: statistics
+2017-07-12 22:31:03,091 INFO  org.apache.solr.core.CoreContainer @ registering core: oai
+2017-07-12 22:31:03,091 INFO  org.apache.solr.core.SolrResourceLoader @ new SolrResourceLoader for directory: '/dspace/solr\authority\'
+2017-07-12 22:31:03,155 INFO  org.apache.solr.update.SolrIndexConfig @ IndexWriter infoStream solr logging is enabled
+2017-07-12 22:31:03,155 INFO  org.apache.solr.core.SolrConfig @ Using Lucene MatchVersion: 4.10.0
+2017-07-12 22:31:03,155 INFO  org.apache.solr.core.SolrCore @ [search] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=6 status=0 QTime=80 
+2017-07-12 22:31:03,187 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 22:31:03,187 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2017-07-12 22:31:03,187 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2017-07-12 22:31:03,187 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: wordbreak
+2017-07-12 22:31:03,202 INFO  org.apache.solr.core.SolrCore @ [search] Registered new searcher Searcher@687367[search] main{StandardDirectoryReader(segments_bn:4023:nrt _ti(4.10.2):C159/7:delGen=7 _u5(4.10.2):C1 _yz(4.10.2):C1 _11n(4.10.2):C1 _11o(4.10.2):C1 _11s(4.10.2):C1 _120(4.10.2):C1 _12e(4.10.2):C1)}
+2017-07-12 22:31:03,202 INFO  org.apache.solr.core.CoreContainer @ registering core: search
+2017-07-12 22:31:03,202 INFO  org.apache.solr.core.Config @ Loaded SolrConfig: solrconfig.xml
+2017-07-12 22:31:03,218 INFO  org.apache.solr.schema.IndexSchema @ Reading Solr Schema from /dspace/solr\authority\conf\schema.xml
+2017-07-12 22:31:03,218 INFO  org.apache.solr.schema.IndexSchema @ [authority] Schema name=example
+2017-07-12 22:31:03,249 INFO  org.apache.solr.schema.IndexSchema @ default search field in schema is value
+2017-07-12 22:31:03,249 INFO  org.apache.solr.schema.IndexSchema @ query parser default operator is OR
+2017-07-12 22:31:03,249 INFO  org.apache.solr.schema.IndexSchema @ unique key field: id
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.CoreContainer @ Creating SolrCore 'authority' using configuration from instancedir /dspace/solr\authority\
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.SolrCore @ solr.StandardDirectoryFactory
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.SolrCore @ [authority] Opening new SolrCore at /dspace/solr\authority\, dataDir=C:\dspace\solr\authority\data\
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.JmxMonitoredMap @ JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@3f102e87
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.SolrCore @ [authority] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.SolrCore @ [authority] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=solr rocks,start=0,rows=10}, {q=static firstSearcher warming query from solrconfig.xml}]}
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for C:\dspace\solr\authority\data
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.SolrCore @ New index directory detected: old=null new=C:\dspace\solr\authority\data\index/
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.CachingDirectoryFactory @ return new directory for C:\dspace\solr\authority\data\index
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.SolrCore @ created xslt: solr.XSLTResponseWriter
+2017-07-12 22:31:03,265 INFO  org.apache.solr.response.XSLTResponseWriter @ xsltCacheLifetimeSeconds=5
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.SolrCore @ no updateRequestProcessorChain defined as default, creating implicit default
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.RequestHandlers @ created /update: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.RequestHandlers @ created /update/json: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.RequestHandlers @ created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.RequestHandlers @ created standard: solr.SearchHandler
+2017-07-12 22:31:03,265 INFO  org.apache.solr.core.RequestHandlers @ created dismax: solr.SearchHandler
+2017-07-12 22:31:03,280 INFO  org.apache.solr.core.RequestHandlers @ created partitioned: solr.SearchHandler
+2017-07-12 22:31:03,280 INFO  org.apache.solr.core.RequestHandlers @ created /spell: solr.SearchHandler
+2017-07-12 22:31:03,280 INFO  org.apache.solr.core.RequestHandlers @ created tvrh: org.apache.solr.handler.component.SearchHandler
+2017-07-12 22:31:03,280 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: org.apache.solr.handler.extraction.ExtractingRequestHandler
+2017-07-12 22:31:03,280 INFO  org.apache.solr.core.RequestHandlers @ created /update/extract: org.apache.solr.handler.extraction.ExtractingRequestHandler
+2017-07-12 22:31:03,280 INFO  org.apache.solr.core.RequestHandlers @ created /terms: org.apache.solr.handler.component.SearchHandler
+2017-07-12 22:31:03,280 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.SearchHandler
+2017-07-12 22:31:03,280 INFO  org.apache.solr.core.RequestHandlers @ created /elevate: solr.SearchHandler
+2017-07-12 22:31:03,280 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.XmlUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:03,280 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:03,280 INFO  org.apache.solr.core.RequestHandlers @ created /update: solr.XmlUpdateRequestHandler
+2017-07-12 22:31:03,280 WARN  org.apache.solr.core.SolrResourceLoader @ Solr loaded a deprecated plugin/analysis class [solr.BinaryUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+2017-07-12 22:31:03,280 INFO  org.apache.solr.core.RequestHandlers @ created /update/javabin: solr.BinaryUpdateRequestHandler
+2017-07-12 22:31:03,280 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/document: solr.DocumentAnalysisRequestHandler
+2017-07-12 22:31:03,296 INFO  org.apache.solr.core.RequestHandlers @ created /analysis/field: solr.FieldAnalysisRequestHandler
+2017-07-12 22:31:03,296 INFO  org.apache.solr.core.RequestHandlers @ adding lazy requestHandler: solr.CSVRequestHandler
+2017-07-12 22:31:03,296 WARN  org.apache.solr.core.RequestHandlers @ Multiple requestHandler registered to the same name: /update/csv ignoring: org.apache.solr.handler.UpdateRequestHandler
+2017-07-12 22:31:03,296 INFO  org.apache.solr.core.RequestHandlers @ created /update/csv: solr.CSVRequestHandler
+2017-07-12 22:31:03,296 INFO  org.apache.solr.core.RequestHandlers @ created /admin/: org.apache.solr.handler.admin.AdminHandlers
+2017-07-12 22:31:03,296 INFO  org.apache.solr.core.RequestHandlers @ created /admin/ping: PingRequestHandler
+2017-07-12 22:31:03,296 INFO  org.apache.solr.core.RequestHandlers @ created /debug/dump: solr.DumpRequestHandler
+2017-07-12 22:31:03,296 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:03,296 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:03,296 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:03,296 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:03,296 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:03,296 WARN  org.apache.solr.handler.UpdateRequestHandler @ Using deprecated class: XmlUpdateRequestHandler -- replace with UpdateRequestHandler
+2017-07-12 22:31:03,296 INFO  org.apache.solr.handler.loader.XMLLoader @ xsltCacheLifetimeSeconds=60
+2017-07-12 22:31:03,296 WARN  org.apache.solr.handler.UpdateRequestHandler @ Using deprecated class: BinaryUpdateRequestHandler -- replace with UpdateRequestHandler
+2017-07-12 22:31:03,296 INFO  org.apache.solr.core.SolrCore @ Hard AutoCommit: if uncommited for 10000ms; if 10000 uncommited docs 
+2017-07-12 22:31:03,296 INFO  org.apache.solr.core.SolrCore @ Soft AutoCommit: disabled
+2017-07-12 22:31:03,296 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=C:\dspace\solr\authority\data\index,segFN=segments_1,generation=1}
+2017-07-12 22:31:03,296 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 1
+2017-07-12 22:31:03,296 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@75fd59c8[authority] main
+2017-07-12 22:31:03,296 INFO  org.apache.solr.rest.ManagedResourceStorage @ File-based storage initialized to use dir: C:\dspace\solr\authority\conf
+2017-07-12 22:31:03,312 INFO  org.apache.solr.rest.RestManager @ Initializing RestManager with initArgs: {storageDir=C:\dspace\solr\authority\conf}
+2017-07-12 22:31:03,312 INFO  org.apache.solr.rest.ManagedResourceStorage @ Reading _rest_managed.json using file:dir=C:\dspace\solr\authority\conf
+2017-07-12 22:31:03,312 INFO  org.apache.solr.rest.ManagedResourceStorage @ Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\dspace\solr\authority\conf
+2017-07-12 22:31:03,312 INFO  org.apache.solr.rest.ManagedResource @ Loaded initArgs {} for /rest/managed
+2017-07-12 22:31:03,312 INFO  org.apache.solr.rest.RestManager @ Initializing 0 registered ManagedResources
+2017-07-12 22:31:03,312 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Initializing spell checkers
+2017-07-12 22:31:03,312 INFO  org.apache.solr.handler.component.SpellCheckComponent @ No queryConverter defined, using default converter
+2017-07-12 22:31:03,312 INFO  org.apache.solr.handler.component.QueryElevationComponent @ Loading QueryElevation from: C:\dspace\solr\authority\conf\elevate.xml
+2017-07-12 22:31:03,312 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@75fd59c8[authority] main{StandardDirectoryReader(segments_1:1:nrt)}
+2017-07-12 22:31:03,312 INFO  org.apache.solr.core.CoreContainer @ registering core: authority
+2017-07-12 22:31:03,327 INFO  org.apache.solr.core.SolrCore @ [authority] webapp=null path=null params={q=solr+rocks&distrib=false&start=0&rows=10&event=firstSearcher} hits=0 status=0 QTime=15 
+2017-07-12 22:31:03,327 INFO  org.apache.solr.core.SolrCore @ [authority] webapp=null path=null params={q=static+firstSearcher+warming+query+from+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=0 
+2017-07-12 22:31:03,327 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-07-12 22:31:03,327 INFO  org.apache.solr.handler.component.SpellCheckComponent @ Loading spell index for spellchecker: default
+2017-07-12 22:31:03,327 INFO  org.apache.solr.core.SolrCore @ [authority] Registered new searcher Searcher@75fd59c8[authority] main{StandardDirectoryReader(segments_1:1:nrt)}
+2017-07-12 22:31:03,327 INFO  org.apache.solr.servlet.SolrDispatchFilter @ user.dir=C:\apache-tomcat-9.0.0.M19\bin
+2017-07-12 22:31:03,327 INFO  org.apache.solr.servlet.SolrDispatchFilter @ SolrDispatchFilter.init() done

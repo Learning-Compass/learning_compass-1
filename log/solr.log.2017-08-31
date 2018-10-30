@@ -1,0 +1,16 @@
+2017-08-31 19:13:14,711 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=38 
+2017-08-31 19:13:14,725 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=47 
+2017-08-31 19:13:14,815 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-08-31 19:13:14,864 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=3 
+2017-08-31 19:13:14,999 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=2 
+2017-08-31 19:13:15,084 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=1 
+2017-08-31 19:28:22,582 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-08-31 19:28:22,813 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9f,generation=339}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9g,generation=340}
+2017-08-31 19:28:22,813 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 340
+2017-08-31 19:28:22,837 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@4a3461d6[statistics] main
+2017-08-31 19:28:22,840 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@4a3461d6[statistics] main{StandardDirectoryReader(segments_9d:1247:nrt _h8(4.10.2):C6152 _ha(4.10.2):C5 _h9(4.10.2):C1)}
+2017-08-31 19:28:22,841 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2017-08-31 19:28:22,842 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2017-08-31 19:28:22,847 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@4a3461d6[statistics] main{StandardDirectoryReader(segments_9d:1247:nrt _h8(4.10.2):C6152 _ha(4.10.2):C5 _h9(4.10.2):C1)}

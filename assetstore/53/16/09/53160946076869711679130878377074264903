@@ -1,0 +1,35 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+<atom:id>http://hdl.handle.net/10673/7/ore.xml</atom:id>
+<atom:link href="http://hdl.handle.net/10673/7" rel="alternate" />
+<atom:link href="http://hdl.handle.net/10673/7/ore.xml" rel="http://www.openarchives.org/ore/terms/describes" />
+<atom:link href="http://hdl.handle.net/10673/7/ore.xml#atom" rel="self" type="application/atom+xml" />
+<atom:published>2012-06-26T20:02:09Z</atom:published>
+<atom:updated>2012-06-26T20:02:09Z</atom:updated>
+<atom:source>
+<atom:generator>DSpace Demo Repository</atom:generator>
+</atom:source>
+<atom:title>Test Word Document</atom:title>
+<atom:category label="Aggregation" scheme="http://www.openarchives.org/ore/terms/" term="http://www.openarchives.org/ore/terms/Aggregation" />
+<atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="2012-06-26T20:02:09Z" />
+<atom:category label="DSpace Item" scheme="http://www.dspace.org/objectModel/" term="DSpaceItem" />
+<atom:link href="http://demo.dspace.org/xmlui/bitstream/10673/7/1/test_word.doc" length="26112" rel="http://www.openarchives.org/ore/terms/aggregates" title="test_word.doc" type="application/msword" />
+<atom:link href="http://demo.dspace.org/xmlui/bitstream/10673/7/2/test_word.docx" length="10308" rel="http://www.openarchives.org/ore/terms/aggregates" title="test_word.docx" type="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+<oreatom:triples>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://hdl.handle.net/10673/7/ore.xml#atom">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem" />
+<dcterms:modified>2012-06-26T20:02:09Z</dcterms:modified>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/7/1/test_word.doc">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/7/2/test_word.docx">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/7/3/license.txt">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>LICENSE</dcterms:description>
+</rdf:Description>
+</oreatom:triples>
+</atom:entry>

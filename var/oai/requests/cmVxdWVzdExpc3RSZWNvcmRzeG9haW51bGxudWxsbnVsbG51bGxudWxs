@@ -1,0 +1,3832 @@
+<request verb="ListRecords" metadataPrefix="xoai">http://localhost:8080/oai/request</request><ListRecords><record><header><identifier>oai:http://localhost:123456789/19</identifier><datestamp>2017-06-20T07:41:14Z</datestamp><setSpec>com_123456789_2</setSpec><setSpec>com_123456789_1</setSpec><setSpec>col_123456789_3</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">TSOLAKIDIS, ANASTASIOS</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-09-01</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-01-26T09:57:59Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-01-26T09:57:59Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">Ν2-3050</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/19</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Computer structure. Data representation methods (unsigned and signed integers, floating point numbers, characters), signed number and floating point arithmetic, instruction set architecture(instruction format, instruction set, addressing modes with particular emphasis on indexed method, as implemented in lists and tables), pseudo-instructions. Machine language, programming at symbolic language level. Assembler, Linker, Debugger. Stack organization and subroutines. Fetch – execution of instructions. Understanding computer performance. Data input – output. Bus structure. Direct memory access. The laboratory part of the course includes programming in assembly language (MIPS) using simulators.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by An Tsolak Tsolak (atsolakid@teiath.gr) on 2017-01-26T09:57:59Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-01-26T09:57:59Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Dept of Informatics - Tei of Athens</field>
+</element>
+</element>
+<element name="relation">
+<element name="en_US">
+<field name="value">no</field>
+</element>
+</element>
+<element name="rights">
+<element name="en_US">
+<field name="value">Enrolled student</field>
+<field name="value">Erasmus student with learning aggrements</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Computer Architecture</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunity">
+<element name="engagement">
+<element name="en_US">
+<field name="value">facetoface</field>
+<field name="value">parttime</field>
+</element>
+</element>
+<element name="languageOfInstruction">
+<element name="en_US">
+<field name="value">gr</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel::Linux System Administration</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel::Linux Operating System</field>
+</element>
+</element>
+<element name="specifies">
+<element name="en_US">
+<field name="value">http://195.130.109.197:8080/jspui/123456789/18#62</field>
+</element>
+</element>
+<element name="start">
+<element name="none">
+<field name="value">2017-08-12</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">http://www.cs.teiath.gr/?page_id=6391</field>
+</element>
+</element>
+<element name="competence">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel::Linux System Administration::Explain the process of authentication and authorization between end-user devices and network resources</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">tei.png</field>
+<field name="originalName">tei.png</field>
+<field name="format">image/png</field>
+<field name="size">30082</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/19/1/tei.png</field>
+<field name="checksum">f77fae9afd802bcf1e92a94a46e80028</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/19</field>
+<field name="identifier">oai:http://localhost:123456789/19</field>
+<field name="lastModifyDate">2017-06-20 10:41:14.409</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/18</identifier><datestamp>2017-06-15T06:30:06Z</datestamp><setSpec>com_123456789_2</setSpec><setSpec>com_123456789_1</setSpec><setSpec>col_123456789_4</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Kehagias, Dimitris</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2013-09-01</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-01-26T08:53:56Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-01-26T08:53:56Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">Ν2-3050</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/18</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Computer structure. Data representation methods (unsigned and signed integers, floating point numbers, characters), signed number and floating point arithmetic, instruction set architecture(instruction format, instruction set, addressing modes with particular emphasis on indexed method, as implemented in lists and tables), pseudo-instructions. Machine language, programming at symbolic language level. Assembler, Linker, Debugger. Stack organization and subroutines. Fetch – execution of instructions. Understanding computer performance. Data input – output. Bus structure. Direct memory access. The laboratory part of the course includes programming in assembly language (MIPS) using simulators.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by An Tsolak Tsolak (atsolakid@teiath.gr) on 2017-01-26T08:53:56Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-01-26T08:53:56Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">gr</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Dept of Informatics - Tei of Athens</field>
+</element>
+</element>
+<element name="relation">
+<element name="en_US">
+<field name="value">no</field>
+</element>
+</element>
+<element name="rights">
+<element name="en_US">
+<field name="value">Enrolled student</field>
+<field name="value">Erasmus student with learning aggrements</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::General and reference</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Computer Architecture</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">DCMI::Event</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="assessment">
+<element name="en_US">
+<field name="value">lab practice</field>
+<field name="value">exam</field>
+</element>
+</element>
+<element name="credit">
+<element name="en_US">
+<field name="value">5</field>
+</element>
+</element>
+<element name="level">
+<element name="en_US">
+<field name="value">Learning Opportunity Instance Level::EQF::EQF Level 6</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel::Linux System Administration</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel::Linux Operating System</field>
+</element>
+</element>
+<element name="qualification">
+<element name="en_US">
+<field name="value">Transcript of Records</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">http://www.cs.teiath.gr/?page_id=6391</field>
+</element>
+</element>
+<element name="competence">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel::Linux System Administration::Explain the process of authentication and authorization between end-user devices and network resources</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">tei.jpg</field>
+<field name="originalName">tei.jpg</field>
+<field name="format">image/jpeg</field>
+<field name="size">21974</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/18/1/tei.jpg</field>
+<field name="checksum">abc3497ef145fb14f9f7e92f8eb63b2b</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/18</field>
+<field name="identifier">oai:http://localhost:123456789/18</field>
+<field name="lastModifyDate">2017-06-15 09:30:06.225</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/49</identifier><datestamp>2017-06-19T21:20:53Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_27</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Airofarulla, Giuseppe</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-03-15</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-01-30T16:34:06Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-01-30T16:34:06Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">TxD</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/49</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Starting from the fundamental right of inclusion, namely the equal participation of each individual in every aspect of society, who should be guaranteed to all human beings, the course aims to highlight the design approach based concepts to achieve such inclusion, with the aim of conceiving environments, systems, products and services which are usable independently from people with different needs and abilities. It is of importance to involve human diversity in the design process. &#xd;
+&#xd;
+In addition, the course lets students to meet with various stakeholders, including end users, voluntary associations, specialists, operators, service providers, technicians and researchers. &#xd;
+&#xd;
+Some students, chosen on voluntary basis, are offered with the opportunity to realize concrete activities of analysis, design and implementation of tools and solutions thought for subjects with various disabilities.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-01-30T16:34:05Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-01-30T16:34:06Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">it</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico Di Torino</field>
+</element>
+</element>
+<element name="relation">
+<element name="en_US">
+<field name="value">Highlight the role that engineers have to play in this field</field>
+</element>
+</element>
+<element name="rights">
+<element name="en_US">
+<field name="value">The course aims to: &#xd;
+•	Sensitize the students about: &#xd;
+o	    the living conditions of people with disabilities &#xd;
+o	    communication, mobility, socialization, and working issues they daily met &#xd;
+•	Frame the specific problem of disability in the broader context of education in diversity &#xd;
+•	Highlight the role that engineers have to play in this field &#xd;
+•	Spread among students the concept of motor disabilities and the tools commonly used by people suffering from them &#xd;
+•	Present the basic concepts of Design for All, highlighting its importance and necessity &#xd;
+•	Learn to apply the Design for All concepts in different contexts and application domains, crossing various fields of Engineering and Architecture &#xd;
+•	Introduce the concepts of OpenSource and OpenHardware &#xd;
+•	Present practical and direct testimonies from the world of disability, by letting students to meet several stakeholders, including end-user, voluntary associations, specialists, operators, service providers, caregivers, technicians, and researchers.</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">Introductive course to Assistive Technology</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Technologies and disability</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">Multidisciplinary Bachelor Course</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunity">
+<element name="duration">
+<element name="none">
+<field name="value">2017-06-16</field>
+</element>
+</element>
+<element name="engagement">
+<element name="en_US">
+<field name="value">facetoface</field>
+</element>
+</element>
+<element name="languageOfInstruction">
+<element name="en_US">
+<field name="value">it</field>
+</element>
+</element>
+<element name="location">
+<element name="en_US">
+<field name="value">Turin</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">Frame the specific problem of disability in the broader context of education in diversity</field>
+</element>
+</element>
+<element name="places">
+<element name="en_US">
+<field name="value">250</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">No one</field>
+</element>
+</element>
+<element name="start">
+<element name="none">
+<field name="value">2017-03-15</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=02OQMPM&amp;p_a_acc=2017&amp;p_header=S&amp;p_esa=N&amp;p_ridotto=N&amp;p_lang=EN</field>
+</element>
+</element>
+<element name="offered">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="competence">
+<element name="en_US">
+<field name="value">No one</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">cini.png</field>
+<field name="originalName">cini.png</field>
+<field name="format">image/png</field>
+<field name="size">16739</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/49/1/cini.png</field>
+<field name="checksum">f1f95ca51bc27dd530647b41d29cec61</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/49</field>
+<field name="identifier">oai:http://localhost:123456789/49</field>
+<field name="lastModifyDate">2017-06-20 00:20:53.131</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/50</identifier><datestamp>2017-06-19T18:06:17Z</datestamp><setSpec>com_123456789_2</setSpec><setSpec>com_123456789_1</setSpec><setSpec>col_123456789_3</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">TSOLAKIDIS, ANASTASIOS</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-09-01</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-02T11:03:54Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-02T11:03:54Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">Ν2-3050</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/50</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Computer structure. Data representation methods (unsigned and signed integers, floating point numbers, characters), signed number and floating point arithmetic, instruction set architecture(instruction format, instruction set, addressing modes with particular emphasis on indexed method, as implemented in lists and tables), pseudo-instructions. Machine language, programming at symbolic language level. Assembler, Linker, Debugger. Stack organization and subroutines. Fetch – execution of instructions. Understanding computer performance. Data input – output. Bus structure. Direct memory access. The laboratory part of the course includes programming in assembly language (MIPS) using simulators.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by An Tsolak Tsolak (atsolakid@teiath.gr) on 2017-02-02T11:03:54Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-02T11:03:54Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">gr</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Dept of Informatics - Tei of Athens</field>
+</element>
+</element>
+<element name="relation">
+<element name="en_US">
+<field name="value">no</field>
+</element>
+</element>
+<element name="rights">
+<element name="en_US">
+<field name="value">Enrolled student</field>
+<field name="value">Erasmus student with learning aggrements</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::General and reference</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Computer Architecture #1</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">DCMI::Event</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunity">
+<element name="cost">
+<element name="en_US">
+<field name="value">no</field>
+</element>
+</element>
+<element name="engagement">
+<element name="en_US">
+<field name="value">facetoface</field>
+<field name="value">fulltime</field>
+</element>
+</element>
+<element name="hasPart">
+<element name="en_US">
+<field name="value">123456789/19#56</field>
+</element>
+</element>
+<element name="languageOfInstruction">
+<element name="en_US">
+<field name="value">gr</field>
+</element>
+</element>
+<element name="location">
+<element name="en_US">
+<field name="value">Athens</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel::Linux System Administration</field>
+</element>
+</element>
+<element name="places">
+<element name="en_US">
+<field name="value">80</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel::Linux Operating System</field>
+</element>
+</element>
+<element name="specifies">
+<element name="en_US">
+<field name="value">123456789/18#62</field>
+</element>
+</element>
+<element name="start">
+<element name="none">
+<field name="value">2016-10-10</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">http://www.cs.teiath.gr/?page_id=6391</field>
+</element>
+</element>
+<element name="competence">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel::Linux System Administration::Explain the process of authentication and authorization between end-user devices and network resources</field>
+<field name="value">ACM IT CompetencyModel::Linux System Administration::Implement a hardware and software configuration responsive to an identified scenario</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">123456789/50</field>
+<field name="identifier">oai:http://localhost:123456789/50</field>
+<field name="lastModifyDate">2017-06-19 21:06:17.446</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/51</identifier><datestamp>2017-04-20T14:59:19Z</datestamp><setSpec>com_123456789_13</setSpec><setSpec>com_123456789_10</setSpec><setSpec>col_123456789_15</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Peyman Pouyan</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-02-05</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-05T16:32:07Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-05T16:32:07Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">kk</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/51</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by s.hamdioui Said (s.hamdioui@tudelft.nl) on 2017-02-05T16:32:07Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-05T16:32:07Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">kk</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">DCMI::Dataset</field>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">123456789/51</field>
+<field name="identifier">oai:http://localhost:123456789/51</field>
+<field name="lastModifyDate">2017-04-20 17:59:19.233</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/52</identifier><datestamp>2017-02-11T15:35:10Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_27</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Airò Farulla, Giuseppe</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-03-06</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-11T15:35:10Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-11T15:35:10Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">01RLAOV</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/52</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">The course is a group project involving construction of an item/product of significant complexity under conditions designed to give insights into industrial teamwork. &#xd;
+It includes design, construction and assessment through the course, ending with written and oral presentations. &#xd;
+In addition, the course aims at: &#xd;
+•	presenting the basic concepts of &#xd;
+o	Project managements &#xd;
+o	Team building and Team managements &#xd;
+o	Effective written and oral communications and presentations; &#xd;
+•	presenting practical and direct testimonies from both industry and design centers, including mangers and researchers from domestic and international SMEs, biggest industrial players, and Research Institutions; &#xd;
+•	improving students’ capabilities in communicating well and effectively, both in print and in person. &#xd;
+&#xd;
+Students are clustered into groups of 3 or 4, supervised by a mentor. &#xd;
+&#xd;
+The final assessment involves: &#xd;
+•	group marks for the final item/product, along with the technical presentation and the documentation of the work; &#xd;
+•	individual marks for process, that is, how well each team member participated and contributed.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-02-11T15:35:10Z
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-11T15:35:10Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">Group project management</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">System design project</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">DCMI::Event</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="assessment">
+<element name="en_US">
+<field name="value">The final assessment involves:  •	group marks for the final item/product, along with the technical presentation and the documentation of the work;  •	individual marks for process, that is, how well each team member participated and contributed.</field>
+</element>
+</element>
+<element name="credit">
+<element name="en_US">
+<field name="value">6</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">Having successfully completed the course, the participant will:  •	Understand the basic concepts and the central issue of team building, process tracking, and process management;  •	Get a significant practical hands-on experience on team building, process tracking, and process management;  •	Learn how facing and takling a significantly complex design and implementation project, having it run on an advanced hardware/software platform;  •	Learn how using open source project management tools;  •	Experience both oral and written presentations;  •	Learn about some significant industrial case studies, having met testimonies from domestic and international industries and design centers.</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">Software engineering</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=01RLAOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+<element name="competence">
+<element name="en_US">
+<field name="value">Project management</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">123456789/52</field>
+<field name="identifier">oai:http://localhost:123456789/52</field>
+<field name="lastModifyDate">2017-02-11 17:35:10.779</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/53</identifier><datestamp>2017-06-17T20:28:09Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_27</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Airò Farulla, Giuseppe</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-03-06</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-11T15:50:01Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-11T15:50:01Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">02LSEOV</field>
+<field name="value">02LSEOQ</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/53</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">•	Review of basic computer systems and architectures; &#xd;
+•	Characteristics of assembly languages and differences vs. high level languages; &#xd;
+•	Programming techniques: theory and practice; &#xd;
+•	Introduction to modern microprocessor architectures; &#xd;
+•	RISC and superscalar processor architectures and their behavior; &#xd;
+•	A typical microprocessor-based system architecture. &#xd;
+&#xd;
+Real problems and their solutions.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-02-11T15:50:01Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-11T15:50:01Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">The course offers an overview of microprocessor based systems with special attention to low level assembly programming in parallel and non-parallel architectures.</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Computer architectures</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">Master Course</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="assessment">
+<element name="en_US">
+<field name="value">•	Written part on assembly and parallel systems low level programming;  •	Mandatory oral part including the practical check of the solutions proposed for the written part.</field>
+</element>
+</element>
+<element name="credit">
+<element name="en_US">
+<field name="value">10</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">Embedded systems are, among all, tightly combining architecture and special purpose software designs. This implies that both hardware and software projects are not only mutually influencing one the other, but also that an embedded system designer must count on a deep knowledge and expertise of low level programming. The main goal of this course is to provide the Students with these capabilities, both from theoretical and practical points of view.</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">•	Knowledge of basics of computer architectures and systems;  •	Knowledge and practice of high level programming techniques and language(s).</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=02LSEOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">cini.png</field>
+<field name="originalName">cini.png</field>
+<field name="format">image/png</field>
+<field name="size">16739</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/53/1/cini.png</field>
+<field name="checksum">f1f95ca51bc27dd530647b41d29cec61</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/53</field>
+<field name="identifier">oai:http://localhost:123456789/53</field>
+<field name="lastModifyDate">2017-06-17 23:28:09.758</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/54</identifier><datestamp>2017-06-17T20:36:43Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_27</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Airò Farulla, Giuseppe</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-03-06</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-11T16:06:11Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-11T16:06:11Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">01NVVOV</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/54</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">The course, compulsory for the Master degree in Computer Engineering, is offered on the 1st semester of the 1st year. The course addresses the fundamental issues in the technology of database management systems and introduces database management techniques for data warehouses (database systems specialized in strategic decision support), typically characterized by the need of managing very large databases. Both traditional OLAP (On Line Analytical Processing) analysis techniques and complex data mining techniques will be addressed. Laboratory sessions allow experimental activities, both on technological characteristics and data analysis, on the most widespread commercial and open-source products.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-02-11T16:06:11Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-11T16:06:11Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::General and reference</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Database management systems</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">Master Course</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="assessment">
+<element name="en_US">
+<field name="value">The exam includes a written part, the evaluation of the report on the individual practices assigned during the course, and, optionally, an oral part. The written part includes questions and exercises on the main course topics (technological characteristics of a database management system, SQL language, physical database design, conceptual, logical, and physical data warehouse design, data mining algorithms). The oral part includes questions on the topics of the lectures. The final exam grade is defined by evaluating the written part, the report, and, optionally, the oral part.</field>
+</element>
+</element>
+<element name="credit">
+<element name="en_US">
+<field name="value">4</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">-	Knowledge of the main technological characteristics of a database management system: concurrent data access management, reliability, physical level structures, data access optimization.  -	Ability to design the physical data structures for a relational database.  -	Knowledge of distributed database system architecture and replication management.  -	Knowledge of active database systems and SQL statements for trigger definition.  -	Ability to write triggers in the SQL language.  -	Knowledge of data warehouse architecture and of the methodology for conceptual, logical, and physical design of a data warehouse.  -	Ability to design a data warehouse.  -	Knowledge of the SQL statements for OLAP queries in a data warehouse.  -	Ability to write OLAP queries in the SQL language.  -	Knowledge of the major data mining algorithms for classification, clustering, and association rule mining.</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">Knowledge of the relational model and SQL language and basic programming skills.</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=01NVVOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">cini.png</field>
+<field name="originalName">cini.png</field>
+<field name="format">image/png</field>
+<field name="size">16739</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/54/1/cini.png</field>
+<field name="checksum">f1f95ca51bc27dd530647b41d29cec61</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/54</field>
+<field name="identifier">oai:http://localhost:123456789/54</field>
+<field name="lastModifyDate">2017-06-17 23:36:43.935</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/55</identifier><datestamp>2017-02-11T16:15:17Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_27</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Airò Farulla, Giuseppe</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-03-06</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-11T16:15:17Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-11T16:15:17Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">01OTWOV</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/55</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">The course aims at providing students with knowledge and in depth understanding of advanced computer network technologies widely deployed in modern networks or that are expected to become mainstream in the near future.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-02-11T16:15:17Z
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-11T16:15:17Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::General and reference</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Computer network technologies and services</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">Master Course</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="assessment">
+<element name="en_US">
+<field name="value">Depending on the number of candidates, the exam could be in a written or oral form. In either case, the exam consists in two to four questions on topics addressed during lectures and lab sessions.</field>
+</element>
+</element>
+<element name="credit">
+<element name="en_US">
+<field name="value">6</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">-	IPv6 protocol and techniques to support its co-existence with IPv4.  -	The most popular techniques and protocols used to implement Virtual Private Networks (VPN), both customer-provisioned and provider-provisioned.  -	Voice-over-IP (VoIP) systems, based on SIP standard protocol.  -	Protocols and techniques for audio and video transmission.  -	Technologies and services deployed in wide-area-networks: ATM, Frame Relay, Sonet/SDH.  -	Optical networks  -	MPLS protocol architecture.</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">Knowledge on computer networks obtained in a bachelor degree (laurea) in computer engineering. In particular, excellent understanding of the TCP/IP protocol suite (IPv4, TCP and UDP) and technologies used to realized local area networks.</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=01OTWOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">123456789/55</field>
+<field name="identifier">oai:http://localhost:123456789/55</field>
+<field name="lastModifyDate">2017-02-11 18:15:17.695</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/56</identifier><datestamp>2017-06-17T20:29:23Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_27</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Airò Farulla, Giuseppe</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-03-06</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-11T16:31:19Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-11T16:31:19Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">02LQDOV</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/56</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Course appearing in the tracks Embedded Systems and Software and Digital Systems). Students acquire the skills to describe digital systems at various levels of abstraction with the VHDL language. The course completes the design methodologies acquired in previous basic digital design courses and extends them to the register-transfer level focusing on automated synthesis. The course uses simulation-based verification techniques to develop in a lab a complex design and deals with verification techniques based on formal methods, in particular combinational and sequential equivalence check and model checking. The course introduces the basic knowledge on testing digital circuits.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-02-11T16:31:19Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-11T16:31:19Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en_US</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::Hardware</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Specification and simulation of digital systems</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">Master Course</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="assessment">
+<element name="en_US">
+<field name="value">A homework is assigned to each group of 2/3 students during the last part of the course. It consists of a RT-level design of a complex systems described in VHDL. The design activity starts in the lab during the course, then the students complete it. The homework is ranked. If the mark is sufficient, follows an oral exam on all the topics dealt with during the course. The final mark takes into account both the homework and the oral exam.</field>
+</element>
+</element>
+<element name="credit">
+<element name="en_US">
+<field name="value">6</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">•	Knowledge of the syntax and semantics of VHDL  •	Ability to describe complex digital systems in VHDL at various levels of abstraction  •	Knowledge of the fundamental features of embedded systems  •	Knowledge of the metrics to evaluate designs  •	Knowledge of the design methodologies for register-transfer level systems  •	Ability to design complex digital systems at the register-transfer level with CAD tools  •	Ability to verify by simulation complex digital system designs  •	Knowledge of the main formal verification techniques with particular emphasis on combinational and sequential equivalence check and model checking  •	Knowledge of the fundamental notions in testing  •	Ability to generate test patterns for simple combinational circuits</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">Knowledge of basic design techniques for combinational and synchronous sequential circuits.</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=02LQDOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">cini.png</field>
+<field name="originalName">cini.png</field>
+<field name="format">image/png</field>
+<field name="size">16739</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/56/1/cini.png</field>
+<field name="checksum">f1f95ca51bc27dd530647b41d29cec61</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/56</field>
+<field name="identifier">oai:http://localhost:123456789/56</field>
+<field name="lastModifyDate">2017-06-17 23:29:23.037</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/57</identifier><datestamp>2017-06-18T16:05:44Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_27</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Airò Farulla, Giuseppe</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-03-06</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-11T16:35:11Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-11T16:35:11Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">04GSPOV</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/57</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Goal of the course is to expose the students to the problems involved in programming in the large (programs of medium large size, involving teams of programmers) and to the tools offered by the software engineering discipline to tackle these problems.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-02-11T16:35:11Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-11T16:35:11Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Software engineering</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="assessment">
+<element name="en_US">
+<field name="value">Written exam, with exercices to be solved, theory questions.</field>
+</element>
+</element>
+<element name="credit">
+<element name="en_US">
+<field name="value">8</field>
+</element>
+</element>
+<element name="hasPart">
+<element name="en_US">
+<field name="value">123456789/52#105</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">Knowledge acquired: issues in the development of large software systems (communication and coordination between contractors and developers, evolution, correctness, reliability, usability). Software life cycles. The UML language. Operational modeling and prototyping. Verification and validation. Management and support of software projects.   Skills acquired: ability to analyze and formalize functional and non functional requirements of a software system. Ability to define an operational model of a software system. Ability to validate and verify a software system (through test, prototyping and inspection). Ability to define the organizational support of a software project (project management, configuration management, lifecycle).</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">Capability of developing small programs, knowledge of structural elements of programming languages (functions, classes, packages).</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=04GSPOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">cini.png</field>
+<field name="originalName">cini.png</field>
+<field name="format">image/png</field>
+<field name="size">16739</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/57/1/cini.png</field>
+<field name="checksum">f1f95ca51bc27dd530647b41d29cec61</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/57</field>
+<field name="identifier">oai:http://localhost:123456789/57</field>
+<field name="lastModifyDate">2017-06-18 19:05:44.409</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/58</identifier><datestamp>2017-02-11T16:45:16Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_27</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Airò Farulla, Giuseppe</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-03-06</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-11T16:45:16Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-11T16:45:16Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">03MQPOV</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/58</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Course for the Laurea Magistrale degree in Computer Engineering, taught in English during the 2nd semester of the 1st year. &#xd;
+The objective of this course is to provide the student with the knowledge and abilities required for developing distributed applications, starting with the so called 'network programming', up to the programming of a web application, including the access to a distributed relational data base. In particular, the course aims at providing the basic knowledge and abilities necessary for evaluating the main design choices for the above applications.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-02-11T16:45:16Z
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-11T16:45:16Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Distributed programming I</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="assessment">
+<element name="en_US">
+<field name="value">The exam consists of verifying the expected knowledge and skills acquired by the student by means of two practical tests followed by an oral discussion: a programming test on Network Programming (program to be developed in C with given requirements) and a programming test on Web Programming (web site to be developed using HTML, CSS, JavaScript, PHP, DB access, with given requirements). The two tests will contribute with the same weight to the final mark. The network programming test takes place in the lab in the date of the exam call while for the web programming test an assignment is given about 3 weeks before the exam call and the student develops the solution autonomously at home by the deadline indicated in the assignment. Only the students who have submitted their solution to the web assignment by the deadline are admitted to the network programming test. The students who pass the network programming test go to the oral discussion where the programming tests are discussed with the student in order to check the student's ability to apply the acquired knowledge and the final mark is assigned.</field>
+</element>
+</element>
+<element name="credit">
+<element name="en_US">
+<field name="value">6</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">•	Knowledge of the socket interface in C, for network programming, including both IPv4 and IPv6 versions.  •	Ability to apply the knowledge of the socket interface to implement distributed applications, including the case of dual-stack (IPv4 and IPv6) servers.  •	Knowledge of HTML (including the main aspects of HTML5), CSS and Javascript.  •	Ability to apply the knowledge of HTML, CSS and Javascript to develop simple web pages, including the interaction with the user using Javascript.  •	Knowledge of web applications that use server-side programming (dynamic web pages) and interaction with relational data bases.  •	Ability to develop web applications that use client-side programming (Javascipt), server-side programming (PHP) and interaction with remote relational data bases.  •	Knowledge of robustness, security, interoperability, and performance issues and related best practices</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">Knowledge of advanced C programming, including the basics of process management and synchronization in Unix. Knowledge of database management systems and ability to describe operations on them using the SQL language. Knowledge of the main protocols for computer networks, with particular reference to HTTP, TCP, UDP, IPv4 and IPv6. As the practical part of this course is very important, good debugging skills are also required, and the ability to use packet sniffing tools (e.g. Wireshark).</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=03MQPOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">123456789/58</field>
+<field name="identifier">oai:http://localhost:123456789/58</field>
+<field name="lastModifyDate">2017-02-11 18:45:16.669</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/59</identifier><datestamp>2017-06-17T20:30:22Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_27</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Airò Farulla, Giuseppe</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-03-06</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-11T18:36:05Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-11T18:36:05Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">02LVNOV</field>
+<field name="value">02LVNOQ</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/59</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">This course introduces the basic concepts of synthesis and optimization of CMOS digital circuits.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-02-11T18:36:05Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-11T18:36:05Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::Hardware</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Synthesis and optimization of digital systems</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">Master Course</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="assessment">
+<element name="en_US">
+<field name="value">-	Knowledge of Electronic Design Automation flows with particular emphasis on synthesis and optimization techniques;  -	Modeling of digital circuits and abstract data structures used in CAD tools;  -	Knowledge of behavioral- and logic-level synthesis methodologies;  -	Understanding of the main optimization techniques and their algorithms for different cost functions (Area, Delay, Power consumption)  -	Practical skills in commercial synthesis tools, industrial deep-submicron CMOS technologies and TCL scripting language</field>
+</element>
+</element>
+<element name="credit">
+<element name="en_US">
+<field name="value">6</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">-	Knowledge of Electronic Design Automation flows with particular emphasis on synthesis and optimization techniques;  -	Modeling of digital circuits and abstract data structures used in CAD tools;  -	Knowledge of behavioral- and logic-level synthesis methodologies;  -	Understanding of the main optimization techniques and their algorithms for different cost functions (Area, Delay, Power consumption)  -	Practical skills in commercial synthesis tools, industrial deep-submicron CMOS technologies and TCL scripting language</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">-	Software programming (data structures and algorithms)  -	Basics of digital electronics (CMOS and logic circuits, computer architecture)  -	Hardware description languages (Verilog/VHDL)</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=02LVNOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">cini.png</field>
+<field name="originalName">cini.png</field>
+<field name="format">image/png</field>
+<field name="size">16739</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/59/1/cini.png</field>
+<field name="checksum">f1f95ca51bc27dd530647b41d29cec61</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/59</field>
+<field name="identifier">oai:http://localhost:123456789/59</field>
+<field name="lastModifyDate">2017-06-17 23:30:22.867</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/60</identifier><datestamp>2017-06-17T21:53:21Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_27</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Airò Farulla, Giuseppe</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-10-01</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-11T18:38:19Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-11T18:38:19Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">01PDVOV</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/60</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Optional course for the Laurea Magistrale degree in Computer Engineering, which is taught in English during the 1st semester of the 2nd year. &#xd;
+This course completes the basic knowledge and abilities that are taught in the previous course on Distributed Programming I and that are required for developing distributed applications. It focuses on the techniques for interactions among distributed applications, and in particular web services and related portable data formats (XML and JSON).</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-02-11T18:38:19Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-11T18:38:19Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Distributed programming II</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">Master Course</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="assessment">
+<element name="en_US">
+<field name="value">The exam consists of verifying the expected knowledge and skills acquired by the student.  During the course the student will have to develop XML applications and web services using the Java language. The exam includes a preliminary evaluation of the assignments developed by the student and a test in the Lab composed of a programming test (developing an extension of the previously developed assignments) and an open question. In case of doubts, an oral exam may be requested to complete the evaluation.</field>
+</element>
+</element>
+<element name="credit">
+<element name="en_US">
+<field name="value">6</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">- Knowledge of the main character-oriented standards for data exchange among distributed applications  - Ability to develop applications for XML data manipulation using the Java language  - Knowledge of web services and related architectures (REST vs SOAP)  - Ability to design and develop RESTful web services (REST APIs) using the Java language</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">Basic knowledge of the Java language and related programming abilities. Knowledge of the main internet application-level protocols, with particular reference to HTTP. Basic knowledge about web applications.</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=01PDVOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">cini.png</field>
+<field name="originalName">cini.png</field>
+<field name="format">image/png</field>
+<field name="size">16739</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/60/1/cini.png</field>
+<field name="checksum">f1f95ca51bc27dd530647b41d29cec61</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/60</field>
+<field name="identifier">oai:http://localhost:123456789/60</field>
+<field name="lastModifyDate">2017-06-18 00:53:21.613</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/61</identifier><datestamp>2017-02-11T18:41:19Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_27</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Airò Farulla, Giuseppe</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-10-01</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-11T18:41:19Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-11T18:41:19Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">02KRQOV</field>
+<field name="value">02KRQBG</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/61</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">This is a compulsory course for the Laurea Magistrale in Computer Engineering, given at the I semester of the II year. This course deals with security issues in modern networked computer systems, paying special attention to data security and protection of computer networks and networked computer applications, in a closed (Intranet) or open (Internet) environment. The course aims to teach the skills needed to perform both the analysis and design of the security features of a networked computer system.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-02-11T18:41:19Z
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-11T18:41:19Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Computer system security</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">Master Course</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="assessment">
+<element name="en_US">
+<field name="value">Written exam (2 hours) about the analysis and design of security solutions. Alternatively, the student can develop an individual homework about one of the course's topics.</field>
+</element>
+</element>
+<element name="credit">
+<element name="en_US">
+<field name="value">6</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">-	Knowledge of the main categories of attack against networked computer systems  -	Knowledge and critical evaluation of the main methodologies (encrypyion and digest) and technologies (PKI, firewall, VPN, TLS, S/MIME, e-documents) for computer and information security  -	Knowledge and critical evaluation of the security architectures for authentication and access control and ability to tailor them to the protection of networked computer systems  -	Ability to analyse the risks of a network application and design a solution for its protection</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">Ethernet local networks. Wireless networks. TCP/IP networks and applications. High-level programming (in C, C++ or Java). Operating Systems.</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=02KRQOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">123456789/61</field>
+<field name="identifier">oai:http://localhost:123456789/61</field>
+<field name="lastModifyDate">2017-02-11 20:41:19.387</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/67</identifier><datestamp>2017-06-19T21:33:30Z</datestamp><setSpec>com_123456789_33</setSpec><setSpec>com_123456789_25</setSpec><setSpec>col_123456789_34</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Ellervee, Peeter</field>
+</element>
+</element>
+<element name="date">
+<element name="en_US">
+<field name="value">2017-02-21</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-20T17:38:51Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-20T17:38:51Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">TUT_IAS0150</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/67</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Digital system, control- and data-part (-automaton). The main design phases of digital systems design. Exact and heuristic minimization of multi-output logic functions. Multivalued logic functions. Multilevel implementation and optimization of logic functions. Sequential machines (finite state machine / finite abstract automaton). Automata representation, classification and usage. State machine minimization, encoding and implementation. Technology dependent optimization. Introduction to hardware description language VHDL. Modeling of logic functions and state machines. Physical implementation of digital systems. Printed circuit boards, their design and implementation.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by peeter.ellervee peeter.ellervee (peeter.ellervee@ttu.ee) on 2017-02-20T17:38:51Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-20T17:38:51Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">other</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="none">
+<field name="value">Tallinn University of Technology</field>
+<field name="value">Tallinn University of Technology</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::Hardware</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Digital Systems</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="level">
+<element name="en_US">
+<field name="value">Learning Opportunity Instance Level::ISCE::Bachelor’s or equivalent level</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">talin.png</field>
+<field name="originalName">talin.png</field>
+<field name="format">image/png</field>
+<field name="size">7908</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/67/1/talin.png</field>
+<field name="checksum">f16206f52ce7c88a109288b831da0914</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/67</field>
+<field name="identifier">oai:http://localhost:123456789/67</field>
+<field name="lastModifyDate">2017-06-20 00:33:30.393</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/68</identifier><datestamp>2017-06-19T21:32:24Z</datestamp><setSpec>com_123456789_33</setSpec><setSpec>com_123456789_25</setSpec><setSpec>col_123456789_34</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Ellervee, Peeter</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-04-20</field>
+</element>
+<element name="en_US">
+<field name="value">2017-04-20</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-20T17:40:56Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-20T17:40:56Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">TUT_IAY0340</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/68</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Modeling concepts for digital and analog hardware. Hardware description languages - VHDL, Verilog, SystemC. Description levels in VHDL - behavioral/functional, structural and data-flow levels. Simulation engines of hardware description languages. Verilog, and SystemC - description levels and simulation engines. Synthesizable VHDL and Verilog. Phases and methods of digital systems synthesis. Description languages for analog hardware - Spice, VHDL-AMS. Simulation and synthesis using modern design tools.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by peeter.ellervee peeter.ellervee (peeter.ellervee@ttu.ee) on 2017-02-20T17:40:56Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-20T17:40:56Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="none">
+<field name="value">Tallinn University of Technology</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::Hardware</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Digital Systems Modeling and Synthesis</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="level">
+<element name="en_US">
+<field name="value">Learning Opportunity Instance Level::ISCE::Master’s or equivalent level</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">http://mini.li.ttu.ee/~lrv/IAY0340/</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">talin.png</field>
+<field name="originalName">talin.png</field>
+<field name="format">image/png</field>
+<field name="size">7908</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/68/1/talin.png</field>
+<field name="checksum">f16206f52ce7c88a109288b831da0914</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/68</field>
+<field name="identifier">oai:http://localhost:123456789/68</field>
+<field name="lastModifyDate">2017-06-20 00:32:24.244</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/69</identifier><datestamp>2017-06-19T21:31:29Z</datestamp><setSpec>com_123456789_33</setSpec><setSpec>com_123456789_25</setSpec><setSpec>col_123456789_34</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Sudnitson, Aleksander</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-02-20</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-20T17:44:03Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-20T17:44:03Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">TUT_IAX0600</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/69</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Overview of the main topics of digital design. Digital systems design methodology using VHDL and FPGA/PSoC. Programmable logic (FPGAs) and programmable system-on-chip (PSoCs) as means for building reconfigurable systems. Rapid prototyping of digital systems.&#xd;
+The most important feature of the course is continuous evaluation based on simple but complete mini-projects. Such projects have to be implemented starting from the initial specification (given by instructors and discussed with students) to the final implementation in FPGA/PSoC.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by peeter.ellervee peeter.ellervee (peeter.ellervee@ttu.ee) on 2017-02-20T17:44:03Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-20T17:44:03Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="none">
+<field name="value">Tallinn University of Technology</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::Hardware</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Digital Systems Design</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="level">
+<element name="en_US">
+<field name="value">Learning Opportunity Instance Level::ISCE::Master’s or equivalent level</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">talin.png</field>
+<field name="originalName">talin.png</field>
+<field name="format">image/png</field>
+<field name="size">7908</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/69/1/talin.png</field>
+<field name="checksum">f16206f52ce7c88a109288b831da0914</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/69</field>
+<field name="identifier">oai:http://localhost:123456789/69</field>
+<field name="lastModifyDate">2017-06-20 00:31:29.083</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/70</identifier><datestamp>2017-06-19T21:30:21Z</datestamp><setSpec>com_123456789_33</setSpec><setSpec>com_123456789_25</setSpec><setSpec>col_123456789_34</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Evartson, Teet</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-02-20</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-20T17:46:30Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-20T17:46:30Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">TUT_IAX0043</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/70</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Processor: fetch-decode-execute cycle, processor structure, different achitectures. Processor components: Combinational circuits and sequential circuits;&#xd;
+Computer memory: classification, hierarhy, memory technologies, memory organization;&#xd;
+Instruction set and addressing: instructon formats, instruction set, addressing modes, virtual memory;&#xd;
+Microcomputer hardware: architecture, buses, data transfer, microprocessor supporting components, computer performance increasing;&#xd;
+Input/output devices: keyboard, printers, monitors, touch screens, mouse, AD and DA converters.&#xd;
+Special hardware: realization, application area;&#xd;
+Computers and reliaility: failures of system, hardware testing, error-detecting codes.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by peeter.ellervee peeter.ellervee (peeter.ellervee@ttu.ee) on 2017-02-20T17:46:30Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-20T17:46:30Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">other</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="none">
+<field name="value">Tallinn University of Technology</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::General and reference</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Computers</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="hasPart">
+<element name="en_US">
+<field name="value">123456789/68#137</field>
+</element>
+</element>
+<element name="level">
+<element name="en_US">
+<field name="value">Learning Opportunity Instance Level::ISCE::Bachelor’s or equivalent level</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">talin.png</field>
+<field name="originalName">talin.png</field>
+<field name="format">image/png</field>
+<field name="size">7908</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/70/1/talin.png</field>
+<field name="checksum">f16206f52ce7c88a109288b831da0914</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/70</field>
+<field name="identifier">oai:http://localhost:123456789/70</field>
+<field name="lastModifyDate">2017-06-20 00:30:21.033</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/71</identifier><datestamp>2017-06-19T21:29:44Z</datestamp><setSpec>com_123456789_33</setSpec><setSpec>com_123456789_25</setSpec><setSpec>col_123456789_35</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Ellervee, Peeter</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-01-31</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-20T17:52:14Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-20T17:52:14Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">TUT-IAY0340</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/71</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Modeling concepts for digital and analog hardware. Hardware description languages - VHDL, Verilog, SystemC. Description levels in VHDL - behavioral/functional, structural and data-flow levels. Simulation engines of hardware description languages. Verilog, and SystemC - description levels and simulation engines. Synthesizable VHDL and Verilog. Phases and methods of digital systems synthesis. Description languages for analog hardware - Spice, VHDL-AMS. Simulation and synthesis using modern design tools.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by peeter.ellervee peeter.ellervee (peeter.ellervee@ttu.ee) on 2017-02-20T17:52:14Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-20T17:52:14Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="none">
+<field name="value">Tallinn University of Technology</field>
+<field name="value">Tallinn University of Technology</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::Hardware</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Digital Systems Modeling and Synthesis</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunity">
+<element name="duration">
+<element name="none">
+<field name="value">2017-05-16</field>
+</element>
+</element>
+<element name="engagement">
+<element name="en_US">
+<field name="value">fulltime</field>
+</element>
+</element>
+<element name="languageOfInstruction">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+<element name="location">
+<element name="en_US">
+<field name="value">Tallinn, Estonia</field>
+</element>
+</element>
+<element name="places">
+<element name="en_US">
+<field name="value">10</field>
+</element>
+</element>
+<element name="specifies">
+<element name="en_US">
+<field name="value">123456789/68#137</field>
+</element>
+</element>
+<element name="start">
+<element name="none">
+<field name="value">2017-01-31</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">http://mini.li.ttu.ee/~lrv/IAY0340/</field>
+</element>
+</element>
+<element name="offered">
+<element name="en_US">
+<field name="value">Tallinn University of Technology</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">talin.png</field>
+<field name="originalName">talin.png</field>
+<field name="format">image/png</field>
+<field name="size">7908</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/71/1/talin.png</field>
+<field name="checksum">f16206f52ce7c88a109288b831da0914</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/71</field>
+<field name="identifier">oai:http://localhost:123456789/71</field>
+<field name="lastModifyDate">2017-06-20 00:29:44.032</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/72</identifier><datestamp>2017-06-19T21:24:40Z</datestamp><setSpec>com_123456789_33</setSpec><setSpec>com_123456789_25</setSpec><setSpec>col_123456789_34</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Kruus, Margus</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-02-20</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-20T17:56:27Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-20T17:56:27Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">TUT_IAX0010</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/72</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Boolean algebra and logic functions. Fundamentals of logic. Truth table. Laws of logic. Canonical standard forms. Disjunctive and conjunctive normal forms. Logic functions minimization. Shannon's expansions of logic function. The derivative of logic function. Complete system of logic functions. Fundamentals of set theory: sets, subsets, set operations, laws of set theory, Venn diagrams, simplification of expressions. Cartesian products, relations, functions. Onto and one-to-one functions. Equivalence relation. Partially ordered sets. Introduction to graph theory. Classical problems of set theory.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by peeter.ellervee peeter.ellervee (peeter.ellervee@ttu.ee) on 2017-02-20T17:56:27Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-20T17:56:27Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">other</field>
+</element>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::General and reference</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Discrete Mathematics</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="level">
+<element name="en_US">
+<field name="value">Learning Opportunity Instance Level::ISCE::Bachelor’s or equivalent level</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">http://www.diskmat.ee/</field>
+<field name="value">http://www.pld.ttu.ee/~kruus/diskmat/</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">talin.png</field>
+<field name="originalName">talin.png</field>
+<field name="format">image/png</field>
+<field name="size">7908</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/72/1/talin.png</field>
+<field name="checksum">f16206f52ce7c88a109288b831da0914</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/72</field>
+<field name="identifier">oai:http://localhost:123456789/72</field>
+<field name="lastModifyDate">2017-06-20 00:24:40.779</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/73</identifier><datestamp>2017-02-20T18:00:02Z</datestamp><setSpec>com_123456789_33</setSpec><setSpec>com_123456789_25</setSpec><setSpec>col_123456789_35</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Kruus, Margus</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-09-01</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-20T18:00:02Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-20T18:00:02Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">TUT_IAX0010</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/73</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Boolean algebra and logic functions. Fundamentals of logic. Truth table. Laws of logic. Canonical standard forms. Disjunctive and conjunctive normal forms. Logic functions minimization. Shannon's expansions of logic function. The derivative of logic function. Complete system of logic functions. Fundamentals of set theory: sets, subsets, set operations, laws of set theory, Venn diagrams, simplification of expressions. Cartesian products, relations, functions. Onto and one-to-one functions. Equivalence relation. Partially ordered sets. Introduction to graph theory. Classical problems of set theory.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by peeter.ellervee peeter.ellervee (peeter.ellervee@ttu.ee) on 2017-02-20T18:00:02Z
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-20T18:00:02Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">other</field>
+</element>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::General and reference</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Discrete Mathematics</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunity">
+<element name="duration">
+<element name="none">
+<field name="value">2017-12-15</field>
+</element>
+</element>
+<element name="engagement">
+<element name="en_US">
+<field name="value">fulltime</field>
+</element>
+</element>
+<element name="languageOfInstruction">
+<element name="en_US">
+<field name="value">other</field>
+</element>
+</element>
+<element name="location">
+<element name="en_US">
+<field name="value">Tallinn, Estonia</field>
+</element>
+</element>
+<element name="places">
+<element name="en_US">
+<field name="value">50</field>
+</element>
+</element>
+<element name="specifies">
+<element name="en_US">
+<field name="value">123456789/72#141</field>
+</element>
+</element>
+<element name="start">
+<element name="none">
+<field name="value">2017-09-01</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">http://www.diskmat.ee/</field>
+<field name="value">http://www.pld.ttu.ee/~kruus/diskmat/</field>
+</element>
+</element>
+<element name="offered">
+<element name="en_US">
+<field name="value">Tallinn University of Technology</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">123456789/73</field>
+<field name="identifier">oai:http://localhost:123456789/73</field>
+<field name="lastModifyDate">2017-02-20 20:00:02.791</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/74</identifier><datestamp>2017-06-19T21:28:45Z</datestamp><setSpec>com_123456789_33</setSpec><setSpec>com_123456789_25</setSpec><setSpec>col_123456789_34</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Ellervee, Peeter</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-02-20</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-20T18:02:02Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-20T18:02:02Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">TUT_IAY9610</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/74</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Design methodology of modern chips – VLSI, ASIC and SoC - design phases and teamwork. Computer Aided Design (CAD) systems. Hardware description levels - system, high, register transfer, logic and physical levels. Synthesis tasks at different description levels. Optimization algorithms for digital system synthesis at various abstraction levels. Universal and specialized algorithms. Software implementation of algorithms, data structures. VLSI, ASIC and SoC synthesis with modern design tools. Using field programmable logic for prototyping.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by peeter.ellervee peeter.ellervee (peeter.ellervee@ttu.ee) on 2017-02-20T18:02:02Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-20T18:02:02Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="none">
+<field name="value">Tallinn University of Technology</field>
+<field name="value">Tallinn University of Technology</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::Hardware</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Optimization Algorithms for Hardware Synthesis</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="level">
+<element name="en_US">
+<field name="value">Learning Opportunity Instance Level::ISCE::Doctoral or equivalent level</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">http://mini.li.ttu.ee/~lrv/IAY9610/</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">talin.png</field>
+<field name="originalName">talin.png</field>
+<field name="format">image/png</field>
+<field name="size">7908</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/74/1/talin.png</field>
+<field name="checksum">f16206f52ce7c88a109288b831da0914</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/74</field>
+<field name="identifier">oai:http://localhost:123456789/74</field>
+<field name="lastModifyDate">2017-06-20 00:28:45.107</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/75</identifier><datestamp>2017-06-19T21:35:05Z</datestamp><setSpec>com_123456789_33</setSpec><setSpec>com_123456789_25</setSpec><setSpec>col_123456789_34</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Ellervee, Peeter</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-02-10</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-20T18:06:50Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-20T18:06:50Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">TUT_IAS1410</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/75</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Software project includes a teamwork for solving an IT-project (eg, mini-information system, modelling of the experiences, data processing, etc.). Students will collectively work through the stages of software development: analysis of the task; choice the software; refining of tasks; using teamwork, pair-work and individual work; preparing project documentation and project defending. Project team members can be use either classical waterfall method, iterative method, or an agile method for software development.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by peeter.ellervee peeter.ellervee (peeter.ellervee@ttu.ee) on 2017-02-20T18:06:50Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-20T18:06:50Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">ee</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="none">
+<field name="value">Tallinn University of Technology</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">Group project management</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Software Project</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="level">
+<element name="en_US">
+<field name="value">Learning Opportunity Instance Level::ISCE::Bachelor’s or equivalent level</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">talin.png</field>
+<field name="originalName">talin.png</field>
+<field name="format">image/png</field>
+<field name="size">7908</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/75/1/talin.png</field>
+<field name="checksum">f16206f52ce7c88a109288b831da0914</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/75</field>
+<field name="identifier">oai:http://localhost:123456789/75</field>
+<field name="lastModifyDate">2017-06-20 00:35:05.229</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/76</identifier><datestamp>2017-06-19T21:34:26Z</datestamp><setSpec>com_123456789_33</setSpec><setSpec>com_123456789_25</setSpec><setSpec>col_123456789_34</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Ellervee, Peeter</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-02-20</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-20T18:13:13Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-20T18:13:13Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">TUT_IAX0583</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/76</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Positional and non-positional numeral systems. Converting numbers from one numeral system to another. Fixed point and floating point numbers. Computer architecture (software layer). OS and PS. Types of compilers. Program life-cycle. Languages. Language classification. Algorithmic languages. Presenting algorithmic languages using syntax diagrams.&#xd;
+Definition of an algorithm, ways to present and construct algorithms. Separating a task into subtasks. Various data types and their representation in a computer. Scalar and structural data types. Static variables. Declaring variables. Converting data from one type to another. Mixed data types. Operator priority. Formatting results. Organizing branches (including several conditions). Iterative statements with condition checking before and after the statement, examples. Global and local variables. Data exchange between various program modules. Declaring and indexing of arrays. Strings as arrays. Multidimensional arrays. Converting a two-dimensional array into a one-dimensional array. Sorting arrays. Calendar.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by peeter.ellervee peeter.ellervee (peeter.ellervee@ttu.ee) on 2017-02-20T18:13:13Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-20T18:13:13Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="none">
+<field name="value">Tallinn University of Technology</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">Software Engineering</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Programming I</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="level">
+<element name="en_US">
+<field name="value">Learning Opportunity Instance Level::ISCE::Bachelor’s or equivalent level</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">http://ati.ttu.ee/wiki/e/index.php/IAG0581_-_Programming_I</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">talin.png</field>
+<field name="originalName">talin.png</field>
+<field name="format">image/png</field>
+<field name="size">7908</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/76/1/talin.png</field>
+<field name="checksum">f16206f52ce7c88a109288b831da0914</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/76</field>
+<field name="identifier">oai:http://localhost:123456789/76</field>
+<field name="lastModifyDate">2017-06-20 00:34:26.103</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/77</identifier><datestamp>2017-06-06T13:20:37Z</datestamp><setSpec>com_123456789_13</setSpec><setSpec>com_123456789_10</setSpec><setSpec>col_123456789_14</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Peyman Pouyan</field>
+</element>
+</element>
+<element name="date">
+<element name="en_US">
+<field name="value">2017-02-21</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-21T10:13:04Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-21T10:13:04Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/77</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">With the continuous scaling of transistor feature sizes, the VLSI chip density is exponentially increasing. This results in a significant complexity of today's and future VLSI technology; such a complexity has reached the point where billions of transistors are integrated on a single chip (as it is the case for System on Chip). To guarantee customer's satisfaction, produced VLSI chips have to be reliable and fully tested. Verification and production testing represent 50 to 60% of the chips production total cost, and are now the biggest cost of the technology. It has been known for a while that tackling problems associated with testing VLSI chips at earlier design stage levels significantly reduces the testing cost. Thus it is important for hardware designers to be exposed to concepts of VLSI testing which can help them design better products at lower cost.&#xd;
+&#xd;
+To get a feeling about how important is test technology, you can imagine that just (functionally) testing of a 64bit adder (no flips flops) at 1GHz will cost 585 years! What about today’s chips with millions of flip flips? What are the practical and the efficient ways to deal with testing of VLSI chips? &#xd;
+&#xd;
+This course is an introduction to the field of digital systems testing, which is an integral part of IC design and manufacturing. The topics discussed are: Importance of VLSI Testing, Test process and Automatic Test Equipment, Defects versus Fault Models, Fault Simulation, Logic Simulation, Combinational Circuit Testing, Sequential Circuit Testing, Memory Testing, Design-for-Testability, Scan Design, Boundary Scan, Built-in-Self Test, Delay Test, Current Testing and Reliability.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by p.pouyan p.pouyan (p.pouyan@tudelft.nl) on 2017-02-21T10:13:03Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-21T10:13:04Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">TU Delft</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">Electronic Design</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">VLSI Test Technology &amp; Reliability</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunity">
+<element name="engagement">
+<element name="en_US">
+<field name="value">elearning</field>
+</element>
+</element>
+<element name="languageOfInstruction">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">State the trends and challenges in VLSI Test technology and Reliability  - Develop test algorithms and DFT techniques for digital circuits  - Better understand the weaknesses of digital systems and do research on VLSI Test Technology  - Become a better VLSI designer, a better test engineer/ product engineer</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">Digital circuits-Electronic design Flow- Logic design</field>
+</element>
+</element>
+<element name="specifies">
+<element name="en_US">
+<field name="value">123456789/51#97</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">123456789/77</field>
+<field name="identifier">oai:http://localhost:123456789/77</field>
+<field name="lastModifyDate">2017-06-06 16:20:37.629</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/80</identifier><datestamp>2017-04-25T23:27:56Z</datestamp><setSpec>com_123456789_13</setSpec><setSpec>com_123456789_10</setSpec><setSpec>col_123456789_14</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Peyman Pouyan</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-02-20</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-02-21T10:57:59Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-02-21T10:57:59Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">kk</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/80</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">This course provides an overview of the architecture and organization of a computer hardware system and the important principles of computer organization. In addition, the course addresses also object-oriented programming techniques. The course demonstrates the interrelation between hardware and software, and illustrates how the computers operates and how they can be programmed, with the emphasis on processor design and implementation. &#xd;
+&#xd;
+Topics discussed are Computer system overview, Measuring and comparing performance, ISA: instruction set architecture (MIPS, x86, 8051, JVM), Computer arithmetic, processor implementation, fast processor implementation, Memory hierarchy and caching, Interfacing, Modern architectures and organizations (superscalar, VLIW/IA64/Itanium), etc.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by p.pouyan p.pouyan (p.pouyan@tudelft.nl) on 2017-02-21T10:57:59Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-02-21T10:57:59Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">TU Delft</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Computer Architecture and Organisation</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">DCMI::Dataset</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunity">
+<element name="engagement">
+<element name="en_US">
+<field name="value">facetoface</field>
+</element>
+</element>
+<element name="hasPart">
+<element name="en_US">
+<field name="value">123456789/77#146</field>
+</element>
+</element>
+<element name="languageOfInstruction">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+<element name="location">
+<element name="en_US">
+<field name="value">TU Delft EMCS</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">Understand the basics of computer abstraction and performance-Understand and use the computer language: What is an ISA and how to write and extend it?-Understand and describes the trends and the challenges in the field of computer architecture.</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">Logic design</field>
+</element>
+</element>
+<element name="specifies">
+<element name="en_US">
+<field name="value">123456789/51#97</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">123456789/80</field>
+<field name="identifier">oai:http://localhost:123456789/80</field>
+<field name="lastModifyDate">2017-04-26 02:27:56.879</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/81</identifier><datestamp>2017-06-17T21:02:13Z</datestamp><setSpec>com_123456789_2</setSpec><setSpec>com_123456789_1</setSpec><setSpec>col_123456789_4</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Voyiatzis, Ioannis</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-04-06</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-04-06T12:37:31Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-04-06T12:37:31Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">N2777777</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/81</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">This is  very interesting course on Digital Design</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by ioannis voyiatzis (voyageri@teiath.gr) on 2017-04-06T12:37:31Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-04-06T12:37:31Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">TEI of Athens</field>
+</element>
+</element>
+<element name="rights">
+<element name="en_US">
+<field name="value">Those who have succeeded in Digital Design</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::Hardware::Communication hardware, interfaces and storage</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Digital Systems Design</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">DCMI::Event</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="hasPart">
+<element name="en_US">
+<field name="value">123456789/18#62</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">tei.png</field>
+<field name="originalName">tei.png</field>
+<field name="format">image/png</field>
+<field name="size">30082</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/81/1/tei.png</field>
+<field name="checksum">f77fae9afd802bcf1e92a94a46e80028</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/81</field>
+<field name="identifier">oai:http://localhost:123456789/81</field>
+<field name="lastModifyDate">2017-06-18 00:02:13.462</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/86</identifier><datestamp>2017-06-20T07:37:42Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_28</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Giuseppe, Airò Farulla</field>
+</element>
+</element>
+<element name="date">
+<element name="none">
+<field name="value">2017-03-01</field>
+</element>
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-06-16T12:40:40Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-06-16T12:40:40Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">02LQDOV</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/86</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Course appearing in the tracks Embedded Systems and Software and Digital Systems). Students acquire the skills to describe digital systems at various levels of abstraction with the VHDL language. The course completes the design methodologies acquired in previous basic digital design courses and extends them to the register-transfer level focusing on automated synthesis. The course uses simulation-based verification techniques to develop in a lab a complex design and deals with verification techniques based on formal methods, in particular combinational and sequential equivalence check and model checking. The course introduces the basic knowledge on testing digital circuits.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by giuseppe.airof giuseppe.airof (giuseppe.airof@gmail.com) on 2017-06-16T12:40:39Z
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-06-16T12:40:40Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::Hardware</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Specification and simulation of digital systems</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">Master Course</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunity">
+<element name="duration">
+<element name="none">
+<field name="value">2017-06-30</field>
+</element>
+</element>
+<element name="engagement">
+<element name="en_US">
+<field name="value">facetoface</field>
+</element>
+</element>
+<element name="languageOfInstruction">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+<element name="location">
+<element name="en_US">
+<field name="value">Turin</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">Hardware Optimization</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">System Design</field>
+<field name="value">Hardware Description</field>
+</element>
+</element>
+<element name="specifies">
+<element name="en_US">
+<field name="value">123456789/56#109</field>
+</element>
+</element>
+<element name="start">
+<element name="none">
+<field name="value">2017-03-01</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=02LQDOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+<element name="offered">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="competence">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">123456789/86</field>
+<field name="identifier">oai:http://localhost:123456789/86</field>
+<field name="lastModifyDate">2017-06-20 10:37:42.016</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/87</identifier><datestamp>2017-06-19T21:33:48Z</datestamp><setSpec>com_123456789_33</setSpec><setSpec>com_123456789_25</setSpec><setSpec>col_123456789_34</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="creator">
+<element name="none">
+<field name="value">Kruusmaa, Maarja</field>
+</element>
+</element>
+<element name="date">
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-06-18T14:36:08Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-06-18T14:36:08Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">IBX0060</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/87</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">The course aims: to discussing the current trends in robotics research and technology development;&#xd;
+to introduce main theories and methods and main fields of contemporary robotics;&#xd;
+to give practical skills permitting to connect the theory to technical implementations.</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by peeter.ellervee peeter.ellervee (peeter.ellervee@ttu.ee) on 2017-06-18T14:36:08Z&#xd;
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-06-18T14:36:08Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="en_US">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Tallinn University of Technology</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">Robotics</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">Course Type ::Work based</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunitySpecification">
+<element name="credit">
+<element name="en_US">
+<field name="value">5</field>
+</element>
+</element>
+<element name="level">
+<element name="en_US">
+<field name="value">Learning Opportunity Instance Level::ISCE::Master’s or equivalent level</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">talin.png</field>
+<field name="originalName">talin.png</field>
+<field name="format">image/png</field>
+<field name="size">7908</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/87/1/talin.png</field>
+<field name="checksum">f16206f52ce7c88a109288b831da0914</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/87</field>
+<field name="identifier">oai:http://localhost:123456789/87</field>
+<field name="lastModifyDate">2017-06-20 00:33:48.271</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/88</identifier><datestamp>2017-06-19T22:21:28Z</datestamp><setSpec>com_123456789_26</setSpec><setSpec>com_123456789_24</setSpec><setSpec>col_123456789_28</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="date">
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-06-19T20:14:24Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-06-19T20:14:24Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">01PDVOV</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/88</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="en_US">
+<field name="value">Optional course for the Laurea Magistrale degree in Computer Engineering, which is taught in English during the 1st semester of the 2nd year. &#xd;
+This course completes the basic knowledge and abilities that are taught in the previous course on Distributed Programming I and that are required for developing distributed applications. It focuses on the techniques for interactions among distributed applications, and in particular web services and related portable data formats (XML and JSON).</field>
+</element>
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by An Tsolak Tsolak (atsolakid@teiath.gr) on 2017-06-19T20:14:24Z
+No. of bitstreams: 1
+cini.png: 16739 bytes, checksum: f1f95ca51bc27dd530647b41d29cec61 (MD5)</field>
+<field name="value">Made available in DSpace on 2017-06-19T20:14:24Z (GMT). No. of bitstreams: 1
+cini.png: 16739 bytes, checksum: f1f95ca51bc27dd530647b41d29cec61 (MD5)</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="en_US">
+<field name="value">Politecnico di Torino</field>
+</element>
+</element>
+<element name="relation">
+<element name="en_US">
+<field name="value">TU Delft::kk</field>
+</element>
+</element>
+<element name="subject">
+<element name="en_US">
+<field name="value">ACM Computing Classification System::Hardware::Communication hardware, interfaces and storage::Signal processing systems</field>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">testing_Distributed programming II</field>
+</element>
+</element>
+<element name="type">
+<element name="en_US">
+<field name="value">Master Course</field>
+</element>
+</element>
+</element>
+<element name="compass">
+<element name="learningOpportunity">
+<element name="cost">
+<element name="en_US">
+<field name="value">no</field>
+</element>
+</element>
+<element name="engagement">
+<element name="en_US">
+<field name="value">facetoface</field>
+<field name="value">elearning</field>
+<field name="value">fulltime</field>
+</element>
+</element>
+<element name="hasPart">
+<element name="en_US">
+<field name="value">123456789/86#204</field>
+</element>
+</element>
+<element name="location">
+<element name="en_US">
+<field name="value">Location</field>
+</element>
+</element>
+<element name="objective">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel</field>
+</element>
+</element>
+<element name="places">
+<element name="en_US">
+<field name="value">Places</field>
+</element>
+</element>
+<element name="prerequisite">
+<element name="en_US">
+<field name="value">Software engineering</field>
+</element>
+</element>
+<element name="specifies">
+<element name="en_US">
+<field name="value">123456789/60#113</field>
+</element>
+</element>
+<element name="url">
+<element name="en_US">
+<field name="value">https://didattica.polito.it/pls/portal30/sviluppo.guide.visualizza?p_cod_ins=01PDVOV&amp;p_a_acc=2017&amp;p_lang=EN</field>
+</element>
+</element>
+<element name="offered">
+<element name="en_US">
+<field name="value">Offered_At</field>
+</element>
+</element>
+<element name="competence">
+<element name="en_US">
+<field name="value">ACM IT CompetencyModel::Linux System Administration</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">cini.png</field>
+<field name="originalName">cini.png</field>
+<field name="format">image/png</field>
+<field name="size">16739</field>
+<field name="url">http://localhost:8080/jspui/bitstream/123456789/88/1/cini.png</field>
+<field name="checksum">f1f95ca51bc27dd530647b41d29cec61</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/88</field>
+<field name="identifier">oai:http://localhost:123456789/88</field>
+<field name="lastModifyDate">2017-06-20 01:21:28.042</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record><record><header><identifier>oai:http://localhost:123456789/91</identifier><datestamp>2017-06-20T21:32:57Z</datestamp><setSpec>com_123456789_2</setSpec><setSpec>com_123456789_1</setSpec><setSpec>col_123456789_4</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="date">
+<element name="accessioned">
+<element name="none">
+<field name="value">2017-06-20T21:32:57Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2017-06-20T21:32:57Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="en_US">
+<field name="value">00</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">http://hdl.handle.net/123456789/91</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="provenance">
+<element name="en">
+<field name="value">Submitted by An Tsolak Tsolak (atsolakid@teiath.gr) on 2017-06-20T21:32:57Z
+No. of bitstreams: 0</field>
+<field name="value">Made available in DSpace on 2017-06-20T21:32:57Z (GMT). No. of bitstreams: 0</field>
+</element>
+</element>
+</element>
+<element name="title">
+<element name="en_US">
+<field name="value">ii</field>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">123456789/91</field>
+<field name="identifier">oai:http://localhost:123456789/91</field>
+<field name="lastModifyDate">2017-06-21 00:32:57.507</field>
+</element>
+<element name="repository">
+<field name="name">COMPASS Repository</field>
+<field name="mail">compass_repo@teiath.gr</field>
+</element>
+</metadata>
+</metadata></record></ListRecords></OAI-PMH>

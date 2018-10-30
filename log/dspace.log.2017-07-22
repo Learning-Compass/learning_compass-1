@@ -1,0 +1,135 @@
+2017-07-22 06:53:30,984 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=241
+2017-07-22 06:53:30,985 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=243
+2017-07-22 06:53:30,991 INFO  org.dspace.app.webui.submit.step.JSPDescribeStep @ COMPASS: doPostProcessing....
+2017-07-22 06:53:30,991 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=241
+2017-07-22 06:53:30,992 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=243
+2017-07-22 06:53:33,244 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=241
+2017-07-22 06:53:33,246 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=243
+2017-07-22 06:53:39,079 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=241
+2017-07-22 06:53:39,081 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=243
+2017-07-22 06:53:39,083 INFO  org.dspace.submit.step.CompleteStep @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:submission_complete:Completed submission with id=241
+2017-07-22 06:53:39,084 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:start_workflow:workspace_item_id=241item_id=243collection_id=2
+2017-07-22 06:53:39,088 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=243
+2017-07-22 06:53:39,098 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:delete_workspace_item:workspace_item_id=241item_id=243collection_id=2
+2017-07-22 06:53:39,101 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:archive_item:workflow_item_id=63item_id=243collection_id=2
+2017-07-22 06:53:39,108 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=243
+2017-07-22 06:53:39,114 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:add_item:collection_id=2,item_id=243
+2017-07-22 06:53:39,117 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=243
+2017-07-22 06:53:39,130 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:install_item:workflow_id=63, item_id=243handle=FIXME
+2017-07-22 06:53:39,222 WARN  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:notifyOfArchive:cannot email user; item_id=243\colon;  553 5.3.0 Your ip is from a dynamic pool address and is blocked by pbl.spamhaus.org.Use your ISP smtp server
+
+2017-07-22 06:53:39,225 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:workflow_item:handle=123456789/98
+2017-07-22 06:53:39,350 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:advance_workflow:workflow_item_id=63,item_id=243,collection_id=2,old_state=6,new_state=7
+2017-07-22 06:53:39,350 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:workflow_item:handle=123456789/98
+2017-07-22 06:53:39,360 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:advance_workflow:workflow_item_id=63,item_id=243,collection_id=2,old_state=4,new_state=7
+2017-07-22 06:53:39,360 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:workflow_item:handle=123456789/98
+2017-07-22 06:53:39,369 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:advance_workflow:workflow_item_id=63,item_id=243,collection_id=2,old_state=2,new_state=7
+2017-07-22 06:53:39,369 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:workflow_item:handle=123456789/98
+2017-07-22 06:53:39,378 INFO  org.dspace.workflow.WorkflowManager @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:advance_workflow:workflow_item_id=63,item_id=243,collection_id=2,old_state=0,new_state=7
+2017-07-22 06:53:39,499 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 123456789/98 to Index
+2017-07-22 06:56:43,889 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:view_mydspace:
+2017-07-22 06:56:56,906 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=244
+2017-07-22 06:56:56,908 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=244
+2017-07-22 06:56:56,919 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=244
+2017-07-22 06:56:56,919 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=244collection_id=2
+2017-07-22 06:56:56,924 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=242
+2017-07-22 06:56:56,925 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=244
+2017-07-22 06:56:56,926 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=242
+2017-07-22 06:56:56,927 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=244
+2017-07-22 06:56:56,927 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=242
+2017-07-22 06:56:56,928 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=244
+2017-07-22 06:56:56,929 INFO  org.dspace.app.webui.submit.step.JSPDescribeStep @ COMPASS: doPreProcessing....
+2017-07-22 06:56:56,929 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: submission.info
+2017-07-22 06:56:56,929 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: dspace.context
+2017-07-22 06:56:56,929 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: dspace.current.user
+2017-07-22 06:56:56,929 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: submission.page
+2017-07-22 06:56:56,929 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: is.admin
+2017-07-22 06:56:56,929 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: step.start
+2017-07-22 06:56:56,930 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: step
+2017-07-22 06:56:56,930 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: dspace.original.url
+2017-07-22 06:56:57,293 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-07-22 06:56:57,293 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 2
+2017-07-22 06:56:57,293 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-07-22 06:56:57,293 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 1
+2017-07-22 06:56:57,293 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-07-22 06:56:57,293 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 2
+2017-07-22 06:56:57,293 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-07-22 06:56:57,293 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 2
+2017-07-22 06:56:57,294 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-07-22 06:56:57,294 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 2
+2017-07-22 06:56:57,294 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-07-22 06:56:57,294 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 2
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/14 ---- org.dspace.compass.association.rules.AssociationOptions@54cb21d1
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/15 ---- org.dspace.compass.association.rules.AssociationOptions@6e51a630
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/27 ---- org.dspace.compass.association.rules.AssociationOptions@189ace1a
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/28 ---- org.dspace.compass.association.rules.AssociationOptions@46ad4930
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/3 ---- org.dspace.compass.association.rules.AssociationOptions@4b653d9d
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/31 ---- org.dspace.compass.association.rules.AssociationOptions@286662e7
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/32 ---- org.dspace.compass.association.rules.AssociationOptions@66c283ef
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/34 ---- org.dspace.compass.association.rules.AssociationOptions@4a8ab2ce
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/35 ---- org.dspace.compass.association.rules.AssociationOptions@28e1e7d7
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/37 ---- org.dspace.compass.association.rules.AssociationOptions@330bd976
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/38 ---- org.dspace.compass.association.rules.AssociationOptions@4124f903
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/4 ---- org.dspace.compass.association.rules.AssociationOptions@5e273f2b
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/45 ---- org.dspace.compass.association.rules.AssociationOptions@795fa467
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/46 ---- org.dspace.compass.association.rules.AssociationOptions@14f20253
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-07-22 06:56:57,295 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 2
+2017-07-22 06:57:05,692 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=242
+2017-07-22 06:57:05,694 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=1F2EF013A99C14A2C9A775ED6CE1D912:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=244
+2017-07-22 06:57:05,705 ERROR org.dspace.app.webui.servlet.SubmissionController @ Error loading step class'org.dspace.submit.step.DescribeStep':
+org.postgresql.util.PSQLException: ERROR: operator does not exist: integer == integer
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+  Where: PL/pgSQL function ins() line 6 at IF
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.doInsertPostgres(DatabaseManager.java:1743)
+	at org.dspace.storage.rdbms.DatabaseManager.insert(DatabaseManager.java:711)
+	at org.dspace.content.MetadataValue.create(MetadataValue.java:293)
+	at org.dspace.content.DSpaceObject.updateMetadata(DSpaceObject.java:256)
+	at org.dspace.content.Item.update(Item.java:1100)
+	at org.dspace.content.WorkspaceItem.update(WorkspaceItem.java:517)
+	at org.dspace.submit.step.DescribeStep.doProcessing(DescribeStep.java:341)
+	at org.dspace.app.webui.submit.JSPStepManager.doStepEnd(JSPStepManager.java:401)
+	at org.dspace.app.webui.submit.JSPStepManager.processStep(JSPStepManager.java:252)
+	at org.dspace.app.webui.servlet.SubmissionController.doStep(SubmissionController.java:491)
+	at org.dspace.app.webui.servlet.SubmissionController.doDSPost(SubmissionController.java:427)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:115)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.app.webui.filter.RegisteredOnlyFilter.doFilter(RegisteredOnlyFilter.java:66)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)

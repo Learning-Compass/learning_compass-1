@@ -1,0 +1,66 @@
+2018-03-11 15:37:16,343 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/select params={q=type:2+AND+id:1&wt=javabin&version=2} hits=0 status=0 QTime=175 
+2018-03-11 15:37:23,858 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=256 
+2018-03-11 15:37:23,859 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=257 
+2018-03-11 15:37:23,859 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=257 
+2018-03-11 15:37:23,861 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=259 
+2018-03-11 15:37:23,864 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=262 
+2018-03-11 15:37:23,892 INFO  org.apache.solr.core.SolrCore @ [statistics] webapp=/solr path=/update params={wt=javabin&version=2} status=0 QTime=290 
+2018-03-11 15:52:23,857 INFO  org.apache.solr.update.UpdateHandler @ start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-03-11 15:52:24,263 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_ci,generation=450}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_cj,generation=451}
+2018-03-11 15:52:24,263 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 451
+2018-03-11 15:52:24,263 INFO  org.apache.solr.search.SolrIndexSearcher @ Opening Searcher@56155258[statistics] main
+2018-03-11 15:52:24,279 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener sending requests to Searcher@56155258[statistics] main{StandardDirectoryReader(segments_ci:1704:nrt _nc(4.10.2):C8081 _nd(4.10.2):C11 _ne(4.10.2):C6 _ng(4.10.2):C1 _nf(4.10.2):C1 _nh(4.10.2):C22 _nl(4.10.2):C1 _ni(4.10.2):C1 _nj(4.10.2):C1 _nm(4.10.2):C1 _nk(4.10.2):C2)}
+2018-03-11 15:52:24,279 INFO  org.apache.solr.core.SolrCore @ QuerySenderListener done.
+2018-03-11 15:52:24,279 INFO  org.apache.solr.update.UpdateHandler @ end_commit_flush
+2018-03-11 15:52:24,294 INFO  org.apache.solr.core.SolrCore @ [statistics] Registered new searcher Searcher@56155258[statistics] main{StandardDirectoryReader(segments_ci:1704:nrt _nc(4.10.2):C8081 _nd(4.10.2):C11 _ne(4.10.2):C6 _ng(4.10.2):C1 _nf(4.10.2):C1 _nh(4.10.2):C22 _nl(4.10.2):C1 _ni(4.10.2):C1 _nj(4.10.2):C1 _nm(4.10.2):C1 _nk(4.10.2):C2)}
+2018-03-11 16:05:16,262 INFO  org.apache.solr.core.CoreContainer @ Shutting down CoreContainer instance=493552177
+2018-03-11 16:05:16,264 INFO  org.apache.solr.core.SolrCore @ [oai]  CLOSING SolrCore org.apache.solr.core.SolrCore@1f5fc079
+2018-03-11 16:05:16,270 INFO  org.apache.solr.update.UpdateHandler @ closing DirectUpdateHandler2{commits=0,autocommit maxDocs=10000,autocommit maxTime=10000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=200704,transaction_logs_total_number=1}
+2018-03-11 16:05:16,271 INFO  org.apache.solr.update.SolrCoreState @ Closing SolrCoreState
+2018-03-11 16:05:16,271 INFO  org.apache.solr.update.DefaultSolrCoreState @ SolrCoreState ref count has reached 0 - closing IndexWriter
+2018-03-11 16:05:16,271 INFO  org.apache.solr.update.DefaultSolrCoreState @ closing IndexWriter with IndexWriterCloser
+2018-03-11 16:05:16,310 INFO  org.apache.solr.core.SolrCore @ [oai] Closing main searcher on request.
+2018-03-11 16:05:16,311 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2018-03-11 16:05:16,312 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\oai\data [CachedDir<<refCount=0;path=C:\dspace\solr\oai\data;done=false>>]
+2018-03-11 16:05:16,312 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\oai\data
+2018-03-11 16:05:16,312 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\oai\data\index [CachedDir<<refCount=0;path=C:\dspace\solr\oai\data\index;done=false>>]
+2018-03-11 16:05:16,312 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\oai\data\index
+2018-03-11 16:05:16,312 INFO  org.apache.solr.core.SolrCore @ [statistics]  CLOSING SolrCore org.apache.solr.core.SolrCore@75a0d3ce
+2018-03-11 16:05:16,320 INFO  org.apache.solr.update.UpdateHandler @ closing DirectUpdateHandler2{commits=1,autocommit maxDocs=10000,autocommit maxTime=900000ms,autocommits=1,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=6,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=24857,transaction_logs_total_number=10}
+2018-03-11 16:05:16,320 INFO  org.apache.solr.update.SolrCoreState @ Closing SolrCoreState
+2018-03-11 16:05:16,320 INFO  org.apache.solr.update.DefaultSolrCoreState @ SolrCoreState ref count has reached 0 - closing IndexWriter
+2018-03-11 16:05:16,320 INFO  org.apache.solr.update.DefaultSolrCoreState @ closing IndexWriter with IndexWriterCloser
+2018-03-11 16:05:16,358 INFO  org.apache.solr.core.SolrCore @ SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_cj,generation=451}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\dspace\solr\statistics\data\index lockFactory=NativeFSLockFactory@C:\dspace\solr\statistics\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_ck,generation=452}
+2018-03-11 16:05:16,358 INFO  org.apache.solr.core.SolrCore @ newest commit generation = 452
+2018-03-11 16:05:16,379 INFO  org.apache.solr.core.SolrCore @ [statistics] Closing main searcher on request.
+2018-03-11 16:05:16,383 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2018-03-11 16:05:16,384 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\statistics\data\index [CachedDir<<refCount=0;path=C:\dspace\solr\statistics\data\index;done=false>>]
+2018-03-11 16:05:16,384 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\statistics\data\index
+2018-03-11 16:05:16,384 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\statistics\data [CachedDir<<refCount=0;path=C:\dspace\solr\statistics\data;done=false>>]
+2018-03-11 16:05:16,384 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\statistics\data
+2018-03-11 16:05:16,384 INFO  org.apache.solr.core.SolrCore @ [search]  CLOSING SolrCore org.apache.solr.core.SolrCore@4cb85a6e
+2018-03-11 16:05:16,391 INFO  org.apache.solr.update.UpdateHandler @ closing DirectUpdateHandler2{commits=0,autocommit maxDocs=10000,autocommit maxTime=10000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=45153,transaction_logs_total_number=10}
+2018-03-11 16:05:16,391 INFO  org.apache.solr.update.SolrCoreState @ Closing SolrCoreState
+2018-03-11 16:05:16,391 INFO  org.apache.solr.update.DefaultSolrCoreState @ SolrCoreState ref count has reached 0 - closing IndexWriter
+2018-03-11 16:05:16,391 INFO  org.apache.solr.update.DefaultSolrCoreState @ closing IndexWriter with IndexWriterCloser
+2018-03-11 16:05:16,407 INFO  org.apache.solr.core.SolrCore @ [search] Closing main searcher on request.
+2018-03-11 16:05:16,410 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2018-03-11 16:05:16,410 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\search\data\index [CachedDir<<refCount=0;path=C:\dspace\solr\search\data\index;done=false>>]
+2018-03-11 16:05:16,410 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\search\data\index
+2018-03-11 16:05:16,410 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\search\data [CachedDir<<refCount=0;path=C:\dspace\solr\search\data;done=false>>]
+2018-03-11 16:05:16,410 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\search\data
+2018-03-11 16:05:16,410 INFO  org.apache.solr.core.SolrCore @ [authority]  CLOSING SolrCore org.apache.solr.core.SolrCore@52bd959c
+2018-03-11 16:05:16,414 INFO  org.apache.solr.update.UpdateHandler @ closing DirectUpdateHandler2{commits=0,autocommit maxDocs=10000,autocommit maxTime=10000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+2018-03-11 16:05:16,414 INFO  org.apache.solr.update.SolrCoreState @ Closing SolrCoreState
+2018-03-11 16:05:16,414 INFO  org.apache.solr.update.DefaultSolrCoreState @ SolrCoreState ref count has reached 0 - closing IndexWriter
+2018-03-11 16:05:16,414 INFO  org.apache.solr.update.DefaultSolrCoreState @ closing IndexWriter with IndexWriterCloser
+2018-03-11 16:05:16,419 INFO  org.apache.solr.core.SolrCore @ [authority] Closing main searcher on request.
+2018-03-11 16:05:16,419 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing StandardDirectoryFactory - 2 directories currently being tracked
+2018-03-11 16:05:16,419 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\authority\data\index [CachedDir<<refCount=0;path=C:\dspace\solr\authority\data\index;done=false>>]
+2018-03-11 16:05:16,419 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\authority\data\index
+2018-03-11 16:05:16,419 INFO  org.apache.solr.core.CachingDirectoryFactory @ looking to close C:\dspace\solr\authority\data [CachedDir<<refCount=0;path=C:\dspace\solr\authority\data;done=false>>]
+2018-03-11 16:05:16,419 INFO  org.apache.solr.core.CachingDirectoryFactory @ Closing directory: C:\dspace\solr\authority\data

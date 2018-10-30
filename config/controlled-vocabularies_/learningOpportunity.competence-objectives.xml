@@ -1,0 +1,2068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Learning Outcomes
+-->
+<node id="ACM" label="Outcomes">
+<isComposedBy>
+<node id="0" label="CE - CAE - Circuits and Electronics">
+<isComposedBy>
+<node id="0" label="CE-CAE-1 History and overview (Core)">
+<isComposedBy>
+<node id="0.0" label="Describe ways in which computer engineering uses or benefits from electronic devices and circuits." />
+<node id="0.0" label="Identify some contributors to circuits and electronics and relate their achievements to this knowledge area." />
+<node id="0.0" label="Explain the key differences between analog and digital systems, their implementations, and methods for approximating digital behavior with analog systems." />
+<node id="0.0" label="Summarize basic electrical quantities and elements that show the relationship between current and voltage." />
+<node id="0.0" label="Describe the use of the transistor as an amplifier and as a switch." />
+<node id="0.0" label="Explain the historical progression from discrete devices to integrated circuits to current state-of-the-art electronics." />
+</isComposedBy>
+</node>
+<node id="1" label="CE-CAE-2 Relevant tools, standards, and/or engineering constraints (Core)">
+<isComposedBy>
+<node id="1.0" label="Describe at least two common types of circuit simulators and contrast the advantages and applications of each." />
+<node id="1.0" label="Interpret issues associated with interfacing digital computer systems with an analog world, including the use of standard data conversion circuits." />
+<node id="1.0" label="Summarize the role of standards in compatibility, interconnection, and safety of systems." />
+<node id="1.0" label="Articulate the purpose of buses and other interconnection and communication networks." />
+<node id="1.0" label="Illustrate the role of constraints, parameters, and tradeoffs in electronic circuit design." />
+</isComposedBy>
+</node>
+<node id="2" label="CE-CAE-3 Electrical quantities and basic elements  (Core)">
+<isComposedBy>
+<node id="2.0" label="State the definitions and representations of basic electrical quantities (charge, current, voltage, energy, power), as well as the relationships among them." />
+<node id="2.0" label="Define and represent basic circuit elements (resistors, inductors, capacitors)." />
+<node id="2.0" label="Solve problems using Ohm’s law, including its power representations." />
+<node id="2.0" label="Analyze basic electrical circuits using Ohm’s law." />
+<node id="2.0" label="Explain the difference between resistance and reactance, the meaning of phase, and the effect of frequency on capacitance and inductance." />
+<node id="2.0" label="Interpret the role of capacitors and inductors as basic storage elements." />
+<node id="2.0" label="Contrast related electrical quantities and concepts including frequency response, sinusoids, convolution, diodes and transistors, and other storage elements" />
+<node id="2.0" label="Provide examples of using circuit simulators to model and analyze simple circuits." />
+</isComposedBy>
+</node>
+<node id="3" label="CE-CAE-4 Electrical circuits  (Core)">
+<isComposedBy>
+<node id="3.0" label="Contrast various elements of circuit models including independent and dependent sources as well as series and parallel elements." />
+<node id="3.0" label="Analyze basic electrical circuits using mesh and nodal analysis, Kirchoff’s laws, superposition, Thevenin’s theorem, and Norton’s theorem." />
+<node id="3.0" label="Apply properties of circuits containing various combinations of resistance (R), inductance (L), and capacitance (C) elements including time constants, transient and steady-state responses, and damping." />
+<node id="3.0" label="Analyze and design simple circuits containing R, L, and C elements." />
+<node id="3.0" label="Illustrate the frequency domain characteristics of electrical circuits." />
+<node id="3.0" label="Contrast power for resistive and reactive circuits." />
+<node id="3.0" label="Define and use the phasor representations of voltage and current in analyzing circuits" />
+<node id="3.0" label="Calculate the response of electrical circuits from sinusoidal signal excitation." />
+<node id="3.0" label="Define and use impedance and admittance as well as source transformations." />
+<node id="3.0" label="Model and analyze simple resistive and RLC circuits using a circuit simulator." />
+<node id="3.0" label="Identify the characteristics and uses of transformers." />
+<node id="3.0" label="Explain the relation between electrical quantities and concepts such as transfer functions, two-port circuits, parallel and series resonance, maximum power transfer, and mutual inductance." />
+<node id="3.0" label="Describe the characteristics of electronic voltage sources such as ideal voltage source, voltage references, emitter followers, and voltage sources utilizing operational amplifiers" />
+<node id="3.0" label="Express the characteristics of electronic current sources for the following: ideal current source; transistor current sources; common-emitter, cascode, and regulated cascode circuits; current sources utilizing operational amplifiers." />
+</isComposedBy>
+</node>
+<node id="4" label="CE-CAE-5 Electronic materials, diodes, and bipolar transistors  (Core)">
+<isComposedBy>
+<node id="4.0" label="Explain characteristics and properties of electronic materials including electrons and holes; doping, acceptors, and donors; p-type and n-type materials; conductivity and resistivity; drift and diffusion currents, mobility, and diffusivity." />
+<node id="4.0" label="Illustrate the operation and properties of diodes, including I-V characteristics, regions of operation, equivalent circuit models and their limitations." />
+<node id="4.0" label="Illustrate the operation and properties of NPN and PNP transistors, including I-V characteristics, regions of operation, equivalent circuit models and their limitations, and transfer characteristic with a load resistor." />
+<node id="4.0" label="Contrast NPN and PNP transistor biasing for logic and amplifier applications." />
+<node id="4.0" label="Explain the properties of bipolar transistors when used as amplifiers and as switches." />
+<node id="4.0" label="Produce mathematical models to represent material properties of electronic devices." />
+<node id="4.0" label="Provide examples of using mathematical models in circuit simulators." />
+<node id="4.0" label="Contrast the Schottky, Zener, and variable capacitance diodes." />
+<node id="4.0" label="Design a single diode circuit and describe the significance of a load line." />
+<node id="4.0" label="Illustrate multidiode circuits such as rectifiers and direct current (DC) involving DC-DC voltage level converters." />
+<node id="4.0" label="Design a multidiode circuit including rectifiers." />
+<node id="4.0" label="Design a multidiode circuit including DC-DC voltage level converters." />
+<node id="4.0" label="Implement diode logic using only AND and OR functions." />
+<node id="4.0" label="Provide examples of bipolar transistors used in the construction of a range of common circuits." />
+</isComposedBy>
+</node>
+<node id="5" label="CE-CAE-6 MOS transistor circuits, timing, and power  (Core)">
+<isComposedBy>
+<node id="5.0" label="Illustrate the operation and properties of nMOS (n-type metal-oxide semiconductor) and pMOS field-effect transistors, including I-V characteristics, regions of operation, equivalent circuit models and their limitations, enhancement-mode and depletion-mode devices, and transfer characteristic with a load resistor." />
+<node id="5.0" label="Apply nMOS and pMOS transistor biasing for logic and amplifier applications." />
+<node id="5.0" label="Contrast the properties of nMOS and pMOS transistors used as switches." />
+<node id="5.0" label="Implement basic logic functions using nMOS, pMOS, and complementary metal-oxide semiconductor (CMOS) logic." />
+<node id="5.0" label="Implement logic functions using pass transistors and transmission gates." />
+<node id="5.0" label="Analyze the implications of implementing logic functions with switch networks versus logic gates." />
+<node id="5.0" label="Define propagation delay, rise time, and fall time." />
+<node id="5.0" label="Illustrate simplified Unit-Delay and Tau models for circuit timing." />
+<node id="5.0" label="Analyze the effects of logic gate fan-in and fan-out on circuit timing and power and their associated tradeoffs." />
+<node id="5.0" label="Contrast the effects of transistor sizing on timing and power, including nMOS and CMOS power/delay scaling." />
+<node id="5.0" label="Compute the effects on circuit characteristics of various design styles, e.g., static logic, dynamic logic, multiple clocking schemes." />
+</isComposedBy>
+</node>
+<node id="6" label="CE-CAE-7 Storage cell architecture  (Core)">
+<isComposedBy>
+<node id="6.0" label="Contrast the circuit properties of implementations of various storage elements (e.g., latches, flip-flops, clocked registers)." />
+<node id="6.0" label="Contrast the circuit properties of implementations of various memory cells (e.g., static RAM, dynamic RAM, ROM) and related circuitry (e.g., sense amplifiers)." />
+<node id="6.0" label="Contrast storage elements and memory cells, emphasizing the tradeoffs that make each appropriate for specific uses." />
+<node id="6.0" label="Contrast the circuit properties of different kinds of non-volatile storage elements (e.g., flash memory, ROM)." />
+<node id="6.0" label="Derive timing diagrams showing the relationships among input, output, and clock signals for different storage devices." />
+</isComposedBy>
+</node>
+<node id="7" label="CE-CAE-8 Interfacing logic families  (Core)">
+<isComposedBy>
+<node id="7.0" label="Explain the practical difficulties resulting from interfacing signals within a system and to the external world." />
+<node id="7.0" label="Employ terminal characteristics of various logic families and of standard interfaces." />
+<node id="7.0" label="Write the requirements for common signal translations between different logic families, such as between transistor-transistor logic (TTL) and CMOS." />
+<node id="7.0" label="Illustrate common methods to overcome difficulties when interfacing different logic families." />
+<node id="7.0" label="Explain the practical difficulties resulting from single-ended to differential and differential to single-ended conversions." />
+<node id="7.0" label="Contrast transmission line characteristics, reflections, and options for bus termination including passive, active, DC, and alternating current (AC) features." />
+</isComposedBy>
+</node>
+<node id="8" label="CE-CAE-9 Operational amplifiers  (Core)">
+<isComposedBy>
+<node id="8.0" label="Interpret the properties of an ideal operational amplifier (op-amp)." />
+<node id="8.0" label="Analyze and design circuits containing ideal op-amp circuits to include inverting and non-inverting amplifiers, summing and difference amplifiers, integrators, and low-pass filters." />
+<node id="8.0" label="Contrast the properties of non-ideal op-amps to include DC errors, common-mode rejection ratio (CMRR), input and output resistances, frequency response, output voltage, and current limitations." />
+<node id="8.0" label="Analyze and design simple circuits containing non-ideal op-amps." />
+<node id="8.0" label="Contrast and design multistage op-amp circuits." />
+</isComposedBy>
+</node>
+<node id="9" label="CE-CAE-10 Mixed-signal circuit design  (Core)">
+<isComposedBy>
+<node id="9.0" label="Discuss common types of mixed-signal circuits and applications, including digital-to-analog (D/A) and analog-to-digital (A/D) converters and sample-and-hold circuits." />
+<node id="9.0" label="Describe key characteristics of D/A and A/D converters, such as least-significant bit (LSB), linearity, offset, and gain errors." />
+<node id="9.0" label="Contrast the properties that distinguish between specific D/A and A/D converters for meeting system design requirements." />
+<node id="9.0" label="Analyze issues associated with the integration of digital and analog circuits in a single IC or package, including both benefits and challenges." />
+<node id="9.0" label="Provide examples of commercial mixed-signal devices" />
+<node id="9.0" label="Describe how D/A converter characteristics depend upon implementation; examples include weighted resistor, R/2R resistor ladders, weighted current source converters, and delta-sigma converters." />
+<node id="9.0" label="Describe how A/D converter characteristics depend upon implementation; examples include successive approximation converters, single and dual slope converters, flash converters, and delta-sigma converters." />
+<node id="9.0" label="Design A/D and D/A converters to meet given criteria using specified implementations." />
+</isComposedBy>
+</node>
+<node id="10" label="CE-CAE-11 Design parameters and issues (Supplementary)">
+<isComposedBy>
+<node id="10.0" label="Calculate the effects of design parameters on switching energy, power-delay product, power dissipation, and noise margin." />
+<node id="10.0" label="Indicate issues associated with power supply distribution." />
+<node id="10.0" label="Describe sources of signal coupling and degradation, and their effects on circuit behavior." />
+<node id="10.0" label="Contrast transmission line effects, particularly for passive, active, DC, and AC terminations." />
+<node id="10.0" label="Use appropriate design strategies and software tools for power distributions and transmission lines, incorporating element tolerances and tradeoffs." />
+<node id="10.0" label="Use appropriate design strategies and software tools to minimize noise and other signal degradations in designs." />
+<node id="10.0" label="Develop methods for worst-case analysis of circuits." />
+<node id="10.0" label="Explain Monte Carlo analysis and describe tools for using Monte Carlo analysis in circuit design." />
+<node id="10.0" label="Examine the use of six-sigma design methods for electronic circuits." />
+</isComposedBy>
+</node>
+<node id="11" label="CE-CAE-12 Circuit modeling and simulation methods (Supplementary)">
+<isComposedBy>
+<node id="11.0" label="Predict the benefits and drawbacks associated with simulation as a method of circuit analysis." />
+<node id="11.0" label="Apply simulation methods for DC analysis, AC analysis, transient analysis, and steady-state analysis." />
+<node id="11.0" label="Identify aspects of circuits that are not readily amenable to simulation." />
+<node id="11.0" label="Contrast methods and parameters for controlling simulation to include built-in device models, device parameter controls, and device and circuit libraries." />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+<node id="1" label="CE-CAL Computing Algorithms">
+<isComposedBy>
+<node id="12" label="CE-CAL-1 History and overview">
+<isComposedBy>
+<node id="12.1" label="Explain the role of algorithms in a hardware/software system." />
+<node id="12.1" label="Give examples of applications in which choice of algorithm is a significant design decision." />
+<node id="12.1" label="Discuss the contributions of pioneers in the field." />
+<node id="12.1" label="Explain why theory is important." />
+</isComposedBy>
+</node>
+<node id="13" label="CE-CAL-2 Relevant tools, standards and/or engineering constraints">
+<isComposedBy>
+<node id="13.1" label="Use library classes and the algorithms available in application code." />
+<node id="13.1" label="Explain how to find libraries to support applications of interest." />
+</isComposedBy>
+</node>
+<node id="14" label="CE-CAL-3 Basic algorithmic analysis">
+<isComposedBy>
+<node id="14.1" label="Use big O, omega, and theta notation to characterize asymptotic upper, lower, and tighter bounds on time and space complexity of algorithms." />
+<node id="14.1" label="Determine the time complexity and the space complexity of simple algorithms." />
+<node id="14.1" label="Measure the performance of an algorithm empirically." />
+<node id="14.1" label="Explain why time/space tradeoffs are important in computing systems." />
+</isComposedBy>
+</node>
+<node id="15" label="CE-CAL-4 Algorithmic strategies">
+<isComposedBy>
+<node id="15.1" label="Design and implement brute force algorithms." />
+<node id="15.1" label="Design and implement greedy algorithms." />
+<node id="15.1" label="Design and implement an algorithm using a divide and conquer strategy." />
+<node id="15.1" label="Explain how recursive algorithms work." />
+<node id="15.1" label="Explain why heuristics are useful and give examples of their use." />
+</isComposedBy>
+</node>
+<node id="16" label="CE-CAL-5 Classic algorithms for common tasks">
+<isComposedBy>
+<node id="16.1" label="Describe algorithms historically used for searching and sorting." />
+<node id="16.1" label="Solve problems using efficient sorting algorithms." />
+<node id="16.1" label="Explain tradeoffs in choice of appropriate algorithm for common tasks." />
+<node id="16.1" label="Use abstract data types (such as hash tables and binary search trees) in applications involving search." />
+</isComposedBy>
+</node>
+<node id="17" label="CE-CAL-6 Analysis and design of application-specific algorithms">
+<isComposedBy>
+<node id="17.1" label="Identify characteristics of an application that influence algorithm choice." />
+<node id="17.1" label="Explain features of algorithms used in application domains such as control applications, mobile or location-aware applications, discrete event simulation applications or encryption/decryption algorithms." />
+<node id="17.1" label="Identify factors having impact on the performance of application-specific algorithms." />
+</isComposedBy>
+</node>
+<node id="18" label="CE-CAL-7 Parallel algorithms and multi-threading">
+<isComposedBy>
+<node id="18.1" label="Analyze the parallelism inherent in a simple sequential algorithm." />
+<node id="18.1" label="Explain why communication and coordination are critical to ensure correctness." />
+<node id="18.1" label="Calculate the speedup attainable in theory and explain factors limiting attainable speedup." />
+<node id="18.1" label="Explain limitations to scalability." />
+<node id="18.1" label="Discuss parallel algorithm structure and give examples." />
+<node id="18.1" label="Illustrate ways to manage algorithmic execution in multiple threads." />
+<node id="18.1" label="Select appropriate methods for measuring the performance of multithreaded algorithms." />
+</isComposedBy>
+</node>
+<node id="19" label="CE-CAL-8 Algorithmic complexity">
+<isComposedBy>
+<node id="19.1" label="Explain what it means for a problem to be NP-complete." />
+<node id="19.1" label="Give examples of NP-complete problems and explain why this is important." />
+<node id="19.1" label="Apply appropriate heuristics in the context of addressing intractable problems." />
+</isComposedBy>
+</node>
+<node id="20" label="CE-CAL-9 Scheduling algorithms">
+<isComposedBy>
+<node id="20.1" label="Explain the underlying strategies in scheduling based on priority of the job, the length of the job, arrival time, and the impact of real time constraints." />
+<node id="20.1" label="Explain factors influencing the choice of a scheduling algorithm in an application." />
+<node id="20.1" label="Analyze the impact of the scheduling algorithm on system performance." />
+<node id="20.1" label="Illustrate the performance of a scheduling algorithm given a job set." />
+</isComposedBy>
+</node>
+<node id="21" label="CE-CAL-10 Basic computability theory">
+<isComposedBy>
+<node id="21.1" label="Illustrate and analyze system behavior using finite state machines." />
+<node id="21.1" label="Explain how regular expressions are related to finite state machines and why this is important." />
+<node id="21.1" label="Design a deterministic finite state machine to accept a simple language." />
+<node id="21.1" label="Generate a regular expression to represent a specified language." />
+<node id="21.1" label="Explain what a context free grammar is and why finite state machines do not recognize all context free languages." />
+<node id="21.1" label="Explain what an undecidable problem is." />
+<node id="21.1" label="Discuss what the halting problem is and why it is significant." />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+<node id="2" label="CE-CAO Computer Architecture and Organization">
+<isComposedBy>
+<node id="22" label="CE-CAO-1 History and overview">
+<isComposedBy>
+<node id="22.2" label="Identify some contributors to computer architecture and organization and relate their achievements to the knowledge area." />
+<node id="22.2" label="Articulate differences between computer organization and computer architecture." />
+<node id="22.2" label="Sketch a block diagram showing the main components of a simple computer." />
+<node id="22.2" label="Explain the reasons and strategies for different computer architectures and indicate some strengths and weaknesses inherent in each." />
+<node id="22.2" label="Identify some modern techniques for high-performance computing, such as multi/many-core and distributed architectures." />
+</isComposedBy>
+</node>
+<node id="23" label="CE-CAO-2 Relevant tools, standards and/or engineering constraints">
+<isComposedBy>
+<node id="23.2" label="Identify tools to simulate computer systems at different levels of design abstraction: system, instruction set processor (ISP), register-transfer language (RTL), and gate level." />
+<node id="23.2" label="Discuss the type of information contained in one or more component interconnect standards." />
+<node id="23.2" label="Discuss how architecture design choices and tradeoffs influence important consequences such as performance and power." />
+<node id="23.2" label="Contrast two hardware description languages, such as VHDL and Verilog." />
+</isComposedBy>
+</node>
+<node id="24" label="CE-CAO-3 Instruction set architecture">
+<isComposedBy>
+<node id="24.2" label="Explain the organization of a von Neumann machine and its major functional units." />
+<node id="24.2" label="Illustrate how a computer fetches from memory, decodes, and executes an instruction." />
+<node id="24.2" label="Articulate the strengths and weaknesses of the von Neumann architecture, compared to a Harvard or other architecture." />
+<node id="24.2" label="Describe the primary types of computer instructions, operands, and addressing modes." />
+<node id="24.2" label="Explain the relationship between the encoding of machine-level operations at the binary level and their representation in a symbolic assembly language." />
+<node id="24.2" label="Explain different instruction format options, such as the number of addresses per instruction and variable-length versus fixed-length formats." />
+<node id="24.2" label="Describe reduced (RISC) vs complex (CISC) instruction set computer architectures." />
+<node id="24.2" label="Write small assembly language programs to demonstrate an understanding of machine-level operations." />
+<node id="24.2" label="Implement some fundamental high-level programming constructs at the assembly-language level, including control flow structures such as subroutines and procedure calls." />
+<node id="24.2" label="Write small assembly language programs to access simple input/output devices using program-controlled and interrupt-driven methods." />
+<node id="24.2" label="Describe features and applications of short-vector instruction sets: Streaming extensions, AltiVec, relationship between computer architecture and multimedia applications." />
+</isComposedBy>
+</node>
+<node id="25" label="CE-CAO-4 Measuring performance">
+<isComposedBy>
+<node id="25.2" label="List the factors that contribute to computer performance." />
+<node id="25.2" label="Articulate the rationale for and limitations of commonly used computer performance metrics, such as clock rate, MIPS, cycles per instruction, throughput, and bandwidth." />
+<node id="25.2" label="Describe the rationale for and limitations of benchmark programs." />
+<node id="25.2" label="Name and describe two commonly used benchmarks for measuring computer performance, and contrast two different computer systems using published benchmark results." />
+<node id="25.2" label="Select the most appropriate performance metrics and/or benchmarks for evaluating a given computer system, for a target application." />
+<node id="25.2" label="Explain the role of Amdahl’s law in computer performance and the ways control and data path design can affect performance." />
+</isComposedBy>
+</node>
+<node id="26" label="CE-CAO-5 Computer arithmetic">
+<isComposedBy>
+<node id="26.2" label="Determine the characteristics of commonly used number systems such as range, precision, accuracy, and conditions that lead to arithmetic overflow and underflow, and tradeoffs between characteristics of different number systems." />
+<node id="26.2" label="Describe the limitations of computer arithmetic and the effects of errors on calculations." />
+<node id="26.2" label="Describe basic arithmetic algorithms for addition, subtraction, multiplication, and division of integer binary numbers." />
+<node id="26.2" label="Convert numbers to and from the formats specified by the IEEE 754 standard for floating-point arithmetic." />
+<node id="26.2" label="Describe algorithms for addition, subtraction, multiplication, and division of floating-point numbers." />
+<node id="26.2" label="Describe how multi-precision arithmetic is performed in a computer system." />
+<node id="26.2" label="Discuss the effect of a processor’s arithmetic unit on its overall performance." />
+<node id="26.2" label="Describe algorithms for higher-complexity functions, such as square roots and transcendental functions." />
+<node id="26.2" label="Describe saturating arithmetic operations and discuss some applications in which saturating arithmetic would be useful." />
+</isComposedBy>
+</node>
+<node id="27" label="CE-CAO-6 Processor organization">
+<isComposedBy>
+<node id="27.2" label="Discuss the relationship between instruction set architecture and processor organization." />
+<node id="27.2" label="Contrast tradeoffs between alternative implementations of datapaths for a Von Neumann machine." />
+<node id="27.2" label="Design a datapath and a hard-wired control unit for a simple instruction set architecture." />
+<node id="27.2" label="Design arithmetic units for multiplication, division, and floating-point arithmetic." />
+<node id="27.2" label="Explain basic instruction-level parallelism (ILP) using pipelining, the effect of pipelining on performance, and the major hazards that may occur, including performance penalties resulting from hazards." />
+<node id="27.2" label="Explain the steps needed to mitigate the effect of pipeline hazards caused by branches." />
+<node id="27.2" label="Describe common exception and interrupt handling mechanisms used in computer systems." />
+<node id="27.2" label="Describe the characteristics of superscalar architectures, including multi-issue operation, and in-order and out-of-order execution." />
+<node id="27.2" label="Describe how each of the functional parts of a computer system affects its overall performance." />
+<node id="27.2" label="Discuss the way in which instruction sets have evolved to improve performance—for example, predicated/speculative execution and SIMD support." />
+<node id="27.2" label="Discuss frequency and power scaling issues and their tradeoffs for processor design." />
+<node id="27.2" label="Discuss how accelerators (e.g., GPUs, DSPs, FPGAs) can be used to improve performance." />
+<node id="27.2" label="Discuss how to apply parallel processing approaches to design scalar and superscalar processors." />
+<node id="27.2" label="Discuss how to apply vector processing techniques to enhance instruction sets for multimedia and signal processing." />
+</isComposedBy>
+</node>
+<node id="28" label="CE-CAO-7 Memory system organization and architecture">
+<isComposedBy>
+<node id="28.2" label="Identify the main types of memory technologies presently in use." />
+<node id="28.2" label="Design a main memory with specified parameters using given memory devices." />
+<node id="28.2" label="Discuss how memory performance metrics, such as latency, cycle time, bandwidth, and interleaving, are used to measure the effects of memory on overall system performance." />
+<node id="28.2" label="Explain the use of memory hierarchy to reduce the effective memory latency in a system." />
+<node id="28.2" label="Describe common cache memory organizations, explain the use of cache memory to improve performance, and discuss cost-performance tradeoffs of different cache organizations." />
+<node id="28.2" label="Illustrate mechanisms used to provide cache coherence, invalidation/snooping, and shared/exclusive access control." />
+<node id="28.2" label="Describe the principles of memory management and virtual memory systems." />
+<node id="28.2" label="Describe characteristics of current secondary storage technologies, such as magnetic, optical, and solid-state drives." />
+<node id="28.2" label="Understand how errors in memory systems arise, and illustrate several mechanisms used to resolve them, such as error detecting and error correcting systems, and RAID structures." />
+</isComposedBy>
+</node>
+<node id="29" label="CE-CAO-8 Input/output interfacing and communication">
+<isComposedBy>
+<node id="29.2" label="Draw a block diagram showing how a processor interacts with input/output (I/O) devices, including peripheral addressing (isolated vs memory-mapped) handshaking, and buffering." />
+<node id="29.2" label="Explain the use of interrupts to implement I/O control and data transfers, including vectored and prioritized interrupts, and discuss factors that contribute to interrupt overhead and latency." />
+<node id="29.2" label="Write small interrupt service routines and I/O drivers using assembly language." />
+<node id="29.2" label="Illustrate the use of direct memory access (DMA) to interact with IO devices." />
+<node id="29.2" label="Determine tradeoffs between program-controlled IO, interrupt-driven IO, and DMA for a given application." />
+<node id="29.2" label="Describe the characteristics of a parallel bus, including data transfer protocols." />
+<node id="29.2" label="Describe characteristics of asynchronous and synchronous serial communication protocols." />
+<node id="29.2" label="Discuss tradeoffs between parallel and serial data transmission between devices." />
+</isComposedBy>
+</node>
+<node id="30" label="CE-CAO-9 Peripheral subsystems">
+<isComposedBy>
+<node id="30.2" label="Contrast the characteristics of one or more computer system expansion buses." />
+<node id="30.2" label="Select an appropriate bus for connecting given components/subsystems to a computer system." />
+<node id="30.2" label="Describe data access from a secondary storage device such as a magnetic or solid-state disk drive." />
+<node id="30.2" label="Explain how storage subsystem interface / controllers function" />
+<node id="30.2" label="Explain how display subsystems and controllers function." />
+<node id="30.2" label="Describe other input and output device subsystems (e.g., keyboard, mouse, audio)." />
+<node id="30.2" label="Describe communication subsystems: network controllers, and serial and parallel communication functions." />
+</isComposedBy>
+</node>
+<node id="31" label="CE-CAO-10 Multi/Many-core architectures">
+<isComposedBy>
+<node id="31.2" label="Discuss the performance limitations of single-core processors due to clock-frequency and power walls." />
+<node id="31.2" label="Describe the basic organization of a multi/many-core, shared memory processor." />
+<node id="31.2" label="Discuss the benefits of homogeneous vs heterogeneous multi/many-core architectures, and tradeoffs between different architectures" />
+<node id="31.2" label="Discuss on-chip interconnect networks and memory controller issues." />
+<node id="31.2" label="Describe how programs are partitioned for execution on multi/many-core processors." />
+<node id="31.2" label="Articulate current programming techniques, models, frameworks, and languages for multi/many-core processors." />
+</isComposedBy>
+</node>
+<node id="32" label="CE-CAO-11 Distributed system architectures">
+<isComposedBy>
+<node id="32.2" label="Explain the differences and tradeoffs between various distributed system paradigms." />
+<node id="32.2" label="Explain the impact of granularity and levels of parallelism in distributed systems, including threads, thread-level parallelism and multithreading." />
+<node id="32.2" label="Describe the topology, degrees of coupling, and other characteristics of several current multiprocessor/multicomputer architectures." />
+<node id="32.2" label="Describe how the client-server model works in a decentralized fashion." />
+<node id="32.2" label="Explain how agents work and how they solve simple tasks." />
+<node id="32.2" label="Articulate current programming techniques, models, frameworks, and languages for distributed, parallel processing." />
+<node id="32.2" label="Describe modern implementations of the client-server model, such as cloud-based computing." />
+<node id="32.2" label="Describe the concept of logical clocks versus physical clocks and show how they affect implementation of distributed systems." />
+<node id="32.2" label="Contrast simple election and mutual exclusion algorithms and their applicability." />
+<node id="32.2" label="Describe approaches to design for parallelism, synchronization, thread safety, concurrent data structures." />
+<node id="32.2" label="Discuss distributed transaction models, classification, and concurrency control." />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+<node id="3" label="CE-DIG Digital Design">
+<isComposedBy>
+<node id="33" label="CE-DIG-1 History and overview">
+<isComposedBy>
+<node id="33.3" label="Identify some early contributors to digital design and relate their achievements to the knowledge area." />
+<node id="33.3" label="Discuss applications in computer engineering that benefit from the area of digital design." />
+<node id="33.3" label="Describe how Boolean logic relates to digital design." />
+<node id="33.3" label="Enumerate key components of digital design such as combinational gates, memory elements, and arithmetic blocks." />
+</isComposedBy>
+</node>
+<node id="34" label="CE-DIG-2 Relevant tools, standards, and/or engineering constraints">
+<isComposedBy>
+<node id="34.3" label="Describe design tools and tool flow (e.g., design entry, compilation, simulation, and analysis) that are useful for the creation and simulation of digital circuits and systems." />
+<node id="34.3" label="Discuss the need for standards and enumerate standards important to the area of digital design such as floating-point numbers (IEEE 754) and character encoding (ASCII, Unicode)" />
+<node id="34.3" label="Use one of the standard HDLs (e.g., IEEE 1364/Verilog, IEEE 1076/VHDL) for modeling simple digital circuits." />
+<node id="34.3" label="Define important engineering constraints such as timing, performance, power, size, weight, cost, and their tradeoffs in the context of digital systems design." />
+</isComposedBy>
+</node>
+<node id="35" label="CE-DIG-3 Number systems and data encoding">
+<isComposedBy>
+<node id="35.3" label="Convert signed/unsigned, integer/fixed-point decimal numbers to/from binary/hex representations." />
+<node id="35.3" label="Perform integer/fixed-point addition/subtraction using binary/hex number representations." />
+<node id="35.3" label="Define precision and overflow for integer/fixed-point, signed/unsigned, addition/subtraction operations." />
+<node id="35.3" label="Encode/decode character strings using ASCII and Unicode standards." />
+</isComposedBy>
+</node>
+<node id="36" label="CE-DIG-4 Boolean algebra applications">
+<isComposedBy>
+<node id="36.3" label="Define basic (AND, OR, NOT) and derived (e.g., NAND, NOR, XOR) Boolean operations." />
+<node id="36.3" label="Enumerate Boolean algebra laws and theorems." />
+<node id="36.3" label="Use basic and derived Boolean operations to evaluate Boolean expressions." />
+<node id="36.3" label="Write and simplify Boolean expressions by applying appropriate laws and theorems and other techniques (e.g., Karnaugh maps)." />
+</isComposedBy>
+</node>
+<node id="37" label="CE-DIG-5 Basic logic circuits">
+<isComposedBy>
+<node id="37.3" label="Describe electrical representations of TRUE/FALSE." />
+<node id="37.3" label="Describe physical logic gate implementations of basic (AND, OR, NOT) and derived (e.g., NAND, NOR, XOR) Boolean operations." />
+<node id="37.3" label="Describe the high-impedance condition and logic gate implementation such as a tri-state buffer." />
+<node id="37.3" label="Implement Boolean expressions using the two-level gate forms of AND-OR, OR-AND, NAND-NAND, NOR-NOR and positive/negative/mixed-logic conventions." />
+<node id="37.3" label="Implement Boolean expressions using multiple gating levels and positive/negative/mixed-logic conventions." />
+<node id="37.3" label="Discuss the physical properties of logic gates such as fan-in, fan-out, propagation delay, power consumption, logic voltage levels, and noise margin and their impact on the constraints and tradeoffs of a design." />
+<node id="37.3" label="Explain the need for a hardware description language (HDL) in digital system design." />
+<node id="37.3" label="Describe the logic synthesis process that transforms an HDL description into a physical implementation." />
+<node id="37.3" label="Implement combinational networks using an HDL and generate/verify using appropriate design tools." />
+</isComposedBy>
+</node>
+<node id="38" label="CE-DIG-6 Modular design of combinational circuits">
+<isComposedBy>
+<node id="38.3" label="Describe and design single-bit/multi-bit structure/operation of combinational building blocks such as multiplexers, demultiplexers, decoders, and encoders." />
+<node id="38.3" label="Describe and design the structure/operation of arithmetic building blocks such adders (ripple-carry), subtractor, shifters, and comparators." />
+<node id="38.3" label="Describe and design structures for improving adder performance such as carry lookahead and carry select." />
+<node id="38.3" label="Analyze and design combinational circuits (e.g., arithmetic logic unit, ALU) in a hierarchical, modular manner, using standard and custom combinational building blocks." />
+<node id="38.3" label="Implement combinational building blocks and modular circuits using an HDL and generate/verify using appropriate design tools." />
+</isComposedBy>
+</node>
+<node id="39" label="CE-DIG-7 Modular design of sequential circuits">
+<isComposedBy>
+<node id="39.3" label="Define a clock signal using period, frequency, and duty-cycle parameters." />
+<node id="39.3" label="Explain the structure/operation of basic latches (D, SR) and flip-flops (D, JK, T)." />
+<node id="39.3" label="Describe propagation delay, setup time, and hold time for basic latches and flip-flops." />
+<node id="39.3" label="Describe and design the structure/operation of sequential building blocks such as registers, counters, and shift registers." />
+<node id="39.3" label="Analyze and create timing diagrams for sequential block operation." />
+<node id="39.3" label="Enumerate design tradeoffs in using different types of basic storage elements for sequential building block implementation." />
+<node id="39.3" label="Implement sequential building blocks using an HDL and generate/verify using appropriate design tools." />
+<node id="39.3" label="Describe the characteristics of static memory types such static SRAM, ROM, and EEPROM." />
+<node id="39.3" label="Describe the characteristics of dynamic memories." />
+<node id="39.3" label="Describe techniques (e.g., handshaking) of asynchronous design, and discuss their advantages (e.g., performance/power in some cases) and design issues (e.g., hazards such as race conditions, lack of tool support)." />
+<node id="39.3" label="Describe the characteristics of advanced memory technologies such as multi-port memories, double data rate (DDR) memories, and hybrid memories (e.g., hybrid memory cube, HMC)." />
+</isComposedBy>
+</node>
+<node id="40" label="CE-DIG-8 Control and datapath design">
+<isComposedBy>
+<node id="40.3" label="Describe a digital system that is partitioned into control+datapath and explain the need for control to sequence operations on a datapath" />
+<node id="40.3" label="Contrast the different types of Finite State Machines (FSMs): e.g., Mealy State Machine, Moore State Machine, and Algorithmic State Machine (ASM)." />
+<node id="40.3" label="Represent FSM operation graphically using a state diagram (e.g., Mealy state diagram, Moore state diagram, or ASM chart)." />
+<node id="40.3" label="Analyze state diagrams and create timing diagrams for FSM operation." />
+<node id="40.3" label="Compute timing parameters such as maximum operating frequency, setup/hold time of synchronous inputs, clock-to-out propagation delays, pin-to-pin propagate delay for a control+datapath design." />
+<node id="40.3" label="Design an RTL model of a control+datapath using a HDL and synthesize/verify using appropriate design tools." />
+<node id="40.3" label="Discuss clock generation, clock distribution, clock skew in relationship to a control+datapath design." />
+<node id="40.3" label="Use pipelining to improve the performance of a control+datapath design." />
+<node id="40.3" label="Discuss applications that require serialization/de-serialization of bit streams, and implement a design that performs serialization/de-serialization." />
+</isComposedBy>
+</node>
+<node id="41" label="CE-DIG-9 Design with programmable logic">
+<isComposedBy>
+<node id="41.3" label="Describe basic elements of programmable logic such as lookup tables (LUTs), AND/OR plane programmable logic, programmable mux logic, and programmable routing." />
+<node id="41.3" label="Discuss programmable logic architectures such as Field Programmable Gate Arrays (FPGAs) and Complex Programmable Logic Devices (CPLDs)." />
+<node id="41.3" label="Describe common features of programmable logic architectures such as hard macros (e.g., adders, multipliers, SRAMs), clock generation support (e.g., PLLs, multiple clock networks), and support for different logic standards." />
+<node id="41.3" label="Implement a digital system in an FPGA or CPLD and describe and evaluate tradeoffs for implementation characteristics such as programmable logic resources that are used, maximum clock frequency, setup/hold times for external inputs, and clock-to-out delay." />
+<node id="41.3" label="Describe advanced features of programmable logic architectures in the form of hard macros such as CPUs, high-speed serial transceivers, and support for other transceiver standards (e.g., PCI Express, Ethernet PCS)." />
+</isComposedBy>
+</node>
+<node id="42" label="CE-DIG-10 System design and constraints">
+<isComposedBy>
+<node id="42.3" label="Contrast top-down versus bottom-up design methodologies for system design." />
+<node id="42.3" label="Describe how to use logic synthesis timing constraints with an appropriate design tool for affecting logic generated for a control+datapath implementation." />
+<node id="42.3" label="Use constraints of clock-cycle latency and clock-cycle throughput to create alternate designs for a digital system." />
+<node id="42.3" label="Use other appropriate design tools (e.g., power estimator) for design space exploration and tradeoffs based on constraints such as performance, power, and cost." />
+<node id="42.3" label="Describe the role of testability as a system design constraint and different approaches and tools for improving testability." />
+<node id="42.3" label="Describe features/architecture of the JTAG standard and its role in digital systems testing." />
+<node id="42.3" label="Create an HDL-based self-checking behavioral test bench for a digital system design." />
+</isComposedBy>
+</node>
+<node id="43" label="CE-DIG-11 Fault models, testing, and design for testability">
+<isComposedBy>
+<node id="43.3" label="Explain the need for systematic testing methods in digital design." />
+<node id="43.3" label="Define fault models such as stuck-at, bridging, and delay." />
+<node id="43.3" label="Define the terms controllability, observability, test coverage, and test generation when designing a method for testing a digital system." />
+<node id="43.3" label="Describe design for testability methods such as ad-hoc, full-scan/partial scan and built-in-self-test (BIST)." />
+<node id="43.3" label="Describe the role of computer-aided testing tools for digital systems testing." />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+<node id="4" label="CE-ESY Embedded Systems">
+<isComposedBy>
+<node id="44" label="CE-ESY-1 History and overview">
+<isComposedBy>
+<node id="44.4" label="Identify some contributors to embedded systems and relate their achievements to the knowledge area." />
+<node id="44.4" label="Describe the characteristics of an embedded system and its role in several example applications." />
+<node id="44.4" label="Explain the reasons for the importance of embedded systems." />
+<node id="44.4" label="Describe the relationship between programming languages and embedded systems." />
+<node id="44.4" label="Describe how computer engineering uses or benefits from embedded systems." />
+</isComposedBy>
+</node>
+<node id="45" label="CE-ESY-2 Relevant tools, standards, and/or engineering constraints">
+<isComposedBy>
+<node id="45.4" label="Use an integrated development environment (IDE) to write, compile and/or assemble, and debug a program (high-level or assembly language) for a target embedded system." />
+<node id="45.4" label="Contrast instrumentation choices for diagnosing/understanding hardware aspects of embedded systems behavior." />
+<node id="45.4" label="List several standards applicable to embedded such as signaling levels and serial communication protocols." />
+</isComposedBy>
+</node>
+<node id="46" label="CE-ESY-3 Characteristics of embedded systems">
+<isComposedBy>
+<node id="46.4" label="Contrast CPUs used for embedded systems versus those used for general purpose computing." />
+<node id="46.4" label="Evaluate and rank tradeoffs such as cost, power, and performance for different embedded systems applications." />
+<node id="46.4" label="Describe architectural features of the target embedded system(s) (register structure, memory architecture, CPU features, peripheral subsystems)." />
+<node id="46.4" label="Contrast the different types of processors for embedded systems: CPU microcontrollers, DSP processors, GPUs, heterogeneous SOCs (CPUs/accelerators), FPGA-based processors." />
+</isComposedBy>
+</node>
+<node id="47" label="CE-ESY-4 Basic software techniques for embedded applications">
+<isComposedBy>
+<node id="47.4" label="Manually translate simple high-level language statements to equivalent assembly language." />
+<node id="47.4" label="Describe the actions of compilation, assembly, linking in the program translation process." />
+<node id="47.4" label="Describe actions taken by compiler-generated code after system reset but before user application execution." />
+<node id="47.4" label="Describe memory assignments made by a compiler for global variables, local variables, subroutine parameters and dynamically allocated storage." />
+<node id="47.4" label="Explain the basic loop-forever structure of an embedded program." />
+<node id="47.4" label="Design simple programs for embedded system applications including some that include modular/hierarchical programming techniques such as subroutines and functions." />
+<node id="47.4" label="Demonstrate debugging techniques for simple embedded application programs." />
+</isComposedBy>
+</node>
+<node id="48" label="CE-ESY-5 Parallel input and output">
+<isComposedBy>
+<node id="48.4" label="Describe the appropriateness of different I/O configurations (input, strong drive, weak pullup/pulldown, open-drain, tri-state) available in general purpose I/O (GPIO) for a given target application." />
+<node id="48.4" label="Create programs that perform a set of input/output operations on one more GPIOs using a polled approach." />
+<node id="48.4" label="Describe how interrupts are supported on the target embedded system(s)." />
+<node id="48.4" label="Create programs that perform a sequence of input/output operations on one more GPIOs using an interrupt-driven approach." />
+<node id="48.4" label="Discuss mechanisms such as hardware and software FIFOs for buffering data streams." />
+<node id="48.4" label="Discuss Direct Memory Access (DMA) and describe how it is supported on the target embedded system." />
+<node id="48.4" label="Create programs that perform a sequence of input/output operations using DMA." />
+</isComposedBy>
+</node>
+<node id="49" label="CE-ESY-6 Asynchronous and synchronous serial communication">
+<isComposedBy>
+<node id="49.4" label="Discuss the concepts of full-duplex and half-duplex communication." />
+<node id="49.4" label="Contrast parallel I/O versus serial I/O tradeoffs in terms of throughput, wiring cost, and application." />
+<node id="49.4" label="Describe the data formatting, timing diagrams, and signaling levels used in an asynchronous serial interface." />
+<node id="49.4" label="Create programs that perform I/O to an external device or system that uses an asynchronous serial interface." />
+<node id="49.4" label="Describe the data formatting, timing diagrams, and signaling levels used in a synchronous serial interface such as SPI or I2C." />
+<node id="49.4" label="Create programs that perform I/O to an external device or system that uses a synchronous serial interface such as SPI or I2C." />
+</isComposedBy>
+</node>
+<node id="50" label="CE-ESY-7 Periodic interrupts, waveform generation, time measurement">
+<isComposedBy>
+<node id="50.4" label="Describe the basic features and operation of typical hardware timers used in embedded systems." />
+<node id="50.4" label="Create programs that perform periodic I/O triggered by hardware timer-generated interrupts." />
+<node id="50.4" label="Create programs that measure waveform characteristics such as pulse width and frequency using hardware timers." />
+<node id="50.4" label="Describe applications of pulse width modulation." />
+<node id="50.4" label="Create programs that use pulse width modulation for external device control." />
+</isComposedBy>
+</node>
+<node id="51" label="CE-ESY-8 Data acquisition, control, sensors, actuators">
+<isComposedBy>
+<node id="51.4" label="Describe terms and properties relating to Analog-to-Digital Conversion (ADC) and Digital-to-Analog Conversion (DAC) such as sampling rate, reference voltage, conversion time, precision, range, and encoding method." />
+<node id="51.4" label="Perform voltage to binary and binary to voltage numerical conversions given range, encoding method, and reference voltage parameters." />
+<node id="51.4" label="Describe DAC and ADC architectural approaches such as resistor ladder, successive approximation, flash, and delta-sigma, and give tradeoffs such as conversion time and circuit complexity." />
+<node id="51.4" label="Demonstrate numerical conversion from a physical quantity such as pressure, temperature, and acceleration to voltage or current given an example sensor and its characteristic equation or graph." />
+<node id="51.4" label="Create programs that use one or more external sensors for monitoring physical properties." />
+<node id="51.4" label="Demonstrate numerical conversion from voltage or current to a physical quantity such as linear/angular movement, sound, and light given an example actuator and its characteristic equation or lookup-up table." />
+<node id="51.4" label="Create programs that use one or more actuators for effecting physical control by an embedded system." />
+<node id="51.4" label="Design circuitry that transforms voltage level/current drive from/to external sensors/actuators to that required/provided by a target CPU." />
+</isComposedBy>
+</node>
+<node id="52" label="CE-ESY-9 Implementation Strategies for Complex Embedded Systems">
+<isComposedBy>
+<node id="52.4" label="Describe the need for structured approaches in writing complex embedded applications." />
+<node id="52.4" label="Describe techniques used in event-driven state machine frameworks such as events, event queues, active objects, event processing,priority queues, and hierarchical state machines." />
+<node id="52.4" label="Describe techniques used in real time operating systems (RTOS) such as message passing, preemptive versus cooperative scheduling, semaphores, queues, tasks, co-routines, and mutexes." />
+<node id="52.4" label="Create programs using either a state machine framework or an RTOS (or both) for sample embedded system applications." />
+</isComposedBy>
+</node>
+<node id="53" label="CE-ESY-10 Techniques for low-power operation">
+<isComposedBy>
+<node id="53.4" label="Describe sources of energy consumption such as toggling, leakage and pin configurations used for minimizing power." />
+<node id="53.4" label="Describe power saving approaches used in embedded system design and their corresponding performance/power tradeoffs such as sleep/hibernate modes, peripheral system enable/disable, and clock frequency management, and appropriate GPIO configurations during sleep/hibernate." />
+<node id="53.4" label="Describe wakeup mechanisms such as watchdog timer, real time clock, and external interrupts." />
+<node id="53.4" label="Write programs that demonstrate minimal energy usage in performing I/O tasks through use of sleep and/or hibernate modes." />
+<node id="53.4" label="Compute system battery life for an embedded system platform given parameters such as battery capacity, current draw, wake time, sleep time, clock frequency." />
+</isComposedBy>
+</node>
+<node id="54" label="CE-ESY-11 Mobile and networked embedded systems">
+<isComposedBy>
+<node id="54.4" label="Describe the role of embedded systems in the ‘internet of things.’" />
+<node id="54.4" label="Discuss options for adding short-range wireless connectivity to an embedded system such as Bluetooth and 802.15.4 and tradeoffs relating to cost, power, throughput, and connectivity." />
+<node id="54.4" label="Discuss options for adding long-range wireless connectivity to an embedded system such as cellular and Ethernet and tradeoffs relating to cost, power, throughput, and connectivity." />
+<node id="54.4" label="Contrast hardware options for adding wireless connectivity to an embedded system such as external smart modules or software stack-plus-radio integrated circuits." />
+<node id="54.4" label="Contrast connectivity architectures such as point-to-point, star, and mesh." />
+<node id="54.4" label="Discuss security options for protecting wireless communication links." />
+</isComposedBy>
+</node>
+<node id="55" label="CE-ESY-12 Advanced input/output issues">
+<isComposedBy>
+<node id="55.4" label="Discuss concepts used in I/O buses such as master/slave devices, arbitration, transactions, priorities, and packets." />
+<node id="55.4" label="Contrast single-ended signaling versus differential signaling for use in high-speed serial busses, and methods for measuring differentialsignaling quality such as eye-diagrams." />
+<node id="55.4" label="Describe features such as topology, signaling levels, arbitration, speed, packet structure, and data transfers for one or more advanced serial bus protocols such as the Controller Area Network, Universal Serial Bus, and IEEE 1394 (FireWire)." />
+<node id="55.4" label="Discuss architectures and applications of persistent storage for embedded systems, such as flash drives, SD cards, and FRAM." />
+</isComposedBy>
+</node>
+<node id="56" label="CE-ESY-13 Computing platforms for Embedded Systems">
+<isComposedBy>
+<node id="56.4" label="Describe multimedia peripherals found in advanced embedded System-On-Chip implementations such video encoding, audio processing, display processing." />
+<node id="56.4" label="Describe interconnect and networking options for SoCs, including Network-on-Chip architectures." />
+<node id="56.4" label="Contrast performance, power, and flexibility tradeoffs for hard core versus software CPUs found in Field Programmable Gate Arrays." />
+<node id="56.4" label="Describe embedded applications that benefit from a multi-core approach." />
+<node id="56.4" label="Describe embedded applications that benefit from other types of processors for embedded systems: DSP processors, GPUs, heterogeneous SOCs (CPUs/accelerators), FPGA-based processors." />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+<node id="5" label="CE-NWK Computer Networks">
+<isComposedBy>
+<node id="57" label="CE-NWK-1 History and overview">
+<isComposedBy>
+<node id="57.5" label="Describe the origins and development history of computer networks." />
+<node id="57.5" label="Describe the origins and development history of computer networks." />
+<node id="57.5" label="Explain important applications of computer network." />
+<node id="57.5" label="Explain important applications of computer network." />
+<node id="57.5" label="Identify people who made important contributions to networks and specify the contributions they made" />
+<node id="57.5" label="Identify people who made important contributions to networks and specify the contributions they made" />
+<node id="57.5" label="Explain the basic composition and hierarchy of computer network. " />
+<node id="57.5" label="Explain the basic composition and hierarchy of computer network. " />
+<node id="57.5" label="Discuss the role of hierarchy in computer network construction." />
+<node id="57.5" label="Discuss the role of hierarchy in computer network construction." />
+<node id="57.5" label="Explain the main protocols and the key technologies related to computer networks. " />
+<node id="57.5" label="Explain the main protocols and the key technologies related to computer networks. " />
+</isComposedBy>
+</node>
+<node id="58" label="CE-NWK-2 Relevant tools, standards and/or engineering constraints">
+<isComposedBy>
+<node id="58.5" label="Describe the broad taxonomy of wireless standards such as cellular network standards vs. 802 family standards." />
+<node id="58.5" label="Describe the broad taxonomy of wireless standards such as cellular network standards vs. 802 family standards." />
+<node id="58.5" label="Provide an overview of the IEEE 802 family standards including IEEE802.3, 802.11, 802.15, and 802.16." />
+<node id="58.5" label="Provide an overview of the IEEE 802 family standards including IEEE802.3, 802.11, 802.15, and 802.16." />
+<node id="58.5" label="Provide an overview of cellular network standards including 2G, 3G, 3.5G, 4G, 5G, and LTE." />
+<node id="58.5" label="Provide an overview of cellular network standards including 2G, 3G, 3.5G, 4G, 5G, and LTE." />
+<node id="58.5" label="Explain the Bluetooth wireless technology standard." />
+<node id="58.5" label="Explain the Bluetooth wireless technology standard." />
+<node id="58.5" label="Contrast functions and basic usages of a modern network simulator" />
+<node id="58.5" label="Contrast functions and basic usages of a modern network simulator" />
+<node id="58.5" label="Discuss constraints of the development of computer networks, such as transmission media, network security and network management." />
+<node id="58.5" label="Discuss constraints of the development of computer networks, such as transmission media, network security and network management." />
+</isComposedBy>
+</node>
+<node id="59" label="CE-NWK-3 Network architecture">
+<isComposedBy>
+<node id="59.5" label="State the fundamental concepts of networks and their topologies" />
+<node id="59.5" label="State the fundamental concepts of networks and their topologies" />
+<node id="59.5" label="Contrast network architectures with the network’s hardware components." />
+<node id="59.5" label="Contrast network architectures with the network’s hardware components." />
+<node id="59.5" label="Contrast the elements of a protocol with the concept of layering" />
+<node id="59.5" label="Contrast the elements of a protocol with the concept of layering" />
+<node id="59.5" label="Explain the importance of networking standards and their regulatory committees." />
+<node id="59.5" label="Explain the importance of networking standards and their regulatory committees." />
+<node id="59.5" label=" Describe the seven layers of the OSI model." />
+<node id="59.5" label=" Describe the seven layers of the OSI model." />
+<node id="59.5" label="Define the role of networking and internetworking devices such as repeaters, bridges, switches, routers, and gateways." />
+<node id="59.5" label="Define the role of networking and internetworking devices such as repeaters, bridges, switches, routers, and gateways." />
+<node id="59.5" label=" Explains the pros and cons of network topologies such as mesh, star, tree, bus, ring, and 3-D torus." />
+<node id="59.5" label=" Explains the pros and cons of network topologies such as mesh, star, tree, bus, ring, and 3-D torus." />
+<node id="59.5" label="Describe the TCP/IP model." />
+<node id="59.5" label="Describe the TCP/IP model." />
+</isComposedBy>
+</node>
+<node id="60" label="CE-NWK-4 Local and wide area networks">
+<isComposedBy>
+<node id="60.5" label="Explain the basic concepts of LAN, MAN, and WAN technologies, topologies, and associated tradeoffs." />
+<node id="60.5" label="Explain the basic concepts of LAN, MAN, and WAN technologies, topologies, and associated tradeoffs." />
+<node id="60.5" label="Describe the use of network technologies for on-chip interconnect networks such as Network-on-Chip (NoC) architectures." />
+<node id="60.5" label="Describe the use of network technologies for on-chip interconnect networks such as Network-on-Chip (NoC) architectures." />
+<node id="60.5" label="Contrast different components and requirements of network protocols with their tradeoffs" />
+<node id="60.5" label="Contrast different components and requirements of network protocols with their tradeoffs" />
+<node id="60.5" label="Explain the functions of the physical layer and describe features of different transmission media and technologies." />
+<node id="60.5" label="Explain the functions of the physical layer and describe features of different transmission media and technologies." />
+<node id="60.5" label="Articulate the basic concepts of error detection and correction at the data-link layer." />
+<node id="60.5" label="Articulate the basic concepts of error detection and correction at the data-link layer." />
+<node id="60.5" label="Contrast circuit and packet switching" />
+<node id="60.5" label="Contrast circuit and packet switching" />
+<node id="60.5" label="Explain the access and control methods of common shared media." />
+<node id="60.5" label="Explain the access and control methods of common shared media." />
+<node id="60.5" label="Contrast key innovations of Ethernet and Gigabit Ethernet." />
+<node id="60.5" label="Contrast key innovations of Ethernet and Gigabit Ethernet." />
+<node id="60.5" label="Explain the key concepts of carrier-sense multiple-access networks (CSMA)" />
+<node id="60.5" label="Explain the key concepts of carrier-sense multiple-access networks (CSMA)" />
+<node id="60.5" label="Explain how to build a simple network using a network protocol that operates at the physical and data-link layers of the OSI model." />
+<node id="60.5" label="Explain how to build a simple network using a network protocol that operates at the physical and data-link layers of the OSI model." />
+<node id="60.5" label="Describe protocols for addressing and congestion control. " />
+<node id="60.5" label="Describe protocols for addressing and congestion control. " />
+<node id="60.5" label="Describe protocols for virtual circuits and quality of service." />
+<node id="60.5" label="Describe protocols for virtual circuits and quality of service." />
+</isComposedBy>
+</node>
+<node id="61" label="CE-NWK-5 Wireless and mobile networks">
+<isComposedBy>
+<node id="61.5" label="Explain the source of changes in the wireless and mobile industry from the view point of new service models such as the mobile ecosystem (e.g., Apple and Android ecosystems)." />
+<node id="61.5" label="Explain the source of changes in the wireless and mobile industry from the view point of new service models such as the mobile ecosystem (e.g., Apple and Android ecosystems)." />
+<node id="61.5" label="Describe the fundamental components that tend to be unchanged for long periods such as mobile IP, Wi-Fi, and cellular." />
+<node id="61.5" label="Describe the fundamental components that tend to be unchanged for long periods such as mobile IP, Wi-Fi, and cellular." />
+<node id="61.5" label="Explain the potential issues in wireless media access such as the hidden terminal problem and the exposed terminal problem" />
+<node id="61.5" label="Explain the potential issues in wireless media access such as the hidden terminal problem and the exposed terminal problem" />
+<node id="61.5" label="Explain the basics of a Wi-Fi network such as protocol stack and frame structure as well as its development such as IEEE802.11 a/b/g/n series standards." />
+<node id="61.5" label="Explain the basics of a Wi-Fi network such as protocol stack and frame structure as well as its development such as IEEE802.11 a/b/g/n series standards." />
+<node id="61.5" label="Contrast the basic concepts in cellular network such network architecture, framework, and LTE" />
+<node id="61.5" label="Contrast the basic concepts in cellular network such network architecture, framework, and LTE" />
+<node id="61.5" label="Describe the main characteristics of mobile IP and explain how it differs from standard IP regarding mobility management and location management; illustrate how traffic is routed using mobile IP." />
+<node id="61.5" label="Describe the main characteristics of mobile IP and explain how it differs from standard IP regarding mobility management and location management; illustrate how traffic is routed using mobile IP." />
+<node id="61.5" label="Describe features of typical wireless MAC protocols." />
+<node id="61.5" label="Describe features of typical wireless MAC protocols." />
+<node id="61.5" label="Explain wireless CSMA/CA and RTS/CTS enhancement mechanisms. " />
+<node id="61.5" label="Explain wireless CSMA/CA and RTS/CTS enhancement mechanisms. " />
+</isComposedBy>
+</node>
+<node id="62" label="CE-NWK-6 Network protocols">
+<isComposedBy>
+<node id="62.5" label="Contrast connection-oriented and connectionless services." />
+<node id="62.5" label="Contrast connection-oriented and connectionless services." />
+<node id="62.5" label="Contrast network protocols in dimensions related to their syntax, semantics, and timing" />
+<node id="62.5" label="Contrast network protocols in dimensions related to their syntax, semantics, and timing" />
+<node id="62.5" label="Define the role of key layers from a software stack including physical-layer networking concepts, data-link layer concepts,internetworking, and routing." />
+<node id="62.5" label="Define the role of key layers from a software stack including physical-layer networking concepts, data-link layer concepts,internetworking, and routing." />
+<node id="62.5" label="Explain some common protocol suites and the services they provide (e.g., IPv4, IPv6, and TCP/UDP)." />
+<node id="62.5" label="Explain some common protocol suites and the services they provide (e.g., IPv4, IPv6, and TCP/UDP)." />
+<node id="62.5" label="Describe the functions of the network layer and networking technology. " />
+<node id="62.5" label="Describe the functions of the network layer and networking technology. " />
+<node id="62.5" label="Contrast different network architectures. " />
+<node id="62.5" label="Contrast different network architectures. " />
+<node id="62.5" label="Describe the important technologies used in routers. " />
+<node id="62.5" label="Describe the important technologies used in routers. " />
+<node id="62.5" label="Contrast at least two important routing algorithms." />
+<node id="62.5" label="Contrast at least two important routing algorithms." />
+<node id="62.5" label="Explain congestion control and contrast its related algorithms." />
+<node id="62.5" label="Explain congestion control and contrast its related algorithms." />
+<node id="62.5" label="Describe main contents of the IP, TCP and UDP protocols." />
+<node id="62.5" label="Describe main contents of the IP, TCP and UDP protocols." />
+<node id="62.5" label="Explain the role of the Domain Name System (DNS) and the benefits of its distributed design. " />
+<node id="62.5" label="Explain the role of the Domain Name System (DNS) and the benefits of its distributed design. " />
+</isComposedBy>
+</node>
+<node id="63" label="CE-NWK-7 Network applications">
+<isComposedBy>
+<node id="63.5" label="Describe the key components of a web solution stack using LAMP (Linux, Apache HTTP server, MySQL, PHP/Perl/Python) or other similar illustrative examples." />
+<node id="63.5" label="Describe the key components of a web solution stack using LAMP (Linux, Apache HTTP server, MySQL, PHP/Perl/Python) or other similar illustrative examples." />
+<node id="63.5" label="Explain the different roles and responsibilities of clients and servers for a range of possible applications." />
+<node id="63.5" label="Explain the different roles and responsibilities of clients and servers for a range of possible applications." />
+<node id="63.5" label="Select a range of tools that ensures an efficient approach to implementing various client-server possibilities." />
+<node id="63.5" label="Select a range of tools that ensures an efficient approach to implementing various client-server possibilities." />
+<node id="63.5" label="Design and build a simple interactive web-based application (for example, a simple web form that collects information from the client and stores it in a file on the server). " />
+<node id="63.5" label="Design and build a simple interactive web-based application (for example, a simple web form that collects information from the client and stores it in a file on the server). " />
+<node id="63.5" label="Discuss web software stack technologies such as LAMP solution stack. " />
+<node id="63.5" label="Discuss web software stack technologies such as LAMP solution stack. " />
+<node id="63.5" label="Explain characteristics of web servers such as handling permissions, file management, and capabilities of common server architectures." />
+<node id="63.5" label="Explain characteristics of web servers such as handling permissions, file management, and capabilities of common server architectures." />
+<node id="63.5" label="Describe support tools for website creation and web management." />
+<node id="63.5" label="Describe support tools for website creation and web management." />
+<node id="63.5" label="Describe at a high level, ways in which a wide variety of clients and server software interoperates to provide e-mail services worldwide." />
+<node id="63.5" label="Describe at a high level, ways in which a wide variety of clients and server software interoperates to provide e-mail services worldwide." />
+<node id="63.5" label="Implement solutions using dynamic HTML and client- and server-side models for web applications" />
+<node id="63.5" label="Implement solutions using dynamic HTML and client- and server-side models for web applications" />
+<node id="63.5" label="Give examples of and state advantages and disadvantages of peer-to-peer models." />
+<node id="63.5" label="Give examples of and state advantages and disadvantages of peer-to-peer models." />
+<node id="63.5" label="Explain the principles, advantages, and challenges of cloud computing." />
+<node id="63.5" label="Explain the principles, advantages, and challenges of cloud computing." />
+<node id="63.5" label="Give examples of cloud computing APIs or commercial services and summarize the key abilities they provide." />
+<node id="63.5" label="Give examples of cloud computing APIs or commercial services and summarize the key abilities they provide." />
+<node id="63.5" label="Describe the key components and tradeoffs of a modern network application that requires a hybrid of many areas with computer
+networks such as machine learning, data mining, HCI, and transportation systems. " />
+<node id="63.5" label="Describe the key components and tradeoffs of a modern network application that requires a hybrid of many areas with computer
+networks such as machine learning, data mining, HCI, and transportation systems. " />
+</isComposedBy>
+</node>
+<node id="64" label="CE-NWK-8 Network management">
+<isComposedBy>
+<node id="64.5" label="Discuss the possible objectives and main instruments for network management." />
+<node id="64.5" label="Discuss the possible objectives and main instruments for network management." />
+<node id="64.5" label="Describe the role of a domain name server (DNS) in distributed network management." />
+<node id="64.5" label="Describe the role of a domain name server (DNS) in distributed network management." />
+<node id="64.5" label="Describe common network management protocols such as ICMP, and SNMP." />
+<node id="64.5" label="Describe common network management protocols such as ICMP, and SNMP." />
+<node id="64.5" label="Contrast three main issues related to network management." />
+<node id="64.5" label="Contrast three main issues related to network management." />
+<node id="64.5" label="Discuss four typical architectures for network management including the management console, aggregators, and device agents." />
+<node id="64.5" label="Discuss four typical architectures for network management including the management console, aggregators, and device agents." />
+<node id="64.5" label="Demonstrate the management of a device such as an enterprise switch through a management console." />
+<node id="64.5" label="Demonstrate the management of a device such as an enterprise switch through a management console." />
+<node id="64.5" label="Contrast various network management techniques as they apply to wired and wireless networks such as topics on devices, users,
+quality of service, deployment, and configuration of these technologies." />
+<node id="64.5" label="Contrast various network management techniques as they apply to wired and wireless networks such as topics on devices, users,
+quality of service, deployment, and configuration of these technologies." />
+<node id="64.5" label="Discuss the address resolution protocol (ARP) for associating IP addresses with MAC addresses." />
+<node id="64.5" label="Discuss the address resolution protocol (ARP) for associating IP addresses with MAC addresses." />
+<node id="64.5" label="Explain two quality of service issues such as performance and failure recovery.
+" />
+<node id="64.5" label="Explain two quality of service issues such as performance and failure recovery.
+" />
+<node id="64.5" label="Describe ad hoc networks." />
+<node id="64.5" label="Describe ad hoc networks." />
+<node id="64.5" label="Explain troubleshooting principles and techniques related to networks." />
+<node id="64.5" label="Explain troubleshooting principles and techniques related to networks." />
+</isComposedBy>
+</node>
+<node id="65" label="CE-NWK-9 Data communications">
+<isComposedBy>
+<node id="65.5" label="Define the fundamental concepts of data communications" />
+<node id="65.5" label="Define the fundamental concepts of data communications" />
+<node id="65.5" label="Apply signals and signal encoding methods to communication service methods and data-transmission modes." />
+<node id="65.5" label="Apply signals and signal encoding methods to communication service methods and data-transmission modes." />
+<node id="65.5" label="Explain the role of modulation in data communication." />
+<node id="65.5" label="Explain the role of modulation in data communication." />
+<node id="65.5" label="Contrast the issues involved with A/D and D/A conversion in data communications." />
+<node id="65.5" label="Contrast the issues involved with A/D and D/A conversion in data communications." />
+<node id="65.5" label="Contrast communication hardware interfaces such as modems.
+" />
+<node id="65.5" label="Contrast communication hardware interfaces such as modems.
+" />
+<node id="65.5" label="Explain various approaches to multiplexing." />
+<node id="65.5" label="Explain various approaches to multiplexing." />
+<node id="65.5" label="Explain the basic theory of error detecting and correcting codes and provide an example.
+" />
+<node id="65.5" label="Explain the basic theory of error detecting and correcting codes and provide an example.
+" />
+</isComposedBy>
+</node>
+<node id="66" label="CE-NWK-10 Performance evaluation">
+<isComposedBy>
+<node id="66.5" label="Describe performance metrics." />
+<node id="66.5" label="Describe performance metrics." />
+<node id="66.5" label="Contrast how different performance metrics affect a specific network and/or service paradigm" />
+<node id="66.5" label="Contrast how different performance metrics affect a specific network and/or service paradigm" />
+<node id="66.5" label="Contrast service paradigms such as connection-oriented service and connectionless service.
+" />
+<node id="66.5" label="Contrast service paradigms such as connection-oriented service and connectionless service.
+" />
+<node id="66.5" label="Contrast network performance characteristics including latency and throughput." />
+<node id="66.5" label="Contrast network performance characteristics including latency and throughput." />
+<node id="66.5" label="Discuss network error sources such as dropped packets and corrupted data." />
+<node id="66.5" label="Discuss network error sources such as dropped packets and corrupted data." />
+<node id="66.5" label="Define a “quality of experience” metric (QoE, QoX or simply QX), which is a measure of a customers experiences with a service (e.g.,
+web browsing, phone call, TV broadcast, call to a call center)." />
+<node id="66.5" label="Define a “quality of experience” metric (QoE, QoX or simply QX), which is a measure of a customers experiences with a service (e.g.,
+web browsing, phone call, TV broadcast, call to a call center)." />
+<node id="66.5" label="Apply fundamental modeling theory to analyze the performance of a network (e.g., a M/M/1 queue).
+" />
+<node id="66.5" label="Apply fundamental modeling theory to analyze the performance of a network (e.g., a M/M/1 queue).
+" />
+</isComposedBy>
+</node>
+<node id="67" label="CE-NWK-11 Wireless sensor network">
+<isComposedBy>
+<node id="67.5" label="Describe the features of wireless sensor network (WSN) systems.
+" />
+<node id="67.5" label="Describe the features of wireless sensor network (WSN) systems.
+" />
+<node id="67.5" label="Describe the MAC and routing protocols of WSNs." />
+<node id="67.5" label="Describe the MAC and routing protocols of WSNs." />
+<node id="67.5" label="Discuss the requirements and strategies of WSN data fusion" />
+<node id="67.5" label="Discuss the requirements and strategies of WSN data fusion" />
+<node id="67.5" label="Provide an example of a real application of WSNs." />
+<node id="67.5" label="Provide an example of a real application of WSNs." />
+<node id="67.5" label="Contrast circuit switching vs packet switching: virtual circuit switching (MPLS" />
+<node id="67.5" label="Contrast circuit switching vs packet switching: virtual circuit switching (MPLS" />
+</isComposedBy>
+</node>
+<node id="68" label="CE-NWK-1 History and overview">
+<isComposedBy>
+<node id="68.5" label="Describe the origins and development history of computer networks." />
+<node id="68.5" label="Describe the origins and development history of computer networks." />
+<node id="68.5" label="Explain important applications of computer network." />
+<node id="68.5" label="Explain important applications of computer network." />
+<node id="68.5" label="Identify people who made important contributions to networks and specify the contributions they made" />
+<node id="68.5" label="Identify people who made important contributions to networks and specify the contributions they made" />
+<node id="68.5" label="Explain the basic composition and hierarchy of computer network. " />
+<node id="68.5" label="Explain the basic composition and hierarchy of computer network. " />
+<node id="68.5" label="Discuss the role of hierarchy in computer network construction." />
+<node id="68.5" label="Discuss the role of hierarchy in computer network construction." />
+<node id="68.5" label="Explain the main protocols and the key technologies related to computer networks. " />
+<node id="68.5" label="Explain the main protocols and the key technologies related to computer networks. " />
+</isComposedBy>
+</node>
+<node id="69" label="CE-NWK-2 Relevant tools, standards and/or engineering constraints">
+<isComposedBy>
+<node id="69.5" label="Describe the broad taxonomy of wireless standards such as cellular network standards vs. 802 family standards." />
+<node id="69.5" label="Describe the broad taxonomy of wireless standards such as cellular network standards vs. 802 family standards." />
+<node id="69.5" label="Provide an overview of the IEEE 802 family standards including IEEE802.3, 802.11, 802.15, and 802.16." />
+<node id="69.5" label="Provide an overview of the IEEE 802 family standards including IEEE802.3, 802.11, 802.15, and 802.16." />
+<node id="69.5" label="Provide an overview of cellular network standards including 2G, 3G, 3.5G, 4G, 5G, and LTE." />
+<node id="69.5" label="Provide an overview of cellular network standards including 2G, 3G, 3.5G, 4G, 5G, and LTE." />
+<node id="69.5" label="Explain the Bluetooth wireless technology standard." />
+<node id="69.5" label="Explain the Bluetooth wireless technology standard." />
+<node id="69.5" label="Contrast functions and basic usages of a modern network simulator" />
+<node id="69.5" label="Contrast functions and basic usages of a modern network simulator" />
+<node id="69.5" label="Discuss constraints of the development of computer networks, such as transmission media, network security and network management." />
+<node id="69.5" label="Discuss constraints of the development of computer networks, such as transmission media, network security and network management." />
+</isComposedBy>
+</node>
+<node id="70" label="CE-NWK-3 Network architecture">
+<isComposedBy>
+<node id="70.5" label="State the fundamental concepts of networks and their topologies" />
+<node id="70.5" label="State the fundamental concepts of networks and their topologies" />
+<node id="70.5" label="Contrast network architectures with the network’s hardware components." />
+<node id="70.5" label="Contrast network architectures with the network’s hardware components." />
+<node id="70.5" label="Contrast the elements of a protocol with the concept of layering" />
+<node id="70.5" label="Contrast the elements of a protocol with the concept of layering" />
+<node id="70.5" label="Explain the importance of networking standards and their regulatory committees." />
+<node id="70.5" label="Explain the importance of networking standards and their regulatory committees." />
+<node id="70.5" label=" Describe the seven layers of the OSI model." />
+<node id="70.5" label=" Describe the seven layers of the OSI model." />
+<node id="70.5" label="Define the role of networking and internetworking devices such as repeaters, bridges, switches, routers, and gateways." />
+<node id="70.5" label="Define the role of networking and internetworking devices such as repeaters, bridges, switches, routers, and gateways." />
+<node id="70.5" label=" Explains the pros and cons of network topologies such as mesh, star, tree, bus, ring, and 3-D torus." />
+<node id="70.5" label=" Explains the pros and cons of network topologies such as mesh, star, tree, bus, ring, and 3-D torus." />
+<node id="70.5" label="Describe the TCP/IP model." />
+<node id="70.5" label="Describe the TCP/IP model." />
+</isComposedBy>
+</node>
+<node id="71" label="CE-NWK-4 Local and wide area networks">
+<isComposedBy>
+<node id="71.5" label="Explain the basic concepts of LAN, MAN, and WAN technologies, topologies, and associated tradeoffs." />
+<node id="71.5" label="Explain the basic concepts of LAN, MAN, and WAN technologies, topologies, and associated tradeoffs." />
+<node id="71.5" label="Describe the use of network technologies for on-chip interconnect networks such as Network-on-Chip (NoC) architectures." />
+<node id="71.5" label="Describe the use of network technologies for on-chip interconnect networks such as Network-on-Chip (NoC) architectures." />
+<node id="71.5" label="Contrast different components and requirements of network protocols with their tradeoffs" />
+<node id="71.5" label="Contrast different components and requirements of network protocols with their tradeoffs" />
+<node id="71.5" label="Explain the functions of the physical layer and describe features of different transmission media and technologies." />
+<node id="71.5" label="Explain the functions of the physical layer and describe features of different transmission media and technologies." />
+<node id="71.5" label="Articulate the basic concepts of error detection and correction at the data-link layer." />
+<node id="71.5" label="Articulate the basic concepts of error detection and correction at the data-link layer." />
+<node id="71.5" label="Contrast circuit and packet switching" />
+<node id="71.5" label="Contrast circuit and packet switching" />
+<node id="71.5" label="Explain the access and control methods of common shared media." />
+<node id="71.5" label="Explain the access and control methods of common shared media." />
+<node id="71.5" label="Contrast key innovations of Ethernet and Gigabit Ethernet." />
+<node id="71.5" label="Contrast key innovations of Ethernet and Gigabit Ethernet." />
+<node id="71.5" label="Explain the key concepts of carrier-sense multiple-access networks (CSMA)" />
+<node id="71.5" label="Explain the key concepts of carrier-sense multiple-access networks (CSMA)" />
+<node id="71.5" label="Explain how to build a simple network using a network protocol that operates at the physical and data-link layers of the OSI model." />
+<node id="71.5" label="Explain how to build a simple network using a network protocol that operates at the physical and data-link layers of the OSI model." />
+<node id="71.5" label="Describe protocols for addressing and congestion control. " />
+<node id="71.5" label="Describe protocols for addressing and congestion control. " />
+<node id="71.5" label="Describe protocols for virtual circuits and quality of service." />
+<node id="71.5" label="Describe protocols for virtual circuits and quality of service." />
+</isComposedBy>
+</node>
+<node id="72" label="CE-NWK-5 Wireless and mobile networks">
+<isComposedBy>
+<node id="72.5" label="Explain the source of changes in the wireless and mobile industry from the view point of new service models such as the mobile ecosystem (e.g., Apple and Android ecosystems)." />
+<node id="72.5" label="Explain the source of changes in the wireless and mobile industry from the view point of new service models such as the mobile ecosystem (e.g., Apple and Android ecosystems)." />
+<node id="72.5" label="Describe the fundamental components that tend to be unchanged for long periods such as mobile IP, Wi-Fi, and cellular." />
+<node id="72.5" label="Describe the fundamental components that tend to be unchanged for long periods such as mobile IP, Wi-Fi, and cellular." />
+<node id="72.5" label="Explain the potential issues in wireless media access such as the hidden terminal problem and the exposed terminal problem" />
+<node id="72.5" label="Explain the potential issues in wireless media access such as the hidden terminal problem and the exposed terminal problem" />
+<node id="72.5" label="Explain the basics of a Wi-Fi network such as protocol stack and frame structure as well as its development such as IEEE802.11 a/b/g/n series standards." />
+<node id="72.5" label="Explain the basics of a Wi-Fi network such as protocol stack and frame structure as well as its development such as IEEE802.11 a/b/g/n series standards." />
+<node id="72.5" label="Contrast the basic concepts in cellular network such network architecture, framework, and LTE" />
+<node id="72.5" label="Contrast the basic concepts in cellular network such network architecture, framework, and LTE" />
+<node id="72.5" label="Describe the main characteristics of mobile IP and explain how it differs from standard IP regarding mobility management and location management; illustrate how traffic is routed using mobile IP." />
+<node id="72.5" label="Describe the main characteristics of mobile IP and explain how it differs from standard IP regarding mobility management and location management; illustrate how traffic is routed using mobile IP." />
+<node id="72.5" label="Describe features of typical wireless MAC protocols." />
+<node id="72.5" label="Describe features of typical wireless MAC protocols." />
+<node id="72.5" label="Explain wireless CSMA/CA and RTS/CTS enhancement mechanisms. " />
+<node id="72.5" label="Explain wireless CSMA/CA and RTS/CTS enhancement mechanisms. " />
+</isComposedBy>
+</node>
+<node id="73" label="CE-NWK-6 Network protocols">
+<isComposedBy>
+<node id="73.5" label="Contrast connection-oriented and connectionless services." />
+<node id="73.5" label="Contrast connection-oriented and connectionless services." />
+<node id="73.5" label="Contrast network protocols in dimensions related to their syntax, semantics, and timing" />
+<node id="73.5" label="Contrast network protocols in dimensions related to their syntax, semantics, and timing" />
+<node id="73.5" label="Define the role of key layers from a software stack including physical-layer networking concepts, data-link layer concepts,internetworking, and routing." />
+<node id="73.5" label="Define the role of key layers from a software stack including physical-layer networking concepts, data-link layer concepts,internetworking, and routing." />
+<node id="73.5" label="Explain some common protocol suites and the services they provide (e.g., IPv4, IPv6, and TCP/UDP)." />
+<node id="73.5" label="Explain some common protocol suites and the services they provide (e.g., IPv4, IPv6, and TCP/UDP)." />
+<node id="73.5" label="Describe the functions of the network layer and networking technology. " />
+<node id="73.5" label="Describe the functions of the network layer and networking technology. " />
+<node id="73.5" label="Contrast different network architectures. " />
+<node id="73.5" label="Contrast different network architectures. " />
+<node id="73.5" label="Describe the important technologies used in routers. " />
+<node id="73.5" label="Describe the important technologies used in routers. " />
+<node id="73.5" label="Contrast at least two important routing algorithms." />
+<node id="73.5" label="Contrast at least two important routing algorithms." />
+<node id="73.5" label="Explain congestion control and contrast its related algorithms." />
+<node id="73.5" label="Explain congestion control and contrast its related algorithms." />
+<node id="73.5" label="Describe main contents of the IP, TCP and UDP protocols." />
+<node id="73.5" label="Describe main contents of the IP, TCP and UDP protocols." />
+<node id="73.5" label="Explain the role of the Domain Name System (DNS) and the benefits of its distributed design. " />
+<node id="73.5" label="Explain the role of the Domain Name System (DNS) and the benefits of its distributed design. " />
+</isComposedBy>
+</node>
+<node id="74" label="CE-NWK-7 Network applications">
+<isComposedBy>
+<node id="74.5" label="Describe the key components of a web solution stack using LAMP (Linux, Apache HTTP server, MySQL, PHP/Perl/Python) or other similar illustrative examples." />
+<node id="74.5" label="Describe the key components of a web solution stack using LAMP (Linux, Apache HTTP server, MySQL, PHP/Perl/Python) or other similar illustrative examples." />
+<node id="74.5" label="Explain the different roles and responsibilities of clients and servers for a range of possible applications." />
+<node id="74.5" label="Explain the different roles and responsibilities of clients and servers for a range of possible applications." />
+<node id="74.5" label="Select a range of tools that ensures an efficient approach to implementing various client-server possibilities." />
+<node id="74.5" label="Select a range of tools that ensures an efficient approach to implementing various client-server possibilities." />
+<node id="74.5" label="Design and build a simple interactive web-based application (for example, a simple web form that collects information from the client and stores it in a file on the server). " />
+<node id="74.5" label="Design and build a simple interactive web-based application (for example, a simple web form that collects information from the client and stores it in a file on the server). " />
+<node id="74.5" label="Discuss web software stack technologies such as LAMP solution stack. " />
+<node id="74.5" label="Discuss web software stack technologies such as LAMP solution stack. " />
+<node id="74.5" label="Explain characteristics of web servers such as handling permissions, file management, and capabilities of common server architectures." />
+<node id="74.5" label="Explain characteristics of web servers such as handling permissions, file management, and capabilities of common server architectures." />
+<node id="74.5" label="Describe support tools for website creation and web management." />
+<node id="74.5" label="Describe support tools for website creation and web management." />
+<node id="74.5" label="Describe at a high level, ways in which a wide variety of clients and server software interoperates to provide e-mail services worldwide." />
+<node id="74.5" label="Describe at a high level, ways in which a wide variety of clients and server software interoperates to provide e-mail services worldwide." />
+<node id="74.5" label="Implement solutions using dynamic HTML and client- and server-side models for web applications" />
+<node id="74.5" label="Implement solutions using dynamic HTML and client- and server-side models for web applications" />
+<node id="74.5" label="Give examples of and state advantages and disadvantages of peer-to-peer models." />
+<node id="74.5" label="Give examples of and state advantages and disadvantages of peer-to-peer models." />
+<node id="74.5" label="Explain the principles, advantages, and challenges of cloud computing." />
+<node id="74.5" label="Explain the principles, advantages, and challenges of cloud computing." />
+<node id="74.5" label="Give examples of cloud computing APIs or commercial services and summarize the key abilities they provide." />
+<node id="74.5" label="Give examples of cloud computing APIs or commercial services and summarize the key abilities they provide." />
+<node id="74.5" label="Describe the key components and tradeoffs of a modern network application that requires a hybrid of many areas with computer
+networks such as machine learning, data mining, HCI, and transportation systems. " />
+<node id="74.5" label="Describe the key components and tradeoffs of a modern network application that requires a hybrid of many areas with computer
+networks such as machine learning, data mining, HCI, and transportation systems. " />
+</isComposedBy>
+</node>
+<node id="75" label="CE-NWK-8 Network management">
+<isComposedBy>
+<node id="75.5" label="Discuss the possible objectives and main instruments for network management." />
+<node id="75.5" label="Discuss the possible objectives and main instruments for network management." />
+<node id="75.5" label="Describe the role of a domain name server (DNS) in distributed network management." />
+<node id="75.5" label="Describe the role of a domain name server (DNS) in distributed network management." />
+<node id="75.5" label="Describe common network management protocols such as ICMP, and SNMP." />
+<node id="75.5" label="Describe common network management protocols such as ICMP, and SNMP." />
+<node id="75.5" label="Contrast three main issues related to network management." />
+<node id="75.5" label="Contrast three main issues related to network management." />
+<node id="75.5" label="Discuss four typical architectures for network management including the management console, aggregators, and device agents." />
+<node id="75.5" label="Discuss four typical architectures for network management including the management console, aggregators, and device agents." />
+<node id="75.5" label="Demonstrate the management of a device such as an enterprise switch through a management console." />
+<node id="75.5" label="Demonstrate the management of a device such as an enterprise switch through a management console." />
+<node id="75.5" label="Contrast various network management techniques as they apply to wired and wireless networks such as topics on devices, users,
+quality of service, deployment, and configuration of these technologies." />
+<node id="75.5" label="Contrast various network management techniques as they apply to wired and wireless networks such as topics on devices, users,
+quality of service, deployment, and configuration of these technologies." />
+<node id="75.5" label="Discuss the address resolution protocol (ARP) for associating IP addresses with MAC addresses." />
+<node id="75.5" label="Discuss the address resolution protocol (ARP) for associating IP addresses with MAC addresses." />
+<node id="75.5" label="Explain two quality of service issues such as performance and failure recovery.
+" />
+<node id="75.5" label="Explain two quality of service issues such as performance and failure recovery.
+" />
+<node id="75.5" label="Describe ad hoc networks." />
+<node id="75.5" label="Describe ad hoc networks." />
+<node id="75.5" label="Explain troubleshooting principles and techniques related to networks." />
+<node id="75.5" label="Explain troubleshooting principles and techniques related to networks." />
+</isComposedBy>
+</node>
+<node id="76" label="CE-NWK-9 Data communications">
+<isComposedBy>
+<node id="76.5" label="Define the fundamental concepts of data communications" />
+<node id="76.5" label="Define the fundamental concepts of data communications" />
+<node id="76.5" label="Apply signals and signal encoding methods to communication service methods and data-transmission modes." />
+<node id="76.5" label="Apply signals and signal encoding methods to communication service methods and data-transmission modes." />
+<node id="76.5" label="Explain the role of modulation in data communication." />
+<node id="76.5" label="Explain the role of modulation in data communication." />
+<node id="76.5" label="Contrast the issues involved with A/D and D/A conversion in data communications." />
+<node id="76.5" label="Contrast the issues involved with A/D and D/A conversion in data communications." />
+<node id="76.5" label="Contrast communication hardware interfaces such as modems.
+" />
+<node id="76.5" label="Contrast communication hardware interfaces such as modems.
+" />
+<node id="76.5" label="Explain various approaches to multiplexing." />
+<node id="76.5" label="Explain various approaches to multiplexing." />
+<node id="76.5" label="Explain the basic theory of error detecting and correcting codes and provide an example.
+" />
+<node id="76.5" label="Explain the basic theory of error detecting and correcting codes and provide an example.
+" />
+</isComposedBy>
+</node>
+<node id="77" label="CE-NWK-10 Performance evaluation">
+<isComposedBy>
+<node id="77.5" label="Describe performance metrics." />
+<node id="77.5" label="Describe performance metrics." />
+<node id="77.5" label="Contrast how different performance metrics affect a specific network and/or service paradigm" />
+<node id="77.5" label="Contrast how different performance metrics affect a specific network and/or service paradigm" />
+<node id="77.5" label="Contrast service paradigms such as connection-oriented service and connectionless service.
+" />
+<node id="77.5" label="Contrast service paradigms such as connection-oriented service and connectionless service.
+" />
+<node id="77.5" label="Contrast network performance characteristics including latency and throughput." />
+<node id="77.5" label="Contrast network performance characteristics including latency and throughput." />
+<node id="77.5" label="Discuss network error sources such as dropped packets and corrupted data." />
+<node id="77.5" label="Discuss network error sources such as dropped packets and corrupted data." />
+<node id="77.5" label="Define a “quality of experience” metric (QoE, QoX or simply QX), which is a measure of a customers experiences with a service (e.g.,
+web browsing, phone call, TV broadcast, call to a call center)." />
+<node id="77.5" label="Define a “quality of experience” metric (QoE, QoX or simply QX), which is a measure of a customers experiences with a service (e.g.,
+web browsing, phone call, TV broadcast, call to a call center)." />
+<node id="77.5" label="Apply fundamental modeling theory to analyze the performance of a network (e.g., a M/M/1 queue).
+" />
+<node id="77.5" label="Apply fundamental modeling theory to analyze the performance of a network (e.g., a M/M/1 queue).
+" />
+</isComposedBy>
+</node>
+<node id="78" label="CE-NWK-11 Wireless sensor network">
+<isComposedBy>
+<node id="78.5" label="Describe the features of wireless sensor network (WSN) systems.
+" />
+<node id="78.5" label="Describe the features of wireless sensor network (WSN) systems.
+" />
+<node id="78.5" label="Describe the MAC and routing protocols of WSNs." />
+<node id="78.5" label="Describe the MAC and routing protocols of WSNs." />
+<node id="78.5" label="Discuss the requirements and strategies of WSN data fusion" />
+<node id="78.5" label="Discuss the requirements and strategies of WSN data fusion" />
+<node id="78.5" label="Provide an example of a real application of WSNs." />
+<node id="78.5" label="Provide an example of a real application of WSNs." />
+<node id="78.5" label="Contrast circuit switching vs packet switching: virtual circuit switching (MPLS" />
+<node id="78.5" label="Contrast circuit switching vs packet switching: virtual circuit switching (MPLS" />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+<node id="6" label="CE-PPP Preparation for Professional Practice">
+<isComposedBy>
+<node id="79" label="CE-PPP-1 History and overview ">
+<isComposedBy>
+<node id="79.7" label="Describe the nature of professionalism and its place in the field of computer engineering" />
+<node id="79.7" label="Identify some contributors and relate their achievements to social and professional issues. " />
+<node id="79.7" label="Contrast ethical and legal issues as related to computer engineering.
+" />
+<node id="79.7" label="Indicate reasons for studying social and professional issues" />
+<node id="79.7" label="Identify stakeholders in an issue and an engineer’s obligations to them." />
+<node id="79.7" label="Explain professionalism and licensure relative to a practicing computer engineer." />
+<node id="79.7" label="Describe how computer engineering uses or benefits from social and professional issues." />
+</isComposedBy>
+</node>
+<node id="80" label="CE-PPP-3 Effective communication strategies ">
+<isComposedBy>
+<node id="80.7" label="Listen attentively in technical and non-technical contexts. " />
+<node id="80.7" label="Write technical reports using correct spelling and grammar.
+" />
+<node id="80.7" label="Use compelling arguments when writing technical reports and when making oral presentations." />
+<node id="80.7" label="Become an assertive communicator in writing and in speaking. " />
+<node id="80.7" label="Build positive rapport with an audience. " />
+<node id="80.7" label="Develop strategies for effective communication in writing and in speaking. " />
+<node id="80.7" label="Describe ways in which body language affects communication." />
+<node id="80.7" label="Use appropriate visual aids for effective communication." />
+<node id="80.7" label=" Use visualization skill in presenting a technical paper or report.
+" />
+<node id="80.7" label="Write technical reports per specified guidelines." />
+<node id="80.7" label="Use a presentation mode appropriate for a wide range of audiences. " />
+<node id="80.7" label="Use a writing style appropriate to a wide range of audiences.
+" />
+<node id="80.7" label="Engage with an audience in response to questions.
+" />
+<node id="80.7" label="Write technical reports that are well organized and structured per accepted standards.
+" />
+</isComposedBy>
+</node>
+<node id="81" label="CE-PPP-4 Interdisciplinary team approaches">
+<isComposedBy>
+<node id="81.7" label="Describe the meaning of interdisciplinary teams in two different contexts" />
+<node id="81.7" label="Develop a possible skill set needed to function effectively on an interdisciplinary team. " />
+<node id="81.7" label="Describe some computer engineering projects where interdisciplinary approaches are important." />
+<node id="81.7" label="Explore ways in which industry approaches teamwork toward a common goal." />
+<node id="81.7" label="Create an interdisciplinary team for a given project by assigning roles and responsibilities for each team member." />
+<node id="81.7" label="Identify situations that would undermine interactions among members of an interdisciplinary team.
+" />
+<node id="81.7" label="Explore ways in which one might assess the performance of an interdisciplinary team." />
+<node id="81.7" label="Describe possible assessment methods used to monitor interdisciplinary teams. " />
+</isComposedBy>
+</node>
+<node id="82" label="CE-PPP-5 Philosophical frameworks and cultural issues ">
+<isComposedBy>
+<node id="82.7" label="Summarize the basic concepts of relativism, utilitarianism, and deontological theories.
+" />
+<node id="82.7" label="Describe some engineering problems related to ethical relativism." />
+<node id="82.7" label="Describe the differences between scientific and philosophical approaches to computer engineering dilemmas. " />
+<node id="82.7" label="Contrast the distinction between ethical theory and professional ethics." />
+<node id="82.7" label="Identify the weaknesses of the “hired agent” approach, strict legalism, naïve egoism, and naïve relativism as ethical frameworks" />
+<node id="82.7" label="Contrast Western and non-Western philosophical approaches and thought processes as they apply to the computer engineering field. " />
+</isComposedBy>
+</node>
+<node id="83" label="CE-PPP-6 Engineering solutions and societal effects ">
+<isComposedBy>
+<node id="83.7" label="Articulate the importance of product safety when designing computer systems. " />
+<node id="83.7" label="Describe the differences between correctness, reliability, and safety" />
+<node id="83.7" label="Explain the limitations of testing to ensure correctness.
+" />
+<node id="83.7" label="Describe other societal effects beyond risk, safety, and reliability" />
+<node id="83.7" label="Identify unwarranted assumptions of statistical independence of errors.
+" />
+<node id="83.7" label="Discuss the potential for hidden problems in reuse of existing components" />
+<node id="83.7" label="Explain ways computer engineers would assess and manage risk, and how they would inform the public of risk" />
+<node id="83.7" label="Articulate ways public perception of risks often differs from actual risk, as well as the implications of this difference.
+" />
+<node id="83.7" label="Explain why product safety and public consumption should be a hallmark of computer engineering.
+" />
+</isComposedBy>
+</node>
+<node id="84" label="CE-PPP-7 Professional and ethical responsibilities ">
+<isComposedBy>
+<node id="84.7" label="Identify progressive stages in a whistle-blowing incident" />
+<node id="84.7" label="Specify the strengths and weaknesses of relevant professional codes as expressions of professionalism." />
+<node id="84.7" label="Identify ways professional codes could become guides to decision making. " />
+<node id="84.7" label="Explore some historical examples of software risks such as the Therac-25 case." />
+<node id="84.7" label="Provide arguments for and against licensure in computer engineering." />
+<node id="84.7" label="Provide arguments for and against licensure in non-engineering professions" />
+<node id="84.7" label="Identify ethical issues that may arise in software development and determine how to address them technically and ethically" />
+<node id="84.7" label="Develop a computer use policy with enforcement measures.
+" />
+</isComposedBy>
+</node>
+<node id="85" label="CE-PPP-8 Intellectual property and legal issues">
+<isComposedBy>
+<node id="85.7" label="Describe the foundations of intellectual property. " />
+<node id="85.7" label="Distinguish among patent, copyright, and trade secret protection.
+" />
+<node id="85.7" label="Contrast between a patent and a copyright. " />
+<node id="85.7" label="Outline some of the transnational issues concerning intellectual property" />
+<node id="85.7" label="Discuss the legal background of copyright in national and international law.
+" />
+<node id="85.7" label="Explain ways patent and copyright laws might vary internationally." />
+<node id="85.7" label="Outline the historical development of software patents and Contrast with other forms of intellectual property protection for software" />
+<node id="85.7" label="Distinguish among employees, contractors, and consultants and the implications of each group." />
+<node id="85.7" label="Explore a patent related to computer engineering and provide a summary of its content. " />
+<node id="85.7" label="Explain product and professional liability and articulate their applicability within computer engineering." />
+<node id="85.7" label="Analyze the ethical ramifications of free open-source hardware and software." />
+</isComposedBy>
+</node>
+<node id="86" label="CE-PPP-9 Contemporary issues ">
+<isComposedBy>
+<node id="86.7" label="Summarize the legal bases for the right to privacy and freedom of expression in one’s own country. " />
+<node id="86.7" label="Discuss ways in which privacy varies from country to country." />
+<node id="86.7" label="Describe current computer-based threats to privacy" />
+<node id="86.7" label="Contrast the difference between viruses, worms, and Trojan horses" />
+<node id="86.7" label="Explain how the internet might change the historical balance in protecting freedom of expression." />
+<node id="86.7" label="Articulate some of the privacy implications related to massive database systems. " />
+<node id="86.7" label="Outline the technical basis of viruses and denial-of-service attacks." />
+<node id="86.7" label="Provide examples of computer crime and articulate some crime prevention strategies. " />
+<node id="86.7" label="Define cracking and contrast it to hacking in computer engineering.
+" />
+<node id="86.7" label="Enumerate techniques to combat “cracker” attacks." />
+<node id="86.7" label="Discuss several “cracker” approaches and motivations.
+" />
+</isComposedBy>
+</node>
+<node id="87" label="CE-PPP-10 Business and management issues">
+<isComposedBy>
+<node id="87.7" label="Assess the total job cost of a project. " />
+<node id="87.7" label="Apply engineering economic principles when considering fiscal arrangements. " />
+<node id="87.7" label="Summarize the rationale for antimonopoly efforts" />
+<node id="87.7" label="Describe several ways in which shortages in the labor supply affect the information technology industry." />
+<node id="87.7" label="Explain ways in which computer engineers should cost out jobs with considerations of manufacturing, hardware, software, and
+engineering implications. 
+" />
+<node id="87.7" label="Contrast some of the prospects and pitfalls in entrepreneurship. " />
+<node id="87.7" label="Describe the economic implications of monopolies" />
+<node id="87.7" label="Describe the effects of skilled labor supply and demand concerning the quality of computing products." />
+<node id="87.7" label="Summarize the rationale for antimonopoly efforts.
+" />
+<node id="87.7" label="Contrast two pricing strategies one might use in the computing domain.
+" />
+</isComposedBy>
+</node>
+<node id="88" label="CE-PPP-11 Tradeoffs in professional practice ">
+<isComposedBy>
+<node id="88.7" label="Indicate some important tradeoffs a computer engineer may have to make while practicing professionally.
+" />
+<node id="88.7" label="Articulate some ethical tradeoffs when making technical decisions." />
+<node id="88.7" label="Describe some unethical tradeoffs that might occur in professional practice. " />
+<node id="88.7" label="Evaluate the risks of entering one’s own business. " />
+<node id="88.7" label="Identify the professional’s role in security and the tradeoffs involved" />
+<node id="88.7" label="Describe the tradeoff between security and privacy, particularly as reflected in the post-9-11 era. " />
+<node id="88.7" label="Defend ways to address limitations on access to computing. " />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+<node id="8" label="CE-SEC Information Security">
+<isComposedBy>
+<node id="89" label="CE-SEC-1 History and overview">
+<isComposedBy>
+<node id="89.8" label="State examples of famous security breaches and denials of service" />
+<node id="89.8" label="Discuss common computer crime cost estimates and the difficulty of estimating them.
+" />
+<node id="89.8" label="Define ethical hacking." />
+<node id="89.8" label="Contrast active with passive attacks" />
+<node id="89.8" label="Discuss the issues surrounding computer security and privacy rights.
+" />
+<node id="89.8" label="Enumerate various motivations of attackers.
+" />
+<node id="89.8" label="Identify the types and targets of computer crime" />
+<node id="89.8" label="Summarize the major types of attacks performed by cybercriminals." />
+<node id="89.8" label="Discuss the professional’s role in security and the tradeoffs involved." />
+<node id="89.8" label="Give examples of historic and contemporary cryptography algorithms" />
+<node id="89.8" label="Justify the use of various security principles (e.g. defense in depth, functional vs. assurance requirements, security through obscurity is
+flawed, security is risk management, complexity is the enemy of security, and benefits of responsible open disclosure)." />
+<node id="89.8" label="Explain and defend the use of each of various security mechanisms (e.g., least privilege, fail-safe defaults, complete mediation,
+separation of privilege, and psychological acceptability).
+" />
+</isComposedBy>
+</node>
+<node id="90" label="CE-SEC-2 Relevant tools, standards, and/or engineering constraints">
+<isComposedBy>
+<node id="90.8" label="Discuss the major provisions of a relevant law such as HIPAA or the EU Data Protection Directive" />
+<node id="90.8" label="Summarize intellectual property and export control laws affecting security, especially encryption." />
+<node id="90.8" label=" Describe some common approaches and tools used in penetration testing.
+" />
+<node id="90.8" label="Articulate some challenges of computer forensics." />
+</isComposedBy>
+</node>
+<node id="91" label="CE-SEC-3 Data security and integrity">
+<isComposedBy>
+<node id="91.8" label="Define confidentiality and integrity" />
+<node id="91.8" label="Give examples of systems where integrity alone is sufficient.
+" />
+<node id="91.8" label="Define “perfect forward secrecy” and explain why it is desirable." />
+</isComposedBy>
+</node>
+<node id="92" label="CE-SEC-4 Vulnerabilities: technical and human factors">
+<isComposedBy>
+<node id="92.8" label="Define misuse cases and explain their role in information security" />
+<node id="92.8" label="Describe the role of human behavior in security system design, including examples of social engineering attacks.
+" />
+<node id="92.8" label="Perform a simple fault tree analysis" />
+<node id="92.8" label="Explain the types of errors that fuzz testing can reveal.
+" />
+<node id="92.8" label="Discuss issues related to the difficulty of updating deployed systems.
+" />
+<node id="92.8" label="Explain the role of code reviews in system security.
+" />
+<node id="92.8" label="Define the problem of insecure defaults" />
+<node id="92.8" label="Explain the tradeoffs inherent in responsible disclosure." />
+<node id="92.8" label="Discuss why the advantage is with the attacker in many contexts and how this must be addressed in system design.
+" />
+<node id="92.8" label="Explain how to execute a stack overrun attack and the knowledge it requires." />
+<node id="92.8" label="Discuss recent examples of exploited memory access bugs and the errors that lead to their deployment and exploitation." />
+<node id="92.8" label="Explain the role of both safe libraries and argument validation in defending against buffer overflows.
+" />
+<node id="92.8" label="Illustrate how a stack canary works." />
+<node id="92.8" label="Explain the problems solved by address space randomization and non-executable memory" />
+<node id="92.8" label="Define several types of malware such as viruses, worms, Trojan horses, key loggers, and ransomware.
+" />
+<node id="92.8" label="Discuss countermeasures to common types of malware." />
+<node id="92.8" label="Explain current issues in the “arms race” between malware authors and defense system authors.
+" />
+</isComposedBy>
+</node>
+<node id="93" label="CE-SEC-5 Resource protection models">
+<isComposedBy>
+<node id="93.8" label="Explain the pros and cons of various discretionary and mandatory resource protection models." />
+<node id="93.8" label="Illustrate an access control matrix model.
+" />
+<node id="93.8" label="Define the Bell-LaPadula model.
+" />
+</isComposedBy>
+</node>
+<node id="94" label="CE-SEC-6 Secret and public key cryptography">
+<isComposedBy>
+<node id="94.8" label="State the motivation for putting all encryption algorithm variability in the keys.
+" />
+<node id="94.8" label="Discuss the effect of processing power on the effectiveness of cryptography.
+" />
+<node id="94.8" label="Explain the meaning of and relationship between the three basic classes of cryptographic attacks: ciphertext only, known plaintext,
+chosen plaintext." />
+<node id="94.8" label="Discuss the similarities and differences among the three basic types of cryptographic functions (zero-, one-, and two-key): hash, secret
+key, and public key." />
+<node id="94.8" label=" Discuss block and key length issues related to secret key cryptography." />
+<node id="94.8" label="Describe and evaluate a symmetric algorithm such as advanced encryption standard (AES), focusing on both design and
+implementation issues." />
+<node id="94.8" label="Explain some uses of one-time pads." />
+<node id="94.8" label=" Perform modular arithmetic (addition, multiplication, and exponentiation)." />
+<node id="94.8" label="Apply the basic theory of modular arithmetic (Totient function and Euler’s theorem)." />
+<node id="94.8" label="Execute and apply the RSA algorithm for encryption and digital signatures." />
+<node id="94.8" label="Execute and apply the Diffie-Hellman algorithm for establishing a shared secret." />
+<node id="94.8" label="Demonstrate and discuss the motivations and weaknesses in various methods for applying secret key (block) encryption to a message
+stream such as cipher block chaining (CBC), cipher feedback mode (CFB), and counter mode (CTR).
+" />
+</isComposedBy>
+</node>
+<node id="95" label="CE-SEC-7 Message authentication codes">
+<isComposedBy>
+<node id="95.8" label="Explain why hashes need to be roughly twice the length of secret keys using the birthday problem.
+" />
+<node id="95.8" label="Discuss the uses of hashes for fingerprinting and signing." />
+<node id="95.8" label="Discuss the key properties of a cryptographic hash function contrasted with a general hash function." />
+<node id="95.8" label="Explain the purpose of key operations used in cryptographic hashes such as permutation and substitution.
+" />
+<node id="95.8" label="Explain how one can use a hash for a message authentication code (MAC)" />
+<node id="95.8" label="State key properties of secure hash algorithms or family such as SHA-3, or its successor." />
+<node id="95.8" label="Explain the problem solved by the HMAC standard." />
+</isComposedBy>
+</node>
+<node id="96" label="CE-SEC-8 Network and web security">
+<isComposedBy>
+<node id="96.8" label="Describe the goals of Transport layer security (TLS) and how they are attained using secret and public key methods along with
+certificates
+" />
+<node id="96.8" label="Discuss the reasons for using a firewall, various topologies, and firewall limitations.
+" />
+<node id="96.8" label="Diagram and explain the use of virtual private networks (VPNs)." />
+<node id="96.8" label="Describe common denial of service attack methods, including distributed and amplified attacks, along with countermeasures taken at
+the computing system, protocol design, and backbone provider levels." />
+<node id="96.8" label="Define packet filtering.
+" />
+<node id="96.8" label="Discuss the ramifications of the HTTP/HTTPS web platform design being stateless" />
+<node id="96.8" label="Describe the basic structure of URLs, HTTP requests, and HTTP digest authentication as they relate to security." />
+<node id="96.8" label="Explain the use of HTTP cookies including session cookies, expiration, and re-authentication for key operations.
+" />
+<node id="96.8" label="Define cross-site scripting." />
+<node id="96.8" label="Explain an SQL injection attack and various methods of remediation." />
+<node id="96.8" label="Be familiar standards such as open web application security project (OWASP) and the OWASP Top 10 list.
+" />
+</isComposedBy>
+</node>
+<node id="97" label="CE-SEC-9 Authentication">
+<isComposedBy>
+<node id="97.8" label="Explain the difference between authorization and authentication." />
+<node id="97.8" label="Comment on authentication methods using password and/or address-based methods." />
+<node id="97.8" label="Discuss eavesdropping and server database reading and explain how various authentication methods deal with them." />
+<node id="97.8" label="Explain the general use of trusted intermediaries for both secret and private key systems" />
+<node id="97.8" label="Discuss issues specific to authenticating people, including the three main approaches to doing so.
+" />
+<node id="97.8" label="Describe the problems solved by multi-factor authentication methods including biometrics.
+" />
+</isComposedBy>
+</node>
+<node id="98" label="CE-SEC-10 Trusted computing">
+<isComposedBy>
+<node id="98.8" label="Describe current approaches to trusted computing such as trusted hardware, secure storage, and biometrics" />
+<node id="98.8" label="Evaluate a circumvention method for a trusted computing system and discuss the tradeoffs between implementation cost, information
+value, and circumvention difficulty.
+" />
+</isComposedBy>
+</node>
+<node id="99" label="CE-SEC-11 Side-channel attacks">
+<isComposedBy>
+<node id="99.8" label="Discuss various side channels and methods of encoding information on them.
+" />
+<node id="99.8" label="Discuss the tradeoffs of side-channel protection and system usability." />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+<node id="9" label="CE-SGP Signal Processing">
+<isComposedBy>
+<node id="100" label="CE-SGP-1 History and overview">
+<isComposedBy>
+<node id="100.9" label="Explain the purpose and role of digital signal processing and multimedia in computer engineering" />
+<node id="100.9" label="Explain some important signal processing areas such as digital audio, multimedia, image processing, video, signal compression, signal
+detection, and digital filters" />
+<node id="100.9" label="Contrast analog and digital signals using the concepts of sampling and quantization." />
+<node id="100.9" label="Draw a digital signal processing block diagram and define its key components: antialiasing filter, analog to digital converter, digital
+signal processing, digital to analog filter, and reconstruction filter.
+" />
+<node id="100.9" label="Explain the need for using transforms and how they differ for analog and discrete-time signals." />
+<node id="100.9" label="Contrast some techniques used in transformations such as Laplace, Fourier, and wavelet transforms.
+" />
+<node id="100.9" label="Indicate design criteria for low- and high-pass filters.
+" />
+</isComposedBy>
+</node>
+<node id="101" label="CE-SGP-2 Relevant tools, standards, and/or engineering constraints">
+<isComposedBy>
+<node id="101.9" label="Describe the tradeoffs involved with increasing the sampling rate" />
+<node id="101.9" label="Indicate key issues involved with sampling periodic signals including the sampling period." />
+<node id="101.9" label="Indicate key issues involved with sampling non-periodic signals including spectral resolution." />
+<node id="101.9" label="Prove whether a system is linear, time-invariant, causal, and/or stable given its input to output mapping.
+ " />
+<node id="101.9" label="Derive non-recursive and recursive difference equations, as appropriate, given descriptions of input-output behavior for a linear, timeinvariant
+system.
+" />
+</isComposedBy>
+</node>
+<node id="102" label="CE-SGP-3 Convolution">
+<isComposedBy>
+<node id="102.9" label="Explain how the concept of impulse response arises from the combination of linearity and time-invariance" />
+<node id="102.9" label="Derive the linear convolution summation from the definition of impulse response and linearity." />
+<node id="102.9" label="Use the commutative property of convolution as a foundation for providing two explanations of how a system output depends on the
+input and system impulse response.
+" />
+</isComposedBy>
+</node>
+<node id="103" label="CE-SGP-4 Transform analysis">
+<isComposedBy>
+<node id="103.9" label="State, prove, and apply properties of the z–transform and its inverse." />
+<node id="103.9" label="State, prove, and apply properties of the discrete-time Fourier transform (DTFT) and its inverse.
+ Explain how the DTFT may be interpreted as a spectrum.
+ Explain the relationship between the original and transformed domains (e.g., aliasing)." />
+<node id="103.9" label="State, prove, and apply properties of discrete Fourier transform (DFT) and its inverse" />
+<node id="103.9" label="Prove and state the symmetries of the Fourier transforms for real signals.
+" />
+<node id="103.9" label="State the frequency shift property for Fourier transforms." />
+<node id="103.9" label="Prove and state how Parseval’s theorem relates power or energy, as appropriate, for the Fourier transforms.
+" />
+<node id="103.9" label="Explain the relationship among the z-transform, DTFT, DFT, and FFTs (fast Fourier transforms)." />
+<node id="103.9" label="Define and calculate the Laplace transform of a continuous signal." />
+<node id="103.9" label="Define and calculate the inverse Laplace transform.
+" />
+</isComposedBy>
+</node>
+<node id="104" label="CE-SGP-5 Frequency response">
+<isComposedBy>
+<node id="104.9" label="Interpret the frequency response of an LTI system as an alternative view from the impulse response." />
+<node id="104.9" label="Analyze the frequency response of a system using the DTFT and the DFT." />
+<node id="104.9" label="Determine pole and zero locations in the z-plane given a difference equation describing a system.
+" />
+<node id="104.9" label="Relate the frequency selectivity of filters to the z–transform domain system representation." />
+<node id="104.9" label="Describe the repeated time series implication of frequency sampling.
+" />
+</isComposedBy>
+</node>
+<node id="105" label="CE-SGP-6 Sampling and aliasing">
+<isComposedBy>
+<node id="105.9" label="State the sampling theorem and the related concepts of the Nyquist frequency and aliasing" />
+<node id="105.9" label="Demonstrate aliasing on a sampled sine wave." />
+<node id="105.9" label="State the relationship between time and frequency domains with respect to sampling.
+" />
+<node id="105.9" label="Explain when spectra are discrete vs. continuous." />
+<node id="105.9" label="Calculate the errors or noise generated by sampling and quantizing.
+" />
+</isComposedBy>
+</node>
+<node id="106" label="CE-SGP-7 Digital spectra and discrete transforms">
+<isComposedBy>
+<node id="106.9" label="Sketch the spectrum of a periodic signal." />
+<node id="106.9" label="Contrast the spectra of an impulse and a square wave." />
+<node id="106.9" label="Calculate spectra of periodic and aperiodic signals" />
+<node id="106.9" label="Explain how the block size controls the tradeoff between spectral resolution and density" />
+<node id="106.9" label="Calculate a spectrogram and explain what its key parameters are" />
+<node id="106.9" label="Explain filtering as adding spectra in a frequency domain on a logarithmic scale" />
+<node id="106.9" label="Design interpolation and reconstruction filters using the sinc function.
+" />
+</isComposedBy>
+</node>
+<node id="107" label="CE-SGP-8 Finite and infinite impulse response filter design">
+<isComposedBy>
+<node id="107.9" label="Design finite and infinite impulse response (FIR and IIR) filters that have specified frequency characteristics including magnitude and
+phase responses.
+" />
+<node id="107.9" label="Explain the general tradeoffs between FIR and IIR filters." />
+<node id="107.9" label="Demonstrate that not all recursive filters are IIR, using a moving average as an example." />
+<node id="107.9" label="Use the DFT to accomplish filtering through (circular) convolution." />
+<node id="107.9" label="State the condition for linear phase in an FIR filter." />
+<node id="107.9" label="Explain the tradeoffs between spectral resolution, length, and delay in an FIR filter" />
+<node id="107.9" label="Explain why one or more FIR filter design methods work." />
+<node id="107.9" label="Explain why one or more IIR filter design methods work including notch filters using pole-zero pairs." />
+<node id="107.9" label="Design a digital filter using analog techniques (e.g., bilinear transform) and explain its key parameters." />
+<node id="107.9" label="Explain physically realizable system issues relevant in filter design including causality and time shifts, and response truncation.
+" />
+</isComposedBy>
+</node>
+<node id="108" label="CE-SGP-9 Window functions">
+<isComposedBy>
+<node id="108.9" label="Explain how window functions improve transform properties." />
+<node id="108.9" label="Explain the periodic assumption in spectral analysis." />
+<node id="108.9" label="Explain the purpose of a window function and its effect on a spectrum" />
+<node id="108.9" label="Discuss the tradeoffs of common window functions such as rectangular, Blackman, Hann, and Hamming." />
+<node id="108.9" label="Select an appropriate window function given a problem statement regarding detection or identification tradeoffs." />
+</isComposedBy>
+</node>
+<node id="109" label="CE-SGP-10 Multimedia processing">
+<isComposedBy>
+<node id="109.9" label="Define signals that vary in time and/or space and interpret frequencies in both domains.
+" />
+<node id="109.9" label="Describe how sampling affects image integrity" />
+<node id="109.9" label="Explain how low-pass filtering tends to smooth images." />
+<node id="109.9" label="Contrast between reconstruction and enhancement filters" />
+<node id="109.9" label="Describe methods for minimizing image noise.
+" />
+<node id="109.9" label="Describe how digital techniques perceptually or otherwise enhance speech and audio signals" />
+<node id="109.9" label="Explain techniques for noise reduction (e.g., Weiner or median filters) or cancellation (e.g., LMS filters) in audio processing" />
+<node id="109.9" label="Explain the motivation for audio coding and state key elements of MPEG or related algorithms including perceptual elements.
+" />
+</isComposedBy>
+</node>
+<node id="110" label="CE-SGP-11 Control system theory and applications">
+<isComposedBy>
+<node id="110.9" label="Define basic control system concepts (e.g., zero-state response, zero-input response, stability)." />
+<node id="110.9" label=" Contrast design methods (root-locus, frequency-response, state-space) for control systems" />
+<node id="110.9" label="Explain limitations and trade-offs associated with microcontroller implementations of digital control systems" />
+<node id="110.9" label="Describe potential applications of digital control systems for electro-mechanical systems, including robotics" />
+<node id="110.9" label="Implement a simple microcontroller-based motion control system with sensors and actuators." />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+<node id="10" label="CE-SPE Systems and Project Engineering">
+<isComposedBy>
+<node id="111" label="CE-SPE-1 History and overview">
+<isComposedBy>
+<node id="111.10" label="Articulate differences between software and hardware engineering, and computer systems engineering.
+" />
+<node id="111.10" label="Explain briefly the concept of a system and a subsystem, and discuss the role of people, the different disciplines involved, and the need
+for interdisciplinary approaches to the development of the range of computer-based systems. " />
+<node id="111.10" label="Indicate some important elements of computer systems engineering such as design processes, requirements, specifications, design,
+testing, validation, evolution, project management, hardware-software interface, and the human-computer interface. " />
+<node id="111.10" label="Define and explain product life cycle, the role of system engineering throughout a product life cycle, and reasons why many computerbased
+system designs become continually evolving systems. " />
+<node id="111.10" label="Provide reasons for the importance of testing, validation, and maintenance in computer systems development. " />
+<node id="111.10" label="Explain the importance of design decisions and tradeoffs at the systems level, including balancing costs, performance, power,
+dependability, and market considerations. " />
+</isComposedBy>
+</node>
+<node id="112" label="CE-SPE-2 Relevant tools, standards and/or engineering constraints">
+<isComposedBy>
+<node id="112.10" label="Select, with justification, an appropriate set of tools to support the development of a range of computer-based systems, including tools
+for project management, requirements and specifications definition and analysis, configuration management, tradeoff analysis, and
+computer-aided tools for software, hardware, and systems design, including modeling, simulation, evaluation, and testing.
+" />
+<node id="112.10" label="Analyze and evaluate a set of tools in an area of computer system development (e.g., management, modeling, or testing)." />
+<node id="112.10" label="Demonstrate the ability to use a range of tools to support the development of a computer-based system of medium size. (This could be
+done in the context of a class project or assignment.)" />
+<node id="112.10" label="Explain the importance and influence of standards, guidelines, legislation, regulations, and professional issues on the development of
+computer-based systems. " />
+<node id="112.10" label="Describe tradeoffs that occur in following regulatory standards and regulations.
+" />
+</isComposedBy>
+</node>
+<node id="113" label="CE-SPE-3 Project management ">
+<isComposedBy>
+<node id="113.10" label="Describe basic elements of project management that support development of computer-based systems for a variety of applications,
+including interdisciplinary issues.
+" />
+<node id="113.10" label="Describe the different phases of a system’s life cycle and identify tools to support these phases, including such project-management
+tools as Gantt charts for project planning, scheduling, cost analysis, resource allocation, and teamwork. " />
+<node id="113.10" label="Demonstrate, through involvement in team projects, the central elements of team building and team management, including team
+composition and organization, roles and responsibilities in a design team, decision-making processes, project tracking, and team problem resolution." />
+<node id="113.10" label="Describe methods and tools for project configuration management and management of project information, ensuring timely
+compliance with specifications and timely delivery" />
+<node id="113.10" label=" Prepare a project plan for a computer-system design project that includes estimates of size and effort, a schedule, resource allocation,
+configuration control, change management, and project risk identification and management—this could be done in the context of a
+class project or assignment.
+" />
+<node id="113.10" label="Identify and describe the use of metrics in support of project management." />
+<node id="113.10" label="Describe the roles of consultants and subcontractors in design projects, including their use and their management." />
+<node id="113.10" label="Discuss how standards and legal requirements can affect the management of design projects." />
+</isComposedBy>
+</node>
+<node id="114" label="CE-SPE-4 User Experience2">
+<isComposedBy>
+<node id="114.10" label="Define the meaning of user experience (UX) and describe the evolution from human factors to user experience design (UXD). " />
+<node id="114.10" label="Contrast the physical and non-physical aspects of UXD.
+" />
+<node id="114.10" label="Summarize some common human-computer interaction styles, and discuss how one would analyze human interaction with computerbased
+systems" />
+<node id="114.10" label="Describe common usability guidelines and standards; give examples of functional and usability requirements that can be beneficial in
+developing human-centered computer systems, including users with different abilities (e.g., age, physical disabilities)." />
+<node id="114.10" label="Identify fundamental principles for effective GUI design, relevant to different applications and different system platforms in computer
+engineering." />
+<node id="114.10" label="Discuss tradeoffs involved when developing a UX system environment." />
+<node id="114.10" label="Identify system components that are suitable for the realization of high-quality multimedia interfaces" />
+<node id="114.10" label="Evaluate an existing interactive system with appropriate human-centered criteria and usability, giving reasons for selection of criteria
+and techniques." />
+<node id="114.10" label="Discuss the role of visualization technologies in human-computer interaction." />
+<node id="114.10" label="Explain the importance of social psychology in the design of user interfaces.
+" />
+<node id="114.10" label="Describe two main principles for universal design." />
+<node id="114.10" label="List advantages and disadvantages of biometric access control" />
+<node id="114.10" label="Describe a possible interface that allows a user with severe physical disabilities to use a website." />
+<node id="114.10" label="Design, prototype, and conduct a usability test of a simple 2D GUI, using a provided GUI-builder, and, in doing so, create an appropriate
+usability test plan." />
+<node id="114.10" label="Discuss other techniques for interaction, such as command line interface and shell scripts.
+" />
+<node id="114.10" label="Identify the potential for the use of intelligent systems in a range of computer-based applications, and describe situations in which
+intelligent systems may, or may not, be reliable enough to deliver a required response.
+" />
+</isComposedBy>
+</node>
+<node id="115" label="CE-SPE-5 Risk, dependability, safety, and fault tolerance">
+<isComposedBy>
+<node id="115.10" label="Recognize risk, dependability, and safety requirements for a range of computer-based systems, and discuss potential tradeoffs
+between these and other system requirements, such as performance and low-power operation." />
+<node id="115.10" label="Explain the concepts of reliability, availability, and maintainability, as measures of system dependability, and explain their relationship
+to faults." />
+<node id="115.10" label="Perform a risk analysis of a medium-size computer-based system. " />
+<node id="115.10" label="Identify at least two tradeoff concerns when developing a safety critical system" />
+<node id="115.10" label="Indicate why it is important to know how to build dependable systems from unreliable components. " />
+<node id="115.10" label="Demonstrate an ability to model reliability, availability, and maintainability of simple computer-based systems. " />
+<node id="115.10" label="Describe some strategies for achieving desired levels of dependability, safety, and security." />
+<node id="115.10" label="Discuss the nature of hardware and software faults, and redundancy methods used to tolerate them" />
+<node id="115.10" label="Describe fault tolerance and dependability requirements of different applications (such as database, aerospace, telecommunications,
+industrial control, and transaction processing).
+" />
+<node id="115.10" label="Describe one or more strategies for risk reduction and risk control, including implications for implementation" />
+<node id="115.10" label="Discuss how international standards, legal requirements, and regulations relate to risk, safety and dependability impact the design of
+computer-based systems.
+" />
+<node id="115.10" label="Discuss the use of failure modes and effects analysis (FEMA) and fault tree analysis in the design of high-integrity systems.
+" />
+<node id="115.10" label="Identify some hardware redundancy approaches for fault-tolerant system design, including the use of error detecting and correcting
+codes" />
+<node id="115.10" label="Discuss one or more software approaches to tolerating hardware faults." />
+<node id="115.10" label="Describe one or more methods for tolerating software faults, such as N-version programming, recovery blocks, and rollback and
+recovery.
+" />
+</isComposedBy>
+</node>
+<node id="116" label="CE-SPE-6 Hardware and software processes">
+<isComposedBy>
+<node id="116.10" label="Explain the need for a disciplined approach to system development and the elements of a disciplined approach in specific contexts" />
+<node id="116.10" label="Describe the nature of a life cycle, the role of life cycle models, quality in relation to the life cycle, the influence of system nature, and
+the size on choice of life cycle model." />
+<node id="116.10" label="Describe some common software and hardware development models and show how to use these models during the development of a
+computer-based system.
+" />
+<node id="116.10" label="Explain how to gather data to inform, assess, and improve system design processes" />
+<node id="116.10" label="Describe the benefits of agile methods for hardware and software design." />
+<node id="116.10" label="Discuss the importance of modular design processes, and the design for modularity and reuse in the development of a computer-based
+system" />
+<node id="116.10" label="Select, with justification, system development models most appropriate for the development and maintenance of diverse computerbased
+systems.
+" />
+<node id="116.10" label="Explain the role of process maturity models, standards, and guidelines." />
+<node id="116.10" label="Identify several metrics for software, hardware, and system processes." />
+</isComposedBy>
+</node>
+<node id="117" label="CE-SPE-7 Requirements analysis and elicitation">
+<isComposedBy>
+<node id="117.10" label="Perform an analysis of a proposed computer-based system design project, including identification of need, information gathering,
+problem definition, feasibility considerations, and economic considerations." />
+<node id="117.10" label="Articulate a range of functional and non-functional requirements that might be applicable to the design of computer-based systems for
+a range of applications, and discuss how requirements can change as a system design project evolves.
+" />
+<node id="117.10" label="Discuss how tradeoffs between different system requirements might be necessary for a proposed computer-based system design" />
+<node id="117.10" label="Describe the strengths and weaknesses of different approaches to requirements elicitation and capture." />
+<node id="117.10" label="Apply one or more techniques for elicitation and analysis to produce a set of requirements for a medium-size computer-based system.
+" />
+<node id="117.10" label="Describe some quality factors for measuring the ability of a system design to meet requirements" />
+<node id="117.10" label="Conduct a review of a computer-based system requirements document using best practices to determine the document’s quality.
+" />
+<node id="117.10" label="Use a common, non-formal method to model and state—in the form of a requirements specification document—the requirements for
+a medium-size computer-based system (e.g., structured analysis or object-oriented-analysis).
+" />
+</isComposedBy>
+</node>
+<node id="118" label="CE-SPE-8 System specifications ">
+<isComposedBy>
+<node id="118.10" label="Discuss the relationship and differences between system specifications and requirements" />
+<node id="118.10" label="Articulate some typical functional and nonfunctional specifications for the design of a computer-based system and the importance of
+specifications to the design process" />
+<node id="118.10" label="Discuss one or more approaches for deriving system specifications from a requirements document." />
+<node id="118.10" label="Discuss how tradeoffs between different system specifications might be necessary to meet system requirements" />
+<node id="118.10" label="Assess the quality of a given specification, considering such factors as completeness, consistency, simplicity, verifiability, basis for
+design, specification in the event of failure, and degraded modes of operation.
+" />
+<node id="118.10" label="Given a set of requirements, create a high-quality specification for a computer-based system of medium complexity." />
+<node id="118.10" label="Create a test plan, based on the specification, considering the role of independence in relation to test, safety cases, and limitations of
+such tests.
+" />
+<node id="118.10" label="Describe and demonstrate the use of one or more formal specification languages and techniques." />
+<node id="118.10" label="Translate into natural language a system specification written in a commonly used formal specification language." />
+</isComposedBy>
+</node>
+<node id="119" label="CE-SPE-9 System architectural design and evaluation">
+<isComposedBy>
+<node id="119.10" label="Describe concepts and principles of system architecture design, such as top-down design, subdivision into systems and subsystems,
+modularity and reuse, the hardware/software interface, and tradeoffs between various design options." />
+<node id="119.10" label="Describe strengths and weaknesses of various systems-level architectural design methods, including procedural and functional
+methods." />
+<node id="119.10" label="Describe design methods to meet system specifications and achieve performance measures, including dependability and safety" />
+<node id="119.10" label="Given a system specification, select an appropriate design methodology (e.g., structured design or modular design) and create an architectural design for a medium-size computer-based system." />
+<node id="119.10" label="Demonstrate ability to model, simulate, and prototype a range of computer-based system architectures" />
+<node id="119.10" label="Using appropriate guidelines, conduct the review of one or more computer-based system designs to evaluate design quality based on
+key design principles and concepts." />
+<node id="119.10" label="At the architectural level, discuss possible failure modes, common cause failures, dealing with failure, inclusion of diagnostics in the
+event of failure, and approaches to fault-tolerant design.
+" />
+<node id="119.10" label="Discuss design issues associated with achieving dependability, the role of redundancy, independence of designs, separation of
+concerns, and specifications of subsystems.
+" />
+</isComposedBy>
+</node>
+<node id="120" label="CE-SPE-10 Concurrent hardware and software design">
+<isComposedBy>
+<node id="120.10" label="Recognize the potential of hardware-software co-design in circumstances in which this approach is pertinent" />
+<node id="120.10" label="Discuss how particular design constraints can make the coordinated development of both hardware and software important, such as in
+the design of low-power systems, real-time systems, or systems with high-performance requirements.
+" />
+<node id="120.10" label="Apply hardware-software co-design principles in situations of modest complexity. " />
+<node id="120.10" label="Discuss challenges to effective hardware-software co-design, such as demands of hard real-time features" />
+<node id="120.10" label="Demonstrate ability to co-design to achieve specific technical objectives, such as low power, real-time operation, and high
+performance" />
+<node id="120.10" label="Select and apply computer-aided tools to support hardware and software co-design.
+" />
+</isComposedBy>
+</node>
+<node id="121" label="CE-SPE-11 System integration, testing and validation">
+<isComposedBy>
+<node id="121.10" label="Recognize the range of testing and validation methods appropriate for each stage of the system life cycle, including review of hardware
+models and software code; white box, black box, and regression testing; stress testing; and interface testing." />
+<node id="121.10" label="Describe the role of various system validation tools and show how tools can support efficient and effective development." />
+<node id="121.10" label="Discuss approaches to testing and validation at the unit level and at the integration and system levels" />
+<node id="121.10" label="Create a test plan and generate test cases for a computer-based system of medium complexity, selecting an appropriate combination
+of tests for ensuring system quality" />
+<node id="121.10" label="Demonstrate the application of the different types and levels of testing (unit, integration, systems, and acceptance) on computer-based
+systems of medium size." />
+<node id="121.10" label="Undertake, as part of a team activity, an inspection of a medium-size computer-based system design." />
+<node id="121.10" label="Discuss methods used for manufacturing test and inspection, and acceptance testing." />
+<node id="121.10" label="Discuss methods for specialized testing: security, dependability/fault tolerance, and usability." />
+</isComposedBy>
+</node>
+<node id="122" label="CE-SPE-12 Maintainability, sustainability, manufacturability">
+<isComposedBy>
+<node id="122.10" label="Describe the need for, and characteristics of, maintainable software, hardware, and system designs" />
+<node id="122.10" label="Discuss the inevitability of maintenance in certain systems, such as diagnosis, defect removal, hardware and/or software upgrades, and
+enhancement." />
+<node id="122.10" label="Describe how to apply principles of maintainable design to a computer-based system of modest complexity.
+" />
+<node id="122.10" label="Identify issues associated with system evolution and explain their impact on the system life cycle" />
+<node id="122.10" label="Explain configuration management and version control in engineering systems—the need for it, the issues associated with it, the nature of the information to be held, legal requirements, and planning for possible disasters" />
+<node id="122.10" label="Develop a plan for reengineering a medium-size product in response to a change request" />
+<node id="122.10" label="Identify and exploit opportunities for component reuse in a variety of contexts." />
+<node id="122.10" label="Discuss how design decisions can affect future generations, including impact on the environment and energy resources, and disposal of
+systems and components at end of life.
+" />
+<node id="122.10" label="Discuss design for manufacturability, part selection and standardization, manufacturing cost, and product lead-time for delivery." />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+<node id="11" label="CE-SRM System Resource Management">
+<isComposedBy>
+<node id="123" label="CE-SRM-1 History and overview of operating systems">
+<isComposedBy>
+<node id="123.11" label="Explain the purpose of an operating system and the services one provides" />
+<node id="123.11" label="Describe differences in functionality found in mobile, networked, client-server, distributed operating systems, and single user systems" />
+<node id="123.11" label="Define key design criteria including efficiency, robustness, and security." />
+<node id="123.11" label="Explain major threats to operating systems and how to guard against them.
+" />
+</isComposedBy>
+</node>
+<node id="124" label="CE-SRM-2 Relevant tools, standards, and/or engineering constraints ">
+<isComposedBy>
+<node id="124.11" label="Give examples of real-time performance monitoring tools and log-based performance monitoring tools" />
+<node id="124.11" label="Explain what information a real-time performance monitoring tool provides and when such a tool is useful.
+" />
+<node id="124.11" label="Explain what information a log-based performance monitoring tool provides and when such a tool is useful." />
+<node id="124.11" label="List key components of the IEEE POSIX (Portable Operating System Interface) standard." />
+<node id="124.11" label="Define the role of some key SRM APIs such as WinAPI and various Java APIs.
+" />
+</isComposedBy>
+</node>
+<node id="125" label="CE-SRM-3 Managing system resources ">
+<isComposedBy>
+<node id="125.11" label="Describe the role of an operating system in managing system resources and interfacing between hardware and software elements" />
+<node id="125.11" label="Explain what concurrency is and why it must be supported in managing system resources." />
+<node id="125.11" label="Give examples of runtime problems that can arise due to concurrent operation of multiple tasks or components in the system, such as
+deadlock and race conditions.
+" />
+<node id="125.11" label="Describe basic types of interrupts and what must be done to handle them" />
+<node id="125.11" label="Give examples that illustrate why task scheduling and dispatch are needed as system resources are managed." />
+<node id="125.11" label="Explain the difference between preemptive and non-preemptive scheduling and demonstrate awareness of common algorithms used
+for scheduling." />
+<node id="125.11" label="Describe how interrupts, dispatching tasks, and context switching are used to support concurrency" />
+<node id="125.11" label="Explain the memory hierarchy (cache through virtual memory) and the cost-performance tradeoffs made in design." />
+<node id="125.11" label="Describe the choices to be made in file system design and how these choices affect system resource management. " />
+</isComposedBy>
+</node>
+<node id="126" label="CE-SRM-4 Real-time operating system design">
+<isComposedBy>
+<node id="126.11" label="Explain the characteristics of hard real-time, soft real-time, and safety-critical real-time environments" />
+<node id="126.11" label="Discuss issues of uncertainty that can arise in memory hierarchy design and disk or other fixed storage design and methods of
+addressing them." />
+<node id="126.11" label="Explain latency and its role in RTOS design." />
+<node id="126.11" label="Explain how an event-driven scheduler operates and be able give examples of commonly used algorithms" />
+<node id="126.11" label="Explain how round-robin scheduling differs from event driven strategies." />
+<node id="126.11" label="Explain why memory allocation is critical in a real-time system." />
+<node id="126.11" label="Explain failure modes and recovery strategies appropriate for RTOS.
+" />
+<node id="126.11" label="Discuss tradeoffs among various operating system options." />
+</isComposedBy>
+</node>
+<node id="127" label="CE-SRM-5 Operating systems for mobile devices">
+<isComposedBy>
+<node id="127.11" label="Describe the system communication that must be managed in a mobile device (e.g., Wi-Fi, Bluetooth).
+" />
+<node id="127.11" label="Discuss constraints inherent in the mobile environment." />
+<node id="127.11" label="Explain the demands placed on the mobile operating system by the user" />
+<node id="127.11" label="Discuss the challenges of implementation across mobile platforms.
+" />
+<node id="127.11" label="Discuss sources of security threats and their management.
+" />
+</isComposedBy>
+</node>
+<node id="128" label="CE-SRM-6 Support for concurrent processing">
+<isComposedBy>
+<node id="128.11" label="Explain and give examples of basic concepts in concurrent processing such as multiprocessor, multicore, SIMD, MIMD, shared memory,
+and distributed memory.
+" />
+<node id="128.11" label="Explain what is needed to support scheduling of multiple threads." />
+<node id="128.11" label="Describe how simultaneous multithreaded (SMT) execution works.
+" />
+</isComposedBy>
+</node>
+<node id="129" label="CE-SRM-7 System performance evaluation">
+<isComposedBy>
+<node id="129.11" label="Describe why performance is important in significant applications (e.g., mission critical systems).
+" />
+<node id="129.11" label="Explain why metrics such as response time, throughput, latency, availability, reliability, and power consumption are significant in
+performance evaluation." />
+<node id="129.11" label="Explain what must be measured to make use of important performance evaluation metrics. " />
+<node id="129.11" label="Describe the strengths of commonly used benchmark suites and their limitations." />
+<node id="129.11" label="Demonstrate understanding of commonly used evaluation models (e.g., deterministic, stochastic, simulation) and circumstances in
+which it is appropriate to use them." />
+<node id="129.11" label="Explain how profiling and tracing data is collected and used in evaluating system performance.
+" />
+</isComposedBy>
+</node>
+<node id="130" label="CE-SRM-8 Support for virtualization">
+<isComposedBy>
+<node id="130.11" label="Define the role of the hypervisor or virtual machine monitor" />
+<node id="130.11" label="Describe what the role of the host machine is and its relationship to the guest machines" />
+<node id="130.11" label="Describe what the host operating system is and how it is related to guest operating systems" />
+<node id="130.11" label=" Explain what a native hypervisor is and how it differs from a hosted hypervisor" />
+<node id="130.11" label="Give examples of isolation and security issues arising in virtualized environments." />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+<node id="12" label="CE-SWD Software Design">
+<isComposedBy>
+<node id="131" label="CE-SWD-1 History and overview">
+<isComposedBy>
+<node id="131.12" label="Explain why early software was written in machine language and assembly language.
+" />
+<node id="131.12" label="Name some early programming languages and list some of their key features.
+" />
+<node id="131.12" label=" Give examples of milestones in interactive user interfaces.
+" />
+<node id="131.12" label="Describe the magnitude of changes in software development environments over time." />
+<node id="131.12" label="Explain why high level languages are important to improved productivity.
+" />
+<node id="131.12" label="List and define the steps of a software life cycle.
+" />
+</isComposedBy>
+</node>
+<node id="132" label="CE-SWD-2 Relevant tools, standards, and/or engineering constraints">
+<isComposedBy>
+<node id="132.12" label="Identify the roles of software development tools, such as compilers, assemblers, linkers, and debuggers." />
+<node id="132.12" label="Identify the expected functionality of a typical modern integrated development environment (IDE)." />
+<node id="132.12" label="Use an IDE to develop a simple application." />
+<node id="132.12" label="Effectively use a debugger to trace code execution and identify defects in code.
+" />
+</isComposedBy>
+</node>
+<node id="133" label="CE-SWD-3 Programming constructs and paradigms">
+<isComposedBy>
+<node id="133.12" label="Explain the execution of a simple program. " />
+<node id="133.12" label="Write simple and secure programs that accomplish the intended task" />
+<node id="133.12" label="Write simple functions and explain the roles of parameters and arguments" />
+<node id="133.12" label="Design, implement, test, and debug a program that uses fundamental programming constructs in nontrivial ways" />
+<node id="133.12" label=" Choose appropriate iteration and conditional constructs to accomplish a given programming task." />
+<node id="133.12" label="Contrast imperative (i.e., procedural), declarative (i.e., functional), and structured (i.e., object-oriented) software design paradigms.
+" />
+<node id="133.12" label="Define and explain the elements of good programming (including the need to avoid opportunities for security breaches).
+" />
+</isComposedBy>
+</node>
+<node id="134" label="CE-SWD-4 Problem-solving strategies">
+<isComposedBy>
+<node id="134.12" label="Identify a practical example of a problem in which different problem-solving strategies would be useful.
+" />
+<node id="134.12" label="Use a divide-and-conquer strategy to solve a problem." />
+<node id="134.12" label="Use a greedy approach to solve an appropriate problem and determine if the approach used produces an optimal result." />
+<node id="134.12" label="Explain the role of heuristics in problem-solving strategies." />
+<node id="134.12" label="Discuss tradeoffs among different problem-solving strategies." />
+<node id="134.12" label="Given a problem, determine an appropriate problem-solving strategy to use in devising a solution.
+" />
+<node id="134.12" label="Use dynamic programming to solve an appropriate problem." />
+</isComposedBy>
+</node>
+<node id="135" label="CE-SWD-5 Data structures">
+<isComposedBy>
+<node id="135.12" label="Demonstrate knowledge of fundamental data structures, their uses, and tradeoffs among them" />
+<node id="135.12" label="Demonstrate the use of high quality program libraries for building and searching data structures" />
+<node id="135.12" label="Explain what a hash table is, why it is useful, and the role that collision avoidance and resolution play." />
+<node id="135.12" label="Explain what a binary search tree is and why maintaining balance has impact on algorithm performance." />
+<node id="135.12" label="Solve problems using library functions for standard data structures (linked lists, sorted arrays, trees, and hash tables) including
+insertion, deletion, searching and sorting (rather than implementing the algorithm from scratch).
+" />
+</isComposedBy>
+</node>
+<node id="136" label="CE-SWD-6 Recursion">
+<isComposedBy>
+<node id="136.12" label="Describe the concept of recursion and give examples of its use.
+" />
+<node id="136.12" label="Explain the relationship between iteration and recursion." />
+<node id="136.12" label="Identify the base case and the general case of a recursively defined problem." />
+<node id="136.12" label="Itemize possible problems that can occur at run-time because of employing recursion in programs." />
+</isComposedBy>
+</node>
+<node id="137" label="CE-SWD-7 Object-oriented design">
+<isComposedBy>
+<node id="137.12" label="Decompose a problem domain into classes of objects having related state (data members) and behavior (methods).
+" />
+<node id="137.12" label="Contrast and contrast method overloading and overriding and illustrate with examples.
+" />
+<node id="137.12" label="State the benefits and disadvantages of compile-time vs. runtime method binding." />
+<node id="137.12" label="Employ a modeling language (such as UML) to illustrate a simple class hierarchy with subclass structure that allows re-use of code for
+different subclasses." />
+<node id="137.12" label="Explain mechanisms for disambiguation of function invocation when method names are overridden or overloaded." />
+<node id="137.12" label="Explain the concepts of information hiding, coupling and cohesion, and data abstraction as they relate to object-oriented design.
+" />
+</isComposedBy>
+</node>
+<node id="138" label="CE-SWD-8 Software testing, verification, and validation">
+<isComposedBy>
+<node id="138.12" label="Explain the differences between testing, verification, and validation." />
+<node id="138.12" label="Demonstrate an understanding of unit testing strategies (e.g., white box, black box, and grey box) and tradeoffs.
+" />
+<node id="138.12" label="Demonstrate an understanding of verification and validation strategies. " />
+<node id="138.12" label="Construct a test dataset for use in unit testing of a module, exercise that dataset, and produce a test report." />
+<node id="138.12" label="Explain the difference between unit testing and integration testing." />
+<node id="138.12" label="Explain commonly used metrics for software quality" />
+<node id="138.12" label="Describe at least one tool for automated testing and/or test pattern generation." />
+</isComposedBy>
+</node>
+<node id="139" label="CE-SWD-9 Data modeling ">
+<isComposedBy>
+<node id="139.12" label="Explain and provide examples of data models and their use" />
+<node id="139.12" label="Employ standard modeling notation (such as UML) to express and document an appropriate data model for a computer engineering
+problem.
+" />
+</isComposedBy>
+</node>
+<node id="140" label="CE-SWD-10 Database systems ">
+<isComposedBy>
+<node id="140.12" label="Explain how use of database systems evolved from programming with simple collections of data files." />
+<node id="140.12" label="Describe the major components of a modern database system.
+" />
+<node id="140.12" label="Describe the functionality provided by languages such as SQL." />
+<node id="140.12" label="Give examples of interactions with database systems that are relevant to computer engineering." />
+</isComposedBy>
+</node>
+<node id="141" label="CE-SWD-11 Event-driven and concurrent programming ">
+<isComposedBy>
+<node id="141.12" label="Explain the problems associated with mobile systems and location aware systems, including the security issues" />
+<node id="141.12" label="Explain the difficulties associated with the programming effective programming of multi-core processors." />
+<node id="141.12" label="Demonstrate an ability to effectively program a multi-core processor.
+" />
+</isComposedBy>
+</node>
+<node id="142" label="CE-SWD-12 Using application programming interfaces">
+<isComposedBy>
+<node id="142.12" label="Design and implement reusable functions" />
+<node id="142.12" label="State the purpose of deprecation. " />
+<node id="142.12" label="Define backward and forward compatibility problems and some solutions to issues associated with these problems." />
+<node id="142.12" label="Write code against common application program interfaces (APIs) for system services, data structures, or network communications." />
+</isComposedBy>
+</node>
+<node id="143" label="CE-SWD-13 Data mining ">
+<isComposedBy>
+<node id="143.12" label="Explain the role of data mining in computer engineering applications" />
+<node id="143.12" label="Provide an illustration of the role of machine learning in computer engineering.
+" />
+</isComposedBy>
+</node>
+<node id="144" label="CE-SWD-14 Data visualization">
+<isComposedBy>
+<node id="144.12" label="Construct visualizations of data that improve comprehensive of the data, communication of the relevant information, and aid in decision making" />
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>
+</isComposedBy>
+</node>

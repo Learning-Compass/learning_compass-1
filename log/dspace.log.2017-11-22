@@ -1,0 +1,911 @@
+2017-11-22 22:59:58,196 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 22:59:58,199 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 22:59:58,283 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 22:59:58,405 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 22:59:58,630 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:00:12,626 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:00:12,802 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:00:24,503 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:00:24,505 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:00:24,844 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:00:24,909 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:00:25,017 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:00:37,167 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:00:37,170 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:00:37,251 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:00:37,327 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:00:37,459 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:01:22,790 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:01:22,794 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:01:22,886 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:01:22,970 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:01:23,089 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:01:25,679 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2017-11-22 23:01:25,849 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2017-11-22 23:01:25,849 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2017-11-22 23:01:25,849 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2017-11-22 23:01:25,849 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2017-11-22 23:01:25,849 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2017-11-22 23:01:25,849 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2017-11-22 23:01:25,850 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2017-11-22 23:01:25,850 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2017-11-22 23:01:25,851 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2017-11-22 23:01:26,967 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-11-22 23:01:26,974 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-11-22 23:01:26,999 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-11-22 23:01:28,779 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=20
+2017-11-22 23:01:28,790 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=20
+2017-11-22 23:01:28,881 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=16
+2017-11-22 23:01:28,881 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=16
+2017-11-22 23:01:28,899 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=14
+2017-11-22 23:01:28,899 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=14
+2017-11-22 23:01:28,954 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=17
+2017-11-22 23:01:28,954 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=19
+2017-11-22 23:01:28,954 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=19
+2017-11-22 23:01:28,954 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=17
+2017-11-22 23:01:28,969 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=18
+2017-11-22 23:01:28,969 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=643881776E4574670A550B17942D2BCF:ip_addr=0:0:0:0:0:0:0:1:view_bitstream:bitstream_id=18
+2017-11-22 23:01:29,527 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2017-11-22 23:01:29,528 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2017-11-22 23:01:29,528 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2017-11-22 23:01:29,862 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2017-11-22 23:01:29,867 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\agents\example
+2017-11-22 23:01:29,878 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2017-11-22 23:01:29,879 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2017-11-22 23:01:29,879 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2017-11-22 23:01:29,879 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2017-11-22 23:01:29,883 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2017-11-22 23:01:29,883 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2017-11-22 23:01:29,884 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2017-11-22 23:01:29,887 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2017-11-22 23:01:29,889 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2017-11-22 23:01:29,890 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2017-11-22 23:01:29,890 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2017-11-22 23:01:29,891 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2017-11-22 23:01:29,890 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2017-11-22 23:01:29,892 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2017-11-22 23:01:29,893 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2017-11-22 23:01:29,897 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2017-11-22 23:01:29,898 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2017-11-22 23:01:29,902 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2017-11-22 23:01:29,904 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2017-11-22 23:01:29,907 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2017-11-22 23:01:29,908 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2017-11-22 23:01:29,912 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2017-11-22 23:01:29,915 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2017-11-22 23:01:29,917 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2017-11-22 23:01:29,919 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2017-11-22 23:01:29,920 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2017-11-22 23:01:29,921 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2017-11-22 23:01:29,932 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2017-11-22 23:01:30,002 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\domains\example
+2017-11-22 23:01:30,252 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2017-11-22 23:01:30,253 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2017-11-22 23:01:30,253 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2017-11-22 23:01:30,255 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2017-11-22 23:01:30,432 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:30,432 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:30,433 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:30,435 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:30,515 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=643881776E4574670A550B17942D2BCF:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/18
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\14\13\78\141378152699566506102431098045751417537 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-22 23:01:30,515 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=643881776E4574670A550B17942D2BCF:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/19
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\13\24\48\13244808719665344027253694883049852151 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-22 23:01:31,036 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2017-11-22 23:01:31,036 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2017-11-22 23:01:31,037 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2017-11-22 23:01:31,039 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2017-11-22 23:01:31,100 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:31,100 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:31,100 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:31,101 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:31,247 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading wfp2.almaden.ibm.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:31,247 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading wfp2.almaden.ibm.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:31,247 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading wfp2.almaden.ibm.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:31,247 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading wfp2.almaden.ibm.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:31,426 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading morgue1.corp.yahoo.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:31,426 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading morgue1.corp.yahoo.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:31,427 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading morgue1.corp.yahoo.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:31,428 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading morgue1.corp.yahoo.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:32,162 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:32,163 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:32,164 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:32,167 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:32,470 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:32,472 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:32,473 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:32,476 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2017-11-22 23:01:33,074 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2017-11-22 23:01:33,074 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2017-11-22 23:01:33,077 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2017-11-22 23:01:33,077 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2017-11-22 23:01:33,079 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2017-11-22 23:01:33,079 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2017-11-22 23:01:33,080 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2017-11-22 23:01:33,080 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2017-11-22 23:01:33,109 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=643881776E4574670A550B17942D2BCF:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/17
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\83\30\16\83301646444054691316823068487716773157 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-22 23:01:33,110 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=643881776E4574670A550B17942D2BCF:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/14
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\16\81\73\168173435431866383381859198677289790268 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-22 23:01:33,116 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=643881776E4574670A550B17942D2BCF:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/20
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\14\55\23\145523243473696684663485472021287684739 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-22 23:01:33,145 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=643881776E4574670A550B17942D2BCF:internal_error:-- URL Was: http://localhost:8080/jspui/retrieve/16
+-- Method: GET
+-- Parameters were:
+
+java.io.FileNotFoundException: C:\dspace\assetstore\12\50\23\125023633922090041362232461208570225269 (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.open(LocalFileInputStream.java:171)
+	at edu.sdsc.grid.io.GeneralFileInputStream.<init>(GeneralFileInputStream.java:145)
+	at edu.sdsc.grid.io.local.LocalFileInputStream.<init>(LocalFileInputStream.java:139)
+	at edu.sdsc.grid.io.FileFactory.newFileInputStream(FileFactory.java:630)
+	at org.dspace.storage.bitstore.BitstreamStorageManager.retrieve(BitstreamStorageManager.java:525)
+	at org.dspace.content.Bitstream.retrieve(Bitstream.java:588)
+	at org.dspace.app.webui.servlet.RetrieveServlet.doDSGet(RetrieveServlet.java:135)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-22 23:03:15,218 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-11-22 23:03:15,252 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-11-22 23:03:15,363 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-11-22 23:03:15,374 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 13
+2017-11-22 23:03:15,793 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/6
+2017-11-22 23:03:15,803 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/241
+2017-11-22 23:03:17,097 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 13
+2017-11-22 23:03:17,105 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/6
+2017-11-22 23:03:17,116 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/241
+2017-11-22 23:03:44,460 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:authenticate:attempting password auth of user=atsolakid@teiath.gr
+2017-11-22 23:03:44,516 INFO  org.dspace.authenticate.PasswordAuthentication @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:authenticate:type=PasswordAuthentication
+2017-11-22 23:03:44,519 INFO  org.dspace.eperson.EPerson @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:update_eperson:eperson_id=1
+2017-11-22 23:03:44,519 INFO  org.dspace.app.xmlui.utils.AuthenticationUtil @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:login:type=explicit
+2017-11-22 23:03:44,648 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-11-22 23:03:44,649 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 13
+2017-11-22 23:03:44,659 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/6
+2017-11-22 23:03:44,667 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/241
+2017-11-22 23:03:44,733 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 13
+2017-11-22 23:03:44,743 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/6
+2017-11-22 23:03:44,750 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/241
+2017-11-22 23:03:47,856 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=13
+2017-11-22 23:03:47,887 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2017-11-22 23:03:47,888 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2017-11-22 23:03:47,888 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2017-11-22 23:03:47,901 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2017-11-22 23:03:47,904 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\agents\example
+2017-11-22 23:03:47,907 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-altavista.txt
+2017-11-22 23:03:47,907 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-excite.txt
+2017-11-22 23:03:47,908 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-google.txt
+2017-11-22 23:03:47,909 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-infoseek.txt
+2017-11-22 23:03:47,911 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-inktomi.txt
+2017-11-22 23:03:47,912 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-lycos.txt
+2017-11-22 23:03:47,922 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-misc.txt
+2017-11-22 23:03:48,041 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2017-11-22 23:03:48,050 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2017-11-22 23:03:48,661 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2017-11-22 23:03:48,669 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2017-11-22 23:03:48,678 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading wfp2.almaden.ibm.com:  Unresolvable host name (empty response)
+2017-11-22 23:03:48,689 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading morgue1.corp.yahoo.com:  Unresolvable host name (empty response)
+2017-11-22 23:03:48,860 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2017-11-22 23:03:48,919 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2017-11-22 23:03:49,528 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2017-11-22 23:03:49,529 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: \dspace\config\spiders\iplists.com-non_engines.txt
+2017-11-22 23:03:49,532 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  \dspace\config\spiders\domains\example
+2017-11-22 23:03:49,662 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Community@282: 13
+2017-11-22 23:03:50,163 INFO  org.dspace.disseminate.CitationDocument @ Created temp directory at: /dspace/temp
+2017-11-22 23:03:54,728 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=22
+2017-11-22 23:03:54,820 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Community@28b: 13
+2017-11-22 23:03:57,935 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=22
+2017-11-22 23:03:57,962 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Community@28b: 13
+2017-11-22 23:04:01,079 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=23
+2017-11-22 23:04:01,114 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Community@28c: 13
+2017-11-22 23:04:04,205 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=24
+2017-11-22 23:04:04,239 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Community@28d: 13
+2017-11-22 23:04:06,355 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=37
+2017-11-22 23:04:06,396 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Collection@d95c1aa0: 13
+2017-11-22 23:04:51,767 WARN  org.dspace.app.xmlui.cocoon.DSpaceI18NTransformer @ Translation not found for attribute title in element <input>
+2017-11-22 23:06:15,750 INFO  org.dspace.harvest.OAIHarvester @ HTTP Request: http://learning-compass.teiath.gr:8080/oai/request?verb=ListRecords&until=2017-11-22T21:06:14Z&metadataPrefix=oai_dc
+2017-11-22 23:06:15,791 INFO  org.dspace.harvest.OAIHarvester @ Found 61 records to process
+2017-11-22 23:06:15,952 ERROR org.dspace.harvest.OAIHarvester @ Harvesting error occurred while processing an OAI record: OAI server returned the following errors during getDescMD execution: [idDoesNotExist]
+2017-11-22 23:06:15,955 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=4C51A939041873E8B7A1488A08AC2B56:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=37
+2017-11-22 23:39:10,072 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-11-22 23:39:10,072 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 13
+2017-11-22 23:39:10,084 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/6
+2017-11-22 23:39:10,092 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/241
+2017-11-22 23:39:21,448 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:authenticate:attempting password auth of user=atsolakid@teiath.gr
+2017-11-22 23:39:21,456 INFO  org.dspace.authenticate.PasswordAuthentication @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:authenticate:type=PasswordAuthentication
+2017-11-22 23:39:21,460 INFO  org.dspace.eperson.EPerson @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_eperson:eperson_id=1
+2017-11-22 23:39:21,460 INFO  org.dspace.app.xmlui.utils.AuthenticationUtil @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:login:type=explicit
+2017-11-22 23:39:21,580 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:view_community_list:
+2017-11-22 23:39:21,580 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 13
+2017-11-22 23:39:21,592 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/6
+2017-11-22 23:39:21,600 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 10673/241
+2017-11-22 23:39:25,022 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=22
+2017-11-22 23:39:25,074 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Community@28b: 13
+2017-11-22 23:39:39,352 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=5
+2017-11-22 23:39:39,436 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 123456789/189
+2017-11-22 23:39:39,444 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Community@27a: 13
+2017-11-22 23:39:43,238 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=12
+2017-11-22 23:39:43,278 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 123456789/189
+2017-11-22 23:39:43,282 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Community@281: 13
+2017-11-22 23:39:46,473 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:view_collection:collection_id=26
+2017-11-22 23:39:46,554 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Collection@c4ac7a60: 13
+2017-11-22 23:40:04,964 WARN  org.dspace.app.xmlui.cocoon.DSpaceI18NTransformer @ Translation not found for attribute title in element <input>
+2017-11-22 23:40:52,147 INFO  org.dspace.harvest.OAIHarvester @ HTTP Request: http://demo.dspace.org/oai/request?verb=ListRecords&until=2017-11-22T21:40:50Z&metadataPrefix=oai_dc
+2017-11-22 23:40:52,163 INFO  org.dspace.harvest.OAIHarvester @ Found 10 records to process
+2017-11-22 23:40:53,258 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=486
+2017-11-22 23:40:53,262 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=486
+2017-11-22 23:40:53,318 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=486
+2017-11-22 23:40:53,334 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=486collection_id=26
+2017-11-22 23:40:53,392 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=42
+2017-11-22 23:40:53,396 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=42
+2017-11-22 23:40:53,408 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=486,bundle_id=42
+2017-11-22 23:40:53,432 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=486,bundle_id=42
+2017-11-22 23:40:54,383 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=59
+2017-11-22 23:40:54,391 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=42,bitstream_id=59
+2017-11-22 23:40:54,440 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=59
+2017-11-22 23:40:54,452 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=42,bitstream_id=59
+2017-11-22 23:40:54,452 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=42
+2017-11-22 23:40:54,452 INFO  org.dspace.content.crosswalk.OREDisseminationCrosswalk @ OREIngest for Item 486 took: 1084ms.
+2017-11-22 23:40:54,472 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=486
+2017-11-22 23:40:54,476 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=59
+2017-11-22 23:40:54,540 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_item:collection_id=26,item_id=486
+2017-11-22 23:40:54,560 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=486
+2017-11-22 23:40:54,564 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:delete_workspace_item:workspace_item_id=484item_id=486collection_id=26
+2017-11-22 23:40:54,592 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=43
+2017-11-22 23:40:54,592 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=43
+2017-11-22 23:40:54,600 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=486,bundle_id=43
+2017-11-22 23:40:54,632 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=60
+2017-11-22 23:40:54,636 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=43,bitstream_id=60
+2017-11-22 23:40:54,644 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=60
+2017-11-22 23:40:54,648 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=43,bitstream_id=60
+2017-11-22 23:40:54,648 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=43
+2017-11-22 23:40:54,652 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=486
+2017-11-22 23:40:54,652 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=60
+2017-11-22 23:40:54,656 INFO  org.dspace.harvest.OAIHarvester @ Item 10673/35(486) has been ingested. The whole process took: 2493 ms. 
+2017-11-22 23:40:54,664 INFO  org.dspace.event.EventManager @ 
+2017-11-22 23:40:55,047 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 10673/35 to Index
+2017-11-22 23:40:55,514 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=487
+2017-11-22 23:40:55,522 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=487
+2017-11-22 23:40:55,550 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=487
+2017-11-22 23:40:55,550 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=487collection_id=26
+2017-11-22 23:40:55,562 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=44
+2017-11-22 23:40:55,562 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=44
+2017-11-22 23:40:55,574 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=487,bundle_id=44
+2017-11-22 23:40:55,582 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=487,bundle_id=44
+2017-11-22 23:41:08,579 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=61
+2017-11-22 23:41:08,583 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=44,bitstream_id=61
+2017-11-22 23:41:08,587 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=61
+2017-11-22 23:41:08,591 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=44,bitstream_id=61
+2017-11-22 23:41:08,591 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=44
+2017-11-22 23:41:25,982 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=62
+2017-11-22 23:41:25,986 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=44,bitstream_id=62
+2017-11-22 23:41:25,990 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=62
+2017-11-22 23:41:25,990 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=44,bitstream_id=62
+2017-11-22 23:41:25,990 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=44
+2017-11-22 23:41:25,990 INFO  org.dspace.content.crosswalk.OREDisseminationCrosswalk @ OREIngest for Item 487 took: 30432ms.
+2017-11-22 23:41:25,994 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=487
+2017-11-22 23:41:25,994 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=61
+2017-11-22 23:41:25,994 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=62
+2017-11-22 23:41:26,002 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_item:collection_id=26,item_id=487
+2017-11-22 23:41:26,006 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=487
+2017-11-22 23:41:26,006 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:delete_workspace_item:workspace_item_id=485item_id=487collection_id=26
+2017-11-22 23:41:26,018 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=45
+2017-11-22 23:41:26,018 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=45
+2017-11-22 23:41:26,018 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=487,bundle_id=45
+2017-11-22 23:41:26,026 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=63
+2017-11-22 23:41:26,030 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=45,bitstream_id=63
+2017-11-22 23:41:26,030 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=63
+2017-11-22 23:41:26,034 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=45,bitstream_id=63
+2017-11-22 23:41:26,034 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=45
+2017-11-22 23:41:26,034 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=487
+2017-11-22 23:41:26,034 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=63
+2017-11-22 23:41:26,038 INFO  org.dspace.harvest.OAIHarvester @ Item 10673/6(487) has been ingested. The whole process took: 30991 ms. 
+2017-11-22 23:41:26,135 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 10673/6 to Index
+2017-11-22 23:41:26,707 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=488
+2017-11-22 23:41:26,707 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=488
+2017-11-22 23:41:26,715 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=488
+2017-11-22 23:41:26,719 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=488collection_id=26
+2017-11-22 23:41:26,723 INFO  org.dspace.content.crosswalk.OREDisseminationCrosswalk @ OREIngest for Item 488 took: 0ms.
+2017-11-22 23:41:26,727 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=488
+2017-11-22 23:41:26,739 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_item:collection_id=26,item_id=488
+2017-11-22 23:41:26,743 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=488
+2017-11-22 23:41:26,743 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:delete_workspace_item:workspace_item_id=486item_id=488collection_id=26
+2017-11-22 23:41:26,751 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=46
+2017-11-22 23:41:26,751 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=46
+2017-11-22 23:41:26,755 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=488,bundle_id=46
+2017-11-22 23:41:26,763 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=64
+2017-11-22 23:41:26,767 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=46,bitstream_id=64
+2017-11-22 23:41:26,771 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=64
+2017-11-22 23:41:26,775 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=46,bitstream_id=64
+2017-11-22 23:41:26,775 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=46
+2017-11-22 23:41:26,775 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=488
+2017-11-22 23:41:26,775 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=64
+2017-11-22 23:41:26,779 INFO  org.dspace.harvest.OAIHarvester @ Item 10673/28(488) has been ingested. The whole process took: 644 ms. 
+2017-11-22 23:41:26,911 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 10673/28 to Index
+2017-11-22 23:41:27,453 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=489
+2017-11-22 23:41:27,457 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=489
+2017-11-22 23:41:27,473 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=489
+2017-11-22 23:41:27,473 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=489collection_id=26
+2017-11-22 23:41:27,485 INFO  org.dspace.content.crosswalk.OREDisseminationCrosswalk @ OREIngest for Item 489 took: 4ms.
+2017-11-22 23:41:27,493 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=489
+2017-11-22 23:41:27,517 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_item:collection_id=26,item_id=489
+2017-11-22 23:41:27,521 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=489
+2017-11-22 23:41:27,525 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:delete_workspace_item:workspace_item_id=487item_id=489collection_id=26
+2017-11-22 23:41:27,541 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=47
+2017-11-22 23:41:27,541 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=47
+2017-11-22 23:41:27,553 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=489,bundle_id=47
+2017-11-22 23:41:27,577 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=65
+2017-11-22 23:41:27,581 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=47,bitstream_id=65
+2017-11-22 23:41:27,593 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=65
+2017-11-22 23:41:27,601 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=47,bitstream_id=65
+2017-11-22 23:41:27,601 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=47
+2017-11-22 23:41:27,601 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=489
+2017-11-22 23:41:27,601 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=65
+2017-11-22 23:41:27,609 INFO  org.dspace.harvest.OAIHarvester @ Item 10673/29(489) has been ingested. The whole process took: 698 ms. 
+2017-11-22 23:41:27,801 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 10673/29 to Index
+2017-11-22 23:41:28,213 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=490
+2017-11-22 23:41:28,213 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=490
+2017-11-22 23:41:28,225 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=490
+2017-11-22 23:41:28,225 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=490collection_id=26
+2017-11-22 23:41:28,229 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=48
+2017-11-22 23:41:28,233 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=48
+2017-11-22 23:41:28,237 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=490,bundle_id=48
+2017-11-22 23:41:28,241 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=490,bundle_id=48
+2017-11-22 23:41:30,487 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=66
+2017-11-22 23:41:30,491 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=48,bitstream_id=66
+2017-11-22 23:41:30,507 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=66
+2017-11-22 23:41:30,515 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=48,bitstream_id=66
+2017-11-22 23:41:30,515 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=48
+2017-11-22 23:41:30,515 INFO  org.dspace.content.crosswalk.OREDisseminationCrosswalk @ OREIngest for Item 490 took: 2286ms.
+2017-11-22 23:41:30,523 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=490
+2017-11-22 23:41:30,527 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=66
+2017-11-22 23:41:30,547 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_item:collection_id=26,item_id=490
+2017-11-22 23:41:30,551 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=490
+2017-11-22 23:41:30,559 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:delete_workspace_item:workspace_item_id=488item_id=490collection_id=26
+2017-11-22 23:41:30,579 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=49
+2017-11-22 23:41:30,583 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=49
+2017-11-22 23:41:30,591 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=490,bundle_id=49
+2017-11-22 23:41:30,623 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=67
+2017-11-22 23:41:30,627 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=49,bitstream_id=67
+2017-11-22 23:41:30,635 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=67
+2017-11-22 23:41:30,643 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=49,bitstream_id=67
+2017-11-22 23:41:30,643 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=49
+2017-11-22 23:41:30,643 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=490
+2017-11-22 23:41:30,643 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=67
+2017-11-22 23:41:30,655 INFO  org.dspace.harvest.OAIHarvester @ Item 10673/45(490) has been ingested. The whole process took: 2854 ms. 
+2017-11-22 23:41:30,779 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 10673/45 to Index
+2017-11-22 23:41:31,204 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=491
+2017-11-22 23:41:31,208 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=491
+2017-11-22 23:41:31,224 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=491
+2017-11-22 23:41:31,224 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=491collection_id=26
+2017-11-22 23:41:31,236 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=50
+2017-11-22 23:41:31,236 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=50
+2017-11-22 23:41:31,244 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=491,bundle_id=50
+2017-11-22 23:41:31,256 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=491,bundle_id=50
+2017-11-22 23:41:32,033 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=68
+2017-11-22 23:41:32,037 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=68
+2017-11-22 23:41:32,053 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=68
+2017-11-22 23:41:32,061 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=68
+2017-11-22 23:41:32,061 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=50
+2017-11-22 23:41:32,713 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=69
+2017-11-22 23:41:32,717 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=69
+2017-11-22 23:41:32,733 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=69
+2017-11-22 23:41:32,741 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=69
+2017-11-22 23:41:32,741 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=50
+2017-11-22 23:41:33,724 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=70
+2017-11-22 23:41:33,728 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=70
+2017-11-22 23:41:33,744 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=70
+2017-11-22 23:41:33,752 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=70
+2017-11-22 23:41:33,752 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=50
+2017-11-22 23:41:34,739 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=71
+2017-11-22 23:41:34,743 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=71
+2017-11-22 23:41:34,755 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=71
+2017-11-22 23:41:34,763 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=71
+2017-11-22 23:41:34,763 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=50
+2017-11-22 23:41:35,426 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=72
+2017-11-22 23:41:35,430 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=72
+2017-11-22 23:41:35,434 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=72
+2017-11-22 23:41:35,438 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=72
+2017-11-22 23:41:35,438 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=50
+2017-11-22 23:41:36,340 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=73
+2017-11-22 23:41:36,344 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=73
+2017-11-22 23:41:36,348 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=73
+2017-11-22 23:41:36,352 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=73
+2017-11-22 23:41:36,352 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=50
+2017-11-22 23:41:36,989 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=74
+2017-11-22 23:41:36,997 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=74
+2017-11-22 23:41:37,009 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=74
+2017-11-22 23:41:37,017 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=50,bitstream_id=74
+2017-11-22 23:41:37,017 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=50
+2017-11-22 23:41:37,017 INFO  org.dspace.content.crosswalk.OREDisseminationCrosswalk @ OREIngest for Item 491 took: 5789ms.
+2017-11-22 23:41:37,025 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=491
+2017-11-22 23:41:37,025 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=68
+2017-11-22 23:41:37,029 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=69
+2017-11-22 23:41:37,029 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=70
+2017-11-22 23:41:37,033 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=71
+2017-11-22 23:41:37,037 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=72
+2017-11-22 23:41:37,037 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=73
+2017-11-22 23:41:37,041 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=74
+2017-11-22 23:41:37,073 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_item:collection_id=26,item_id=491
+2017-11-22 23:41:37,073 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=491
+2017-11-22 23:41:37,077 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:delete_workspace_item:workspace_item_id=489item_id=491collection_id=26
+2017-11-22 23:41:37,101 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=51
+2017-11-22 23:41:37,105 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=51
+2017-11-22 23:41:37,109 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=491,bundle_id=51
+2017-11-22 23:41:37,121 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=75
+2017-11-22 23:41:37,125 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=51,bitstream_id=75
+2017-11-22 23:41:37,129 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=75
+2017-11-22 23:41:37,133 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=51,bitstream_id=75
+2017-11-22 23:41:37,133 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=51
+2017-11-22 23:41:37,133 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=491
+2017-11-22 23:41:37,133 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=75
+2017-11-22 23:41:37,137 INFO  org.dspace.harvest.OAIHarvester @ Item 10673/4(491) has been ingested. The whole process took: 6358 ms. 
+2017-11-22 23:41:37,205 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 10673/4 to Index
+2017-11-22 23:41:37,779 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=492
+2017-11-22 23:41:37,779 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=492
+2017-11-22 23:41:37,787 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=492
+2017-11-22 23:41:37,787 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=492collection_id=26
+2017-11-22 23:41:37,787 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=52
+2017-11-22 23:41:37,791 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=52
+2017-11-22 23:41:37,791 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=492,bundle_id=52
+2017-11-22 23:41:37,795 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=492,bundle_id=52
+2017-11-22 23:41:39,083 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=76
+2017-11-22 23:41:39,087 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=52,bitstream_id=76
+2017-11-22 23:41:39,103 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=76
+2017-11-22 23:41:39,111 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=52,bitstream_id=76
+2017-11-22 23:41:39,111 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=52
+2017-11-22 23:41:39,111 INFO  org.dspace.content.crosswalk.OREDisseminationCrosswalk @ OREIngest for Item 492 took: 1324ms.
+2017-11-22 23:41:39,119 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=492
+2017-11-22 23:41:39,119 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=76
+2017-11-22 23:41:39,139 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_item:collection_id=26,item_id=492
+2017-11-22 23:41:39,139 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=492
+2017-11-22 23:41:39,147 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:delete_workspace_item:workspace_item_id=490item_id=492collection_id=26
+2017-11-22 23:41:39,167 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=53
+2017-11-22 23:41:39,167 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=53
+2017-11-22 23:41:39,175 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=492,bundle_id=53
+2017-11-22 23:41:39,187 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=77
+2017-11-22 23:41:39,191 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=53,bitstream_id=77
+2017-11-22 23:41:39,195 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=77
+2017-11-22 23:41:39,199 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=53,bitstream_id=77
+2017-11-22 23:41:39,199 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=53
+2017-11-22 23:41:39,199 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=492
+2017-11-22 23:41:39,199 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=77
+2017-11-22 23:41:39,203 INFO  org.dspace.harvest.OAIHarvester @ Item 10673/41(492) has been ingested. The whole process took: 1998 ms. 
+2017-11-22 23:41:39,279 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 10673/41 to Index
+2017-11-22 23:41:39,635 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=493
+2017-11-22 23:41:39,639 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=493
+2017-11-22 23:41:39,655 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=493
+2017-11-22 23:41:39,655 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=493collection_id=26
+2017-11-22 23:41:39,663 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=54
+2017-11-22 23:41:39,667 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=54
+2017-11-22 23:41:39,679 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=493,bundle_id=54
+2017-11-22 23:41:39,691 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=493,bundle_id=54
+2017-11-22 23:41:40,523 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=78
+2017-11-22 23:41:40,527 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=54,bitstream_id=78
+2017-11-22 23:41:40,543 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=78
+2017-11-22 23:41:40,551 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=54,bitstream_id=78
+2017-11-22 23:41:40,551 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=54
+2017-11-22 23:41:41,192 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=79
+2017-11-22 23:41:41,200 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=54,bitstream_id=79
+2017-11-22 23:41:41,212 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=79
+2017-11-22 23:41:41,220 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=54,bitstream_id=79
+2017-11-22 23:41:41,220 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=54
+2017-11-22 23:41:41,220 INFO  org.dspace.content.crosswalk.OREDisseminationCrosswalk @ OREIngest for Item 493 took: 1561ms.
+2017-11-22 23:41:41,228 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=493
+2017-11-22 23:41:41,228 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=78
+2017-11-22 23:41:41,232 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=79
+2017-11-22 23:41:41,260 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_item:collection_id=26,item_id=493
+2017-11-22 23:41:41,264 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=493
+2017-11-22 23:41:41,272 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:delete_workspace_item:workspace_item_id=491item_id=493collection_id=26
+2017-11-22 23:41:41,296 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=55
+2017-11-22 23:41:41,300 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=55
+2017-11-22 23:41:41,308 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=493,bundle_id=55
+2017-11-22 23:41:41,332 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=80
+2017-11-22 23:41:41,340 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=55,bitstream_id=80
+2017-11-22 23:41:41,348 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=80
+2017-11-22 23:41:41,356 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=55,bitstream_id=80
+2017-11-22 23:41:41,356 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=55
+2017-11-22 23:41:41,356 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=493
+2017-11-22 23:41:41,356 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=80
+2017-11-22 23:41:41,364 INFO  org.dspace.harvest.OAIHarvester @ Item 10673/7(493) has been ingested. The whole process took: 2085 ms. 
+2017-11-22 23:41:41,496 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 10673/7 to Index
+2017-11-22 23:41:41,868 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=494
+2017-11-22 23:41:41,868 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=494
+2017-11-22 23:41:41,872 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=494
+2017-11-22 23:41:41,872 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=494collection_id=26
+2017-11-22 23:41:41,876 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=56
+2017-11-22 23:41:41,876 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=56
+2017-11-22 23:41:41,880 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=494,bundle_id=56
+2017-11-22 23:41:41,884 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=494,bundle_id=56
+2017-11-22 23:41:42,512 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=81
+2017-11-22 23:41:42,512 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=56,bitstream_id=81
+2017-11-22 23:41:42,516 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=81
+2017-11-22 23:41:42,520 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=56,bitstream_id=81
+2017-11-22 23:41:42,520 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=56
+2017-11-22 23:41:43,382 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=82
+2017-11-22 23:41:43,386 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=56,bitstream_id=82
+2017-11-22 23:41:43,398 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=82
+2017-11-22 23:41:43,406 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=56,bitstream_id=82
+2017-11-22 23:41:43,406 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=56
+2017-11-22 23:41:43,410 INFO  org.dspace.content.crosswalk.OREDisseminationCrosswalk @ OREIngest for Item 494 took: 1534ms.
+2017-11-22 23:41:43,414 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=494
+2017-11-22 23:41:43,414 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=81
+2017-11-22 23:41:43,418 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=82
+2017-11-22 23:41:43,446 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_item:collection_id=26,item_id=494
+2017-11-22 23:41:43,450 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=494
+2017-11-22 23:41:43,454 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:delete_workspace_item:workspace_item_id=492item_id=494collection_id=26
+2017-11-22 23:41:43,478 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=57
+2017-11-22 23:41:43,478 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=57
+2017-11-22 23:41:43,486 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=494,bundle_id=57
+2017-11-22 23:41:43,510 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=83
+2017-11-22 23:41:43,514 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=57,bitstream_id=83
+2017-11-22 23:41:43,522 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=83
+2017-11-22 23:41:43,530 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=57,bitstream_id=83
+2017-11-22 23:41:43,530 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=57
+2017-11-22 23:41:43,534 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=494
+2017-11-22 23:41:43,534 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=83
+2017-11-22 23:41:43,542 INFO  org.dspace.harvest.OAIHarvester @ Item 10673/5(494) has been ingested. The whole process took: 2046 ms. 
+2017-11-22 23:41:43,638 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 10673/5 to Index
+2017-11-22 23:41:44,038 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=495
+2017-11-22 23:41:44,042 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=495
+2017-11-22 23:41:44,058 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=495
+2017-11-22 23:41:44,058 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=495collection_id=26
+2017-11-22 23:41:44,066 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=58
+2017-11-22 23:41:44,070 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=58
+2017-11-22 23:41:44,082 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=495,bundle_id=58
+2017-11-22 23:41:44,090 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=495,bundle_id=58
+2017-11-22 23:41:44,854 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=84
+2017-11-22 23:41:44,862 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=58,bitstream_id=84
+2017-11-22 23:41:44,874 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=84
+2017-11-22 23:41:44,882 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=58,bitstream_id=84
+2017-11-22 23:41:44,882 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=58
+2017-11-22 23:41:45,572 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=85
+2017-11-22 23:41:45,576 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=58,bitstream_id=85
+2017-11-22 23:41:45,588 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=85
+2017-11-22 23:41:45,596 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=58,bitstream_id=85
+2017-11-22 23:41:45,596 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=58
+2017-11-22 23:41:45,596 INFO  org.dspace.content.crosswalk.OREDisseminationCrosswalk @ OREIngest for Item 495 took: 1534ms.
+2017-11-22 23:41:45,604 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=495
+2017-11-22 23:41:45,604 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=84
+2017-11-22 23:41:45,608 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=85
+2017-11-22 23:41:45,636 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_item:collection_id=26,item_id=495
+2017-11-22 23:41:45,640 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=495
+2017-11-22 23:41:45,644 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:delete_workspace_item:workspace_item_id=493item_id=495collection_id=26
+2017-11-22 23:41:45,668 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bundle:bundle_id=59
+2017-11-22 23:41:45,672 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=59
+2017-11-22 23:41:45,680 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bundle:item_id=495,bundle_id=59
+2017-11-22 23:41:45,700 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:create_bitstream:bitstream_id=86
+2017-11-22 23:41:45,708 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=59,bitstream_id=86
+2017-11-22 23:41:45,716 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=86
+2017-11-22 23:41:45,724 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:add_bitstream:bundle_id=59,bitstream_id=86
+2017-11-22 23:41:45,724 INFO  org.dspace.content.Bundle @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bundle:bundle_id=59
+2017-11-22 23:41:45,724 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=495
+2017-11-22 23:41:45,724 INFO  org.dspace.content.Bitstream @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_bitstream:bitstream_id=86
+2017-11-22 23:41:45,732 INFO  org.dspace.harvest.OAIHarvester @ Item 10673/3(495) has been ingested. The whole process took: 2094 ms. 
+2017-11-22 23:41:45,824 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: 10673/3 to Index
+2017-11-22 23:41:45,828 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=26
+2017-11-22 23:41:45,832 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:update_collection:collection_id=26
+2017-11-22 23:41:45,832 INFO  org.dspace.harvest.OAIHarvester @ Harvest from http://demo.dspace.org/oai/request successful. The process took 55545 milliseconds.
+2017-11-22 23:42:16,946 INFO  org.dspace.usage.LoggerUsageEventListener @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:view_community:community_id=12
+2017-11-22 23:42:17,054 ERROR org.dspace.discovery.SolrServiceImpl @ atsolakid@teiath.gr:session_id=2A12C38319BE43D7274A4929A631C282:ip_addr=0:0:0:0:0:0:0:1:Error while retrieving DSpace object from discovery index:Handle\colon; 123456789/189
+2017-11-22 23:42:17,054 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, org.dspace.content.Community@281: 13
+2017-11-22 23:47:04,790 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/C:/dspace/config/dspace.cfg
+2017-11-22 23:47:04,790 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2017-11-22 23:47:04,790 INFO  org.dspace.core.ConfigurationManager @ Loading: /dspace/config/log4j.properties
+2017-11-22 23:47:08,605 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:47:08,605 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:47:08,683 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:47:08,746 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:47:08,855 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:48:45,750 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/C:/dspace/config/dspace.cfg
+2017-11-22 23:48:45,765 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2017-11-22 23:48:45,765 INFO  org.dspace.core.ConfigurationManager @ Loading: /dspace/config/log4j.properties
+2017-11-22 23:48:49,242 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:48:49,257 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:48:49,304 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:48:49,351 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:48:49,414 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:49:23,075 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/C:/dspace/config/dspace.cfg
+2017-11-22 23:49:23,091 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2017-11-22 23:49:23,091 INFO  org.dspace.core.ConfigurationManager @ Loading: /dspace/config/log4j.properties
+2017-11-22 23:49:26,573 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:49:26,573 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:49:26,620 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:49:26,667 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:49:26,729 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:50:02,964 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/C:/dspace/config/dspace.cfg
+2017-11-22 23:50:02,979 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2017-11-22 23:50:02,979 INFO  org.dspace.core.ConfigurationManager @ Loading: /dspace/config/log4j.properties
+2017-11-22 23:50:06,661 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:50:06,661 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:50:06,708 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:50:06,755 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:50:06,833 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:52:42,478 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:52:42,478 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:52:42,540 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:52:42,587 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:52:42,697 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:52:54,592 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:52:54,772 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:53:05,899 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:53:05,915 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:53:05,961 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:53:06,024 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:53:06,118 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:53:17,454 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:53:17,454 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:53:17,532 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:53:17,610 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:53:17,737 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:54:01,214 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:54:01,214 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:54:01,323 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:54:01,417 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:54:01,526 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:54:04,200 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2017-11-22 23:54:04,435 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2017-11-22 23:54:04,435 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2017-11-22 23:54:04,435 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2017-11-22 23:54:04,435 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2017-11-22 23:54:04,435 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2017-11-22 23:54:04,435 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2017-11-22 23:54:04,435 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2017-11-22 23:54:04,435 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2017-11-22 23:54:04,435 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2017-11-22 23:54:25,630 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/C:/dspace/config/dspace.cfg
+2017-11-22 23:54:25,646 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2017-11-22 23:54:25,646 INFO  org.dspace.core.ConfigurationManager @ Loading: /dspace/config/log4j.properties
+2017-11-22 23:54:28,980 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:54:28,980 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:54:29,027 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:54:29,074 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:54:29,137 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:58:43,324 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/C:/dspace/config/dspace.cfg
+2017-11-22 23:58:43,340 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2017-11-22 23:58:43,340 INFO  org.dspace.core.ConfigurationManager @ Loading: /dspace/config/log4j.properties
+2017-11-22 23:58:46,858 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-11-22 23:58:46,858 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-11-22 23:58:46,905 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-11-22 23:58:46,983 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-11-22 23:58:47,061 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-11-22 23:58:48,749 INFO  org.dspace.harvest.OAIHarvester @ HTTP Request: http://demo.dspace.org/oai/request?verb=ListRecords&from=2017-11-22T21:38:50Z&until=2017-11-22T21:58:47Z&metadataPrefix=oai_dc
+2017-11-22 23:58:48,764 INFO  org.dspace.harvest.OAIHarvester @ noRecordsMatch: OAI server did not contain any updates
+2017-11-22 23:58:48,827 INFO  org.dspace.content.Collection @ atsolakid@teiath.gr::update_collection:collection_id=26

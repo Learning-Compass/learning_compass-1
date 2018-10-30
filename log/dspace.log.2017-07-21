@@ -1,0 +1,1705 @@
+2017-07-21 21:15:01,674 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=EDBC7E2708CFC83CE087133150D52108:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=240
+2017-07-21 21:15:01,676 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=EDBC7E2708CFC83CE087133150D52108:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=242
+2017-07-21 21:15:01,966 ERROR org.dspace.app.webui.servlet.SubmissionController @ Error loading step class'org.dspace.submit.step.DescribeStep':
+org.postgresql.util.PSQLException: ERROR: stack depth limit exceeded
+  Hint: Increase the configuration parameter "max_stack_depth" (currently 2048kB), after ensuring the platform's stack depth limit is adequate.
+  Where: SQL statement "SELECT 1 FROM ONLY "public"."metadatafieldregistry" x WHERE "metadata_field_id" OPERATOR(pg_catalog.=) $1 FOR KEY SHARE OF x"
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+SQL statement "insert into metadatavalue (resource_id,metadata_field_id,text_value,resource_type_id)
+values (240,82,txt,2)"
+PL/pgSQL function ins() line 9 at SQL statement
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.dspace.storage.rdbms.DatabaseManager.doInsertPostgres(DatabaseManager.java:1743)
+	at org.dspace.storage.rdbms.DatabaseManager.insert(DatabaseManager.java:711)
+	at org.dspace.content.MetadataValue.create(MetadataValue.java:293)
+	at org.dspace.content.DSpaceObject.updateMetadata(DSpaceObject.java:256)
+	at org.dspace.content.Item.update(Item.java:1100)
+	at org.dspace.content.WorkspaceItem.update(WorkspaceItem.java:517)
+	at org.dspace.submit.step.DescribeStep.doProcessing(DescribeStep.java:341)
+	at org.dspace.app.webui.submit.JSPStepManager.doStepEnd(JSPStepManager.java:401)
+	at org.dspace.app.webui.submit.JSPStepManager.processStep(JSPStepManager.java:252)
+	at org.dspace.app.webui.servlet.SubmissionController.doStep(SubmissionController.java:491)
+	at org.dspace.app.webui.servlet.SubmissionController.doDSPost(SubmissionController.java:427)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:115)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.app.webui.filter.RegisteredOnlyFilter.doFilter(RegisteredOnlyFilter.java:66)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)

@@ -1,0 +1,35 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+<atom:id>http://hdl.handle.net/10673/3/ore.xml</atom:id>
+<atom:link href="http://hdl.handle.net/10673/3" rel="alternate" />
+<atom:link href="http://hdl.handle.net/10673/3/ore.xml" rel="http://www.openarchives.org/ore/terms/describes" />
+<atom:link href="http://hdl.handle.net/10673/3/ore.xml#atom" rel="self" type="application/atom+xml" />
+<atom:published>1992-06-26T19:58:24Z</atom:published>
+<atom:updated>1992-06-26T19:58:24Z</atom:updated>
+<atom:source>
+<atom:generator>DSpace Demo Repository</atom:generator>
+</atom:source>
+<atom:title>Test Excel Document</atom:title>
+<atom:category label="Aggregation" scheme="http://www.openarchives.org/ore/terms/" term="http://www.openarchives.org/ore/terms/Aggregation" />
+<atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="1992-06-26T19:58:24Z" />
+<atom:category label="DSpace Item" scheme="http://www.dspace.org/objectModel/" term="DSpaceItem" />
+<atom:link href="http://demo.dspace.org/xmlui/bitstream/10673/3/1/test_excel.xls" length="17408" rel="http://www.openarchives.org/ore/terms/aggregates" title="test_excel.xls" type="application/vnd.ms-excel" />
+<atom:link href="http://demo.dspace.org/xmlui/bitstream/10673/3/2/test_excel.xlsx" length="8466" rel="http://www.openarchives.org/ore/terms/aggregates" title="test_excel.xlsx" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+<oreatom:triples>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://hdl.handle.net/10673/3/ore.xml#atom">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem" />
+<dcterms:modified>1992-06-26T19:58:24Z</dcterms:modified>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/3/1/test_excel.xls">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/3/2/test_excel.xlsx">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/3/3/license.txt">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>LICENSE</dcterms:description>
+</rdf:Description>
+</oreatom:triples>
+</atom:entry>

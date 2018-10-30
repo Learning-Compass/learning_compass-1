@@ -1,0 +1,191 @@
+2017-10-09 07:27:47,360 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-10-09 07:27:47,360 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-10-09 07:27:47,438 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-10-09 07:27:47,532 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-10-09 07:27:47,641 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-10-09 07:28:00,673 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-10-09 07:28:00,829 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-10-09 07:28:13,285 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-10-09 07:28:13,285 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-10-09 07:28:13,378 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-10-09 07:28:13,472 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-10-09 07:28:13,597 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-10-09 07:28:26,426 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-10-09 07:28:26,442 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-10-09 07:28:26,520 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-10-09 07:28:26,613 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-10-09 07:28:26,754 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-10-09 07:29:13,571 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-10-09 07:29:13,586 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-10-09 07:29:13,633 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-10-09 07:29:13,696 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-10-09 07:29:13,805 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-10-09 07:29:16,383 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2017-10-09 07:29:16,555 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2017-10-09 07:29:16,555 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2017-10-09 07:29:16,555 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2017-10-09 07:29:16,555 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2017-10-09 07:29:16,555 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2017-10-09 07:29:16,555 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2017-10-09 07:29:16,555 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2017-10-09 07:29:16,555 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2017-10-09 07:29:16,555 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2017-10-09 08:16:13,554 WARN  org.dspace.storage.rdbms.DatabaseManager @ Already closed.
+java.sql.SQLException: Already closed.
+	at org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:114)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.close(PoolingDataSource.java:191)
+	at org.dspace.storage.rdbms.DatabaseManager.freeConnection(DatabaseManager.java:673)
+	at org.dspace.core.Context.abort(Context.java:510)
+	at org.dspace.core.Context.finalize(Context.java:676)
+	at java.lang.System$2.invokeFinalize(System.java:1270)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+2017-10-09 08:16:13,562 WARN  org.dspace.storage.rdbms.DatabaseManager @ Already closed.
+java.sql.SQLException: Already closed.
+	at org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:114)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.close(PoolingDataSource.java:191)
+	at org.dspace.storage.rdbms.DatabaseManager.freeConnection(DatabaseManager.java:673)
+	at org.dspace.core.Context.abort(Context.java:510)
+	at org.dspace.core.Context.finalize(Context.java:676)
+	at java.lang.System$2.invokeFinalize(System.java:1270)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+2017-10-09 08:16:13,562 WARN  org.dspace.storage.rdbms.DatabaseManager @ Already closed.
+java.sql.SQLException: Already closed.
+	at org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:114)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.close(PoolingDataSource.java:191)
+	at org.dspace.storage.rdbms.DatabaseManager.freeConnection(DatabaseManager.java:673)
+	at org.dspace.core.Context.abort(Context.java:510)
+	at org.dspace.core.Context.finalize(Context.java:676)
+	at java.lang.System$2.invokeFinalize(System.java:1270)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+2017-10-09 08:16:13,563 WARN  org.dspace.storage.rdbms.DatabaseManager @ Already closed.
+java.sql.SQLException: Already closed.
+	at org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:114)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.close(PoolingDataSource.java:191)
+	at org.dspace.storage.rdbms.DatabaseManager.freeConnection(DatabaseManager.java:673)
+	at org.dspace.core.Context.abort(Context.java:510)
+	at org.dspace.core.Context.finalize(Context.java:676)
+	at java.lang.System$2.invokeFinalize(System.java:1270)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+2017-10-09 08:24:03,907 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5D7D65EA80610793590F8069B3A71EB0:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error
+-- Method: GET
+-- Parameters were:
+
+org.apache.jasper.JasperException: /concept.jsp (line: 105, column: 2) File [/jspui/d3/sankey/index.html] not found
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:291)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:97)
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:346)
+	at org.apache.jasper.compiler.Parser.parseIncludeDirective(Parser.java:381)
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:484)
+	at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1800)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:142)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:197)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-10-09 08:31:29,628 WARN  org.dspace.storage.rdbms.DatabaseManager @ Already closed.
+java.sql.SQLException: Already closed.
+	at org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:114)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.close(PoolingDataSource.java:191)
+	at org.dspace.storage.rdbms.DatabaseManager.freeConnection(DatabaseManager.java:673)
+	at org.dspace.core.Context.abort(Context.java:510)
+	at org.dspace.core.Context.finalize(Context.java:676)
+	at java.lang.System$2.invokeFinalize(System.java:1270)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+2017-10-09 08:31:29,629 WARN  org.dspace.storage.rdbms.DatabaseManager @ Already closed.
+java.sql.SQLException: Already closed.
+	at org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:114)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.close(PoolingDataSource.java:191)
+	at org.dspace.storage.rdbms.DatabaseManager.freeConnection(DatabaseManager.java:673)
+	at org.dspace.core.Context.abort(Context.java:510)
+	at org.dspace.core.Context.finalize(Context.java:676)
+	at java.lang.System$2.invokeFinalize(System.java:1270)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+2017-10-09 08:31:29,630 WARN  org.dspace.storage.rdbms.DatabaseManager @ Already closed.
+java.sql.SQLException: Already closed.
+	at org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:114)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.close(PoolingDataSource.java:191)
+	at org.dspace.storage.rdbms.DatabaseManager.freeConnection(DatabaseManager.java:673)
+	at org.dspace.core.Context.abort(Context.java:510)
+	at org.dspace.core.Context.finalize(Context.java:676)
+	at java.lang.System$2.invokeFinalize(System.java:1270)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+2017-10-09 08:31:29,631 WARN  org.dspace.storage.rdbms.DatabaseManager @ Already closed.
+java.sql.SQLException: Already closed.
+	at org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:114)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.close(PoolingDataSource.java:191)
+	at org.dspace.storage.rdbms.DatabaseManager.freeConnection(DatabaseManager.java:673)
+	at org.dspace.core.Context.abort(Context.java:510)
+	at org.dspace.core.Context.finalize(Context.java:676)
+	at java.lang.System$2.invokeFinalize(System.java:1270)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+2017-10-09 08:31:29,632 WARN  org.dspace.storage.rdbms.DatabaseManager @ Already closed.
+java.sql.SQLException: Already closed.
+	at org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:114)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.close(PoolingDataSource.java:191)
+	at org.dspace.storage.rdbms.DatabaseManager.freeConnection(DatabaseManager.java:673)
+	at org.dspace.core.Context.abort(Context.java:510)
+	at org.dspace.core.Context.finalize(Context.java:676)
+	at java.lang.System$2.invokeFinalize(System.java:1270)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+2017-10-09 08:31:29,643 WARN  org.dspace.storage.rdbms.DatabaseManager @ Already closed.
+java.sql.SQLException: Already closed.
+	at org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:114)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.close(PoolingDataSource.java:191)
+	at org.dspace.storage.rdbms.DatabaseManager.freeConnection(DatabaseManager.java:673)
+	at org.dspace.core.Context.abort(Context.java:510)
+	at org.dspace.core.Context.finalize(Context.java:676)
+	at java.lang.System$2.invokeFinalize(System.java:1270)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)

@@ -1,0 +1,60 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+<atom:id>http://hdl.handle.net/10673/4/ore.xml</atom:id>
+<atom:link href="http://hdl.handle.net/10673/4" rel="alternate" />
+<atom:link href="http://hdl.handle.net/10673/4/ore.xml" rel="http://www.openarchives.org/ore/terms/describes" />
+<atom:link href="http://hdl.handle.net/10673/4/ore.xml#atom" rel="self" type="application/atom+xml" />
+<atom:published>1982-06-26T19:58:24Z</atom:published>
+<atom:updated>1982-06-26T19:58:24Z</atom:updated>
+<atom:source>
+<atom:generator>DSpace Demo Repository</atom:generator>
+</atom:source>
+<atom:title>Test Webpage</atom:title>
+<atom:category label="Aggregation" scheme="http://www.openarchives.org/ore/terms/" term="http://www.openarchives.org/ore/terms/Aggregation" />
+<atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="1982-06-26T19:58:24Z" />
+<atom:category label="DSpace Item" scheme="http://www.dspace.org/objectModel/" term="DSpaceItem" />
+<atom:link href="http://demo.dspace.org/xmlui/bitstream/10673/4/1/Lily-cat-of-day.htm" length="39970" rel="http://www.openarchives.org/ore/terms/aggregates" title="Lily-cat-of-day.htm" type="text/html" />
+<atom:link href="http://demo.dspace.org/xmlui/bitstream/10673/4/2/cl_style.css" length="1181" rel="http://www.openarchives.org/ore/terms/aggregates" title="cl_style.css" type="text/css" />
+<atom:link href="http://demo.dspace.org/xmlui/bitstream/10673/4/3/kitty-1257950690.jpg" length="83390" rel="http://www.openarchives.org/ore/terms/aggregates" title="kitty-1257950690.jpg" type="image/jpeg" />
+<atom:link href="http://demo.dspace.org/xmlui/bitstream/10673/4/4/kitty-1257950690_002.jpg" length="86057" rel="http://www.openarchives.org/ore/terms/aggregates" title="kitty-1257950690_002.jpg" type="image/jpeg" />
+<atom:link href="http://demo.dspace.org/xmlui/bitstream/10673/4/5/logo.png" length="4157" rel="http://www.openarchives.org/ore/terms/aggregates" title="logo.png" type="image/png" />
+<atom:link href="http://demo.dspace.org/xmlui/bitstream/10673/4/6/style.css" length="49623" rel="http://www.openarchives.org/ore/terms/aggregates" title="style.css" type="text/css" />
+<atom:link href="http://demo.dspace.org/xmlui/bitstream/10673/4/7/stylesheet.css" length="877" rel="http://www.openarchives.org/ore/terms/aggregates" title="stylesheet.css" type="text/css" />
+<oreatom:triples>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://hdl.handle.net/10673/4/ore.xml#atom">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem" />
+<dcterms:modified>1982-06-26T19:58:24Z</dcterms:modified>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/4/1/Lily-cat-of-day.htm">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/4/2/cl_style.css">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/4/3/kitty-1257950690.jpg">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/4/4/kitty-1257950690_002.jpg">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/4/5/logo.png">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/4/6/style.css">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/4/7/stylesheet.css">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://demo.dspace.org/xmlui/bitstream/10673/4/8/license.txt">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>LICENSE</dcterms:description>
+</rdf:Description>
+</oreatom:triples>
+</atom:entry>

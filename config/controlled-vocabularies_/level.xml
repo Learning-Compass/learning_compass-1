@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Learning Opportunity Instance Level
+-->
+
+<node id="LOIL" label="Level">
+	<isComposedBy>
+		<node id="000" label="ISCE">
+			<isComposedBy>
+			<node id="0" label="Early childhood education"/>
+			<node id="1" label="Primary education"/>
+			<node id="2" label="Lower secondary education"/>
+			<node id="3" label="Upper secondary education"/>
+			<node id="4" label="Post-secondary non-tertiary education"/>				
+			<node id="5" label="Short-cycle tertiary education" />
+			<node id="6" label="Bachelor’s or equivalent level" />
+			<node id="7" label="Master’s or equivalent level" />
+			<node id="8" label="Doctoral or equivalent level" />
+		</isComposedBy>
+		</node>
+		<node id="2" label="EQF">
+		<isComposedBy>
+				<node id="21" label="EQF Level 1">
+					<isComposedBy>
+						<node id="211" label="Primary School" />
+					</isComposedBy>
+				</node>
+				<node id="22" label="EQF Level 2">
+					<isComposedBy>
+						<node id="221" label="Secondary School with no Dimploma" />
+					</isComposedBy>
+				</node>
+			<node id="23" label="EQF Level 3">
+					<isComposedBy>
+						<node id="231" label="Secondary Dimploma or Vocational Dimploma" />
+					</isComposedBy>
+				</node>
+			<node id="24" label="EQF Level 4">
+					<isComposedBy>
+						<node id="241" label="Hicher National Certificate , Upper Secondary Dimploma" />
+					</isComposedBy>
+				</node>
+				
+					<node id="25" label="EQF Level 5">
+					<isComposedBy>
+						<node id="251" label="Hicher National Dimploma" />
+					</isComposedBy>
+				</node>
+				
+					<node id="26" label="EQF Level 6">
+					<isComposedBy>
+						<node id="261" label="Bachelor" />
+					</isComposedBy>
+				</node>
+					<node id="27" label="EQF Level 7">
+					<isComposedBy>
+						<node id="271" label="Master" />
+					</isComposedBy>
+				</node>
+				
+					<node id="28" label="EQF Level 8">
+					<isComposedBy>
+						<node id="281" label="Doctorate" />
+					</isComposedBy>
+				</node>
+			
+			</isComposedBy>
+		</node>
+		
+	</isComposedBy>
+</node>

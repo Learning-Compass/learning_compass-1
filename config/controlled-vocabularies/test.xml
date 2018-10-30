@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+"Learning Opportunity Instance Subject
+-->
+
+<node id="000" label="ACM Computing Classification System">
+	<isComposedBy>
+		<node id="000" label="General and reference">
+			<isComposedBy>
+				<node id="010" label="Document types">
+					<isComposedBy>
+						<node id="011" label="Surveys and overviews" />
+						<node id="012" label="Reference works" />
+						<node id="013" label="General conference proceedings" />
+						<node id="018" label="Biographies" />
+					</isComposedBy>
+				</node>
+				<node id="040" label="Cross-computing tools and techniques">
+					<isComposedBy>
+						<node id="041" label="Reliability" />
+						<node id="042" label="Empirical studies" />
+						<node id="043" label="Measurement" />
+					</isComposedBy>
+				</node>
+			</isComposedBy>
+		</node>
+		<node id="200" label="Hardware">
+			<isComposedBy>
+				<node id="210" label="Printed circuit boards">
+					<isComposedBy>
+						<node id="212" label="Electromagnetic interference and compatibility" />
+						<node id="213" label="PCB design and layout" />
+					</isComposedBy>
+				</node>
+				<node id="230" label="Communication hardware, interfaces and storage">
+					<isComposedBy>
+						<node id="231" label="Signal processing systems" />
+						<node id="234" label="Sensors and actuators" />
+						<node id="236" label="Buses and high-speed links" />
+						<node id="237" label="Displays and imagers" />
+						<node id="238" label="External storage" />
+					</isComposedBy>
+				</node>
+			<node id="220" label="Integrated circuits"></node>	
+			<node id="240" label="Very large scale integration design"></node>	
+			<node id="250" label="Power and energy"></node>	
+			<node id="260" label="Electronic design automation"></node>	
+			<node id="270" label="Hardware validation"></node>	
+			<node id="280" label="Hardware test"></node>	
+			<node id="290" label="Robustness"></node>	
+			<node id="295" label="Emerging technologies"></node>	
+			</isComposedBy>
+		</node>	
+		
+	<node id="300" label="Computer systems organization">
+			<isComposedBy>
+				<node id="310" label="Architectures"></node>
+				<node id="320" label="Embedded and cyber-physical systems"></node>
+		     	<node id="330" label="Real-time systems"></node>
+				<node id="340" label="Dependable and fault-tolerant systems and networks"></node>	
+			</isComposedBy>
+		</node>
+		<node id="400" label="Networks">
+			<isComposedBy>
+				<node id="410" label="Network architectures"></node>
+				<node id="420" label="Network protocols"></node>
+		     	<node id="430" label="Network components"></node>
+				<node id="440" label="Network algorithms"></node>
+				<node id="450" label="Network performance evaluation"></node>
+				<node id="460" label="Network properties"></node>
+		     	<node id="470" label="Network services"></node>
+				<node id="480" label="Network types"></node>					
+			</isComposedBy>
+		</node>
+		<node id="500" label="Software and its engineering">
+			<isComposedBy>
+				<node id="510" label="Software organization and properties"></node>
+				<node id="520" label="Software notations and tools"></node>
+		     	<node id="530" label="Software creation and management"></node>				
+			</isComposedBy>
+		</node>		
+		<node id="600" label="Theory of computation">
+			<isComposedBy>
+				<node id="610" label="Models of computation"></node>
+				<node id="620" label="Formal languages and automata theory "></node>
+		     	<node id="630" label="Computational complexity and cryptography"></node>
+				<node id="640" label="Logic"></node>
+				<node id="650" label="Design and analysis of algorithms"></node>
+				<node id="660" label="Randomness, geometry and discrete structures"></node>
+		     	<node id="670" label="Theory and algorithms for application domains"></node>
+				<node id="680" label="Semantics and reasoning"></node>					
+			</isComposedBy>
+		</node>
+		                 		
+		<node id="700" label="Mathematics of computing">
+			<isComposedBy>
+				<node id="710" label="Discrete mathematics"></node>
+				<node id="720" label="Probability and statistics"></node>
+		     	<node id="730" label="Mathematical software"></node>
+				<node id="740" label="Information theory"></node>
+				<node id="750" label="Mathematical analysis"></node>
+				<node id="760" label="Continuous mathematics"></node>				
+			</isComposedBy>
+		</node>
+		
+		<node id="800" label=" Information systems">
+			<isComposedBy>
+				<node id="810" label="Data management systems"></node>
+				<node id="820" label="Information storage systems"></node>
+		     	<node id="830" label="Information systems applications"></node>
+				<node id="840" label="World Wide Web"></node>
+				<node id="850" label="Information retrieval"></node>	
+			</isComposedBy>
+		</node>
+		       
+		<node id="900" label="Security and privacy">
+			<isComposedBy>
+				<node id="910" label="Cryptography"></node>
+				<node id="920" label="Formal methods and theory of security"></node>
+		     	<node id="930" label="Security services"></node>
+				<node id="940" label="Intrusion/anomaly detection and malware mitigation"></node>
+				<node id="950" label="Security in hardware"></node>
+				<node id="960" label="Systems security"></node>
+		     	<node id="970" label="Database and storage security"></node>
+				<node id="980" label="Software and application security"></node>					
+				<node id="990" label="Network security"></node>
+				<node id="991" label=" Human and societal aspects of security and privacy"></node>					
+			</isComposedBy>
+		</node>
+		
+		
+		
+		<node id="1000" label="Human-centered computing">
+			<isComposedBy>
+				<node id="1010" label="Human computer interaction (HCI)"></node>
+				<node id="1020" label="Interaction design"></node>
+		     	<node id="1030" label="Collaborative and social computing"></node>
+				<node id="1040" label="Ubiquitous and mobile computing"></node>
+				<node id="1050" label="Visualization"></node>
+				<node id="1060" label="Accessibility"></node>			
+			</isComposedBy>
+		</node>
+		
+		
+		
+		<node id="1100" label="Computing methodologies">
+			<isComposedBy>
+				<node id="1110" label="Symbolic and algebraic manipulation"></node>
+				<node id="1120" label="Parallel computing methodologies"></node>
+		     	<node id="1130" label="Artificial intelligence"></node>
+				<node id="1140" label="Machine learning "></node>
+				<node id="1150" label="Modeling and simulation"></node>
+				<node id="1160" label="Computer graphics"></node>
+		     	<node id="1170" label="Distributed computing methodologies "></node>
+				<node id="1180" label="Concurrent computing methodologies"></node>					
+			</isComposedBy>
+		</node>
+		
+		
+		<node id="1200" label="Applied computing">
+			<isComposedBy>
+				<node id="1210" label="Network architectures"></node>
+				<node id="1220" label="Network protocols"></node>
+		     	<node id="1230" label="Network components"></node>
+				<node id="1240" label="Network algorithms"></node>
+				<node id="1250" label="Network performance evaluation"></node>
+				<node id="1260" label="Network properties"></node>
+		     	<node id="1270" label="Network services"></node>
+				<node id="1280" label="Network types"></node>
+				<node id="1290" label="Network performance evaluation"></node>
+				<node id="1295" label="Network properties"></node>
+		     	<node id="1222" label="Network services"></node>
+				<node id="1299" label="Network types"></node>				
+			</isComposedBy>
+		</node>
+		
+		
+		   
+		
+		<node id="1300" label="Social and professional topics">
+			<isComposedBy>
+				<node id="1310" label="Professional topics"></node>
+				<node id="1320" label="Computing / technology policy "></node>
+		     	<node id="1330" label="User characteristics"></node>				
+			</isComposedBy>
+		</node>
+	</isComposedBy>
+</node>
+               
+		                    

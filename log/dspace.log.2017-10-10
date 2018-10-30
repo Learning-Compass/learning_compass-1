@@ -1,0 +1,149 @@
+2017-10-10 08:39:32,794 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-10-10 08:39:32,794 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-10-10 08:39:32,887 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-10-10 08:39:32,965 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-10-10 08:39:33,106 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-10-10 08:39:47,495 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-10-10 08:39:47,683 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-10-10 08:40:00,799 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-10-10 08:40:00,799 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-10-10 08:40:00,877 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-10-10 08:40:00,955 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-10-10 08:40:01,064 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-10-10 08:40:18,299 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-10-10 08:40:18,314 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-10-10 08:40:18,392 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-10-10 08:40:18,471 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-10-10 08:40:18,658 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-10-10 08:41:11,143 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2017-10-10 08:41:11,143 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.6.2'
+2017-10-10 08:41:11,221 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2017-10-10 08:41:11,283 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.6)
+2017-10-10 08:41:11,377 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2017-10-10 08:41:14,346 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace\config\xmlui.xconf
+2017-10-10 08:41:14,565 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2017-10-10 08:41:14,565 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2017-10-10 08:41:14,565 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2017-10-10 08:41:14,565 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2017-10-10 08:41:14,565 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2017-10-10 08:41:14,565 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2017-10-10 08:41:14,565 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2017-10-10 08:41:14,565 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2017-10-10 08:41:14,565 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2017-10-10 08:42:51,147 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=23450A696F926184CCFB3E6FA7C7F6F5:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=445
+2017-10-10 08:42:51,165 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=23450A696F926184CCFB3E6FA7C7F6F5:ip_addr=0:0:0:0:0:0:0:1:create_item:item_id=445
+2017-10-10 08:42:51,197 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=23450A696F926184CCFB3E6FA7C7F6F5:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=445
+2017-10-10 08:42:51,207 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=23450A696F926184CCFB3E6FA7C7F6F5:ip_addr=0:0:0:0:0:0:0:1:create_workspace_item:workspace_item_id=-1item_id=445collection_id=36
+2017-10-10 08:42:51,213 INFO  org.dspace.event.EventManager @ 
+2017-10-10 08:42:51,241 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=23450A696F926184CCFB3E6FA7C7F6F5:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=443
+2017-10-10 08:42:51,244 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=23450A696F926184CCFB3E6FA7C7F6F5:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=445
+2017-10-10 08:42:51,246 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=23450A696F926184CCFB3E6FA7C7F6F5:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=443
+2017-10-10 08:42:51,249 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=23450A696F926184CCFB3E6FA7C7F6F5:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=445
+2017-10-10 08:42:51,250 INFO  org.dspace.content.WorkspaceItem @ atsolakid@teiath.gr:session_id=23450A696F926184CCFB3E6FA7C7F6F5:ip_addr=0:0:0:0:0:0:0:1:update_workspace_item:workspace_item_id=443
+2017-10-10 08:42:51,252 INFO  org.dspace.content.Item @ atsolakid@teiath.gr:session_id=23450A696F926184CCFB3E6FA7C7F6F5:ip_addr=0:0:0:0:0:0:0:1:update_item:item_id=445
+2017-10-10 08:42:51,256 INFO  org.dspace.app.webui.submit.step.JSPDescribeStep @ COMPASS: doPreProcessing....
+2017-10-10 08:42:51,256 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: submission.info
+2017-10-10 08:42:51,256 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: dspace.context
+2017-10-10 08:42:51,256 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: dspace.current.user
+2017-10-10 08:42:51,256 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: submission.page
+2017-10-10 08:42:51,256 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: is.admin
+2017-10-10 08:42:51,256 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: step.start
+2017-10-10 08:42:51,256 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: step
+2017-10-10 08:42:51,256 WARN  org.dspace.app.webui.submit.step.JSPDescribeStep @ attributeName: dspace.original.url
+2017-10-10 08:42:51,394 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2017-10-10 08:42:51,415 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2017-10-10 08:42:51,575 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-10-10 08:42:51,611 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 2
+2017-10-10 08:42:51,615 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-10-10 08:42:51,615 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 1
+2017-10-10 08:42:51,615 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-10-10 08:42:51,615 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 2
+2017-10-10 08:42:51,615 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-10-10 08:42:51,615 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 2
+2017-10-10 08:42:51,616 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-10-10 08:42:51,616 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 2
+2017-10-10 08:42:51,616 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ start
+2017-10-10 08:42:51,616 ERROR org.dspace.compass.association.engine.CompassLoInstanceFormPopulator @ out from 2
+2017-10-10 08:42:51,622 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/136 ---- org.dspace.compass.association.rules.AssociationOptions@d5e0b
+2017-10-10 08:42:51,622 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/137 ---- org.dspace.compass.association.rules.AssociationOptions@43cf05e4
+2017-10-10 08:42:51,622 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/14 ---- org.dspace.compass.association.rules.AssociationOptions@66cb2bbf
+2017-10-10 08:42:51,622 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/15 ---- org.dspace.compass.association.rules.AssociationOptions@46737453
+2017-10-10 08:42:51,623 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/27 ---- org.dspace.compass.association.rules.AssociationOptions@2c648790
+2017-10-10 08:42:51,623 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/28 ---- org.dspace.compass.association.rules.AssociationOptions@17bf57dd
+2017-10-10 08:42:51,623 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/3 ---- org.dspace.compass.association.rules.AssociationOptions@28160046
+2017-10-10 08:42:51,623 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/31 ---- org.dspace.compass.association.rules.AssociationOptions@751a28fb
+2017-10-10 08:42:51,623 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/32 ---- org.dspace.compass.association.rules.AssociationOptions@7dca79cf
+2017-10-10 08:42:51,623 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/34 ---- org.dspace.compass.association.rules.AssociationOptions@10a6d814
+2017-10-10 08:42:51,623 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/35 ---- org.dspace.compass.association.rules.AssociationOptions@8aaee76
+2017-10-10 08:42:51,623 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/4 ---- org.dspace.compass.association.rules.AssociationOptions@2c535268
+2017-10-10 08:42:51,623 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/45 ---- org.dspace.compass.association.rules.AssociationOptions@2f9522c
+2017-10-10 08:42:51,623 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ # 123456789/46 ---- org.dspace.compass.association.rules.AssociationOptions@24395c1f
+2017-10-10 08:42:51,623 ERROR org.dspace.compass.association.engine.CompassBasicPopulator @ tsola__pageNumber1
+2017-10-10 08:42:51,627 ERROR org.dspace.app.webui.servlet.SubmissionController @ Error loading step class'org.dspace.submit.step.DescribeStep':
+org.apache.jasper.JasperException: java.lang.NullPointerException
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:481)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:710)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.dspace.app.webui.submit.JSPStepManager.showJSP(JSPStepManager.java:372)
+	at org.dspace.app.webui.submit.step.JSPDescribeStep.showEditMetadata(JSPDescribeStep.java:229)
+	at org.dspace.app.webui.submit.step.JSPDescribeStep.doPreProcessing(JSPDescribeStep.java:137)
+	at org.dspace.app.webui.submit.JSPStepManager.doStepStart(JSPStepManager.java:284)
+	at org.dspace.app.webui.submit.JSPStepManager.processStep(JSPStepManager.java:246)
+	at org.dspace.app.webui.servlet.SubmissionController.doStep(SubmissionController.java:491)
+	at org.dspace.app.webui.servlet.SubmissionController.doNextStep(SubmissionController.java:561)
+	at org.dspace.app.webui.servlet.SubmissionController.doStep(SubmissionController.java:507)
+	at org.dspace.app.webui.servlet.SubmissionController.doNextStep(SubmissionController.java:561)
+	at org.dspace.app.webui.servlet.SubmissionController.doStep(SubmissionController.java:507)
+	at org.dspace.app.webui.servlet.SubmissionController.doDSPost(SubmissionController.java:394)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:115)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.app.webui.filter.RegisteredOnlyFilter.doFilter(RegisteredOnlyFilter.java:66)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1368)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.dspace.compass.association.engine.CompassBasicPopulator.modify_doDropDown_valueList_jspui_method(CompassBasicPopulator.java:119)
+	at org.apache.jsp.submit.edit_002dmetadata_jsp.doDropDown(edit_002dmetadata_jsp.java:1104)
+	at org.apache.jsp.submit.edit_002dmetadata_jsp._jspService(edit_002dmetadata_jsp.java:1884)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 56 more

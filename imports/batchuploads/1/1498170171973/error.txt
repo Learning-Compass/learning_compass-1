@@ -1,0 +1,11 @@
+java.lang.RuntimeException: Error while attempting to create identifier for Item id: 334
+	at org.dspace.identifier.VersionedHandleIdentifierProvider.register(VersionedHandleIdentifierProvider.java:173)
+	at org.dspace.identifier.IdentifierServiceImpl.register(IdentifierServiceImpl.java:100)
+	at org.dspace.content.InstallItem.installItem(InstallItem.java:69)
+	at org.dspace.app.itemimport.ItemImport.addItem(ItemImport.java:916)
+	at org.dspace.app.itemimport.ItemImport.addItems(ItemImport.java:736)
+	at org.dspace.app.itemimport.ItemImport$3.run(ItemImport.java:2253)
+Caused by: java.lang.IllegalStateException: Attempted to create a handle which is already in use: 123456789/50
+	at org.dspace.identifier.VersionedHandleIdentifierProvider.createNewIdentifier(VersionedHandleIdentifierProvider.java:460)
+	at org.dspace.identifier.VersionedHandleIdentifierProvider.register(VersionedHandleIdentifierProvider.java:165)
+	... 5 more

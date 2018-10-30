@@ -1,0 +1,10 @@
+2017-05-08 19:06:40,633 INFO  org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2017-05-08 19:06:40,655 INFO  org.springframework.web.context.support.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Mon May 08 19:06:40 EEST 2017]; root of context hierarchy
+2017-05-08 19:06:40,671 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/applicationContext.xml]
+2017-05-08 19:06:40,743 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4bfb522d: defining beans [dspace,dspace.eventService,org.dspace.usage.LoggerUsageEventListener#0,org.dspace.statistics.SolrLoggerUsageEventListener#0,org.dspace.google.GoogleRecorderEventListener#0]; root of factory hierarchy
+2017-05-08 19:06:40,804 INFO  org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 171 ms
+2017-05-08 19:07:45,350 INFO  org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2017-05-08 19:07:45,364 INFO  org.springframework.web.context.support.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Mon May 08 19:07:45 EEST 2017]; root of context hierarchy
+2017-05-08 19:07:45,377 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2017-05-08 19:07:45,434 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2c5d03ea: defining beans [dspace,dspace.eventService,org.dspace.usage.LoggerUsageEventListener#0,org.dspace.statistics.SolrLoggerUsageEventListener#0]; root of factory hierarchy
+2017-05-08 19:07:45,460 INFO  org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 108 ms

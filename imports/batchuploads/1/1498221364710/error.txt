@@ -1,0 +1,7 @@
+gr.ekt.bte.exceptions.MalformedSourceException: The requested column 23 does not exist
+	at gr.ekt.bteio.loaders.CSVDataLoader.getRecords(CSVDataLoader.java:97)
+	at gr.ekt.bteio.loaders.CSVDataLoader.getRecords(CSVDataLoader.java:125)
+	at gr.ekt.bte.core.TransformationEngine.transform(TransformationEngine.java:87)
+	at org.dspace.app.itemimport.ItemImport.addBTEItems(ItemImport.java:632)
+	at org.dspace.app.itemimport.ItemImport.access$300(ItemImport.java:86)
+	at org.dspace.app.itemimport.ItemImport$3.run(ItemImport.java:2256)
